@@ -1,0 +1,21 @@
+#! /bin/sh
+
+set -e
+
+GROUP="mlocate"
+VARDIR="/var/lib/mlocate"
+
+if [ "$1" = "purge" ]; then
+    if [ -d "$VARDIR" ]; then
+	rm -f "$VARDIR/mlocate.db"
+	rmdir --ignore-fail-on-non-empty "$VARDIR"
+    fi
+
+    dpkg-statoverride --remove /usr/bin/mlocate || test $? -eq 2
+
+    if sg "$GROUP" true 2>/dev/null; then
+	delgroup "$GROUP"
+    fi
+fi
+
+

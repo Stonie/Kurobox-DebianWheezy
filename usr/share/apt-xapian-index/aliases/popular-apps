@@ -1,0 +1,7 @@
+# Aliases expanding names of popular applications
+
+excel		XToffice::spreadsheet
+powerpoint	XToffice::presentation
+photoshop	XTworks-with::image:raster
+coreldraw	XTworks-with::image:vector
+autocad		XTworks-with::3dmodel

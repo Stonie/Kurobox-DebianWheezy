@@ -1,0 +1,408 @@
+Package: libdevmapper1.02.1
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libgnutls26
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libcups2
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libwbclient0
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: ucf
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libldap-2.4-2
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: samba-common
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: bzip2
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: perl
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libgomp1
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: g++
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: linux-libc-dev
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: gcc-4.3
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: cpp
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libgmp3c2
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: gcc
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libtimedate-perl
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: dpkg-dev
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: perl-modules
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libc6-dev
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: cpp-4.3
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: patch
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: binutils
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: make
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libalgorithm-diff-perl
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python-support
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: fakeroot
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python2.6-minimal
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: mime-support
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python-debian
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: iso-codes
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libalgorithm-diff-xs-perl
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python-apt
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: apt-xapian-index
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libsqlite3-0
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python2.6
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python-minimal
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libexpat1
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libdpkg-perl
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: apt-utils
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: liblzma2
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libept1
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libalgorithm-merge-perl
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python-xapian
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python-central
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libxapian22
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libboost-iostreams1.42.0
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: sensible-utils
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: file
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: gcc-4.4-base
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: xz-utils
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libdb4.7
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libdb4.8
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python-chardet
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libreadline6
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: lsb-release
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: libmagic1
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: python-apt-common
+Auto-Installed: 1
+Architecture: powerpc
+
+Package: dmsetup
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libtalloc2
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libkrb5support0
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libmpfr4
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libidn11
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libavahi-common-data
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libdbus-1-3
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: g++-4.4
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libnfnetlink0
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libcap2
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: lockfile-progs
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libfile-copy-recursive-perl
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libstdc++6-4.4-dev
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libbsd0
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libcurl3-gnutls
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libparted0debian1
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: gcc-4.4
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libk5crypto3
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: insserv
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: dbus
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: samba-common-bin
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: ca-certificates
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libudev0
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libavahi-client3
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: gnupg-curl
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: openssl
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: cpp-4.4
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libavahi-common3
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: liblockfile1
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libpci3
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libntfs-3g75
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libselinux1-dev
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libsepol1-dev
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libpcap0.8
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libpcre3
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: liblua5.1-0
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libevent-1.4-2
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libnfsidmap2
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: librpcsecgss3
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: libgssglue1
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: netselect
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: gettext-base
+Architecture: powerpc
+Auto-Installed: 1
+
+Package: dialog
+Architecture: powerpc
+Auto-Installed: 1
+

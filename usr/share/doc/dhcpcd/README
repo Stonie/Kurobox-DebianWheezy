@@ -1,0 +1,45 @@
+dhcpcd-3 - DHCP client daemon
+Copyright 2006-2008 Roy Marples <roy@marples.name>
+
+
+Installation
+------------
+Edit config.h to match your building requirements.
+
+Take special note of ENABLE_DUID and unset it if the target media is 
+volatile, like say a LiveCD.
+
+Then just make; make install
+
+man dhcpcd for command line options
+
+
+Notes
+-----
+If you're cross compiling you may need to send HAVE_FORK=yes or HAVE_FORK=no
+to the make command to avoid to automatic test.
+
+We try and detect how to restart ntp and ypbind, you can override this with
+HAVE_INIT=no or force one of these values
+OPENRC   (OpenRC as used by Gentoo (forked from baselayout))
+BSDRC    (BSD RC system - /etc/rc.d/ntpd restart )
+SERVICE  (RedHat service command - service ntpd restart)
+SLACKRC  (Slackware RC system - /etc/rc.d/rc.ntpd restart)
+SYSV     (SYSV style - /etc/init.d/ntpd restart)
+
+You can change the default dir where dhcpcd stores it's .info files with
+INFODIR=/var/db
+
+We now default to using -std=c99. For 64-bit linux, this always works, but
+for 32-bit linux it requires either gnu99 or a patch to asm/types.h.
+Most distros patch linux headers so this should work fine.
+linux-2.6.24 finally ships with a working 32-bit header.
+If your linux headers are older, or your distro hasn't patched them you can
+set CSTD=gnu99 to work around this.
+
+
+ChangeLog
+---------
+We no longer supply a ChangeLog.
+However, you're more than welcome to read the git commit comments at
+http://git.marples.name/?p=dhcpcd/.git;a=summary

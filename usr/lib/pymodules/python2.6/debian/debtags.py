@@ -1,0 +1,1 @@
+/usr/share/pyshared/debian/debtags.py

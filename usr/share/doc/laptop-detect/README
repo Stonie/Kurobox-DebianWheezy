@@ -1,0 +1,2 @@
+Package to attempt to detect whether we're on a laptop, and then do the right thing.
+exits 0 if we're on a laptop, 1 otherwise.

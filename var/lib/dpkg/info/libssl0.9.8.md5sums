@@ -1,0 +1,15 @@
+e7e056ae7130d2001ada5baa6f697832  usr/lib/libcrypto.so.0.9.8
+2c683a44a1cb64c2d1ae9037870aef88  usr/lib/libssl.so.0.9.8
+151bcd7ae006be7f941853f0956c6f9e  usr/lib/ssl/engines/lib4758cca.so
+cd24159024531b7e265088fa4ef2a0e5  usr/lib/ssl/engines/libaep.so
+9857de580d3aaedc25abe71419f2b7b3  usr/lib/ssl/engines/libatalla.so
+40f6c439e8080aa12dd52baa8fde70e9  usr/lib/ssl/engines/libcapi.so
+e85710f0d802de938d5760ba8ac8d1df  usr/lib/ssl/engines/libchil.so
+40d5f06b18595d9451d2d143a0340d39  usr/lib/ssl/engines/libcswift.so
+cff811f91e9f8599bf8f85ad5037d116  usr/lib/ssl/engines/libgmp.so
+03a3ee5e5e0041ff2f66124cd13d82c6  usr/lib/ssl/engines/libnuron.so
+be70744847d5aa9a89f2613e17faf28c  usr/lib/ssl/engines/libsureware.so
+dbab1ab573a29de5a6dafc157fd20cc6  usr/lib/ssl/engines/libubsec.so
+d46f844aea000b3844a387c78488e267  usr/share/doc/libssl0.9.8/changelog.Debian.gz
+4367b5fdb4eec6f48fab60ae2d82f294  usr/share/doc/libssl0.9.8/changelog.gz
+0ba5769c4ae43d0052d43b88b65ca9c9  usr/share/doc/libssl0.9.8/copyright

@@ -1,0 +1,1 @@
+update-rc.d openbsd-inetd start 20 2 3 4 5 . stop 20 0 1 6 . 

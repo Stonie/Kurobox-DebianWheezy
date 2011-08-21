@@ -1,0 +1,2 @@
+# the API of the shared libs is not public, don't care about the name
+binutils binary: package-name-doesnt-match-sonames

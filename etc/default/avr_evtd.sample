@@ -1,0 +1,37 @@
+# Sample avr_evtd daemon configuration file
+# PLEASE EDIT THIS FILE TO SUIT
+# Debug log file location
+LOG=/var/log
+# Advanced use only.  Will log events when enabled
+DEBUG=ON
+# Set to YES to enable the EM-Mode feature, default no
+EMMODE=NO
+# Timed shutdown flag (ON enables timed power down/up only
+# or use days of the week MONWEDSAT etc
+# if SHUTDOWN and POWERON are also specified)
+TIMER=OFF
+# To override the device scan, specify the desired
+# serial port connection to the AVR below and remove the
+# comment
+#DEVICE=/dev/ttyS1
+# MACRO day/group switching ON/OFF times in 24hr HH:MM
+SUN-SAT=OFF=01:15,ON=06:20
+# Shutdown (default) time specified in 24hr format HH:MM
+SHUTDOWN=
+# Power on (default) time specified in 24hr format HH:MM
+POWERON=
+# Disk check, set to OFF or a value (0-100) specifying a
+# percentage used at which the disk LED will illuminate
+DISKCHECK=85
+# Specify root partition for disk check, default is none
+ROOT=hda1
+# Specify working partition for disk check, default is none
+WORK=hda3
+# Disk/AVR refresh rate (seconds), default 40
+REFRESH=40
+# Hold time (seconds) for button power-off, default 3
+HOLD=3
+# Enable/disable continous disk full messages, default off
+DISKNAG=ON
+# Fan stationary fault timer (seconds), default 30
+FANSTOP=15

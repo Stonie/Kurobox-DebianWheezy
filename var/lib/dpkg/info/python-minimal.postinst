@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+
+python2.6 -m compileall /usr/share/python/ >/dev/null
+
+

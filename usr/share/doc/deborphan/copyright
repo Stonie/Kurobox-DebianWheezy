@@ -1,0 +1,29 @@
+This package was debianized by Peter Palfrader <weasel@debian.org> on
+Sat,  3 Jun 2000 21:15:08 +0200.
+
+Previously Cris van Pelt was upstream for deborphan and hosted it at
+http://tribe.eu.org/deborphan/.  Since 2004 it is a native Debian package
+(since Cris apparently lost interest).  It was maintained by Peter Palfrader
+since 2000.  In 2008 Carsten Hey took over maintenance of deborphan.
+
+Copyright: 2000, 2001, 2002, 2003 Cris van Pelt <tribbel@tribe.eu.org>
+Copyright: 2003, 2004, 2005, 2006 Peter Palfrader <weasel@debian.org>
+Copyright: 2008 Andrej Tatarenkow <tatarenkow@comdasys.com>
+Copyright: 2008, 2009 Carsten Hey <c.hey@web.de>
+
+Distributed under the terms of the Artistic license.
+
+Orphaner is
+  (c) 2000 Goswin Brederlow <goswin.brederlow@student.uni-tuebingen.de>
+  (c) 2001, 2003 Cris van Pelt <tribbel@tribe.eu.org>
+  (c) 2000, 2003, 2004, 2005, 2006 Peter Palfrader <weasel@debian.org>
+  (c) 2003, 2004, 2007, 2008 Jörg Sommer <joerg@alea.gnuu.de>
+  (c) 2008, 2009 Carsten Hey <c.hey@web.de>
+and dual licensed under the GPL (v2 or later) and the Artistic license.
+
+On Debian GNU/Linux systems, the complete text of the Artistic
+license can be found in `/usr/share/common-licenses/Artistic'.
+
+On Debian GNU/Linux systems, the complete text of the GNU General Public
+License, version 2, can be found in /usr/share/common-licenses/GPL-2.
+Newer versions of this license can be found in the same directory.

@@ -1,0 +1,36 @@
+# Config file for dhcpcd. Note that you have to edit the interface
+# name below, or duplicate the configuration for different interfaces.
+# If you are editing this file just to get DNS servers set by DHCP,
+# then you should consider installing the resolvconf package instead.
+
+case ${INTERFACE} in
+eth0) 
+
+# Uncomment this to allow dhcpcd to set the DNS servers in /etc/resolv.conf
+# If you are using resolvconf then you can leave this commented out.
+#SET_DNS='yes'
+
+# Uncomment this to allow dhcpcd to set hostname of the host to the
+# hostname option supplied by DHCP server.
+#SET_HOSTNAME='yes'
+
+# Uncomment this to allow dhcpcd to set the NTP servers in /etc/ntp.conf
+#SET_NTP='yes'
+
+# Uncomment this to allow dhcpcd to set the YP servers in /etc/yp.conf
+#SET_YP='yes'
+
+# Add other options here, see man 8 dhcpcd-bin for details.
+OPTIONS=()
+;;
+
+# Add other interfaces here
+*)
+;;
+
+esac
+
+
+
+
+

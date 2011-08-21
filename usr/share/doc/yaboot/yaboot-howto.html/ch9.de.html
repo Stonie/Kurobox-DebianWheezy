@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Wie man mit Yaboot auf PowerPC bootet - Sich von einer Fehlkonfiguration erholen</title>
+
+</head>
+
+<body>
+
+<a name="ch9"></a>
+<hr>
+
+[ <a href="ch8.de.html">zurück</a> ]
+[ <a href="index.de.html#contents">Inhalt</a> ]
+[ <a href="ch1.de.html">1</a> ]
+[ <a href="ch2.de.html">2</a> ]
+[ <a href="ch3.de.html">3</a> ]
+[ <a href="ch4.de.html">4</a> ]
+[ <a href="ch5.de.html">5</a> ]
+[ <a href="ch6.de.html">6</a> ]
+[ <a href="ch7.de.html">7</a> ]
+[ <a href="ch8.de.html">8</a> ]
+[ 9 ]
+[ <a href="ch10.de.html">10</a> ]
+[ <a href="ch11.de.html">11</a> ]
+[ <a href="ch10.de.html">weiter</a> ]
+
+<hr>
+
+<h1>
+Wie man mit Yaboot auf PowerPC bootet
+<br>Kapitel 9 - Sich von einer Fehlkonfiguration erholen
+</h1>
+
+
+<hr>
+
+
+<p>
+Wenn Sie ein Problem beim booten haben, verfallen Sie nicht in Panik.  Yaboot
+kan jeden installierten Linux-Kernel und jedes Linux-System vom boot: Prompt
+aus booten.
+
+<hr>
+
+<a name="s9.1"></a>
+<h2>9.1 Das NVRAM zurücksetzen</h2>
+
+<p>
+Halten Sie die Command-Option-p-r Tasten alle gemeinsam während dem Starten, um
+alle nvram Parameter auf ihre Werkseinstellungen zurückzusetzen.  Halten Sie
+die Tasten, bis Sie den Startup-Ton zwei- oder dreimal hören.  Wenn die
+Setup-Vorschläge befolgt wurden, wird die <code>yaboot</code> Installation die
+erste bootbare Partition sein, und OpenFirmware wird sie automatisch booten.
+Es muss beachtet werden, dass MacOS-Einstellungen wie virtueller Speicher,
+Startup-Platte und die Bildschirmauflösung auch auf ihre Werkseinstellungen
+zurückgesetzt werden.
+
+<hr>
+
+<a name="s9.2"></a>
+<h2>9.2 Yaboot laden</h2>
+
+<p>
+Wenn kein <samp>boot:</samp> Prompt angezeigt wird, dann wurde
+<code>yaboot</code> nicht geladen.  Sie können es händisch von OpenFirmware aus
+laden.  Das gemeinsame Halten der Command-Option-o-f Tasten, nachdem Sie den
+Einschaltknopf gedrückt haben, wird Ihnen einen OpenFirmware-Prompt liefern
+
+<pre>
+         0 &gt;
+</pre>
+
+<p>
+(Command ist die Taste mit dem Kleeblatt und/oder Apfel darauf).
+
+<p>
+Am OF-Prompt müssen Sie die OpenFirmware Pfade für die meisten der
+Boot-Konfigurationseinstellungen verwenden.  Sie können die meisten
+OpenFirmware-Pfade vom OF-Prompt aus feststellen, indem Sie ein paar OF-Befehle
+verwenden, und dann einen OF-Boot-Befehl konstruieren, mit dem Sie Ihren Kernel
+direkt booten können.
+
+<p>
+Der volle OpenFirmware-Pfad besteht aus drei Teilen im Format
+
+<pre>
+         Geräte-Name:Partitions-Nummer,/Dateisystem-Pfad
+</pre>
+
+<p>
+Der OF-Befehl devalias wird alle Geräte-Aliases auflisten, die auf Ihrem System
+wirksam sind.  Sie dürften einige von diesen sehen:
+
+<pre>
+       Name      Geräte-Typ
+       ----      --------------------------------------------------
+       hd        interne IDE-Platte (primärer Controller, Master-Platte)
+       ultra1    interne IDE-Platte (primärer Controller, Slave-Platte)
+       ide0      IDE-Platte (sekundärer Controller, Master-Platte)
+       ide1      IDE-Platte (sekundärer Controller, Slave-Platte)
+       cd        CD-ROM
+       zip       Zip-Laufwerk
+       fw        FireWire-Interface
+       fd        Diskettenlaufwerk
+       enet      Ethernet-Interface
+</pre>
+
+<p>
+Hängen Sie die Partitionsnummer der Boot-Partition (in unserer Empfehlung 2) an
+und setzen Sie das nun mit <samp>,yaboot</samp> fort, um die
+<code>yaboot</code> Datei auf der Boot-Partition zu booten.
+
+<pre>
+         0 &gt; boot hd:2,yaboot
+</pre>
+
+<p>
+Wenn Sie Enter drücken, sollte <code>yaboot</code> geladen werden und seinen
+<code>boot:</code> anzeigen.  Wenn Sie die Partitionsnummer nicht wissen,
+beginnen Sie einfach mit 2 und erhöhen Sie die Nummer, bis Sie die richtige
+Partition erwischen.
+
+<hr>
+
+<a name="s9.3"></a>
+<h2>9.3 Ein Kernel-Image händisch laden</h2>
+
+<p>
+Wenn Sie den boot: Prompt haben, können Sie ein Label eingeben, das Sie in
+Ihrer <code>yaboot.conf</code> definiert haben, um dieses Kernel-Image zu
+booten.  Oder statt einem Label können Sie auch einen vollständigen
+OpenFirmware-Pfad angeben.  Ein typischer Kernel-Pfad könnte folgendes sein:
+
+<pre>
+         boot: hd:3,/vmlinux
+</pre>
+
+<p>
+Um dem Kernel Parameter zu übergeben, fügen Sie diese auf der
+<samp>boot:</samp> Prompt Zeile nach dem Kernel-Label oder Pfad ein.  Sie
+müssen zumindest <samp>root=</samp> angeben, aber Sie können jeden gewünschten
+Kernel-Parameter hinzufügen.  Hier ist ein Beispiel:
+
+<pre>
+         boot: hd:3,/vmlinux root=/dev/hda3 ro
+</pre>
+
+<hr>
+
+[ <a href="ch8.de.html">zurück</a> ]
+[ <a href="index.de.html#contents">Inhalt</a> ]
+[ <a href="ch1.de.html">1</a> ]
+[ <a href="ch2.de.html">2</a> ]
+[ <a href="ch3.de.html">3</a> ]
+[ <a href="ch4.de.html">4</a> ]
+[ <a href="ch5.de.html">5</a> ]
+[ <a href="ch6.de.html">6</a> ]
+[ <a href="ch7.de.html">7</a> ]
+[ <a href="ch8.de.html">8</a> ]
+[ 9 ]
+[ <a href="ch10.de.html">10</a> ]
+[ <a href="ch11.de.html">11</a> ]
+[ <a href="ch10.de.html">weiter</a> ]
+
+<hr>
+
+<p>
+Wie man mit Yaboot auf PowerPC bootet
+
+<address>
+Version 1.04, 22. February 2004<br>
+Chris Tillman
+</address>
+
+<hr>
+
+</body>
+
+</html>
+

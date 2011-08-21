@@ -1,0 +1,511 @@
+Template: samba/generate_smbpasswd
+Type: boolean
+Default: false
+Description: Create samba password database, /var/lib/samba/passdb.tdb?
+ To be compatible with the defaults in most versions of Windows, Samba must
+ be configured to use encrypted passwords.  This requires user passwords to
+ be stored in a file separate from /etc/passwd.  This file can be created
+ automatically, but the passwords must be added manually by running
+ smbpasswd and be kept up-to-date in the future.
+ .
+ If you do not create it, you will have to reconfigure Samba (and probably
+ your client machines) to use plaintext passwords.
+ .
+ See
+ /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html
+ from the samba-doc package for more details.
+Description-ar.UTF-8: إحداث قاعدة كلمات المرور لSamba  في /var/lib/samba/passdb.tdb ؟
+ حتى يكون هناك توافق مع اﻹعدادت الافتراصية لأغلبية نسخ Windows، يجب تهيئة Samba لاستعمال كلمات مرور مشفرة، اﻷمر الذي يتطلب حفظها في ملف منفصل عن /etc/passwd. ويمكن إنشاء ذلك الملف تلقائياً، إلا أن كلمات المرور يجب أن تضاف يدوياً بتنفيذ الأمر smbpaswd وإبقاء الملف محدثاً في المستقبل.
+ .
+ إن لم تنشئه، فستضطر إلى إعادة تهيئة Samba (وربما بعض الأجهزة العميلة) لاستخدام كلمات مرور مجردة.
+ .
+ راجع /usr/share/doc/samba-doc/htmldocs/ENCRYPTION في رزمة samba-doc لتفاصيل أكثر.
+Description-ast.UTF-8: ¿Criar una contraseña pa la base de datos de samba, /var/lib/samba/passdb.tdb?
+ Pa ser compatible col comportamientu por defeutu na mayor de les versiones Windows, Samba debe configurase pa usar contraseñes encriptaes. Esto requier qu'una contraseña d'usuariu seya almacenada nun ficheru separtáu dende /etc/passwd. Esti ficheru puede criase automáticamente, pero les contraseñes deben amestase-y manualmente executando smbpasswd y mantenelu nel futuru.
+ .
+ Si nun la crias, tendrás que reconfigurar Samba (y probablemente'l to cliente) pa usar contraseñes de testu planu.
+ .
+ Mira /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html dende'l paquete samba-doc pa más detalles.
+Description-be.UTF-8: Стварыць базу пароляў samba у файле /var/lib/samba/passdb.tdb?
+ Каб адпавядаць стандартным наладкам большасці версіяў Windows, Samba мусіць выкарыстоўваць шыфраваныя паролі. Дзеля гэтага паролі трэба захоўваць у месцы, адрозным ад файлу /etc/passwd. Адпаведнае сховішча можна стварыць аўтаматычна, але паролі трэба дадаваць самастойна з дапамогай каманды smbpasswd, і сачыць за іх адпаведнасцю надалей.
+ .
+ Калі сховішча не будзе створана, трэба пераналадзіць Samba (і, верагодна, кліентскія машыны таксама) такім чынам, каб выкарыстоўваць паролі простым тэкстам.
+ .
+ Больш інфармацыі даступна ў файле /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html ю
+Description-bg.UTF-8: Създаване на базата данни с пароли, /var/lib/samba/passdb.tdb?
+ За съвместимост с повечето версии на Windows, Samba трябва да използва шифрирани пароли. Това изисква паролите да се съхраняват във файл, отделен от /etc/passwd. Този файл може да бъде създаден автоматично, но потребителите и паролите трябва да се добавят ръчно чрез командата smbpasswd.
+ .
+ Ако не създадете този файл, трябва да настроите Samba (а вероятно и компютрите с Windows) да не използват шифрирани пароли.
+ .
+ За повече информация вижте /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html.
+Description-bn.UTF-8: সাম্বা পাসওয়ার্ড ডেটাবেজ তৈরি করা হবে, /var/lib/samba/passdb.tdb?
+ উইন্ডোজের বেশিরভাগ সংস্করনের ডিফল্টের সাথে সামঞ্জস্যপূর্ণ হওয়ার জন্য সাম্বাকে অবশ্যই এনক্রিপ্ট করা পাসওয়ার্ড ব্যবহার করার জন্য কনফিগার করতে হবে। এর ফলে ব্যবহারকারীর পাসওয়ার্ড /etc/passwd থেকে পৃথক একটি ফাইলে সংরক্ষন করতে হবে। এই ফাইলটি স্বয়ংক্রিয়ভাবে তৈরি করা যায়, কিন্তু পাসওয়ার্ড যোগ করতে হবে ম্যানুয়ালী smbpasswd চালিয়ে এবং ভবিষ্যতে আপ-টু-ডেট রাখতে হবে।
+ .
+ আপনি যদি এটি তৈরি না করেন, তাহলে সরল টেক্সট পাসওয়ার্ড ব্যবহারের জন্য আপনাকে সাম্বা (এবং হয়তো আপনার ক্লায়েন্ট মেশিনগুলো) পুনরায় কনফিগার করতে হবে।
+ .
+ আরো তথ্যের জন্য সাম্বা-ডক প্যাকেজ থেকে /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html দেখুন।
+Description-bs.UTF-8: Kreirati samba bazu podataka sa šiframa, /var/lib/samba/passdb.tdb?
+ Kako bi bila kompatibilna s većinom Windows verzija, Samba mora biti podešena da koristi enkriptovane šifre.  Ovo zahtijeva da korisničke šifre budu spremljene u zasebnu datoteku od /etc/passwd.  Ova datoteka može biti kreirana automatski, ali šifre moraju biti dodane ručno pokrečući smbpasswd i ubuduće održavane.
+ .
+ Ako ju ne kreirate, morati ćete rekonfigurisati Samba-u (i vjerovatno vaše klijente) da koristi šifre u obliku čistog teksta.
+ .
+ Vidjeti /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html iz samba-doc paketa za više detalja.
+Description-ca.UTF-8: Voleu crear la base de dades de contrasenyes de Samba, /var/lib/samba/passdb.tdb?
+ El Samba s'ha de configurar perquè utilitzi contrasenyes xifrades per tal que sigui compatible amb la majoria de versions de Windows per defecte. Això implica que les contrasenyes d'usuari s'emmagatzemin a un fitxer diferent del /etc/passwd. Aquest fitxer es pot crear automàticament, però les contrasenyes s'han d'afegir manualment executant l'ordre smbpasswd i s'han de mantindre actualitzades en el futur.
+ .
+ Si no el creeu, haureu de reconfigurar el Samba (i probablement els vostres ordinadors clients) per tal que utilitzin contrasenyes de text pla.
+ .
+ Per més informació feu una ullada a /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html del paquet samba-doc.
+Description-cs.UTF-8: Vytvořit databázi hesel /var/lib/samba/passdb.tdb?
+ Aby byla Samba kompatibilní s výchozím nastavením většiny verzí Windows, musí být nastavena pro používání šifrovaných hesel. To vyžaduje, aby byla uživatelská hesla uložena v jiném souboru než /etc/passwd. Tento soubor může být vytvořen automaticky, ale hesla do něj musíte přidat ručně programem smbpasswd a také ho musíte udržovat aktualizovaný.
+ .
+ Pokud soubor nevytvoříte, budete muset nastavit Sambu (a pravděpodobně také klienty), aby používali nešifrovaná hesla.
+ .
+ Podrobnosti naleznete v souboru /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html z balíku samba-doc.
+Description-da.UTF-8: Opret samba-adgangskodedatabasen /var/lib/samba/passdb.tdb?
+ For at være kompatibel med standardindstillingerne i de fleste udgaver af Windows, skal Samba sættes op til at benytte krypterede adgangskoder. Dette kræver, at brugernes adgangskoder gemmes i en anden fil end /etc/passwd. Denne fil kan oprettes automatisk, men adgangskoderne skal tilføjes manuelt ved at køre smbpasswd, og skal fremover holdes opdateret.
+ .
+ Hvis du ikke opretter den, er du nødt til at sætte samba (og sikkert også dine klientmaskiner) op til at benytte adgangskoder i klar tekst.
+ .
+ Se /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html i pakken samba-doc for flere detaljer.
+Description-de.UTF-8: Samba-Passwort-Datenbank (/var/lib/samba/passdb.tdb) erstellen?
+ Um mit den Standards in den meisten Windows-Versionen kompatibel zu sein, muss Samba konfiguriert werden, verschlüsselte Passwörter zu benutzen. Dies erfordert es, Benutzerpasswörter in einer anderen Datei als in /etc/passwd abzulegen. Diese Datei kann automatisch erstellt werden, aber die Passwörter müssen über den Befehl smbpasswd manuell eingefügt werden und in der Zukunft aktuell gehalten werden.
+ .
+ Wenn Sie sie nicht erstellen, müssen Sie Samba (und möglicherweise auch die Clients) neu konfigurieren, so dass diese unverschlüsselte Passwörter benutzen.
+ .
+ Details finden Sie in /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html aus dem samba-doc-Paket.
+Description-dz.UTF-8: སམ་བ་ཆོག་ཡིག་གནད་སྡུད་གཞི་རྟེན་ /var/lib/samba/passdb.tdb གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་?
+ ཝིན་ཌཱསི་གི་ཐོན་རིམ་མང་ཤོས་ཅིག་ནང་ སྔོན་སྒྲིག་དང་བཅས་མཐུན་འགྱུར་ཅན་ཨིན་དགོ་པ་ཅིན་ གསང་བཟོས་ཆོག་ཡིག་ལག་ལེན་འཐབ་ནི་ལུ་ སམ་བ་གིས་རིམ་སྒྲིག་འབད་དགོཔ་ཨིན།  /etc/passwdལས་སོ་སོར་འཕྱལ་ཡོད་པའི་ཡིག་སྣོད་ཅིག་གསོག་འཇོག་འབད་ནིའི་དོན་ལས་འདི་ལུ་ ལག་ལེན་པའི་ཆོག་ཡིག་དགོཔ་ཨིན། འ་ནི་ཡིག་སྣོད་འདི་ རང་བཞིན་གྱིས་འབད་གསར་བསྐྲུན་འབད་ཚུགས་ དེ་འབདཝ་ད་ ཆོག་ཡིག་ཚུ་ smbpasswd གཡོག་བཀོལ་ཐོག་ལུ་ ལག་ཐོག་ལས་ཁ་སྐོང་བརྐྱབ་དགོཔ་དང་ མ་འོངས་པ་ལུ་འདི་ དུས་མཐུན་བཟོ་སྟེ་བཞག་དགོ
+ .
+ ཁྱོད་ཀྱིས་གསར་བསྐྲུན་མ་འབད་བ་ཅིན་ ཚིག་ཡིག་རྐྱང་པོའི་ཆོག་ཡིག་ལག་ལེན་འཐབ་ནི་ལུ་ སམ་བ་(དང་ ཁྱོད་རའི་ཞབས་ཏོག་སྤྱོད་མིའི་མ་འཕྲུལ་)འདི་ ལོག་རིམ་སྒྲིག་འབད་དགོ
+ .
+ ཁ་གསལ་མཁྱེན་ནིའི་དོན་ལུ་ སམ་བ་-ཌོཀ་ཐུམ་སྒྲིལ་ནང་ལས་ /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html ལུ་ལྟ།
+Description-el.UTF-8: Να δημιουργηθεί η βάση δεδομένων των κωδικών πρόσβασης samba, /var/lib/samba/passdb.tdb;
+ Για να είναι συμβατή με τις προεπιλογές στις περισσότερες εκδόσεις των Windows, η υπηρεσία Samba θα πρέπει να ρυθμιστεί ώστε να χρησιμοποιεί κρυπτογραφημένους κωδικούς πρόσβασης. Αυτό απαιτεί την φύλαξη των κωδικών πρόσβασης σε ένα αρχείο ξεχωριστά από το /etc/passwd. Αυτό το αρχείο μπορεί να δημιουργηθεί αυτόματα, αλλά οι κωδικοί πρόσβασης θα πρέπει να προστεθούν με το χέρι εκτελώντας την εντολή smbpasswd και να διατηρούνται πάντα ενημερωμένα στο μέλλον.
+ .
+ Αν δεν δημιουργήσετε το αρχείο, θα πρέπει να ξαναρυθμίσετε την υπηρεσία Samba (και πιθανόν τα μηχανήματα πελάτης της υπηρεσίας) ώστε βα χρησιμοποιούν μη κρυπτογραφημένους κωδικούς πρόσβασης.
+ .
+ Δείτε το αρχείο usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html από το πακέτο samba-doc για περισσότερες λεπτομέρειες.
+Description-eo.UTF-8: Ĉu krei pasvortan datumbazon de samba, /var/lib/samba/passdb.tdb?
+ Por kongrui kun implicita regulo el plejmultaj eldonoj de Windows, Samba devas esti agordita por uzi ĉifritajn pasvortojn. Tio postulas ke uzant-pasvortoj estu konservitaj en dosiero aparta de /etc/passwd. Tiu ĉi dosiero povas esti aŭtomate kreata, sed oni devas mane aldoni la pasvortojn lanĉante smbpasswd kaj tenante ilin ĝisdataj estonte.
+ .
+ Se vi ne kreos ĝin, vi devos reakomodi Samba (kaj verŝajne viajn klientajn maŝinojn) por uzi purtekstajn pasvortojn.
+ .
+ Vidu /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html el la pako samba-doc por pliaj informoj.
+Description-es.UTF-8: ¿Desea crear la base de datos de contraseñas «/var/lib/samba/passdb.tdb»?
+ Hay que configurar Samba para que use contraseñas cifradas para mantener la compatibilidad con el comportamiento por omisión de la mayoría de los sistemas Windows. Para hacer esto es necesario crear un fichero, distinto de «/etc/passwd», donde se guarden las contraseñas de los usuarios. El fichero se puede crear automáticamente, aunque es necesario añadir las contraseñas manualmente mediante el programa «smbpasswd» y mantenerlas al día.
+ .
+ Es imprescindible que configure Samba (y probablemente también los sistemas cliente) para que use contraseñas en texto claro si no crea este fichero.
+ .
+ Si desea más información consulte «/usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html», disponible en el paquete samba-doc.
+Description-et.UTF-8: Luua samba paroolide andmebaas, /var/lib/samba/passdb.tdb?
+ Et ühilduda enamike Windows versioonidega, tuleb Samba seadistada krüpteeritud paroole kasutama. Selle jaoks on tarvis kasutajate paroole väljaspool /etc/passwd hoida. Selle faili võib automaatselt luua, kuid paroolid tuleb sinna käsitsi lisada ning ka hiljem värsketena hoida.
+ .
+ Kui sa seda ei loo, tuleb sul Samba ümber seadistada (ning tõenäoliselt ka kliendimasinad) kasutamaks avatud paroole.
+ .
+ End detailidega kurssi viimaks loe /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html pakist samba-doc.
+Description-eu.UTF-8: /var/lib/samba/passdb.tdb pasahitz datubase berria sortu?
+ Windows sistema gehienen lehenetsiriko portaerarekin bateragarritasuna mantentzeko, Samba zifraturiko pasahitzak erabiltzeko konfiguratu behar da.  Honetako erabiltzaileen pasahitzak gordeko dituen /etc/passwd fitxategiaz bereiziriko beste fitxategi bat sortu behar da. Fitxategia automatikoki sortu daiteke baina pasahitzak eskuz gehitu behar dira 'smbpasswd' programaren bidez eta pasahitzak eguneraturik mantendu behar dira.
+ .
+ Fitxategi hau ez sortuaz gero beharrezkoa da Samba (eta ziurrenik Windows bezeroak) zifratu gabeko pasahitzak erabiltzeko konfiguratzea.
+ .
+ Samba-doc paketeko /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html begiratu argibide gehiagorako.
+Description-fi.UTF-8: Luodaanko samban salasanatietokanta, /var/lib/samba/passdb.tdb?
+ Jotta Samba olisi yhteensopiva useimpien Windows-versioiden oletusten kanssa, on Samban käytettävä salattuja salasanoja. Tällöin on salasanat tallennettava muualle kuin tiedostoon /etc/passwd. Tallennustiedosto voidaan luoda automaattisesti, mutta salasanat on itse lisättävä komennolla smbpasswd ja ne on itse pidettävä ajan tasalla jatkossa.
+ .
+ Jos tiedostoa ei luoda, on Samba asetettava käyttämään selväkielisiä salasanoja (kuten asiakaskoneetkin).
+ .
+ Katso lisätietoja paketin samba-doc tiedostosta /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html.
+Description-fr.UTF-8: Faut-il créer une base de données /var/lib/samba/passdb.tdb ?
+ Pour rester compatible avec les réglages par défaut de la majorité des versions de Windows, Samba doit être configuré pour utiliser des mots de passe chiffrés. Cela impose de conserver les mots de passe dans un fichier distinct de /etc/passwd. Ce fichier peut être créé automatiquement, mais les mots de passe doivent y être ajoutés manuellement avec la commande « smbpasswd » et être tenus à jour.
+ .
+ Si vous ne voulez pas créer le fichier maintenant, Samba (ainsi, probablement, que les clients Windows) devra utiliser des mots de passe non chiffrés.
+ .
+ Veuillez consulter le fichier /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html dans le paquet samba-doc pour plus d'informations.
+Description-gl.UTF-8: ¿Crear a base de datos de contrasinais de samba, /var/lib/samba/passdb.tdb?
+ Para que sexa compatible coa configuración por defecto da maioría das versións de Windows, Samba ten que se configurar para empregar contrasinais cifrados. Para facelo, hai que armacenar os contrasinais dos usuarios nun ficheiro separado de /etc/passwd. Este ficheiro pódese crear automaticamente, pero os contrasinais hai que engadilos á man empregando smbpasswd e hai que mantelo actualizado no futuro.
+ .
+ Se non o crea ha ter que reconfigurar samba (e probablemente tamén as máquinas cliente) para que empreguen contrasinais en texto normal.
+ .
+ Consulte o ficheiro /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html do paquete samba-doc para ter máis detalles.
+Description-gu.UTF-8: સામ્બા પાસવર્ડ ડેટાબેઝ, /var/lib/samba/passdb.tdb બનાવશો?
+ વિન્ડોઝની મોટાભાગની આવૃતિઓ જોડે અનુરુપ થવા માટે, સામ્બા એન્ક્રિપ્ટેડ પાસવર્ડ સાથે કામ કરવા માટે ગોઠવેલ હોવું જોઇએ.  આને માટે વપરાશકર્તા પાસવર્ડો અલગ ફાઇલ /etc/passwd માં સંગ્રહ થવા જોઇએ.  આ ફાઇલ આપમેળે બનાવી શકાય છે, પણ પાસવર્ડો જાતે જ smbpasswd ચલાવીને ઉમેરવા જોઇએ અને ભવિષ્યમાં છેલ્લામાં છેલ્લાં સુધારેલ રાખવા જોઇએ.
+ .
+ જો તમે નહી બનાવો તો, તમારે સાદા પાસવર્ડો વાપરવા માટે સામ્બા (અને કદાચ તમારા ક્લાયન્ટ મશીનોને) ફરીથી રુપરેખાંકિત કરવાં પડશે.
+ .
+ samba-doc પેકેજમાં /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html વધુ માહિતી માટે જુઓ.
+Description-he.UTF-8: האם לצור מסד נתונים של סיסמאות עבור שרת ה-Samba, בקובץ /var/lib/samba/passdb.tdb?
+ כדי להתאים לברירת המחדל ברוב הגרסאות של Windows, על Samba להיות מוגדרת להשתמש בסיסמאות מוצפנות. אפשרות זו מצריכה אחסון של סיסמאות בקובץ שונה מ /etc/passwd. ניתן ליצור קובץ זה בצורה אוטומטית, אך יש צורך להוסיף את הסיסמאות ולתחזק אותן בעתיד בצורה ידנית בעזרת הפקודה smbpasswd.
+ .
+ אם לא תיצור קובץ זה, יהיה עליך לשנות את התצורה של שרת ה-Samba (וסביר להניח שגם של כל לקוחותיו) כדי להשתמש בסיסמאות שאינן מוצפנות.
+ .
+ ראה מידע נוסף בקובץ /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html מתוך החבילה samba-doc.
+Description-hu.UTF-8: Létrehozod a samba jelszóadatbázist (/var/lib/samba/passdb.tdb)?
+ Az újabb Windows kliensekkel való kompatibilitás érdekében a Samba-t kódolt jelszavak használatára kell beállítani. Ez megköveteli a jelszavak /etc/passwd fájltól különálló tárolását. Ez a fájl automatikusan létrejön, de a jelszavakat kézzel kell felvenni az smbpasswd parancs futtatásával és a továbbiakban kezelni.
+ .
+ Ha nem hozod létre, újra be kell állítani a Samba-t (és valószínűleg a klienseket is) a sima szöveges jelszavakhoz.
+ .
+ Lásd a samba-doc csomag /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html odalát a részletekért.
+Description-id.UTF-8: Buat basis data sandi samba dalam /var/lib/samba/passdb.tdb?
+ Agar kompatibel dengan semua versi Windows, Samba harus dikonfigurasi untuk menggunakan sandi terenkripsi. Hal ini mengharuskan sandi pengguna disimpan dalam berkas selain /etc/passwd. Berkas ini dapat dibuat otomatis, tetapi kata sandi harus ditambahkan secara manual dengan menjalankan perintah smbpasswd dan diperbaharui setiap ada perubahan pengguna.
+ .
+ Jika Anda tidak membuatnya, Anda harus mengonfigurasi ulang Samba (dan juga komputer klien) untuk menggunakan sandi teks-murni.
+ .
+ Lihat /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html dalam paket samba-doc.
+Description-it.UTF-8: Creare il database delle password di samba /var/lib/samba/passdb.tdb?
+ Per essere compatibile con le impostazioni predefinite di molte versioni di Windows, Samba deve essere configurato per usare password cifrate. Ciò richiede che le password degli utenti siano memorizzate in un file diverso da /etc/passwd. Questo file può essere creato automaticamente ma le password dovranno essere inserite manualmente usando smbpasswd e in futuro il file dovrà essere tenuto aggiornato.
+ .
+ Se non si crea questo file è necessario riconfigurare Samba (e probabilmente anche le macchine client) per usare password in chiaro.
+ .
+ Si veda /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html, contenuto nel pacchetto samba-doc, per ulteriori dettagli.
+Description-ja.UTF-8: Samba パスワードデータベース /var/lib/samba/passdb.tdb を作成しますか?
+ Windows のほとんどのバージョンのデフォルトとの互換性のために、Samba を暗号化パスワードを使うように設定する必要があります。これはユーザのパスワードを /etc/passwd とは別のファイルに格納することを必要とします。このファイルは自動的に作成することができますが、パスワードは手動で (smbpasswd を使って) 追加しなければならず、将来に渡って最新状態を保ち続けるよう整えておく必要があります。
+ .
+ このファイルを作成しない場合、プレインテキストパスワードを使うよう Samba (およびおそらくあなたのクライアントマシン) の再設定が必要です。
+ .
+ 詳細については、samba-doc パッケージにある /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html を参照してください。
+Description-ka.UTF-8: გსურთ samba-ს პაროლთა ბაზის, /var/lib/samba/passdb.tdb-ს შექმნა?
+ Windows-ის უმეტეს ვერსიების ნაგულისხმევ პარამეტრებთან თავსებადობისათვის, Samba-მ დაშიფრული პაროლები უნდა გამოიყენოს. ეს საჭიროებს, რომ მომხმარებელთა პაროლები /etc/passwd-ისაგან განცხალკევებით იქნას შენახული.  ამ ფაილის შექმნა ავტომატურად არის შესაძლებელი, თუმცა პაროლების ჩამატება ხელით უნდა მოხდეს smbpasswd ბრძანებით და სამომავლოდ მუდამ განახლებული უნდა იყოს.
+ .
+ თუ მას არ შექმნით, Samba-ს (და სავარაუდოდ თქვენი კლიენტისაც) ხელახალი კონფიგურაცია მოგიწევთ დაუშიფრავი პაროლების გამოსაყენებლად.
+ .
+ დამატებითი ინფორმაციისათვის იხილეთ /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html სტატია samba-doc პაკეტიდან.
+Description-km.UTF-8: បង្កើត​មូលដ្ឋាន​ទិន្នន័យពាក្យសម្ងាត់ samba /var/lib/samba/passdb.tdb ?
+ ដើម្បី​ឆប​ជា​មួយ​នឹង​លំនាំដើម​នៅ​ក្នុង​កំណែ​ភាគ​ច្រើន​របស់​វីនដូ Samba ត្រូវ​តែ​បាន​កំណត់​រចនាសម្ព័ន្ធ​ដើម្បី​ប្រើ​ពាក្យ​សម្ងាត់​ដែល​បាន​អ៊ិនគ្រីប ។  វា​ត្រូវ​ការ​ពាក្យសម្ងាត់​អ្នក​ប្រើ​ដើម្បី​ទុក​ក្នុង​ឯកសារ​ដោយ​ឡែក​ពី /etc/passwd ។ ឯកសារ​នេះ​អាច​ត្រូវ​បាន​បង្កើត​ដោយ​ស្វ័យប្រវត្តិ ប៉ុន្តែ​ពាក្យ​សម្ងាត់​ត្រូវ​តែ​បាន​បន្ថែម​ដោយ​ដៃ​ដោយ​រត់ smbpasswd និង​ត្រូវ​បាន​ធ្វើឲ្យ​ទាន់​សម័យ​ក្នុង​ពេល​អនាគត ។
+ .
+ ប្រសិន​បើ​អ្នក​មិន​បង្កើត​វា អ្នក​ត្រូវ​តែ​កំណត់​រចនាសម្ព័ន្ធ Samba (និង​ប្រហែល​ជាម៉ាស៊ីន​ភ្ញៀវ​របស់​អ្នក) ដើម្បី​ប្រើពាក្យសម្ងាត់អត្ថបទ​ធម្មតា ។
+ .
+ សម្រាប់​សេចក្តី​លម្អិត​បន្ថែម​សូម​មើល  /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html ពី​កញ្ចប់ samba-doc ។
+Description-ko.UTF-8: samba의 비밀번호 데이터베이스 /var/lib/samba/passdb.tdb를 만들까요?
+ 대부분의 윈도우 버전들과의 호환성을 위해 Samba는 암호화된 비밀번호를 사용하도록 해야 합니다. 이를 위해서는 사용자들의 비밀번호를 /etc/passwd와 다른 곳에 저장해야 합니다. 이 파일은 자동으로 생성할 수는 있지만, 비밀번호들은 smbpasswd 명령을 통해 직접 입력하셔야 하며 꾸준히 최신 상태로 유지하셔야 합니다.
+ .
+ 생성하지 않을 경우, Samba(와 대부분의 클라이언트 머신)을 다시 설정하여 플레인텍스트 비밀번호를 사용하도록 해야 합니다.
+ .
+ 자세한 사항은 samba-doc 꾸러미에서 제공하는 /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html를 참조하십시오.
+Description-ku.UTF-8: Danegeha şîfreyên samba, /var/lib/samba/passdb.tdb, were afirandin?
+ Ji bo hevgirtîkirina srandard a di piraniya guhertoyên Windowsê de, divê Samba ji bo bikaranîna şîfreya kilîlkirî bê vesazkirin. Ji bo vê divê şîfreyên bikarhêneran di /etc/passwdê de hatibin tomarkirin. Dibe ku ev pel xweber bê afirandin, lê divê şîfre bi destan bi meşandina smbpasswd hatibin lêzêdekirin û di siberojê de rojane bê girtin.
+ .
+ Eger tu vê neafirînî, divê Sambayê veasz bikî (û pêkan e ku makîneya navrûyê jî) ji bo şîfreya deqa sade.
+ .
+ Ji bo agahiyên zêdetir ji pakêta samba-docê /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.htmlê bibîne.
+Description-lt.UTF-8: Sukurti slaptažodžių duomenų bazę, /var/lib/samba/passdb.tdb?
+ Kad būtų suderinama su standartine daugumos Windows sistemų konfigūracija, Samba turi naudoti šifruotus slaptažodžius. Tokiu atveju naudotojų slaptažodžiai turi būti saugomi atskirai nuo bendrų slaptažodžių rinkmenoje /etc/passwd. Ši rinkmena gali būti sukurta automatiškai, tačiau slaptažodžiai turi būti pridėti rankiniu būdu, leidžiant programą smbpasswd.
+ .
+ Jei nesukursite rinkmenos, turėsite perkonfigūruoti Samba (greičiausiai ir kitus tinklo kompiuterius), kad būtų naudojami nešifruoti slaptažodžiai.
+ .
+ Daugiau informacijos galite rasti rinkmenoje /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html iš paketo samba-doc.
+Description-ml.UTF-8: സാംബ അടയാള വാക്കുകളുടെ ഡാറ്റാബേസായ /var/lib/samba/passdb.tdb സൃഷ്ടിയ്ക്കട്ടേ?
+ കൂടുതല്‍ വിന്‍ഡോസ് ലക്കങ്ങളുടേയും ഡിഫാള്‍ട്ടുകളുമായി പൊരുത്തപ്പെടാന്‍ സാംബ എന്‍ക്രിപ്റ്റ് ചെയ്ത അടയാള വാക്കുകള്‍ ഉപയോഗിക്കാനായി ക്രമീകരിക്കേണ്ടതുണ്ട്. ഇതിന് ഉപയോക്തൃ അടയാള വാക്കുകള്‍  /etc/passwd ലില്‍ നിന്നും വ്യത്യസ്തമായ ഒരു ഫയലില്‍ സൂക്ഷിച്ചു വക്കേണ്ടതുണ്ട്. ഈ ഫയല്‍ സ്വയമേ സൃഷ്ടിക്കാവുന്നതാണ് പക്ഷേ അടയാള വാക്കുകള്‍ smbpasswd ഓടിച്ചുകൊണ്ട് മാന്വലായി കൂട്ടിച്ചേര്‍‌ക്കേണ്ടതും ഭാവിയില്‍ പുതുക്കി സൂക്ഷിക്കേണ്ടതുമാണ്.
+ .
+ ഇത് നിങ്ങള്‍ സൃഷ്ടിച്ചില്ലെങ്കില്‍ നിങ്ങള്‍ക്ക് പ്ലെയിന്‍ ടെക്സ്റ്റ് അടയാള വാക്കുകള്‍ ഉപയോഗിക്കണമെങ്കില്‍ സാംബ (യും ഒരു പക്ഷേ നിങ്ങളുടെ ക്ലയന്റ് മഷീനുകളും) പുനഃക്രമീകരിക്കേണ്ടി വരും.
+ .
+ കൂടുതല്‍ വിവരങ്ങള്‍ക്കായി samba-doc പാക്കേജിലെ /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html കാണുക.
+Description-mr.UTF-8: var/lib/samba/passdb.tdb /व्हीएआर /एलआयबी/सांबा /एसएमबी पासडीबी.टीडीबी? या सांबा परवलीच्या शब्दाची डेटाबेस (माहिती) तयार करा.
+ विंडोजच्या बहुतेक आवृत्तींमधील डिफॉल्टशी सहत्व ठेवण्यासाठी कूटलिखित परवलीचे शब्द वापरुन सांबा संरचित केला पाहिजे. यासाठी परवलीचे शब्द,ईटीसी/पासवर्ड पेक्षा अलग संचिकेत साठवून ठेवणे आवश्यक आहे. ही या संचिकेची रचना स्वयंचलित करता येते,परंतु यात परवलीचे शब्द,एसएमबी पासवर्ड चालवून स्वहस्ते टाकले पाहिजेत व भविष्यकाळात अद्ययावत ठेवले पाहिजे.
+ .
+ तुम्ही ही रचना न केल्यास तुम्हाला सांबा(व कदाचित तुमच्या ग्राहकांचे संगणक),साध्या शब्दांचे परवलीचे शब्द वापरुन पुनःसंरचित करावे लागतील.
+ .
+ अधिक माहितीसाठी सांबा-डीओसी पॅकेजमधील /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html (यूएसआर/शेअर/डीओसी/सांबा-डीओसी/एचटीएमएलडीओसीएस/एनक्रिप्शन.एचटीएमएल) हे पॅकेज पहा.
+Description-nb.UTF-8: Opprette samba passord-database, /var/lib/samba/passdb.tdb?
+ Samba må settes opp til å bruke krypterte passord for å være kompatibel med de fleste Windows-versjoner. Dette krever at brukerpassord må lagres i en egen fil unna /etc/passwd. Denne fila kan opprettes automatisk, men passordene må legges inn manuelt med smbpasswd og holdes oppdatert i fremtiden.
+ .
+ Hvis du ikke oppretter den, må du endre oppsettet på Samba (og trolig også klientmaskinene) til å bruke klartekst-passord.
+ .
+ Mer detaljer finnes i fila /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html fra pakka samba-doc.
+Description-ne.UTF-8: साम्बा पासवर्ड डाटाबेस /var/lib/samba/passdb.tdb सिर्जना गर्नुहुन्छ ?
+ विन्डोजका धेरै संस्करण पूर्वनिर्धारितसँग मिल्ने, समक्रमित पासवर्ड प्रयोग गर्न साम्बा कन्फिगर भएको हुनु पर्छ ।  /etc/passwd बाट छुट्याएको फाइल भण्डारण हुन प्रयोगकर्ताको पासवर्ड आवश्यक हुन्छ ।  यो फाइल स्वचालित तरिकाले सिर्जना हुन सक्छ, तर पासवर्ड smbpasswd चलाएर हातैले थप्नु पर्छ र भविष्यमा पनि अद्यावधिक राख्नु पर्छ ।
+ .
+ यदि तपाईँले यसलाई सिर्जना गर्नु भएको छैन भने, तपाईँले प्लेनटेक्स्ट पासवर्ड प्रयोग गर्न साम्बा (र सम्भवत तपाईँको ग्राहकको मेसिन) पुन: कन्फिगर गरेको हुनु पर्छ ।
+ .
+ अधिक जानकारीका लागि /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html  बाट samba-doc प्याकेज हेर्नुहोस् ।
+Description-nl.UTF-8: Samba-wachtwoorddatabase /var/lib/samba/passdb.tdb aanmaken?
+ Om compatibel te zijn met de standaardwaarden van de meeste Windows-versies dient Samba ingesteld te zijn om gebruik te maken van versleutelde wachtwoorden. Dit vereist dat gebruikerswachtwoorden opgeslagen worden in een apart bestand (niet /etc/passwd). Dit bestand kan automatisch aangemaakt worden, de wachtwoorden zelf dient u echter handmatig aan te maken (en in de toekomst bij te houden) via het commando 'smbpasswd'.
+ .
+ Als u dit bestand niet automatisch laat aanmaken dient de samba-configuratie (en waarschijnlijk die van uw client-machines) aangepast te worden om 'onversleutelde tekst'-wachtwoorden te gebruiken.
+ .
+ Meer informatie vindt u in /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html uit het pakket 'samba-doc'.
+Description-nn.UTF-8: Opprette samba passorddatabase, /var/lib/samba/passdb.tdb?
+ For å vere kompatibel med standard i dei fleste versjonar av Windows, må Samba bli sett opp til å bruke krypterte passord. Dette krev at brukarpassord må lagrast i ei anna fil enn /etc/passwd. Denne fila kan lagast automatisk, men passorda må leggjast til manuelt ved å køyre smbpasswd og haldast oppdatert i framtida.
+ .
+ Viss du ikkje lagar ho, må du endre oppsettet av Samba (og truleg klientmaskinene også) til å bruke klartekstpassord.
+ .
+ Sjå /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html frå pakken samba-doc for fleire detaljar.
+Description-no.UTF-8: Opprette samba passord-database, /var/lib/samba/passdb.tdb?
+ Samba må settes opp til å bruke krypterte passord for å være kompatibel med de fleste Windows-versjoner. Dette krever at brukerpassord må lagres i en egen fil unna /etc/passwd. Denne fila kan opprettes automatisk, men passordene må legges inn manuelt med smbpasswd og holdes oppdatert i fremtiden.
+ .
+ Hvis du ikke oppretter den, må du endre oppsettet på Samba (og trolig også klientmaskinene) til å bruke klartekst-passord.
+ .
+ Mer detaljer finnes i fila /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html fra pakka samba-doc.
+Description-pl.UTF-8: Utworzyć bazę haseł samby, /var/lib/samba/passdb.tdb?
+ Aby zachować zgodność z domyślnymi ustawieniami większości wersji Windows, Samba musi korzystać z szyfrowanych haseł. W związku z tym, hasła użytkowników muszą być przechowywane w innym pliku niż /etc/passwd. Ten plik może zostać utworzony automatycznie, ale hasła muszą być dodawane ręcznie, za pomocą polecenia smbpasswd, a w przyszłości na bieżąco uaktualniane.
+ .
+ Jeżeli go nie utworzysz, będziesz musiał przekonfigurować Sambę (i prawdopodobnie maszyny klienckie) do używania haseł w postaci zwykłego tekstu.
+ .
+ Zobacz plik /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html z pakietu samba-doc, by poznać szczegóły.
+Description-pt.UTF-8: Criar base de dados de palavras-passe samba, /var/lib/samba/passdb.tdb?
+ Para ser compatível com as predefinições na maioria das versões do Windows, o Samba tem de ser configurado para utilizar palavras-passe encriptadas.  Isto faz com que as passwords dos utilizadores sejam guardadas noutro ficheiro separado do /etc/passwd. Este ficheiro pode ser criado automaticamente, mas as palavras-passe têm de ser manualmente adicionadas correndo o smbpasswd e mantidas actualizadas no futuro.
+ .
+ Se não o criar, terá de reconfigurar o Samba (e provavelmente as suas máquinas clientes) para utilizar palavras-passe de texto visível.
+ .
+ Para mais detalhes veja /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html do pacote samba-doc.
+Description-pt_BR.UTF-8: Gerar a base de dados para senhas do samba, /var/lib/samba/passdb.tdb?
+ Para ser compatível com os padrões na maioria das versões do Windows, o Samba deve ser configurado para utilizar senhas criptografadas. Isto requer que as senhas dos usuários sejam armazenadas em um arquivo diferente do arquivo /etc/passwd. Esse arquivo pode ser criado automaticamente, mas as senhas devem ser definidas manualmente através da execução do utilitário smbpasswd e devem ser mantidas atualizadas no futuro.
+ .
+ Caso você não o crie, você terá que reconfigurar o Samba (e provavelmente suas máquinas clientes) para utilização de senhas em texto puro.
+ .
+ Veja /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html, fornecido pelo pacote samba-doc, para mais detalhes.
+Description-ro.UTF-8: Se creează baza de date cu parole /var/lib/samba/passdb.tdb?
+ Pentru compatibilitate cu majoritatea versiunilor de Windows, Samba trebuie să fie configurată să folosească parole criptate. Acest lucru necesită ca parolele utilizatorilor să fie stocate în alt fișier decât /etc/passwd.  Acest fișier poate fi creat automat, dar parolele trebuie să fie adăugate manual prin rularea comenzii smbpasswd și, în viitor, trebuie ținut la zi.
+ .
+ Dacă nu-l creați, va trebui să reconfigurați Samba (probabil și calculatoarele client) să folosească parole necriptate.
+ .
+ A se vedea /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html din pachetul samba-doc pentru mai multe detalii.
+Description-ru.UTF-8: Создать базу данных паролей Samba - /var/lib/samba/passdb.tdb?
+ Для совместимости со стандартными значениями большинства версий Windows Samba необходимо настроить на использование шифрованных паролей. При этом пароли пользователей должны храниться в отдельном файле, а не в /etc/passwd. Этот файл будет создан автоматически, однако пароли нужно добавить вручную с помощью команды smbpasswd и не забывать поддерживать их в актуальном состоянии.
+ .
+ Если этот файл не создан, тогда нужно перенастроить Samba (и, возможно, клиентские машины) на использование нешифрованных паролей.
+ .
+ Более подробная информация доступна в файле /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html из пакета samba-doc.
+Description-sk.UTF-8: Vytvoriť databázu hesiel /var/lib/samba/passdb.tdb?
+ Kvôli kompatibilite s predvoleným nastavením väčšiny verzií Windows sa musí Samba nastaviť na používanie šifrovaných hesiel. To vyžaduje uloženie používateľských hesiel v inom súbore ako /etc/passwd. Tento súbor sa môže vytvoriť automaticky, ale heslá do neho musíte pridať manuálne programom smbpasswd a taktiež ho musíte neustále aktualizovať.
+ .
+ Ak tento súbor nevytvoríte, budete musieť nastaviť Sambu (a zrejme aj počítače klientov) aby používali nešifrované heslá.
+ .
+ Podrobnosti nájdete v súbore /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html z balíka samba-doc.
+Description-sl.UTF-8: Ali naj ustvarim bazo samba gesel, /var/lib/samba/passdb.tdb?
+ Če želite doseči kompatibilnost z večino različic operacijskega sistema Windows, mora biti Samba nastavljena tako, da uporablja šifrirana gesla. Taka uporabniška gesla morajo biti shranjena v posebni datoteki in ne v /etc/passwd. Ta datoteko je mogoče ustvariti samodejno, gesla pa je treba dodajati ročno s pomočjo programa smbpasswd. Za ažurnost gesel morate tudi v prihodnje skrbeti ročno.
+ .
+ Če je ne boste ustvarili, boste morali nastaviti Sambo (in verjetno tudi odjemalce) za uporabo nešifriranih gesel.
+ .
+ Za podrobnejše informacije si oglejte /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html iz paketa samba-doc.
+Description-sq.UTF-8: Të krijoj bazë të dhënash fjalëkalimi, /var/lib/samba/passdb.tdb?
+ Për të qenë e pajtueshme me  parazgjedhjet në shumë versione Windows, Samba duhet të konfigurohet për përdorim fjalëkalimesh të kriptuar.  Kjo kërkon fjalëkalimet e përdoruesve të ruhen në një skedë të veçantë nga /etc/passwd.  Kjo skedë mund të krijohet automatikisht, por fjalëkalimet duhet të shtohen dorazi duke përdorur smbpasswd dhe të mirëmbahen në të ardhmen.
+ .
+ Nëse nuk e krijon, do të duhet të rikonfigurosh Samba (dhe ndoshta kompjuterët klientë) për të përdorur fjalëkalime tekstualë të qartë.
+ .
+ Shih /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html nga paketa samba-doc për hollësi të mëtejshme.
+Description-sv.UTF-8: Skapa Sambas lösenordsdatabas, /var/lib/samba/passdb.tdb?
+ För att vara kompatibel med de standardvärden i de flesta versioner av Windows måste Samba konfigureras för att använda krypterade lösenord.  Detta kräver att användarnas lösenord lagras i en fil separerad från /etc/passwd.  Denna fil kan skapas automatiskt men lösenorden måste läggas till manuellt genom att köra smbpasswd och hållas uppdaterad i framtiden.
+ .
+ Om du inte skapar den måste du konfigurera Samba (och antagligen även dina klientmaskiner) till att använda lösenord i klartext.
+ .
+ Se /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html från paketet samba-doc för mer information.
+Description-ta.UTF-8:  /var/lib/samba/passdb.tdb என்ற சாம்பா கடவுச் சொல் தரவுத் தளத்தை உருவாக்கவா?
+ பெரும்பாலான விண்டோஸ் பதிவுகளுடன் இசைந்து போவதற்கு சாம்பாவை குறியீட்டாக்கம் செய்த கடவுச் சொற்களை பயன் படுத்துமாறு அமைக்க வேண்டும். இதற்கு /etc/passwd கோப்பு அல்லாது வேறொரு கோப்பில் பயனர் கடவுச் சொற்களை சேமிக்க வேண்டும். இந்த கோப்பை தானியங்கியாக உருவாக்கலாம். ஆனால் கடவுச் சொற்களை கைமுறையாக smbpasswd கட்டளை மூலம் சேர்க்க வேண்டும்; எதிர்காலத்தில் அதை இற்றைப் படுத்தவும் வேண்டும். 
+ .
+ நீங்கள் அதை உருவாக்கவில்லையானால் எளிய உரை கடவுச் சொற்களை பயன் படுத்துமாறு சாம்பாவை (அனேகமாக உங்கள் சார்ந்தோன் இயந்திரங்களையும்) மீண்டும் வடிவமைக்க வேண்டும்.
+ .
+ சாம்பா ஆவணங்கள் (samba-doc) பொதிகளில் இருந்து /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html ஐ மேலதிக விவரங்களுக்குப் பார்க்கவும்.
+Description-th.UTF-8: จะสร้างฐานข้อมูลรหัสผ่าน samba /var/lib/samba/passdb.tdb หรือไม่?
+ เพื่อให้ทำงานร่วมกับค่าปกติในวินโดวส์รุ่นส่วนใหญ่ได้ จึงต้องตั้งค่า Samba ให้ใช้รหัสผ่านแบบเข้ารหัสลับ ซึ่งจำเป็นต้องเก็บรหัสผ่านของผู้ใช้ไว้ในแฟ้มแยกต่างหากจาก /etc/passwd  แฟ้มดังกล่าวสามารถสร้างโดยอัตโนมัติได้ แต่รหัสผ่านจะต้องเพิ่มเองโดยใช้คำสั่ง smbpasswd และต้องปรับข้อมูลอยู่เสมอในอนาคต
+ .
+ หากจะไม่สร้างแฟ้มดังกล่าว คุณจะต้องตั้งค่า Samba (และอาจจะต้องตั้งค่าเครื่องลูกต่างๆ ด้วย) ให้ใช้รหัสผ่านแบบข้อความธรรมดา
+ .
+ ดูรายละเอียดเพิ่มเติมได้ที่ /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html จากแพกเกจ samba-doc
+Description-tl.UTF-8: Likhain ang talaan ng kontrasenyas ng samba, /var/lib/samba/passdb.tdb?
+ Upang makibagay sa mga default ng karamihan ng bersiyon ng Windows, kailangan na nakasaayos ang Samba na gumamit ng encrypted na kontrasenyas. Kinakailangan na ang mga kontrasenyas ng mga gumagamit ay nakatago sa talaksang hiwalay sa /etc/passwd. Maaaring likhain ang talaksang ito na awtomatiko, ngunit ang mga kontrasenyas dito ay kinakailangang idagdag ng mano-mano sa pagpapatakbo ng smbpasswd at kailangan na sariwain ito sa hinaharap.
+ .
+ Kung hindi ito likhain, kailangan ninyong isaayos muli ang Samba (at malamang ang inyong mga makinang client) na gumamit ng plaintext na kontrasenyas.
+ .
+ Basahin ang /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html mula sa paketeng samba-doc para sa karagdagang detalye.
+Description-tr.UTF-8: Samba parola veritabanı /var/lib/samba/passwd.tdb yaratılsın mı?
+ Windows'un çoğu versiyonunda öntanımlı olarak kullanılan değerler ile uyumlu olabilmesi için Samba'nın şifrelenmiş parolaları kullanacak şekilde ayarlanması gerekir. Bu yöntem kullanıcı parolalarının /etc/passwd dosyası dışında saklanmasını gerektirir. Bu dosya otomatik olarak yaratılabilir, fakat parolaların smbpasswd komutu çalıştırılarak eklenmesi ve ilerleyen zamanlarda güncel tutulması gerekir.
+ .
+ Eğer yaratmazsanız, daha sonra Sambayı (ve büyük ihtimalle istemci makineleri de) düz metin parolalarını kullanması için tekrar yapılandırmanız gerekir.
+ .
+ Daha detaylıı bilgi için samba-doc paketinden /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html dosyasına gözatın.
+Description-vi.UTF-8: Tạo cơ sở dữ liệu mật khẩu samba « /var/lib/samba/passdb.tdb » ?
+ Để tương thích với các giá trị mặc định trong hậu hết các phiên bản Windows, phần mềm Samba phải được cấu hình để sử dụng mật khẩu đã mật mã. Cấu hình này cần thiết các mật khẩu người dùng được cất giữ trong một tập tin khác với « /etc/passwd ». Tập tin này có thể được tự động tạo, còn những mật khẩu phải được thêm thủ công bằng cách chạy smbpaswd; cũng cần phải cứ cập nhật chúng trong tương lai.
+ .
+ Không tạo tập tin đó thì bạn cần phải cấu hình lại Samba (rất có thể là cũng cần cấu hình lại mọi máy khách) để sử dụng mật khẩu nhập thô.
+ .
+ Để tìm chi tiết, xem tài liệu « /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html » từ gói tài liệu samba-doc.
+Description-wo.UTF-8: Ndax ñu sos baasu done bu baatujall yu samba, /var/lib/samba/passdb.tdb?
+ Ngir mana dëppóo ak defóo bu li ëppu ci wersioŋ yu Windows yi, samba deeskoo wara komfigure muy jëfandikoo baatijall yuñu kiripte. Loolu dafay laaj ñu deñc baatijall yi ci ab fiise bu bokkul ak /etc/passwd.  Fiise boobu manessna koo sos sosuk otomatik, waaye kon baatijall yi deesleen ciy wara dugël ak loxo, doxal smbpasswd, ta buko defee ñu leen di yeesal saa yuñu ko soxlawaatee.
+ .
+ Boo ko sosul, kon fawwu nga komfigure Samba (amaana yit sa masin yu kiliyaŋ yi) def leen ñuy jëfandikoo baatijall yu text normaal (plain text).
+ .
+ Xoolal /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html bi nekk ci paket bu samba-doc, ngir am yaneen leeral.
+Description-zh_CN.UTF-8: 要创建 samba 密码数据库 /var/lib/samba/passdb.tdb 吗？
+ 要与大多数 Windows 的默认设置兼容，Samba 必须被设置为使用加密口令。这需要将用户口令保存独立于 /etc/passwd 之外的一个文件中。此文件可以自动创建，但口令必须通过运行 smbpasswd 来手动添加并保持更新。
+ .
+ 如果您无法创建它，您就必须重新配置 samba (可能还包括您的客户端机器) 以使用明文口令。
+ .
+ 更多详情，请参阅 smaba-doc 软件包中的 /usr/share/doc/samba-doc/htmldocs/ENCRYPTION.html。
+Description-zh_TW.UTF-8: 是否要建立 samba 密碼資料庫，/var/lib/samba/passdb.tdb？
+ 為了要相容於大多數 Windows 各式版本的預設設定，Samba 必須被設定為使用加密密碼。這需要將使用者密碼保存在獨立於 /etc/passwd 的另一個檔案中。此檔案可被自動建立，但密碼必須藉由執行 smbpasswd 來手動加入，並得時時更新。
+ .
+ 如果您不想建立這個檔案，您將必須重新設定 samba（可能還有您的用戶端機器）來使用明文密碼。
+ .
+ 請參閱 samba-doc 套件的 /usr/share/doc/samba-doc/htmldocs/Samba3-Developers-Guide/pwencrypt.html 以取得更多詳盡資訊。
+
+Template: samba/run_mode
+Type: select
+Choices: daemons, inetd
+Choices-ar.UTF-8: daemons, inetd
+Choices-ast.UTF-8: degorrios, inetd
+Choices-be.UTF-8: дэманы, inetd
+Choices-bg.UTF-8: фонов процес, при нужда
+Choices-bn.UTF-8: ডিমন, inetd
+Choices-bs.UTF-8: daemons, inetd
+Choices-ca.UTF-8: dimonis, inetd
+Choices-cs.UTF-8: démoni, inetd
+Choices-da.UTF-8: dæmoner, inetd
+Choices-de.UTF-8: Daemon, inetd
+Choices-dz.UTF-8: ཌེ་མཱོནསི་, inetd
+Choices-el.UTF-8: δαίμονες, inetd
+Choices-eo.UTF-8: demonoj, inetd
+Choices-es.UTF-8: demonios, inetd
+Choices-et.UTF-8: deemonitena, inetd'ist
+Choices-eu.UTF-8: deabruak, inetd
+Choices-fi.UTF-8: palvelinprosessit, inetd
+Choices-fr.UTF-8: démons, inetd
+Choices-gl.UTF-8: servizos, inetd
+Choices-gu.UTF-8: ડેમોન્સ, inetd
+Choices-he.UTF-8: תהליכי רקע, inetd
+Choices-hu.UTF-8: démonok, inetd
+Choices-id.UTF-8: server, inetd
+Choices-it.UTF-8: demoni, inetd
+Choices-ja.UTF-8: デーモン, inetd
+Choices-ka.UTF-8: დემონები, inetd
+Choices-km.UTF-8: ដេមិន , inetd
+Choices-ko.UTF-8: 데몬, inetd
+Choices-ku.UTF-8: daemon, inetd
+Choices-lt.UTF-8: tarnybos, inetd
+Choices-ml.UTF-8: ഡെമണുകള്‍, inetd
+Choices-mr.UTF-8: डिमन्स, आयएनइटीडी
+Choices-nb.UTF-8: nisser, inetd
+Choices-ne.UTF-8: डेइमोन, inetd
+Choices-nl.UTF-8: achtergronddiensten, inetd
+Choices-nn.UTF-8: tenester, inetd
+Choices-no.UTF-8: nisser, inetd
+Choices-pl.UTF-8: demon, inetd
+Choices-pt.UTF-8: daemons, inetd
+Choices-pt_BR.UTF-8: daemons, inetd
+Choices-ro.UTF-8: demoni, inetd
+Choices-ru.UTF-8: daemons, inetd
+Choices-sk.UTF-8: démoni, inetd
+Choices-sl.UTF-8: daemoni, inetd
+Choices-sq.UTF-8: daemons, inetd
+Choices-sv.UTF-8: demoner, inetd
+Choices-ta.UTF-8: கிங்கரன்கள் (டீமன்கள்), inetd
+Choices-th.UTF-8: ดีมอน, inetd
+Choices-tl.UTF-8: mga daemon, inetd
+Choices-tr.UTF-8: artalan süreçleri, inetd
+Choices-vi.UTF-8: trình nền, inetd
+Choices-wo.UTF-8: daemon yi, inetd
+Choices-zh_CN.UTF-8: 守护进程, inetd
+Choices-zh_TW.UTF-8: 常駐程式, inetd
+Default: daemons
+Description: How do you want to run Samba?
+ The Samba daemon smbd can run as a normal daemon or from inetd. Running as
+ a daemon is the recommended approach.
+Description-ar.UTF-8: كيف تريد تشغيل Samba؟
+ يمكن لرقيب smbd الاشتغال كرقيب عادي أو عبر inetd. ينصح بتشغييله كرقيب.
+Description-ast.UTF-8: ¿Cómo quies executar Samba?
+ El degorriu Samba smbd puede correr como un degorriu normal o dende inetd. Corriendo como un degorriu ye la escoyeta recomendada.
+Description-be.UTF-8: Якім чынам мусіць запускацца Samba?
+ Служба Samba smbd можа запускацца як звычайны дэман, або з дапамогай inetd. Рэкамендаваны падыход -- запуск у якасці звычайнага дэмана.
+Description-bg.UTF-8: Как да се стартира Samba?
+ Основният процес на Samba, smbd, може да бъде изпълняван при нужда или като фонов процес (със зареждането на операционната система). Препоръчителният начин за изпълнение е като фонов процес.
+Description-bn.UTF-8: আপনি সাম্বা কিভাবে চালাতে চান?
+ সাম্বা ডিমন smbd একটি সাধারন ডিমন হিসেবে বা inetd থেকে চালানো যেতে পারে। ডিমন হিসেবে চালানো সুপারিশকৃত।
+Description-bs.UTF-8: Kako želite pokretati Samba-u?
+ Samba daemon smbd može biti pokrenut kao normalni daemon ili preko inetd-a. Pokretanje kao daemon je preporučeni pristup.
+Description-ca.UTF-8: Com voleu executar el Samba?
+ El dimoni de Samba pot executar-se com un dimoni normal o des de l'inetd. És recomanable executar-lo com a dimoni.
+Description-cs.UTF-8: Jak chcete spouštět Sambu?
+ Server Samby smbd může běžet jako obyčejný daemon (doporučeno), nebo se může spouštět z inetd.
+Description-da.UTF-8: Hvordan skal Samba køres?
+ Samba-dæmonen smbd kan køre som en almindelig dæmon eller fra inetd. Det anbefales at køre den som dæmon.
+Description-de.UTF-8: Wie möchten Sie Samba starten?
+ Der Samba-Prozess smbd kann als normaler Hintergrunddienst (Daemon) laufen oder über inetd gestartet werden. Ersteres wird jedoch empfohlen.
+Description-dz.UTF-8: ཁྱོད་ཀྱིས་ སམ་བ་འདི་ག་དེ་སྦེ་གཡོག་བཀོལ་དགོ་མནོཝ་སྨོ?
+ སམ་བ་ཌེ་མཱོན་smbdའདི་ སྤྱིར་བཏང་ཌེ་མཱོན་སྦེ་ ཡང་ན་ inetdནང་ལས་ གཡོག་བཀོལ་ཚུགས། ཌེ་མཱོན་སྦེ་གཡོག་བཀོལ་མི་འདི་ འོས་སྦྱོར་འབད་ཡོད་པའི་རྩར་ལེན་ཨིན།
+Description-el.UTF-8: Πώς θέλετε να εκτελείται η υπηρεσία Samba;
+ Ο δαίμονας της υπηρεσίας Samba μπορεί να τρέχει σαν ένας συνηθισμένος δαίμονας ή από τον inetd. Η εκτέλεσή του σαν συνηθισμένου δαίμονα είναι η συνιστώμενη προσέγγιση.
+Description-eo.UTF-8: Kiel vi volas lanĉi Samba?
+ La Samba-demono smbd povas esti lanĉita kiel normala demono aŭ per la programo inetd. Oni rekomendas lanĉi ĝin kiel demonon.
+Description-es.UTF-8: ¿Cómo quiere que se ejecute Samba?
+ El demonio de Samba «smbd» puede ejecutarse como un demonio normal independiente o iniciarse desde el demonio «inetd». Se recomienda que se ejecute como demonio independiente.
+Description-et.UTF-8: Kuidas soovid Samba käivitada?
+ Samba deemon võib käivituda kui tavaline deemon või inetd'ist. Soovitatav lähenemine on käivitamine tavalise deemonina.
+Description-eu.UTF-8: Nola nahi duzu Samba abiaraztea?
+ Samba smbd zerbitzua deabru arrunt edo inted bidez abiarazi daiteke. Deabru bezala abiaraztea gomendatzen da.
+Description-fi.UTF-8: Kuinka Samba käynnistetään?
+ Samban palvelinprosessi smbd voi toimia tavallisena prosessina tai inetd voi käynnistää sen. Tavallisen prosessin käyttämistä suositellaan.
+Description-fr.UTF-8: Comment voulez-vous lancer Samba ?
+ Le service de Samba smbd peut s'exécuter en tant que démon classique ou bien être lancé par inetd. Il est recommandé de l'exécuter en tant que démon.
+Description-gl.UTF-8: ¿Como quere executar Samba?
+ O servizo de Samba smbd pode funcionar coma un servizo normal ou desde inetd. Recoméndase executalo coma un servizo.
+Description-gu.UTF-8: તમે સામ્બા કઇ રીતે ઉપયોગ કરશો?
+ સામ્બા ડેમોન smbd સામાન્ય ડેમોન અથવા inetd તરીકે ચાલી શકે છે. ડેમોન તરીકે ચલાવવાનું સલાહભર્યું છે.
+Description-he.UTF-8: כיצד תרצה להריץ את Samba?
+ תהליך הרקע של Samba שנקרא smbd יכול לרוץ כתהליך רקע רגיל או דרך inetd. ריצה כתהליך רקע רגיל היא השיטה המומלצת.
+Description-hu.UTF-8: Hogyan induljon a Samba?
+ Az smbd Samba démon futhat normál démonként vagy az inetd-n keresztül. A démonként való futtatása a javasolt beállítás.
+Description-id.UTF-8: Bagaimana Anda ingin menjalankan Samba
+ Server samba (smbd) dapat berjalan sebagai server normal (daemon) atau dari inetd. Sangat dianjurkan menjalankannya sebagai server normal.
+Description-it.UTF-8: Come avviare Samba?
+ Il demone Samba smbd può essere avviato come un normale demone oppure da inetd. Si raccomanda l'avvio come demone.
+Description-ja.UTF-8: どのように Samba を実行したいですか?
+ Samba デーモン smbd は通常のデーモンとしての実行または inetd からの実行ができます。デーモンとして実行するのがお勧めの手段です。
+Description-ka.UTF-8: როგორ გსურთ Samba-ს გაშვება?
+ Samba-ს დემონი smbd შეიძლება გაეშვას როგორც ჩვეულებრივი დემო inetd-დან. დემონად გაშვება რეკომენდირებული მიდგომაა.
+Description-km.UTF-8: តើ​អ្នក​ចង់​រត់ Samba តាម​វិធី​ណា ?
+ ដេមិន Samba smbd អាចរត់ជាដេមិនធម្មតា ឬពី inetd ។ ការរត់ជាដេមិនមួយត្រូវបានផ្ដល់អនុសាសន៍ ។
+Description-ko.UTF-8: Samba를 어떻게 실행하시겠습니까?
+ Samba의 데몬인 smbd은 일반적인 데몬으로 실행할 수도 있고 inetd을 통해 실행할 수도 있습니다. 데몬으로 실행할 것을 권장합니다.
+Description-ku.UTF-8: Dixwazî Samba çawa bixebitînî?
+ Daemona Sambayê dikare wekî daemon'eke ji rêzê an jî inetd'ê bixebite. Xebitandina wekî daemonekê tê pêşniyarkirin.
+Description-lt.UTF-8: Kokiu būdu norite leisti Samba?
+ Samba tarnyba smbd gali veikti kaip įprastinė tarnyba arba ji gali būti paleidžiama iš inetd. Rekomenduojama Samba naudoti kaip įprastinę tarnybą.
+Description-ml.UTF-8: സാംബ എങ്ങനെ പ്രവര്‍ത്തിപ്പിക്കാനാണ് നിങ്ങളാഗ്രഹിക്കുന്നത്?
+ സാംബ ഡെമണ്‍ smbd ഒരു സാധാരണ ഡെമണായോ അല്ലെങ്കില്‍ inetd യില്‍ നിന്നോ പ്രവര്‍ത്തിപ്പിക്കാവുന്നതാണ്. ഡെമണായി ഓടിക്കുന്നതാണ് ശുപാര്‍ശ ചെയ്തിട്ടുള്ള വഴി.
+Description-mr.UTF-8: तुम्हाला सांबा कशा प्रकारे चालू करावयाचा आहे?
+ सांबा डिमन एसएमबीडी हा प्रोग्राम सर्वसाधारण डिमन म्हणून किंवा आयएनइटीडी मधून चालविता येतो. डिमन म्हणून चालविणे अधिक श्रेयस्कर.
+Description-nb.UTF-8: Hvordan vil du at Samba skal kjøres?
+ Samba-prosessen smbd kan kjøres som en normal nisse eller fra inetd. Det anbefales å kjøre som en nisse.
+Description-ne.UTF-8: तपाईँ साम्बा कसरी चलाउन चाहनुहुन्छ?
+ साम्बा डेइमोन समान्य डेइमोनको रुपमा वा inetd बाट चलाउन सकिन्छ । डेइमोनको रूपमा चलाउनु सिफारिस गरिएको तरिका हो ।
+Description-nl.UTF-8: Hoe wilt u Samba draaien?
+ De Samba-achtergronddienst smbd kan als een normale achtergronddienst of via inetd draaien. Als een achtergronddienst is de aangeraden aanpak.
+Description-nn.UTF-8: Korleis vil du køyre Samba?
+ Samba-tenesta smbd kan køyrast som ei normal teneste frå inetd. Å køyre som ei teneste er den tilrådde måten.
+Description-no.UTF-8: Hvordan vil du at Samba skal kjøres?
+ Samba-prosessen smbd kan kjøres som en normal nisse eller fra inetd. Det anbefales å kjøre som en nisse.
+Description-pl.UTF-8: W jaki sposób chcesz uruchamiać Sambę?
+ Demon Samby smbd może działać jako zwykły demon, albo z poziomu inetd. Zalecane jest uruchomienie demona.
+Description-pt.UTF-8: Como deseja correr o Samba?
+ O daemon de Samba smbd pode correr como um daemon normal ou a partir de inetd. Executá-lo como um daemon é a aproximação recomendada.
+Description-pt_BR.UTF-8: Como você deseja que o Samba seja executado?
+ O daemon Samba smbd pode ser executado como daemon normal ou a partir do inetd. Executá-lo como daemon é o método recomendado.
+Description-ro.UTF-8: Cum doriți să rulați Samba?
+ Demonul Samba smbd poate rula ca un demon normal sau din inetd. Rularea ca demon este recomandată.
+Description-ru.UTF-8: Как нужно запускать Samba?
+ Samba-демон smbd может запускаться как обычный демон или из inetd. Рекомендуется использовать запуск в виде демона.
+Description-sk.UTF-8: Ako chcete spúšťať Sambu?
+ Samba server smbd sa môže spúšťať ako obyčajný démon (odporúča sa) alebo sa môže spúšťať z inetd.
+Description-sl.UTF-8: Kako želite poganjati Sambo?
+ Samba demon smbd lahko teče kot običajen demon ali iz inetd. Priporočljivo je poganjanje sambe kot demon.
+Description-sq.UTF-8: Si dëshiron të xhirojë Samba?
+ Daemon Samba smbd mund të xhirojë si një daemon normal ose nga inetd. Rekomandohet puna si daemon.
+Description-sv.UTF-8: Hur vill du köra Samba?
+ Samba-demonen smbd kan köras som en normal demon eller från inetd. Att köra som en demon är den rekommenderade metoden.
+Description-ta.UTF-8: சாம்பாவை எப்படி இயக்க விரும்புகிறீர்கள்?
+ சாம்பா கிங்கரனான எஸ்எம்பிடி இயல்பான கிங்கரனாக இயங்கலாம் அல்லது inetd லிருந்து இயங்கலாம். கிங்கரனாக இயங்குவதே பரிந்துரைக்கப் படுகிறது.
+Description-th.UTF-8: คุณต้องการเรียกใช้ Samba แบบไหน?
+ ดีมอน smbd ของ Samba สามารถทำงานแบบดีมอนธรรมดา หรือเรียกจาก inetd ก็ได้ ทางที่ขอแนะนำคือเรียกแบบดีมอน
+Description-tl.UTF-8: Paano ninyo gustong patakbuhin ang Samba?
+ Ang daemon na smbd ng Samba ay maaaring patakbuhin bilang normal na daemon o mula sa inetd. Pagpapatakbo nito bilang daemon ang rekomendado.
+Description-tr.UTF-8: Samba'nın nasıl çalışmasını istersiniz?
+ Samba artalan süreci smbd, normal bir artalan süreci olarak veya inetd'den çalışabilir. Tavsiye edilen yaklaşım artalan süreci olarak çalıştırmaktır.
+Description-vi.UTF-8: Muốn chạy Samba như thế nào?
+ Trình nền Samba smbd có khả năng chạy làm một trình nền tiêu chuẩn, hoặc từ inetd. Phương pháp khuyến khích là chạy làm trình nền.
+Description-wo.UTF-8: Nan nga bëgga doxale samba?
+ Daemon bu Samba smbd maneesna koo doxal ne ab deamon normaal, maneesna koo doxale yit ak inetd. Liñuy deŋkaane nak mooy doxalko muy ab daemon.
+Description-zh_CN.UTF-8: 您想如何运行 Samba？
+ Samba 守护进程 smbd 可以作为普通守护进程或者从 inetd 启动。以守护进程的方式运行是推荐的方式。
+Description-zh_TW.UTF-8: 您想要如何執行 Samba？
+ Samba 常駐程式 smbd 可以作為普通的常駐程式，或者是由 inetd 啟動。建議是以常駐程式的方式執行。
+

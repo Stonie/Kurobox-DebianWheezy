@@ -1,0 +1,940 @@
+Aug 18 12:41:07 LSPPC-Squeeze kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Aug 18 13:33:40 LSPPC-Squeeze kernel: netconsole: network logging stopped, interface lo unregistered
+Aug 18 13:38:44 LSPPC-Squeeze kernel: netconsole: network logging stopped, interface lo unregistered
+Aug 18 14:55:55 LSPPC-Squeeze kernel: netconsole: network logging stopped, interface lo unregistered
+Aug 18 15:00:01 LSPPC-Squeeze kernel: netconsole: network logging stopped, interface lo unregistered
+Aug 18 15:01:01 LSPPC-Squeeze kernel: netconsole: network logging stopped, interface lo unregistered
+Aug 18 15:01:23 LSPPC-Squeeze kernel: netconsole: network logging stopped, interface lo unregistered
+Aug 20 13:41:10 LSPPC-Squeeze kernel: Kernel logging (proc) stopped.
+Aug 20 13:41:10 LSPPC-Squeeze kernel: Kernel log daemon terminating.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: klogd 1.5.0#6, log source = /proc/kmsg started.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Using Buffalo Linkstation machine description
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Linux version 2.6.37-Stonie (root@LSPPC-Squeeze) (gcc version 4.4.5 (Debian 4.4.5-8) ) #4 Sat Aug 20 13:18:32 UTC 2011
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Aug 20 13:42:22 LSPPC-Squeeze kernel: bootconsole [udbg0] enabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Aug 20 13:42:22 LSPPC-Squeeze kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Aug 20 13:42:22 LSPPC-Squeeze kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Aug 20 13:42:22 LSPPC-Squeeze kernel: BUFFALO Network Attached Storage Series
+Aug 20 13:42:22 LSPPC-Squeeze kernel: (C) 2002-2005 BUFFALO INC.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Memory hole size: 0MB
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Zone PFN ranges:
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   DMA      0x00000000 -> 0x00008000
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   Normal   empty
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Movable zone start PFN for each node
+Aug 20 13:42:22 LSPPC-Squeeze kernel: early_node_map[1] active PFN ranges
+Aug 20 13:42:22 LSPPC-Squeeze kernel:     0: 0x00000000 -> 0x00008000
+Aug 20 13:42:22 LSPPC-Squeeze kernel: On node 0 totalpages: 32768
+Aug 20 13:42:22 LSPPC-Squeeze kernel: free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   DMA zone: 256 pages used for memmap
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   DMA zone: 0 pages reserved
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   DMA zone: 32512 pages, LIFO batch:7
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pcpu-alloc: [0] 0 
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Aug 20 13:42:22 LSPPC-Squeeze kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Memory: 122552k/131072k available (5968k kernel code, 8520k reserved, 176k data, 1163k bss, 204k init)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Kernel virtual memory layout:
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Aug 20 13:42:22 LSPPC-Squeeze kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Aug 20 13:42:22 LSPPC-Squeeze kernel: NR_IRQS:512 nr_irqs:512 16
+Aug 20 13:42:22 LSPPC-Squeeze kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Aug 20 13:42:22 LSPPC-Squeeze kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Aug 20 13:42:22 LSPPC-Squeeze kernel: mpic: Initializing for 12 sources
+Aug 20 13:42:22 LSPPC-Squeeze kernel: time_init: decrementer frequency = 32.522240 MHz
+Aug 20 13:42:22 LSPPC-Squeeze kernel: time_init: processor frequency   = 262.144000 MHz
+Aug 20 13:42:22 LSPPC-Squeeze kernel: clocksource: timebase mult[7afe256] shift[22] registered
+Aug 20 13:42:22 LSPPC-Squeeze kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Console: colour dummy device 80x25
+Aug 20 13:42:22 LSPPC-Squeeze kernel: console [tty0] enabled, bootconsole disabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pid_max: default: 32768 minimum: 301
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Mount-cache hash table entries: 512
+Aug 20 13:42:22 LSPPC-Squeeze kernel: NET: Registered protocol family 16
+Aug 20 13:42:22 LSPPC-Squeeze kernel: PCI: Probing PCI hardware
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: supports D1 D2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: supports D1 D2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# disabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: supports D1 D2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# disabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: supports D1 D2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# disabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 5: set to [mem 0x80080000-0x800800ff] (PCI address [0x80080000-0x800800ff])
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: bio: create slab <bio-0> at 0
+Aug 20 13:42:22 LSPPC-Squeeze kernel: vgaarb: loaded
+Aug 20 13:42:22 LSPPC-Squeeze kernel: SCSI subsystem initialized
+Aug 20 13:42:22 LSPPC-Squeeze kernel: libata version 3.00 loaded.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usbcore: registered new interface driver usbfs
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usbcore: registered new interface driver hub
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usbcore: registered new device driver usb
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Switching to clocksource timebase
+Aug 20 13:42:22 LSPPC-Squeeze kernel: NET: Registered protocol family 2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: TCP reno registered
+Aug 20 13:42:22 LSPPC-Squeeze kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: NET: Registered protocol family 1
+Aug 20 13:42:22 LSPPC-Squeeze kernel: RPC: Registered udp transport module.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: RPC: Registered tcp transport module.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: PCI: CLS 32 bytes, default 32
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 20 13:42:22 LSPPC-Squeeze kernel: NTFS driver 2.1.29 [Flags: R/W].
+Aug 20 13:42:22 LSPPC-Squeeze kernel: fuse init (API version 7.15)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: JFS: nTxBlock = 965, nTxLock = 7723
+Aug 20 13:42:22 LSPPC-Squeeze kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: msgmni has been set to 241
+Aug 20 13:42:22 LSPPC-Squeeze kernel: io scheduler noop registered
+Aug 20 13:42:22 LSPPC-Squeeze kernel: io scheduler deadline registered
+Aug 20 13:42:22 LSPPC-Squeeze kernel: io scheduler cfq registered (default)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Aug 20 13:42:22 LSPPC-Squeeze kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Aug 20 13:42:22 LSPPC-Squeeze kernel: brd: module loaded
+Aug 20 13:42:22 LSPPC-Squeeze kernel: loop: module loaded
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Aug 20 13:42:22 LSPPC-Squeeze kernel: sil680: 133MHz clock.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: scsi0 : pata_sil680
+Aug 20 13:42:22 LSPPC-Squeeze kernel: scsi1 : pata_sil680
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Aug 20 13:42:22 LSPPC-Squeeze kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Aug 20 13:42:22 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: (unregistered net_device): no PCI Express capability
+Aug 20 13:42:22 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90bcc00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Aug 20 13:42:22 LSPPC-Squeeze kernel: netconsole: local port 6666
+Aug 20 13:42:22 LSPPC-Squeeze kernel: netconsole: local IP 192.168.11.150
+Aug 20 13:42:22 LSPPC-Squeeze kernel: netconsole: interface 'eth0'
+Aug 20 13:42:22 LSPPC-Squeeze kernel: netconsole: remote port 6666
+Aug 20 13:42:22 LSPPC-Squeeze kernel: netconsole: remote IP 192.168.11.149
+Aug 20 13:42:22 LSPPC-Squeeze kernel: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Aug 20 13:42:22 LSPPC-Squeeze kernel: netconsole: device eth0 not up yet, forcing it
+Aug 20 13:42:22 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: link down
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ata1.00: configured for UDMA/100
+Aug 20 13:42:22 LSPPC-Squeeze kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Aug 20 13:42:22 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Aug 20 13:42:22 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Write Protect is off
+Aug 20 13:42:22 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Aug 20 13:42:22 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 20 13:42:22 LSPPC-Squeeze kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 20 13:42:22 LSPPC-Squeeze kernel:  sda: sda1 sda2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 20 13:42:22 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: link up
+Aug 20 13:42:22 LSPPC-Squeeze kernel: console [netcon0] enabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: netconsole: network logging started
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usbmon: debugfs is not available
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usb usb1: Product: EHCI Host Controller
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usb usb1: Manufacturer: Linux 2.6.37-Stonie ehci_hcd
+Aug 20 13:42:22 LSPPC-Squeeze kernel: usb usb1: SerialNumber: 0000:00:0e.2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: hub 1-0:1.0: USB hub found
+Aug 20 13:42:22 LSPPC-Squeeze kernel: hub 1-0:1.0: 5 ports detected
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 20 13:42:22 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Aug 20 13:42:23 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Aug 20 13:42:23 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb2: Product: OHCI Host Controller
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb2: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb2: SerialNumber: 0000:00:0e.0
+Aug 20 13:42:23 LSPPC-Squeeze kernel: hub 2-0:1.0: USB hub found
+Aug 20 13:42:23 LSPPC-Squeeze kernel: hub 2-0:1.0: 3 ports detected
+Aug 20 13:42:23 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Aug 20 13:42:23 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Aug 20 13:42:23 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb3: Product: OHCI Host Controller
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb3: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usb usb3: SerialNumber: 0000:00:0e.1
+Aug 20 13:42:23 LSPPC-Squeeze kernel: hub 3-0:1.0: USB hub found
+Aug 20 13:42:23 LSPPC-Squeeze kernel: hub 3-0:1.0: 2 ports detected
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usbcore: registered new interface driver usblp
+Aug 20 13:42:23 LSPPC-Squeeze kernel: Initializing USB Mass Storage driver...
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usbcore: registered new interface driver usb-storage
+Aug 20 13:42:23 LSPPC-Squeeze kernel: USB Mass Storage support registered.
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usbcore: registered new interface driver libusual
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usbcore: registered new interface driver ums-freecom
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usbcore: registered new interface driver ums-isd200
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usbcore: registered new interface driver usbserial
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usbserial: USB Serial Driver core
+Aug 20 13:42:23 LSPPC-Squeeze kernel: USB Serial support registered for FTDI USB Serial Device
+Aug 20 13:42:23 LSPPC-Squeeze kernel: usbcore: registered new interface driver ftdi_sio
+Aug 20 13:42:23 LSPPC-Squeeze kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Aug 20 13:42:23 LSPPC-Squeeze kernel: mice: PS/2 mouse device common for all mice
+Aug 20 13:42:23 LSPPC-Squeeze kernel: i2c /dev entries driver
+Aug 20 13:42:23 LSPPC-Squeeze kernel: of:mpc-i2c 80003000.i2c: timeout 1000000 us
+Aug 20 13:42:23 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Aug 20 13:42:23 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Aug 20 13:42:23 LSPPC-Squeeze kernel: TCP cubic registered
+Aug 20 13:42:23 LSPPC-Squeeze kernel: NET: Registered protocol family 10
+Aug 20 13:42:23 LSPPC-Squeeze kernel: NET: Registered protocol family 17
+Aug 20 13:42:23 LSPPC-Squeeze kernel: NET: Registered protocol family 5
+Aug 20 13:42:23 LSPPC-Squeeze kernel: Registering the dns_resolver key type
+Aug 20 13:42:23 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: setting system clock to 2011-08-20 13:42:11 UTC (1313847731)
+Aug 20 13:42:23 LSPPC-Squeeze kernel: linkstation: disarming the AVR watchdog: 
+Aug 20 13:42:23 LSPPC-Squeeze kernel: EXT3-fs: barriers not enabled
+Aug 20 13:42:23 LSPPC-Squeeze kernel: kjournald starting.  Commit interval 5 seconds
+Aug 20 13:42:23 LSPPC-Squeeze kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Aug 20 13:42:23 LSPPC-Squeeze kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Aug 20 13:42:23 LSPPC-Squeeze kernel: Freeing unused kernel memory: 204k init
+Aug 20 13:42:23 LSPPC-Squeeze kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Aug 20 13:42:23 LSPPC-Squeeze kernel: EXT3-fs (sda1): using internal journal
+Aug 20 13:42:23 LSPPC-Squeeze kernel: svc: failed to register lockdv1 RPC service (errno 97).
+Aug 20 13:42:23 LSPPC-Squeeze kernel: NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Aug 20 13:42:23 LSPPC-Squeeze kernel: NFSD: starting 90-second grace period
+Aug 20 13:42:23 LSPPC-Squeeze kernel: eth0: no IPv6 routers present
+Aug 20 13:42:23 LSPPC-Squeeze kernel: sshd (1483): /proc/1483/oom_adj is deprecated, please use /proc/1483/oom_score_adj instead.
+Aug 20 14:30:37 LSPPC-Squeeze kernel: Kernel logging (proc) stopped.
+Aug 20 14:30:37 LSPPC-Squeeze kernel: Kernel log daemon terminating.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: klogd 1.5.0#6, log source = /proc/kmsg started.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Using Buffalo Linkstation machine description
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Linux version 2.6.37-Stonie (root@LSPPC-Squeeze) (gcc version 4.4.5 (Debian 4.4.5-8) ) #4 Sat Aug 20 13:18:32 UTC 2011
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Aug 20 14:32:17 LSPPC-Squeeze kernel: bootconsole [udbg0] enabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Aug 20 14:32:17 LSPPC-Squeeze kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Aug 20 14:32:17 LSPPC-Squeeze kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Aug 20 14:32:17 LSPPC-Squeeze kernel: BUFFALO Network Attached Storage Series
+Aug 20 14:32:17 LSPPC-Squeeze kernel: (C) 2002-2005 BUFFALO INC.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Memory hole size: 0MB
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Zone PFN ranges:
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   DMA      0x00000000 -> 0x00008000
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   Normal   empty
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Movable zone start PFN for each node
+Aug 20 14:32:17 LSPPC-Squeeze kernel: early_node_map[1] active PFN ranges
+Aug 20 14:32:17 LSPPC-Squeeze kernel:     0: 0x00000000 -> 0x00008000
+Aug 20 14:32:17 LSPPC-Squeeze kernel: On node 0 totalpages: 32768
+Aug 20 14:32:17 LSPPC-Squeeze kernel: free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   DMA zone: 256 pages used for memmap
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   DMA zone: 0 pages reserved
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   DMA zone: 32512 pages, LIFO batch:7
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pcpu-alloc: [0] 0 
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Aug 20 14:32:17 LSPPC-Squeeze kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Memory: 122552k/131072k available (5968k kernel code, 8520k reserved, 176k data, 1163k bss, 204k init)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Kernel virtual memory layout:
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Aug 20 14:32:17 LSPPC-Squeeze kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Aug 20 14:32:17 LSPPC-Squeeze kernel: NR_IRQS:512 nr_irqs:512 16
+Aug 20 14:32:17 LSPPC-Squeeze kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Aug 20 14:32:17 LSPPC-Squeeze kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Aug 20 14:32:17 LSPPC-Squeeze kernel: mpic: Initializing for 12 sources
+Aug 20 14:32:17 LSPPC-Squeeze kernel: time_init: decrementer frequency = 32.522240 MHz
+Aug 20 14:32:17 LSPPC-Squeeze kernel: time_init: processor frequency   = 262.144000 MHz
+Aug 20 14:32:17 LSPPC-Squeeze kernel: clocksource: timebase mult[7afe256] shift[22] registered
+Aug 20 14:32:17 LSPPC-Squeeze kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Console: colour dummy device 80x25
+Aug 20 14:32:17 LSPPC-Squeeze kernel: console [tty0] enabled, bootconsole disabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pid_max: default: 32768 minimum: 301
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Mount-cache hash table entries: 512
+Aug 20 14:32:17 LSPPC-Squeeze kernel: NET: Registered protocol family 16
+Aug 20 14:32:17 LSPPC-Squeeze kernel: PCI: Probing PCI hardware
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: supports D1 D2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: supports D1 D2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# disabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: supports D1 D2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# disabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: supports D1 D2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# disabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 5: set to [mem 0x80080000-0x800800ff] (PCI address [0x80080000-0x800800ff])
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: bio: create slab <bio-0> at 0
+Aug 20 14:32:17 LSPPC-Squeeze kernel: vgaarb: loaded
+Aug 20 14:32:17 LSPPC-Squeeze kernel: SCSI subsystem initialized
+Aug 20 14:32:17 LSPPC-Squeeze kernel: libata version 3.00 loaded.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver usbfs
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver hub
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new device driver usb
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Switching to clocksource timebase
+Aug 20 14:32:17 LSPPC-Squeeze kernel: NET: Registered protocol family 2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: TCP reno registered
+Aug 20 14:32:17 LSPPC-Squeeze kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: NET: Registered protocol family 1
+Aug 20 14:32:17 LSPPC-Squeeze kernel: RPC: Registered udp transport module.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: RPC: Registered tcp transport module.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: PCI: CLS 32 bytes, default 32
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 20 14:32:17 LSPPC-Squeeze kernel: NTFS driver 2.1.29 [Flags: R/W].
+Aug 20 14:32:17 LSPPC-Squeeze kernel: fuse init (API version 7.15)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: JFS: nTxBlock = 965, nTxLock = 7723
+Aug 20 14:32:17 LSPPC-Squeeze kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: msgmni has been set to 241
+Aug 20 14:32:17 LSPPC-Squeeze kernel: io scheduler noop registered
+Aug 20 14:32:17 LSPPC-Squeeze kernel: io scheduler deadline registered
+Aug 20 14:32:17 LSPPC-Squeeze kernel: io scheduler cfq registered (default)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Aug 20 14:32:17 LSPPC-Squeeze kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Aug 20 14:32:17 LSPPC-Squeeze kernel: brd: module loaded
+Aug 20 14:32:17 LSPPC-Squeeze kernel: loop: module loaded
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Aug 20 14:32:17 LSPPC-Squeeze kernel: sil680: 133MHz clock.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: scsi0 : pata_sil680
+Aug 20 14:32:17 LSPPC-Squeeze kernel: scsi1 : pata_sil680
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Aug 20 14:32:17 LSPPC-Squeeze kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Aug 20 14:32:17 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: (unregistered net_device): no PCI Express capability
+Aug 20 14:32:17 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90bcc00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Aug 20 14:32:17 LSPPC-Squeeze kernel: netconsole: local port 6666
+Aug 20 14:32:17 LSPPC-Squeeze kernel: netconsole: local IP 192.168.11.150
+Aug 20 14:32:17 LSPPC-Squeeze kernel: netconsole: interface 'eth0'
+Aug 20 14:32:17 LSPPC-Squeeze kernel: netconsole: remote port 6666
+Aug 20 14:32:17 LSPPC-Squeeze kernel: netconsole: remote IP 192.168.11.149
+Aug 20 14:32:17 LSPPC-Squeeze kernel: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Aug 20 14:32:17 LSPPC-Squeeze kernel: netconsole: device eth0 not up yet, forcing it
+Aug 20 14:32:17 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: link down
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ata1.00: configured for UDMA/100
+Aug 20 14:32:17 LSPPC-Squeeze kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Aug 20 14:32:17 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Write Protect is off
+Aug 20 14:32:17 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Aug 20 14:32:17 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 20 14:32:17 LSPPC-Squeeze kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 20 14:32:17 LSPPC-Squeeze kernel:  sda: sda1 sda2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 20 14:32:17 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: link up
+Aug 20 14:32:17 LSPPC-Squeeze kernel: console [netcon0] enabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: netconsole: network logging started
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbmon: debugfs is not available
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb1: Product: EHCI Host Controller
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb1: Manufacturer: Linux 2.6.37-Stonie ehci_hcd
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb1: SerialNumber: 0000:00:0e.2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: hub 1-0:1.0: USB hub found
+Aug 20 14:32:17 LSPPC-Squeeze kernel: hub 1-0:1.0: 5 ports detected
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb2: Product: OHCI Host Controller
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb2: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb2: SerialNumber: 0000:00:0e.0
+Aug 20 14:32:17 LSPPC-Squeeze kernel: hub 2-0:1.0: USB hub found
+Aug 20 14:32:17 LSPPC-Squeeze kernel: hub 2-0:1.0: 3 ports detected
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb3: Product: OHCI Host Controller
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb3: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usb usb3: SerialNumber: 0000:00:0e.1
+Aug 20 14:32:17 LSPPC-Squeeze kernel: hub 3-0:1.0: USB hub found
+Aug 20 14:32:17 LSPPC-Squeeze kernel: hub 3-0:1.0: 2 ports detected
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver usblp
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Initializing USB Mass Storage driver...
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver usb-storage
+Aug 20 14:32:17 LSPPC-Squeeze kernel: USB Mass Storage support registered.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver libusual
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver ums-freecom
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver ums-isd200
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver usbserial
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbserial: USB Serial Driver core
+Aug 20 14:32:17 LSPPC-Squeeze kernel: USB Serial support registered for FTDI USB Serial Device
+Aug 20 14:32:17 LSPPC-Squeeze kernel: usbcore: registered new interface driver ftdi_sio
+Aug 20 14:32:17 LSPPC-Squeeze kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Aug 20 14:32:17 LSPPC-Squeeze kernel: mice: PS/2 mouse device common for all mice
+Aug 20 14:32:17 LSPPC-Squeeze kernel: i2c /dev entries driver
+Aug 20 14:32:17 LSPPC-Squeeze kernel: of:mpc-i2c 80003000.i2c: timeout 1000000 us
+Aug 20 14:32:17 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Aug 20 14:32:17 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Aug 20 14:32:17 LSPPC-Squeeze kernel: TCP cubic registered
+Aug 20 14:32:17 LSPPC-Squeeze kernel: NET: Registered protocol family 10
+Aug 20 14:32:17 LSPPC-Squeeze kernel: NET: Registered protocol family 17
+Aug 20 14:32:17 LSPPC-Squeeze kernel: NET: Registered protocol family 5
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Registering the dns_resolver key type
+Aug 20 14:32:17 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: setting system clock to 2011-08-20 14:32:05 UTC (1313850725)
+Aug 20 14:32:17 LSPPC-Squeeze kernel: linkstation: disarming the AVR watchdog: 
+Aug 20 14:32:17 LSPPC-Squeeze kernel: EXT3-fs: barriers not enabled
+Aug 20 14:32:18 LSPPC-Squeeze kernel: kjournald starting.  Commit interval 5 seconds
+Aug 20 14:32:18 LSPPC-Squeeze kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Aug 20 14:32:18 LSPPC-Squeeze kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Aug 20 14:32:18 LSPPC-Squeeze kernel: Freeing unused kernel memory: 204k init
+Aug 20 14:32:18 LSPPC-Squeeze kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Aug 20 14:32:18 LSPPC-Squeeze kernel: EXT3-fs (sda1): using internal journal
+Aug 20 14:32:18 LSPPC-Squeeze kernel: svc: failed to register lockdv1 RPC service (errno 97).
+Aug 20 14:32:18 LSPPC-Squeeze kernel: NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Aug 20 14:32:18 LSPPC-Squeeze kernel: NFSD: starting 90-second grace period
+Aug 20 14:32:18 LSPPC-Squeeze kernel: eth0: no IPv6 routers present
+Aug 20 14:32:18 LSPPC-Squeeze kernel: sshd (1475): /proc/1475/oom_adj is deprecated, please use /proc/1475/oom_score_adj instead.
+Aug 20 14:34:13 LSPPC-Squeeze kernel: Kernel logging (proc) stopped.
+Aug 20 14:34:13 LSPPC-Squeeze kernel: Kernel log daemon terminating.
+Aug 21 00:37:40 LSPPC-Squeeze kernel: klogd 1.5.0#6, log source = /proc/kmsg started.
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Using Buffalo Linkstation machine description
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Linux version 2.6.37-Stonie (root@LSPPC-Squeeze) (gcc version 4.4.5 (Debian 4.4.5-8) ) #4 Sat Aug 20 13:18:32 UTC 2011
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Aug 21 00:37:40 LSPPC-Squeeze kernel: bootconsole [udbg0] enabled
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Aug 21 00:37:40 LSPPC-Squeeze kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Aug 21 00:37:40 LSPPC-Squeeze kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Aug 21 00:37:40 LSPPC-Squeeze kernel: BUFFALO Network Attached Storage Series
+Aug 21 00:37:40 LSPPC-Squeeze kernel: (C) 2002-2005 BUFFALO INC.
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Memory hole size: 0MB
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Zone PFN ranges:
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   DMA      0x00000000 -> 0x00008000
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   Normal   empty
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Movable zone start PFN for each node
+Aug 21 00:37:40 LSPPC-Squeeze kernel: early_node_map[1] active PFN ranges
+Aug 21 00:37:40 LSPPC-Squeeze kernel:     0: 0x00000000 -> 0x00008000
+Aug 21 00:37:40 LSPPC-Squeeze kernel: On node 0 totalpages: 32768
+Aug 21 00:37:40 LSPPC-Squeeze kernel: free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   DMA zone: 256 pages used for memmap
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   DMA zone: 0 pages reserved
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   DMA zone: 32512 pages, LIFO batch:7
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pcpu-alloc: [0] 0 
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Aug 21 00:37:40 LSPPC-Squeeze kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Memory: 122552k/131072k available (5968k kernel code, 8520k reserved, 176k data, 1163k bss, 204k init)
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Kernel virtual memory layout:
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Aug 21 00:37:40 LSPPC-Squeeze kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Aug 21 00:37:40 LSPPC-Squeeze kernel: NR_IRQS:512 nr_irqs:512 16
+Aug 21 00:37:40 LSPPC-Squeeze kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Aug 21 00:37:40 LSPPC-Squeeze kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Aug 21 00:37:40 LSPPC-Squeeze kernel: mpic: Initializing for 12 sources
+Aug 21 00:37:40 LSPPC-Squeeze kernel: time_init: decrementer frequency = 32.522240 MHz
+Aug 21 00:37:40 LSPPC-Squeeze kernel: time_init: processor frequency   = 262.144000 MHz
+Aug 21 00:37:40 LSPPC-Squeeze kernel: clocksource: timebase mult[7afe256] shift[22] registered
+Aug 21 00:37:40 LSPPC-Squeeze kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Console: colour dummy device 80x25
+Aug 21 00:37:40 LSPPC-Squeeze kernel: console [tty0] enabled, bootconsole disabled
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pid_max: default: 32768 minimum: 301
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Mount-cache hash table entries: 512
+Aug 21 00:37:40 LSPPC-Squeeze kernel: NET: Registered protocol family 16
+Aug 21 00:37:40 LSPPC-Squeeze kernel: PCI: Probing PCI hardware
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: supports D1 D2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: supports D1 D2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# disabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: supports D1 D2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# disabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: supports D1 D2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# disabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 5: set to [mem 0x80080000-0x800800ff] (PCI address [0x80080000-0x800800ff])
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: bio: create slab <bio-0> at 0
+Aug 21 00:37:41 LSPPC-Squeeze kernel: vgaarb: loaded
+Aug 21 00:37:41 LSPPC-Squeeze kernel: SCSI subsystem initialized
+Aug 21 00:37:41 LSPPC-Squeeze kernel: libata version 3.00 loaded.
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver usbfs
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver hub
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new device driver usb
+Aug 21 00:37:41 LSPPC-Squeeze kernel: Switching to clocksource timebase
+Aug 21 00:37:41 LSPPC-Squeeze kernel: NET: Registered protocol family 2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: TCP reno registered
+Aug 21 00:37:41 LSPPC-Squeeze kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: NET: Registered protocol family 1
+Aug 21 00:37:41 LSPPC-Squeeze kernel: RPC: Registered udp transport module.
+Aug 21 00:37:41 LSPPC-Squeeze kernel: RPC: Registered tcp transport module.
+Aug 21 00:37:41 LSPPC-Squeeze kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 21 00:37:41 LSPPC-Squeeze kernel: PCI: CLS 32 bytes, default 32
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Aug 21 00:37:41 LSPPC-Squeeze kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 21 00:37:41 LSPPC-Squeeze kernel: NTFS driver 2.1.29 [Flags: R/W].
+Aug 21 00:37:41 LSPPC-Squeeze kernel: fuse init (API version 7.15)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: JFS: nTxBlock = 965, nTxLock = 7723
+Aug 21 00:37:41 LSPPC-Squeeze kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: msgmni has been set to 241
+Aug 21 00:37:41 LSPPC-Squeeze kernel: io scheduler noop registered
+Aug 21 00:37:41 LSPPC-Squeeze kernel: io scheduler deadline registered
+Aug 21 00:37:41 LSPPC-Squeeze kernel: io scheduler cfq registered (default)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Aug 21 00:37:41 LSPPC-Squeeze kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Aug 21 00:37:41 LSPPC-Squeeze kernel: brd: module loaded
+Aug 21 00:37:41 LSPPC-Squeeze kernel: loop: module loaded
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sil680: 133MHz clock.
+Aug 21 00:37:41 LSPPC-Squeeze kernel: scsi0 : pata_sil680
+Aug 21 00:37:41 LSPPC-Squeeze kernel: scsi1 : pata_sil680
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Aug 21 00:37:41 LSPPC-Squeeze kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Aug 21 00:37:41 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: (unregistered net_device): no PCI Express capability
+Aug 21 00:37:41 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90bcc00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Aug 21 00:37:41 LSPPC-Squeeze kernel: netconsole: local port 6666
+Aug 21 00:37:41 LSPPC-Squeeze kernel: netconsole: local IP 192.168.11.150
+Aug 21 00:37:41 LSPPC-Squeeze kernel: netconsole: interface 'eth0'
+Aug 21 00:37:41 LSPPC-Squeeze kernel: netconsole: remote port 6666
+Aug 21 00:37:41 LSPPC-Squeeze kernel: netconsole: remote IP 192.168.11.149
+Aug 21 00:37:41 LSPPC-Squeeze kernel: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Aug 21 00:37:41 LSPPC-Squeeze kernel: netconsole: device eth0 not up yet, forcing it
+Aug 21 00:37:41 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: link down
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ata1.00: configured for UDMA/100
+Aug 21 00:37:41 LSPPC-Squeeze kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Write Protect is off
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 21 00:37:41 LSPPC-Squeeze kernel:  sda: sda1 sda2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 21 00:37:41 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: link up
+Aug 21 00:37:41 LSPPC-Squeeze kernel: console [netcon0] enabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: netconsole: network logging started
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbmon: debugfs is not available
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb1: Product: EHCI Host Controller
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb1: Manufacturer: Linux 2.6.37-Stonie ehci_hcd
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb1: SerialNumber: 0000:00:0e.2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: hub 1-0:1.0: USB hub found
+Aug 21 00:37:41 LSPPC-Squeeze kernel: hub 1-0:1.0: 5 ports detected
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb2: Product: OHCI Host Controller
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb2: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb2: SerialNumber: 0000:00:0e.0
+Aug 21 00:37:41 LSPPC-Squeeze kernel: hub 2-0:1.0: USB hub found
+Aug 21 00:37:41 LSPPC-Squeeze kernel: hub 2-0:1.0: 3 ports detected
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb3: Product: OHCI Host Controller
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb3: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usb usb3: SerialNumber: 0000:00:0e.1
+Aug 21 00:37:41 LSPPC-Squeeze kernel: hub 3-0:1.0: USB hub found
+Aug 21 00:37:41 LSPPC-Squeeze kernel: hub 3-0:1.0: 2 ports detected
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver usblp
+Aug 21 00:37:41 LSPPC-Squeeze kernel: Initializing USB Mass Storage driver...
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver usb-storage
+Aug 21 00:37:41 LSPPC-Squeeze kernel: USB Mass Storage support registered.
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver libusual
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver ums-freecom
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver ums-isd200
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver usbserial
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbserial: USB Serial Driver core
+Aug 21 00:37:41 LSPPC-Squeeze kernel: USB Serial support registered for FTDI USB Serial Device
+Aug 21 00:37:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver ftdi_sio
+Aug 21 00:37:41 LSPPC-Squeeze kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Aug 21 00:37:41 LSPPC-Squeeze kernel: mice: PS/2 mouse device common for all mice
+Aug 21 00:37:41 LSPPC-Squeeze kernel: i2c /dev entries driver
+Aug 21 00:37:41 LSPPC-Squeeze kernel: of:mpc-i2c 80003000.i2c: timeout 1000000 us
+Aug 21 00:37:41 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Aug 21 00:37:41 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Aug 21 00:37:41 LSPPC-Squeeze kernel: TCP cubic registered
+Aug 21 00:37:41 LSPPC-Squeeze kernel: NET: Registered protocol family 10
+Aug 21 00:37:41 LSPPC-Squeeze kernel: NET: Registered protocol family 17
+Aug 21 00:37:41 LSPPC-Squeeze kernel: NET: Registered protocol family 5
+Aug 21 00:37:41 LSPPC-Squeeze kernel: Registering the dns_resolver key type
+Aug 21 00:37:41 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: setting system clock to 2011-08-21 00:37:29 UTC (1313887049)
+Aug 21 00:37:41 LSPPC-Squeeze kernel: linkstation: disarming the AVR watchdog: 
+Aug 21 00:37:41 LSPPC-Squeeze kernel: EXT3-fs: barriers not enabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: kjournald starting.  Commit interval 5 seconds
+Aug 21 00:37:41 LSPPC-Squeeze kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Aug 21 00:37:41 LSPPC-Squeeze kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Aug 21 00:37:41 LSPPC-Squeeze kernel: Freeing unused kernel memory: 204k init
+Aug 21 00:37:41 LSPPC-Squeeze kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Aug 21 00:37:41 LSPPC-Squeeze kernel: EXT3-fs (sda1): using internal journal
+Aug 21 00:37:41 LSPPC-Squeeze kernel: svc: failed to register lockdv1 RPC service (errno 97).
+Aug 21 00:37:41 LSPPC-Squeeze kernel: NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Aug 21 00:37:41 LSPPC-Squeeze kernel: NFSD: starting 90-second grace period
+Aug 21 00:37:41 LSPPC-Squeeze kernel: eth0: no IPv6 routers present
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sshd (1480): /proc/1480/oom_adj is deprecated, please use /proc/1480/oom_score_adj instead.
+Aug 21 01:38:25 LSPPC-Squeeze kernel: svc: 192.168.1.2, port=22936: bad direction 184549632, dropping request
+Aug 21 01:38:25 LSPPC-Squeeze kernel: svc: 192.168.1.2, port=22936: bad direction 184549632, dropping request
+Aug 21 02:35:41 LSPPC-Squeeze kernel: klogd 1.5.0#6, log source = /proc/kmsg started.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Using Buffalo Linkstation machine description
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Linux version 2.6.37-Stonie (root@LSPPC-Squeeze) (gcc version 4.4.5 (Debian 4.4.5-8) ) #4 Sat Aug 20 13:18:32 UTC 2011
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Aug 21 02:35:41 LSPPC-Squeeze kernel: bootconsole [udbg0] enabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Aug 21 02:35:41 LSPPC-Squeeze kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Aug 21 02:35:41 LSPPC-Squeeze kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Aug 21 02:35:41 LSPPC-Squeeze kernel: BUFFALO Network Attached Storage Series
+Aug 21 02:35:41 LSPPC-Squeeze kernel: (C) 2002-2005 BUFFALO INC.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Memory hole size: 0MB
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Zone PFN ranges:
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   DMA      0x00000000 -> 0x00008000
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   Normal   empty
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Movable zone start PFN for each node
+Aug 21 02:35:41 LSPPC-Squeeze kernel: early_node_map[1] active PFN ranges
+Aug 21 02:35:41 LSPPC-Squeeze kernel:     0: 0x00000000 -> 0x00008000
+Aug 21 02:35:41 LSPPC-Squeeze kernel: On node 0 totalpages: 32768
+Aug 21 02:35:41 LSPPC-Squeeze kernel: free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   DMA zone: 256 pages used for memmap
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   DMA zone: 0 pages reserved
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   DMA zone: 32512 pages, LIFO batch:7
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pcpu-alloc: [0] 0 
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Aug 21 02:35:41 LSPPC-Squeeze kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Memory: 122552k/131072k available (5968k kernel code, 8520k reserved, 176k data, 1163k bss, 204k init)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Kernel virtual memory layout:
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Aug 21 02:35:41 LSPPC-Squeeze kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NR_IRQS:512 nr_irqs:512 16
+Aug 21 02:35:41 LSPPC-Squeeze kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Aug 21 02:35:41 LSPPC-Squeeze kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Aug 21 02:35:41 LSPPC-Squeeze kernel: mpic: Initializing for 12 sources
+Aug 21 02:35:41 LSPPC-Squeeze kernel: time_init: decrementer frequency = 32.522240 MHz
+Aug 21 02:35:41 LSPPC-Squeeze kernel: time_init: processor frequency   = 262.144000 MHz
+Aug 21 02:35:41 LSPPC-Squeeze kernel: clocksource: timebase mult[7afe256] shift[22] registered
+Aug 21 02:35:41 LSPPC-Squeeze kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Console: colour dummy device 80x25
+Aug 21 02:35:41 LSPPC-Squeeze kernel: console [tty0] enabled, bootconsole disabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pid_max: default: 32768 minimum: 301
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Mount-cache hash table entries: 512
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NET: Registered protocol family 16
+Aug 21 02:35:41 LSPPC-Squeeze kernel: PCI: Probing PCI hardware
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: supports D1 D2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: supports D1 D2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# disabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: supports D1 D2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# disabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: supports D1 D2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# disabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: BAR 5: set to [mem 0x80080000-0x800800ff] (PCI address [0x80080000-0x800800ff])
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: bio: create slab <bio-0> at 0
+Aug 21 02:35:41 LSPPC-Squeeze kernel: vgaarb: loaded
+Aug 21 02:35:41 LSPPC-Squeeze kernel: SCSI subsystem initialized
+Aug 21 02:35:41 LSPPC-Squeeze kernel: libata version 3.00 loaded.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver usbfs
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver hub
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new device driver usb
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Switching to clocksource timebase
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NET: Registered protocol family 2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: TCP reno registered
+Aug 21 02:35:41 LSPPC-Squeeze kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NET: Registered protocol family 1
+Aug 21 02:35:41 LSPPC-Squeeze kernel: RPC: Registered udp transport module.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: RPC: Registered tcp transport module.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: PCI: CLS 32 bytes, default 32
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NTFS driver 2.1.29 [Flags: R/W].
+Aug 21 02:35:41 LSPPC-Squeeze kernel: fuse init (API version 7.15)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: JFS: nTxBlock = 965, nTxLock = 7723
+Aug 21 02:35:41 LSPPC-Squeeze kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: msgmni has been set to 241
+Aug 21 02:35:41 LSPPC-Squeeze kernel: io scheduler noop registered
+Aug 21 02:35:41 LSPPC-Squeeze kernel: io scheduler deadline registered
+Aug 21 02:35:41 LSPPC-Squeeze kernel: io scheduler cfq registered (default)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Aug 21 02:35:41 LSPPC-Squeeze kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Aug 21 02:35:41 LSPPC-Squeeze kernel: brd: module loaded
+Aug 21 02:35:41 LSPPC-Squeeze kernel: loop: module loaded
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Aug 21 02:35:41 LSPPC-Squeeze kernel: sil680: 133MHz clock.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: scsi0 : pata_sil680
+Aug 21 02:35:41 LSPPC-Squeeze kernel: scsi1 : pata_sil680
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Aug 21 02:35:41 LSPPC-Squeeze kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Aug 21 02:35:41 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: (unregistered net_device): no PCI Express capability
+Aug 21 02:35:41 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90bcc00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Aug 21 02:35:41 LSPPC-Squeeze kernel: netconsole: local port 6666
+Aug 21 02:35:41 LSPPC-Squeeze kernel: netconsole: local IP 192.168.11.150
+Aug 21 02:35:41 LSPPC-Squeeze kernel: netconsole: interface 'eth0'
+Aug 21 02:35:41 LSPPC-Squeeze kernel: netconsole: remote port 6666
+Aug 21 02:35:41 LSPPC-Squeeze kernel: netconsole: remote IP 192.168.11.149
+Aug 21 02:35:41 LSPPC-Squeeze kernel: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Aug 21 02:35:41 LSPPC-Squeeze kernel: netconsole: device eth0 not up yet, forcing it
+Aug 21 02:35:41 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: link down
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ata1.00: configured for UDMA/100
+Aug 21 02:35:41 LSPPC-Squeeze kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Aug 21 02:35:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Write Protect is off
+Aug 21 02:35:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Aug 21 02:35:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 21 02:35:41 LSPPC-Squeeze kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 21 02:35:41 LSPPC-Squeeze kernel:  sda: sda1 sda2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 21 02:35:41 LSPPC-Squeeze kernel: r8169 0000:00:0b.0: eth0: link up
+Aug 21 02:35:41 LSPPC-Squeeze kernel: console [netcon0] enabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: netconsole: network logging started
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbmon: debugfs is not available
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb1: Product: EHCI Host Controller
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb1: Manufacturer: Linux 2.6.37-Stonie ehci_hcd
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb1: SerialNumber: 0000:00:0e.2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: hub 1-0:1.0: USB hub found
+Aug 21 02:35:41 LSPPC-Squeeze kernel: hub 1-0:1.0: 5 ports detected
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb2: Product: OHCI Host Controller
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb2: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb2: SerialNumber: 0000:00:0e.0
+Aug 21 02:35:41 LSPPC-Squeeze kernel: hub 2-0:1.0: USB hub found
+Aug 21 02:35:41 LSPPC-Squeeze kernel: hub 2-0:1.0: 3 ports detected
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb3: Product: OHCI Host Controller
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb3: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usb usb3: SerialNumber: 0000:00:0e.1
+Aug 21 02:35:41 LSPPC-Squeeze kernel: hub 3-0:1.0: USB hub found
+Aug 21 02:35:41 LSPPC-Squeeze kernel: hub 3-0:1.0: 2 ports detected
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver usblp
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Initializing USB Mass Storage driver...
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver usb-storage
+Aug 21 02:35:41 LSPPC-Squeeze kernel: USB Mass Storage support registered.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver libusual
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver ums-freecom
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver ums-isd200
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver usbserial
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbserial: USB Serial Driver core
+Aug 21 02:35:41 LSPPC-Squeeze kernel: USB Serial support registered for FTDI USB Serial Device
+Aug 21 02:35:41 LSPPC-Squeeze kernel: usbcore: registered new interface driver ftdi_sio
+Aug 21 02:35:41 LSPPC-Squeeze kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Aug 21 02:35:41 LSPPC-Squeeze kernel: mice: PS/2 mouse device common for all mice
+Aug 21 02:35:41 LSPPC-Squeeze kernel: i2c /dev entries driver
+Aug 21 02:35:41 LSPPC-Squeeze kernel: of:mpc-i2c 80003000.i2c: timeout 1000000 us
+Aug 21 02:35:41 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Aug 21 02:35:41 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Aug 21 02:35:41 LSPPC-Squeeze kernel: TCP cubic registered
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NET: Registered protocol family 10
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NET: Registered protocol family 17
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NET: Registered protocol family 5
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Registering the dns_resolver key type
+Aug 21 02:35:41 LSPPC-Squeeze kernel: rtc-rs5c372 0-0032: setting system clock to 2011-08-21 02:35:30 UTC (1313894130)
+Aug 21 02:35:41 LSPPC-Squeeze kernel: linkstation: disarming the AVR watchdog: 
+Aug 21 02:35:41 LSPPC-Squeeze kernel: EXT3-fs (sda1): recovery required on readonly filesystem
+Aug 21 02:35:41 LSPPC-Squeeze kernel: EXT3-fs (sda1): write access will be enabled during recovery
+Aug 21 02:35:41 LSPPC-Squeeze kernel: EXT3-fs: barriers not enabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: kjournald starting.  Commit interval 5 seconds
+Aug 21 02:35:41 LSPPC-Squeeze kernel: EXT3-fs (sda1): recovery complete
+Aug 21 02:35:41 LSPPC-Squeeze kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Aug 21 02:35:41 LSPPC-Squeeze kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Freeing unused kernel memory: 204k init
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Aug 21 02:35:41 LSPPC-Squeeze kernel: EXT3-fs (sda1): using internal journal
+Aug 21 02:35:41 LSPPC-Squeeze kernel: svc: failed to register lockdv1 RPC service (errno 97).
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Aug 21 02:35:41 LSPPC-Squeeze kernel: NFSD: starting 90-second grace period
+Aug 21 02:35:41 LSPPC-Squeeze kernel: eth0: no IPv6 routers present
+Aug 21 02:35:42 LSPPC-Squeeze kernel: sshd (1483): /proc/1483/oom_adj is deprecated, please use /proc/1483/oom_score_adj instead.
+Aug 21 03:02:04 LSPPC-Squeeze kernel: Kernel logging (proc) stopped.
+Aug 21 03:02:04 LSPPC-Squeeze kernel: Kernel log daemon terminating.

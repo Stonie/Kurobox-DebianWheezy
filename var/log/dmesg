@@ -1,0 +1,227 @@
+Using Buffalo Linkstation machine description
+Linux version 2.6.37-Stonie (root@LSPPC-Squeeze) (gcc version 4.4.5 (Debian 4.4.5-8) ) #4 Sat Aug 20 13:18:32 UTC 2011
+Found legacy serial port 0 for /soc10x/serial@80004500
+  mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Found legacy serial port 1 for /soc10x/serial@80004600
+  mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+bootconsole [udbg0] enabled
+Adding PCI host bridge /soc10x/pci@fec00000
+PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+  IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+ MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+BUFFALO Network Attached Storage Series
+(C) 2002-2005 BUFFALO INC.
+Top of RAM: 0x8000000, Total RAM: 0x8000000
+Memory hole size: 0MB
+Zone PFN ranges:
+  DMA      0x00000000 -> 0x00008000
+  Normal   empty
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x00008000
+On node 0 totalpages: 32768
+free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+  DMA zone: 256 pages used for memmap
+  DMA zone: 0 pages reserved
+  DMA zone: 32512 pages, LIFO batch:7
+pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+pcpu-alloc: [0] 0 
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+PID hash table entries: 512 (order: -1, 2048 bytes)
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Memory: 122552k/131072k available (5968k kernel code, 8520k reserved, 176k data, 1163k bss, 204k init)
+Kernel virtual memory layout:
+  * 0xfffdf000..0xfffff000  : fixmap
+  * 0xfd3fc000..0xfe000000  : early ioremap
+  * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:512 nr_irqs:512 16
+mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+mpic: ISU size: 4, shift: 2, mask: 3
+mpic: Initializing for 12 sources
+time_init: decrementer frequency = 32.522240 MHz
+time_init: processor frequency   = 262.144000 MHz
+clocksource: timebase mult[7afe256] shift[22] registered
+clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Console: colour dummy device 80x25
+console [tty0] enabled, bootconsole disabled
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+NET: Registered protocol family 16
+PCI: Probing PCI hardware
+pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+pci 0000:00:0c.0: supports D1 D2
+pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+pci 0000:00:0e.0: supports D1 D2
+pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+pci 0000:00:0e.0: PME# disabled
+pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+pci 0000:00:0e.1: supports D1 D2
+pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+pci 0000:00:0e.1: PME# disabled
+pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+pci 0000:00:0e.2: supports D1 D2
+pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+pci 0000:00:0e.2: PME# disabled
+irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+pci 0000:00:0c.0: BAR 5: set to [mem 0x80080000-0x800800ff] (PCI address [0x80080000-0x800800ff])
+pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+bio: create slab <bio-0> at 0
+vgaarb: loaded
+SCSI subsystem initialized
+libata version 3.00 loaded.
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+Switching to clocksource timebase
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+TCP: Hash tables configured (established 4096 bind 4096)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+PCI: CLS 32 bytes, default 32
+irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+NTFS driver 2.1.29 [Flags: R/W].
+fuse init (API version 7.15)
+JFS: nTxBlock = 965, nTxLock = 7723
+SGI XFS with security attributes, large block/inode numbers, no debug enabled
+msgmni has been set to 241
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+brd: module loaded
+loop: module loaded
+pata_sil680 0000:00:0c.0: version 0.4.9
+sil680: 133MHz clock.
+scsi0 : pata_sil680
+scsi1 : pata_sil680
+ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+r8169 0000:00:0b.0: (unregistered net_device): no PCI Express capability
+r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90bcc00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+netconsole: local port 6666
+netconsole: local IP 192.168.11.150
+netconsole: interface 'eth0'
+netconsole: remote port 6666
+netconsole: remote IP 192.168.11.149
+netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+netconsole: device eth0 not up yet, forcing it
+r8169 0000:00:0b.0: eth0: link down
+ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+ata1.00: 1465149168 sectors, multi 0: LBA48 
+ata1.00: configured for UDMA/100
+scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+sd 0:0:0:0: Attached scsi generic sg0 type 0
+ sda: sda1 sda2
+sd 0:0:0:0: [sda] Attached SCSI disk
+r8169 0000:00:0b.0: eth0: link up
+console [netcon0] enabled
+netconsole: network logging started
+usbmon: debugfs is not available
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ehci_hcd 0000:00:0e.2: EHCI Host Controller
+ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufacturer: Linux 2.6.37-Stonie ehci_hcd
+usb usb1: SerialNumber: 0000:00:0e.2
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 5 ports detected
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+ohci_hcd 0000:00:0e.0: OHCI Host Controller
+ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: OHCI Host Controller
+usb usb2: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+usb usb2: SerialNumber: 0000:00:0e.0
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 3 ports detected
+ohci_hcd 0000:00:0e.1: OHCI Host Controller
+ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb3: Product: OHCI Host Controller
+usb usb3: Manufacturer: Linux 2.6.37-Stonie ohci_hcd
+usb usb3: SerialNumber: 0000:00:0e.1
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 2 ports detected
+usbcore: registered new interface driver usblp
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver libusual
+usbcore: registered new interface driver ums-freecom
+usbcore: registered new interface driver ums-isd200
+usbcore: registered new interface driver usbserial
+usbserial: USB Serial Driver core
+USB Serial support registered for FTDI USB Serial Device
+usbcore: registered new interface driver ftdi_sio
+ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+mice: PS/2 mouse device common for all mice
+i2c /dev entries driver
+of:mpc-i2c 80003000.i2c: timeout 1000000 us
+rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+TCP cubic registered
+NET: Registered protocol family 10
+NET: Registered protocol family 17
+NET: Registered protocol family 5
+Registering the dns_resolver key type
+rtc-rs5c372 0-0032: setting system clock to 2011-08-21 02:35:30 UTC (1313894130)
+linkstation: disarming the AVR watchdog: 
+EXT3-fs (sda1): recovery required on readonly filesystem
+EXT3-fs (sda1): write access will be enabled during recovery
+EXT3-fs: barriers not enabled
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs (sda1): recovery complete
+EXT3-fs (sda1): mounted filesystem with writeback data mode
+VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Freeing unused kernel memory: 204k init
+Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+EXT3-fs (sda1): using internal journal

@@ -1,0 +1,5 @@
+deb http://mirrors.kernel.org/debian/ squeeze main
+deb-src http://mirrors.kernel.org/debian/ squeeze main
+
+deb http://security.debian.org/ squeeze/updates main
+

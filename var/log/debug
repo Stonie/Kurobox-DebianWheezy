@@ -1,0 +1,232 @@
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Aug 20 13:42:22 LSPPC-Squeeze kernel: Memory hole size: 0MB
+Aug 20 13:42:22 LSPPC-Squeeze kernel: On node 0 totalpages: 32768
+Aug 20 13:42:22 LSPPC-Squeeze kernel: free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   DMA zone: 256 pages used for memmap
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   DMA zone: 0 pages reserved
+Aug 20 13:42:22 LSPPC-Squeeze kernel:   DMA zone: 32512 pages, LIFO batch:7
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pcpu-alloc: [0] 0 
+Aug 20 13:42:22 LSPPC-Squeeze kernel: time_init: decrementer frequency = 32.522240 MHz
+Aug 20 13:42:22 LSPPC-Squeeze kernel: time_init: processor frequency   = 262.144000 MHz
+Aug 20 13:42:22 LSPPC-Squeeze kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0c.0: supports D1 D2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: supports D1 D2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# disabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: supports D1 D2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# disabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: supports D1 D2
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# disabled
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+Aug 20 13:42:22 LSPPC-Squeeze kernel: libata version 3.00 loaded.
+Aug 20 13:42:22 LSPPC-Squeeze kernel: PCI: CLS 32 bytes, default 32
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+Aug 20 13:42:22 LSPPC-Squeeze kernel: irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Aug 20 13:42:22 LSPPC-Squeeze kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Aug 20 13:42:22 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Aug 20 13:42:23 LSPPC-Squeeze kernel: eth0: no IPv6 routers present
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Aug 20 14:32:17 LSPPC-Squeeze kernel: Memory hole size: 0MB
+Aug 20 14:32:17 LSPPC-Squeeze kernel: On node 0 totalpages: 32768
+Aug 20 14:32:17 LSPPC-Squeeze kernel: free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   DMA zone: 256 pages used for memmap
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   DMA zone: 0 pages reserved
+Aug 20 14:32:17 LSPPC-Squeeze kernel:   DMA zone: 32512 pages, LIFO batch:7
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pcpu-alloc: [0] 0 
+Aug 20 14:32:17 LSPPC-Squeeze kernel: time_init: decrementer frequency = 32.522240 MHz
+Aug 20 14:32:17 LSPPC-Squeeze kernel: time_init: processor frequency   = 262.144000 MHz
+Aug 20 14:32:17 LSPPC-Squeeze kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0c.0: supports D1 D2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: supports D1 D2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# disabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: supports D1 D2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# disabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: supports D1 D2
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# disabled
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+Aug 20 14:32:17 LSPPC-Squeeze kernel: libata version 3.00 loaded.
+Aug 20 14:32:17 LSPPC-Squeeze kernel: PCI: CLS 32 bytes, default 32
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+Aug 20 14:32:17 LSPPC-Squeeze kernel: irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Aug 20 14:32:17 LSPPC-Squeeze kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Aug 20 14:32:17 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Aug 20 14:32:18 LSPPC-Squeeze kernel: eth0: no IPv6 routers present
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Aug 21 00:37:40 LSPPC-Squeeze kernel: Memory hole size: 0MB
+Aug 21 00:37:40 LSPPC-Squeeze kernel: On node 0 totalpages: 32768
+Aug 21 00:37:40 LSPPC-Squeeze kernel: free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   DMA zone: 256 pages used for memmap
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   DMA zone: 0 pages reserved
+Aug 21 00:37:40 LSPPC-Squeeze kernel:   DMA zone: 32512 pages, LIFO batch:7
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pcpu-alloc: [0] 0 
+Aug 21 00:37:40 LSPPC-Squeeze kernel: time_init: decrementer frequency = 32.522240 MHz
+Aug 21 00:37:40 LSPPC-Squeeze kernel: time_init: processor frequency   = 262.144000 MHz
+Aug 21 00:37:40 LSPPC-Squeeze kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Aug 21 00:37:40 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: supports D1 D2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: supports D1 D2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# disabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: supports D1 D2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# disabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: supports D1 D2
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# disabled
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+Aug 21 00:37:41 LSPPC-Squeeze kernel: libata version 3.00 loaded.
+Aug 21 00:37:41 LSPPC-Squeeze kernel: PCI: CLS 32 bytes, default 32
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+Aug 21 00:37:41 LSPPC-Squeeze kernel: irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Aug 21 00:37:41 LSPPC-Squeeze kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Aug 21 00:37:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Aug 21 00:37:41 LSPPC-Squeeze kernel: eth0: no IPv6 routers present
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Aug 21 02:35:41 LSPPC-Squeeze kernel: Memory hole size: 0MB
+Aug 21 02:35:41 LSPPC-Squeeze kernel: On node 0 totalpages: 32768
+Aug 21 02:35:41 LSPPC-Squeeze kernel: free_area_init_node: node 0, pgdat c05f6a90, node_mem_map c07f1000
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   DMA zone: 256 pages used for memmap
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   DMA zone: 0 pages reserved
+Aug 21 02:35:41 LSPPC-Squeeze kernel:   DMA zone: 32512 pages, LIFO batch:7
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pcpu-alloc: [0] 0 
+Aug 21 02:35:41 LSPPC-Squeeze kernel: time_init: decrementer frequency = 32.522240 MHz
+Aug 21 02:35:41 LSPPC-Squeeze kernel: time_init: processor frequency   = 262.144000 MHz
+Aug 21 02:35:41 LSPPC-Squeeze kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:00.0: [1057:0006] type 0 class 0x000600
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0b.0: [10ec:8169] type 0 class 0x000200
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: [1095:0680] type 0 class 0x000101
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0c.0: supports D1 D2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: [1033:0035] type 0 class 0x000c03
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: supports D1 D2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.0: PME# disabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: [1033:0035] type 0 class 0x000c03
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: supports D1 D2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.1: PME# disabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: [1033:00e0] type 0 class 0x000c03
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: supports D1 D2
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci 0000:00:0e.2: PME# disabled
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 0 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 16
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 1 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 17
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 3 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 18
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 0 [io  0x0000-0xbfffff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pci_bus 0000:00: resource 1 [mem 0x80000000-0xefffffff]
+Aug 21 02:35:41 LSPPC-Squeeze kernel: libata version 3.00 loaded.
+Aug 21 02:35:41 LSPPC-Squeeze kernel: PCI: CLS 32 bytes, default 32
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 9 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 19
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 10 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 20
+Aug 21 02:35:41 LSPPC-Squeeze kernel: irq: irq 5 on host /soc10x/interrupt-controller@80040000 mapped to virtual irq 21
+Aug 21 02:35:41 LSPPC-Squeeze kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Aug 21 02:35:41 LSPPC-Squeeze kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Aug 21 02:35:41 LSPPC-Squeeze kernel: eth0: no IPv6 routers present

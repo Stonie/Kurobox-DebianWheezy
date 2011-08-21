@@ -1,0 +1,106 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+#
+# update-apt-xapian-index - Maintain a system-wide Xapian index of Debian
+#                           package information
+#
+# Copyright (C) 2007--2010  Enrico Zini <enrico@debian.org>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+
+#
+# Main program body
+#
+
+# Minimal imports so we are always able to print command line help
+from optparse import OptionParser
+import sys
+import warnings
+
+VERSION="0.41"
+
+class Parser(OptionParser):
+    def __init__(self, *args, **kwargs):
+        OptionParser.__init__(self, *args, **kwargs)
+
+    def error(self, msg):
+        sys.stderr.write("%s: error: %s\n\n" % (self.get_prog_name(), msg))
+        self.print_help(sys.stderr)
+        sys.exit(2)
+
+parser = Parser(usage="usage: %prog [options]",
+                version="%prog "+ VERSION,
+                description="Rebuild the Apt Xapian index")
+parser.add_option("-q", "--quiet", action="store_true", help="quiet mode: only output fatal errors")
+parser.add_option("-v", "--verbose", action="store_true", help="verbose mode")
+parser.add_option("-f", "--force", action="store_true", help="force database rebuild even if it's already up to date")
+parser.add_option("--pkgfile", action="store", help="do not use the APT cache, but the given Package file")
+parser.add_option("--batch-mode", action="store_true", help="use progress reporting suitable from programatic parsing.")
+parser.add_option("-u","--update", action="store_true", help="incremental update, reindexing only those packages whose version has changed since the last run")
+(opts, args) = parser.parse_args()
+
+
+# Rest of the imports here
+import axi
+import axi.indexer
+
+#if opts.quiet: print "quiet"
+#if opts.verbose: print "verbose"
+#if opts.force: print "force"
+
+# Instantiate the progress report
+if opts.batch_mode:
+    quietapt = False
+    progress = axi.indexer.BatchProgress()
+elif opts.quiet:
+    quietapt = True
+    progress = axi.indexer.SilentProgress()
+    warnings.filterwarnings("ignore","")
+else:
+    quietapt = False
+    progress = axi.indexer.Progress()
+
+if opts.verbose:
+    progress.is_verbose = True
+
+# Create the indexer
+indexer = axi.indexer.Indexer(progress, quietapt)
+
+# Lock the session so that we prevent concurrent updates
+try:
+    locked = indexer.lock()
+except OSError, e:
+    import errno
+    if e.errno == errno.EACCES:
+        print >>sys.stderr, "You probably need to be root to do this."
+        sys.exit(1)
+    raise
+if not locked:
+    indexer.slave()
+    sys.exit(0)
+
+# Set up the indexer and check that we have something to do
+if not indexer.setupIndexing(force=opts.force):
+    sys.exit(0)
+
+if opts.update:
+    # update only mode
+    indexer.incrementalUpdate()
+else:
+    indexer.rebuild(opts.pkgfile)
+
+sys.exit(0)

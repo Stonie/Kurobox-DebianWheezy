@@ -1,0 +1,9 @@
+600d29637b6c070a208076e45b56838a  usr/bin/ntfs-3g.secaudit
+6d4a2e1c4fd648a366d80d67b6539cd4  usr/bin/ntfs-3g
+996e18df5ad4a1b0cfaaa69024203d91  usr/bin/ntfs-3g.probe
+f7acf45448a61be9480ee9fa8e655467  usr/bin/ntfs-3g.usermap
+e516f43d6f529d648bc4464084697adf  usr/share/hal/fdi/policy/10osvendor/25-ntfs-3g-policy.fdi
+4185b3842bc477f3457cb6c9be86ee81  usr/share/man/man8/ntfs-3g.8.gz
+79c650c7d8babceb99d2181c89064cde  usr/share/man/man8/ntfs-3g.secaudit.8.gz
+ec239fc9a63984b13402aee937bb6edf  usr/share/man/man8/ntfs-3g.usermap.8.gz
+f717c87f50eb0d411279e6228449e4c9  usr/share/man/man8/ntfs-3g.probe.8.gz

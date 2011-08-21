@@ -1,0 +1,17 @@
+netselect for Debian
+====================
+
+running netselect without setuid root
+-------------------------------------
+You might want to run netselect without setuid root, via file capabilities on
+linux.
+
+Starting with linux >= 2.6.24 and using a filesystem supporting POSIX extended
+attributes you can set cap_net_raw on netselect thanks to setcap shipped inside
+libcap2-bin:
+
+setcap cap_net_raw=ep /usr/bin/netselect
+
+at this point you can remove setuid on netselect
+
+chmod u-s /usr/bin/netselect

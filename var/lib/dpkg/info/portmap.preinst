@@ -1,0 +1,21 @@
+#! /bin/sh
+set -e
+
+action=$1
+version=$2
+CONFFILE=/etc/default/portmap
+
+# TBD: should be based on a given version
+if [ "$action" = "upgrade" ] && [ -e /etc/portmap.conf ] \
+   && dpkg --compare-versions "$version" gt 5-10 \
+   && dpkg --compare-versions "$version" lt 5-13 ; then
+	# get rid of /etc/portmap.conf if it did not change from the default?
+	# Move to the "new" conffile location, let the user handle
+	# the change (if needed)
+		[ -e $CONFFILE ] && mv $CONFFILE $CONFFILE.dpkg-old
+		mv /etc/portmap.conf $CONFFILE
+fi
+
+
+
+exit 0

@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Wie man mit Yaboot auf PowerPC bootet - Yaboot beziehen</title>
+
+</head>
+
+<body>
+
+<a name="ch3"></a>
+<hr>
+
+[ <a href="ch2.de.html">zurück</a> ]
+[ <a href="index.de.html#contents">Inhalt</a> ]
+[ <a href="ch1.de.html">1</a> ]
+[ <a href="ch2.de.html">2</a> ]
+[ 3 ]
+[ <a href="ch4.de.html">4</a> ]
+[ <a href="ch5.de.html">5</a> ]
+[ <a href="ch6.de.html">6</a> ]
+[ <a href="ch7.de.html">7</a> ]
+[ <a href="ch8.de.html">8</a> ]
+[ <a href="ch9.de.html">9</a> ]
+[ <a href="ch10.de.html">10</a> ]
+[ <a href="ch11.de.html">11</a> ]
+[ <a href="ch4.de.html">weiter</a> ]
+
+<hr>
+
+<h1>
+Wie man mit Yaboot auf PowerPC bootet
+<br>Kapitel 3 - Yaboot beziehen
+</h1>
+
+
+<hr>
+
+
+<p>
+Yaboot ist bei einer Debian GNU/Linux Installation für PowerPC-Rechner
+inkludiert.  Yaboot für Debian kann über die üblichen Methoden heruntergeladen
+werden, wie zum Beispiel <code>apt-get</code>, <code>dselect</code> oder
+<code>dpkg</code>.  Die Installation einer aktualisierten Version von
+<code>yaboot</code> auf Ihrem System ändert nicht Ihre Boot-Konfiguration; Sie
+müssen dafür das inkludierte <code>ybin</code> Werkzeug verwenden.
+
+<p>
+Sie können <code>yaboot</code> auch direkt von der Home-Page von
+<code>yaboot</code> unter <code><a
+href="http://penguinppc.org/projects/yaboot/">http://penguinppc.org/projects/yaboot/</a></code>
+herunterladen.  Wenn Sie es mit MacOS herunterladen, vergewissern Sie sich,
+dass sie das <em>binary</em> (nicht text) Format verwenden, und lassen Sie
+weder Stuffit Expander noch ein anderes Werkzeut das Archiv in MacOS
+expandieren.
+
+<p>
+Sie können das vorkompilierte <code>yaboot-binary-X.Y.tar.gz</code>
+herunterladen, oder die Source-Datei <code>yaboot-X.Y.tar.gz</code>.  Um das
+Binär-Paket auszupacken verwenden Sie den Befehl <samp>tar -zxvpf
+yaboot-X.Y.tar.gz</samp>.  Die Komponenten werden in ein
+<code>usr/local/</code> Verzeichnis innerhalb des Verzeichnisses entpackt, in
+dem Sie den Befehl ausgeführt haben.
+
+<p>
+Um es aus de Source zu bauen und zu installieren, vergewissern Sie sich, dass
+Sie einen funktionstüchtigen Compiler (<code>gcc</code>) und das
+<code>make</code> Programm installiert haben.  (Falls nicht, laden Sie die
+binären yaboot tar-Datei statt den Sourcen.) Dann rufen Sie die folgenden
+Befehle auf (ersetzen Sie mit den tatsächlichen Revisions-Nummern bei X und Y):
+
+<pre>
+          tar -zxvpf yaboot-X.Y.tar.gz
+          cd yaboot-X.Y
+          make
+          su
+          make install
+</pre>
+
+<hr>
+
+[ <a href="ch2.de.html">zurück</a> ]
+[ <a href="index.de.html#contents">Inhalt</a> ]
+[ <a href="ch1.de.html">1</a> ]
+[ <a href="ch2.de.html">2</a> ]
+[ 3 ]
+[ <a href="ch4.de.html">4</a> ]
+[ <a href="ch5.de.html">5</a> ]
+[ <a href="ch6.de.html">6</a> ]
+[ <a href="ch7.de.html">7</a> ]
+[ <a href="ch8.de.html">8</a> ]
+[ <a href="ch9.de.html">9</a> ]
+[ <a href="ch10.de.html">10</a> ]
+[ <a href="ch11.de.html">11</a> ]
+[ <a href="ch4.de.html">weiter</a> ]
+
+<hr>
+
+<p>
+Wie man mit Yaboot auf PowerPC bootet
+
+<address>
+Version 1.04, 22. February 2004<br>
+Chris Tillman
+</address>
+
+<hr>
+
+</body>
+
+</html>
+

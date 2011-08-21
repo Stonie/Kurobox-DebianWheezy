@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>HOWTO-Booting with Yaboot on PowerPC - Common Mistakes</title>
+
+</head>
+
+<body>
+
+<a name="ch8"></a>
+<hr>
+
+[ <a href="ch7.en.html">previous</a> ]
+[ <a href="index.en.html#contents">Contents</a> ]
+[ <a href="ch1.en.html">1</a> ]
+[ <a href="ch2.en.html">2</a> ]
+[ <a href="ch3.en.html">3</a> ]
+[ <a href="ch4.en.html">4</a> ]
+[ <a href="ch5.en.html">5</a> ]
+[ <a href="ch6.en.html">6</a> ]
+[ <a href="ch7.en.html">7</a> ]
+[ 8 ]
+[ <a href="ch9.en.html">9</a> ]
+[ <a href="ch10.en.html">10</a> ]
+[ <a href="ch11.en.html">11</a> ]
+[ <a href="ch9.en.html">next</a> ]
+
+<hr>
+
+<h1>
+HOWTO-Booting with Yaboot on PowerPC
+<br>Chapter 8 - Common Mistakes
+</h1>
+
+
+<hr>
+
+
+<p>
+The most common mistake made in the usage of <code>yaboot</code> is trying to
+use it to boot from a mountable partition on a permanent basis.  When a PowerPC
+first starts up, the booting process is started by locating a so-called
+`blessed' folder.  The MacOS places the blessing so that multiple system
+folders may exist on a partition, but only one of them will be valid for
+starting up.  If the computer is set up to dual boot Linux and MacOS, when
+MacOS is booted it will unbless any folders which do not contain a valid MacOS
+system.  Then the next time the machine boots, the partition containing the
+formerly blessed folder will not be bootable.
+
+<p>
+The utilities provided with <code>yaboot</code> should always be used to set it
+up on its own bootstrap partition for regular booting needs.  The only time you
+should place <code>yaboot</code> on a mountable partition is for initial
+installation of Linux and rescue operations.  In those cases you can intervene
+in the normal bootloading process to request a specific file to be executed,
+and blessed folders are not an issue since this type of booting is not
+automatic.
+
+<p>
+After <code>yaboot</code> has been installed, another common mistake is
+changing the boot configuration file or updating the <code>yaboot</code>
+software and then failing to re-run the <code>ybin</code> utility to transfer
+the changed configuration to the boot partition.  Booting functions will not be
+changed unless the changes are saved to the bootstrap partition.  If you change
+your <code>yaboot.conf</code> often, you might want to add a comment line
+inside the <code>yaboot.conf</code> file to remind yourself to run
+<code>ybin</code> after making changes.
+
+<hr>
+
+[ <a href="ch7.en.html">previous</a> ]
+[ <a href="index.en.html#contents">Contents</a> ]
+[ <a href="ch1.en.html">1</a> ]
+[ <a href="ch2.en.html">2</a> ]
+[ <a href="ch3.en.html">3</a> ]
+[ <a href="ch4.en.html">4</a> ]
+[ <a href="ch5.en.html">5</a> ]
+[ <a href="ch6.en.html">6</a> ]
+[ <a href="ch7.en.html">7</a> ]
+[ 8 ]
+[ <a href="ch9.en.html">9</a> ]
+[ <a href="ch10.en.html">10</a> ]
+[ <a href="ch11.en.html">11</a> ]
+[ <a href="ch9.en.html">next</a> ]
+
+<hr>
+
+<p>
+HOWTO-Booting with Yaboot on PowerPC
+
+<address>
+Version 1.04, Feb 22 2004<br>
+Chris Tillman
+</address>
+
+<hr>
+
+</body>
+
+</html>
+

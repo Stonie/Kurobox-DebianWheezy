@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>HOWTO-Booting with Yaboot on PowerPC - Recovering From Misconfiguration</title>
+
+</head>
+
+<body>
+
+<a name="ch9"></a>
+<hr>
+
+[ <a href="ch8.en.html">previous</a> ]
+[ <a href="index.en.html#contents">Contents</a> ]
+[ <a href="ch1.en.html">1</a> ]
+[ <a href="ch2.en.html">2</a> ]
+[ <a href="ch3.en.html">3</a> ]
+[ <a href="ch4.en.html">4</a> ]
+[ <a href="ch5.en.html">5</a> ]
+[ <a href="ch6.en.html">6</a> ]
+[ <a href="ch7.en.html">7</a> ]
+[ <a href="ch8.en.html">8</a> ]
+[ 9 ]
+[ <a href="ch10.en.html">10</a> ]
+[ <a href="ch11.en.html">11</a> ]
+[ <a href="ch10.en.html">next</a> ]
+
+<hr>
+
+<h1>
+HOWTO-Booting with Yaboot on PowerPC
+<br>Chapter 9 - Recovering From Misconfiguration
+</h1>
+
+
+<hr>
+
+
+<p>
+If you have a problem booting, don't panic.  Yaboot can boot any installed
+Linux kernel and system from the boot: prompt.
+
+<hr>
+
+<a name="s9.1"></a>
+<h2>9.1 Resetting the NVRAM</h2>
+
+<p>
+Hold the Command-Option-p-r keys all together at startup to reset all nvram
+parameters to their factory defaults.  Hold the keys until you hear the startup
+chime two or three times.  If the setup recommendations were followed, the
+<code>yaboot</code> installation will be be the first bootable partition and
+OpenFirmware will boot it automatically.  It should be noted that MacOS
+settings such as virtual memory, startup disk, and screen resolution will also
+be reset to their defaults.
+
+<hr>
+
+<a name="s9.2"></a>
+<h2>9.2 Loading Yaboot</h2>
+
+<p>
+If a <samp>boot:</samp> prompt isn't presented, then <code>yaboot</code> isn't
+being loaded.  You can load it manually from OpenFirmware.  Holding the
+Command-Option-o-f keys all together after pressing the power-on key will give
+you an OpenFirmware prompt
+
+<pre>
+         0 &gt;
+</pre>
+
+<p>
+(Command is the key with the cloverleaf and/or apple engraved on it).
+
+<p>
+At the OF prompt, you will need to use OpenFirmware paths for most of the boot
+configuration items.  You can determine most OpenFirmware paths from the OF
+prompt using a few OF commands, then construct an OF boot command to directly
+boot your kernel.
+
+<p>
+The full OpenFirmware path consists of three parts in the format
+
+<pre>
+         device-name:partition-number,/filesystem-path
+</pre>
+
+<p>
+The OF command devalias will list all the device aliases effective on your
+system.  You may see some of these:
+
+<pre>
+       Name      Device Type
+       ----      --------------------------------------------------
+       hd        internal ide drive (primary controller, master disk)
+       ultra1    internal ide drive (primary controller, slave disk)
+       ide0      ide drive (secondary controller, master disk)
+       ide1      ide drive (secondary controller, slave disk)
+       cd        CD-ROM 
+       zip       Zip drive
+       fw        FireWire interface
+       fd        Floppy drive
+       enet      Ethernet interface
+</pre>
+
+<p>
+Append the partition number of the boot partition (in our recommendation, 2)
+and then follow that with <samp>,yaboot</samp> to boot the <code>yaboot</code>
+file on the boot partition.
+
+<pre>
+         0 &gt; boot hd:2,yaboot
+</pre>
+
+<p>
+Hit return, and <code>yaboot</code> should be loaded and display its
+<code>boot:</code> prompt.  If you don't know the partition number, just start
+at 2 and work your way up until you hit it.
+
+<hr>
+
+<a name="s9.3"></a>
+<h2>9.3 Manually Loading a Kernel Image</h2>
+
+<p>
+Once you have the boot: prompt, you can enter a label defined in your
+<code>yaboot.conf</code> to boot that kernel image.  Or instead of a label, you
+can enter a full OpenFirmware path.  A typical kernel path might be
+
+<pre>
+         boot: hd:3,/vmlinux
+</pre>
+
+<p>
+To pass parameters to the kernel, add them on to the <samp>boot:</samp> prompt
+line after the kernel label or path.  You'll need to specify <samp>root=</samp>
+as a minimum, but you can add any kernel parameters desired.  Here's an
+example;
+
+<pre>
+         boot: hd:3,/vmlinux root=/dev/hda3 ro
+</pre>
+
+<hr>
+
+[ <a href="ch8.en.html">previous</a> ]
+[ <a href="index.en.html#contents">Contents</a> ]
+[ <a href="ch1.en.html">1</a> ]
+[ <a href="ch2.en.html">2</a> ]
+[ <a href="ch3.en.html">3</a> ]
+[ <a href="ch4.en.html">4</a> ]
+[ <a href="ch5.en.html">5</a> ]
+[ <a href="ch6.en.html">6</a> ]
+[ <a href="ch7.en.html">7</a> ]
+[ <a href="ch8.en.html">8</a> ]
+[ 9 ]
+[ <a href="ch10.en.html">10</a> ]
+[ <a href="ch11.en.html">11</a> ]
+[ <a href="ch10.en.html">next</a> ]
+
+<hr>
+
+<p>
+HOWTO-Booting with Yaboot on PowerPC
+
+<address>
+Version 1.04, Feb 22 2004<br>
+Chris Tillman
+</address>
+
+<hr>
+
+</body>
+
+</html>
+

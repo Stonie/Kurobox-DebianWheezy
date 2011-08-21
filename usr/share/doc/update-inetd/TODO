@@ -1,0 +1,36 @@
+I have documented some of update-inetd's design issues in
+
+    http://lists.debian.org/debian-devel/2009/09/msg00611.html
+
+and, with the help of Roger Leigh, made a proposal for a cleaner solution (the
+above url has a second, much simplified version of the original proposal).
+
+However, there has been no consensus on the proposal. In the meantime, I don't
+see a clean way forward for dealing with most of update-inetd's pending bugs.
+
+-- Serafeim Zanikolas  Sat, 13 Feb 2010 19:29:44 +0100
+
+#24043: do not only look at service name, but also to protocal (tcp/udp)
+#33797: seems to ask for replace instead of add?
+#53396: debconf messages still confusing?
+#64874: improve documentation?
+#168847: improve documentation/add replace?
+#179318: close as debconf is used since some time...
+#207892: merge with #53396?
+#245517: don't act if the conf file doesn't exist
+#322528: investigate issue by reproducing given test case
+#430849: implement hostname/address prefix mgmt
+#161532: implement spawning rate support
+#212540: improve documentation about update-inetd not being a sysadmin tool
+#261711: merge with #53396?
+#307697: merge with #53396?
+#311111: improve documentation about --remove?
+#344139: close as debconf is used since some time...
+#374542: document support for --group combined with --add or --remove?
+#123929: include po4a support for the manpage?
+#45334: merge with #161532?
+#63210: investigate if disabling with one kind of comment and enabling with another would have an acceptable result
+#74339: implement status inquiry
+#82875: merge with #74339?
+#159366: merge with #33797?
+#236917: close as proper debconf support is enabled?

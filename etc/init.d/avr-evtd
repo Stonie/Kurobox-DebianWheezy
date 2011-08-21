@@ -1,0 +1,136 @@
+#!/bin/sh
+#
+# avr-evtd Linkstation/Kuro AVR daemon
+#
+# Files used:
+#  /etc/default/avr-evtd	file with defaults for this script
+#  /etc/avr-evtd/EventScript	script with emergency mode actions
+#
+# Optional files:
+#  /etc/melco/timer_Sleep	Standard Melco sleep settings
+#
+# Copyright © 2006 Bob Perry <lb-source@users.sourceforge.net>
+# Copyright © 2008-2010 Rogério Brito <rbrito@ime.usp.br>
+#
+
+### BEGIN INIT INFO
+# Provides:          avr-evtd
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Linkstation/Kurobox AVR watchdog daemon
+### END INIT INFO
+
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+
+NAME=avr-evtd
+DAEMON=/usr/sbin/$NAME
+DESC="AVR watchdog daemon"
+tag=linkstation
+facility=user.info
+
+test -x $DAEMON || exit 0
+. /lib/lsb/init-functions
+
+if [ -f /etc/default/$NAME ]; then
+    . /etc/default/$NAME
+fi
+
+determine_device()
+{
+    # Accept the device specified by the system administrator, if set.
+    [ ! -z "$DEVICE" ] && return
+
+    # For MIPS, the situation is simpler: just use /dev/ttyS0 as the UART.
+    # For PowerPC, we need to know which, between ttyS0 or ttyS1 is attached
+    # to port address 0x80004500 and use that.
+    DEVICE=/dev/ttyS0
+    if uname -m | grep -q mips; then
+	MIPS=YES
+    else
+	MIPS=NO
+	PORT_ADDRESS=$($DAEMON -i -d /dev/ttyS1)
+	if [ -n "$PORT_ADDRESS" ] && [ "$PORT_ADDRESS" = "0x80004500" ]; then
+	    DEVICE=/dev/ttyS1
+	fi
+    fi
+}
+
+start()
+{
+    # Cumulative string of options to be passed to the daemon
+    # (e.g -d /dev/ttyS1)
+    DAEMONOPTS=""
+
+    CONSOLE=OFF
+
+    determine_device
+
+    # Initialize according to configurations
+    if [ "$EMMODE" = "YES" ]; then
+	DAEMONOPTS=-e
+    fi
+
+    if [ -n "$DEVICE" ] && [ "$MIPS" = "NO" ]; then
+	DAEMONOPTS="$DAEMONOPTS -d $DEVICE"
+    fi
+
+    # If this is a MIPSEL box, then determine if console ttyS0 is in use
+    if [ "$MIPS" = "YES" ] && [ -e /proc/linkstation ]; then
+	CONSOLE=$(grep CONSOLE < /proc/linkstation | cut -d = -f 2)
+    fi
+
+    if [ "$CONSOLE" = "ON" ]; then
+	log_warning_msg "avr-evtd: Not started services as console in-use"
+	logger -t $tag -p $facility -i "Not started avr-evtd as kernel still has console"
+    else
+	log_daemon_msg "Starting $DESC " "$NAME"
+	start-stop-daemon --start --quiet --exec $DAEMON -- $DAEMONOPTS
+	log_end_msg $?
+	logger -t $tag -p $facility -i "Started daemon avr-evtd"
+    fi
+}
+
+stop()
+{
+    determine_device
+
+    # Determine run-level and respond accordingly
+    # Speed-up fan at exit for an extra chill.
+    if [ -n "$RUNLEVEL" ] && [ -n "$DEVICE" ]; then
+	if [ "$RUNLEVEL" -eq 6 ]; then
+            # Send AVR the reboot signal
+	    echo -n "]]]]CCCC" > $DEVICE
+	elif [ "$RUNLEVEL" -eq 0 ]; then
+            # Send AVR the shutdown signal
+	    echo -n "]]]]EEEE" > $DEVICE
+	fi
+    fi
+
+    log_daemon_msg "Stopping $DESC" "$NAME"
+    start-stop-daemon --stop --quiet --exec $DAEMON
+    log_end_msg $?
+    logger -t $tag -p $facility -i 'Stopped daemon avr-evtd'
+}
+
+# Check request
+case "$1" in
+    start)
+	start
+	;;
+    stop)
+	stop
+	;;
+    restart|force-reload)
+	stop
+	sleep 1
+	start
+	;;
+    *)
+	echo "Usage: $DAEMON {start|stop|restart|force-reload}" >&2
+	exit 1
+	;;
+esac
+
+exit 0

@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+rm -f /etc/dhcpc/duid-inhibit  
+
+
+
+
+
+
+
+

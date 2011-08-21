@@ -1,0 +1,11 @@
+#! /bin/sh
+
+set -e
+
+if [ "$1" = "purge" ]
+then
+  update-rc.d klogd remove >/dev/null
+
+  test ! -f /lib/init/rw/sendsigs.omit.d/klogd || \
+      rm -f /lib/init/rw/sendsigs.omit.d/klogd
+fi

@@ -1,0 +1,15 @@
+[python-package]
+format = 1
+python-version = 2.6, 2.5
+[pycentral]
+version = 0.6.11
+include-links = 1
+[files]
+/usr/lib/python2.6/dist-packages/xapian=d
+/usr/lib/python2.6/dist-packages/xapian/__init__.py=f
+/usr/lib/python2.6/dist-packages/xapian/_xapian.so=f
+/usr/lib/python2.5/site-packages/xapian=d
+/usr/lib/python2.5/site-packages/xapian/__init__.py=f
+/usr/lib/python2.5/site-packages/xapian/_xapian.so=f
+/usr/share/pyshared/xapian=d
+/usr/share/pyshared/xapian/__init__.py=f

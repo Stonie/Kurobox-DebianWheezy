@@ -1,0 +1,16 @@
+007bbb8ece099b0d42e9be81a5ad2dab  usr/bin/net.samba3
+3f9fb7cf5958fae83126f9b7951423e3  usr/bin/nmblookup.samba3
+e76e1ea82da7fc7cce0241258d75cf5a  usr/bin/smbpasswd
+db425c57c6bcd8fdf1e83b25a5e9502a  usr/bin/testparm.samba3
+3cf748ced650684c49b188e77f6e1f08  usr/share/doc/samba-common-bin/NEWS.Debian.gz
+3c65c21df53159d328b0cab9348c7c29  usr/share/doc/samba-common-bin/README.build.gz
+2e2f8f793d9744d25ce0e0743b02054a  usr/share/doc/samba-common-bin/changelog.Debian.gz
+aef77e4b5acac75faa3ad0199e72c507  usr/share/doc/samba-common-bin/copyright
+4e5d8fd90b2dc419495b92cbf1c80226  usr/share/man/man1/nmblookup.samba3.1.gz
+cf39ce265e7eb43ff6519806b760e306  usr/share/man/man1/testparm.samba3.1.gz
+15e745527cdd3b3d49b972485e4f35f9  usr/share/man/man5/lmhosts.5.gz
+e6ea668cbfff66e84e96cdebaf239618  usr/share/man/man5/smb.conf.5.gz
+6b2f1dcdccc03b69c8efa1466d471249  usr/share/man/man5/smbpasswd.5.gz
+3b17d73059db5dd14d5af9868a10fd11  usr/share/man/man7/samba.7.gz
+8ae021214b50b6e6b265237c977bd811  usr/share/man/man8/net.samba3.8.gz
+77a6742e64fe334f56c2cadea3a7889e  usr/share/man/man8/smbpasswd.8.gz

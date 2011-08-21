@@ -1,0 +1,16 @@
+Aug 20 13:41:09 LSPPC-Squeeze shutdown[17535]: shutting down for system reboot
+Aug 20 13:41:10 LSPPC-Squeeze linkstation[17570]: Stopped daemon avr-evtd
+Aug 20 13:42:22 LSPPC-Squeeze avr-daemon[1434]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Aug 20 13:42:22 LSPPC-Squeeze linkstation[1441]: Started daemon avr-evtd
+Aug 20 14:30:36 LSPPC-Squeeze shutdown[1597]: shutting down for system reboot
+Aug 20 14:30:37 LSPPC-Squeeze linkstation[1631]: Stopped daemon avr-evtd
+Aug 20 14:32:17 LSPPC-Squeeze avr-daemon[1426]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Aug 20 14:32:17 LSPPC-Squeeze linkstation[1432]: Started daemon avr-evtd
+Aug 20 14:34:12 LSPPC-Squeeze shutdown[1516]: shutting down for system halt
+Aug 20 14:34:13 LSPPC-Squeeze linkstation[1547]: Stopped daemon avr-evtd
+Aug 21 00:37:40 LSPPC-Squeeze avr-daemon[1431]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Aug 21 00:37:40 LSPPC-Squeeze linkstation[1438]: Started daemon avr-evtd
+Aug 21 02:35:40 LSPPC-Squeeze avr-daemon[1435]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Aug 21 02:35:41 LSPPC-Squeeze linkstation[1444]: Started daemon avr-evtd
+Aug 21 03:02:04 LSPPC-Squeeze shutdown[1522]: shutting down for system halt
+Aug 21 03:02:04 LSPPC-Squeeze linkstation[1555]: Stopped daemon avr-evtd

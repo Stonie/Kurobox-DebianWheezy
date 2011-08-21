@@ -1,0 +1,29 @@
+#!/bin/sh -e
+
+# Automatically added by dh_pysupport
+if which update-python-modules >/dev/null 2>&1; then
+	update-python-modules  apt-xapian-index.public apt-xapian-index.private
+fi
+# End automatically added section
+
+
+case "$1" in
+    configure)
+	# Just checking the main directory with -d should prevent the indexing
+	# to be started while an indexing is already going on, as the first
+	# thing that update-apt-xapian-index does is to create the directory if
+	# it is missing
+    	if [ ! -d /var/lib/apt-xapian-index ] 
+	then
+		if [ ! -x /usr/sbin/policy-rc.d ] || /usr/sbin/policy-rc.d apt-xapian-index start
+		then
+			echo "apt-xapian-index: Building new index in background..."
+			# Ensure that we can use our module. See #537376
+			update-python-modules -p
+			nice /usr/sbin/update-apt-xapian-index --quiet &
+		fi
+	fi
+        ;;
+esac
+
+exit 0

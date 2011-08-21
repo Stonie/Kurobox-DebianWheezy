@@ -1,0 +1,1 @@
+update-rc.d avr-evtd start 12 2 3 4 5 . stop 95 0 1 6 . 

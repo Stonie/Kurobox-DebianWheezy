@@ -1,0 +1,5 @@
+pyversions=2.4-
+
+/usr/share/pyshared/apt_xapian_index-0.41.egg-info
+/usr/share/pyshared/axi/__init__.py
+/usr/share/pyshared/axi/indexer.py

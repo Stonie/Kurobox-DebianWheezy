@@ -1,0 +1,57 @@
+Repo:
+  git://git.debian.org/git/collab-maint/apt-xapian-index.git
+  http://git.debian.org/?p=collab-maint/apt-xapian-index.git
+
+Idea:
+ - Many data sources each maintain their own data, but provide a plugin to
+   index that data in a single, big Xapian database.
+ - Every data source has its own db (possibly easy to read plaintext) in
+   /var/lib/somewhere
+ - Every data source has a tool to keep their own db up to date (e.g.
+   downloading new data from the net, or whatever)
+ - Every data source installs a plugin in /usr/share/apt-xapian/index/plugins
+   that adds information from the data source into Xapian documents during
+   indexing
+
+Technicalities:
+ - There is a central update procedure, but it is fed enough data to do
+   differential updates when xapian will make it faster to do so
+ - Next to the database there is a README file with information about how the
+   index is built and how it can be queried.  Every indexing plugin adds
+   information to this README
+ - Xapian values are looked up by index.  Indexes are given names using a
+   configuration file in the style of /etc/services, located at
+   /etc/apt/xapian-index-values.conf
+
+Writing a plugin:
+ - Take a look at plugins/template.py: it contains all the methods and full
+   documentations on what they should do.
+ - Take a look at the other plugins for examples: there are many of them.
+
+Packages with Xapian bindings that can be uses for querying the database:
+ - C++: libxapian-dev
+ - Perl: libsearch-xapian-perl
+ - Ruby: libxapian-ruby1.8
+ - Python: python-xapian
+ - Tcl: tclxapian
+ - PHP: php5-xapian
+
+ The C++ API documentation is in the package xapian-doc.  The documentation of
+ the other languages is in the same package as the bindings.
+
+ Examples can be found in xapian-examples, as well as in apt-xapian-index.
+
+ Some low-level tools to access the database can be found in xapian-tools.
+ 
+ Please see http://www.xapian.org and http://www.xapian.org/docs/
+
+
+To do:
+ - Example queries
+ - Example scripts
+ - Document libept transition
+
+ - Libept transition
+ - Move the debtags plugin in the debtags package
+ - Popcon data source
+ - Iterating data source

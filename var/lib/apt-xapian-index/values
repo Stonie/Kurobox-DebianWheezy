@@ -1,0 +1,16 @@
+# This file contains the mapping between names of numeric values indexed in the
+# APT Xapian index and their index
+#
+# Xapian allows to index numeric values as well as keywords and to use them for
+# all sorts of useful querying tricks.  However, every numeric value needs to
+# have a unique index, and this configuration file is needed to record which
+# indices are allocated and to provide a mnemonic name for them.
+#
+# The format is exactly like /etc/services with name, number and optional
+# aliases, with the difference that the second column does not use the
+# "/protocol" part, which would be meaningless here.
+
+version	0	# package version
+installedsize	1	# installed size
+packagesize	2	# package size
+catalogedtime	3	# Cataloged timestamp

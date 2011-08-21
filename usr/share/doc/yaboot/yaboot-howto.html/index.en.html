@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>HOWTO-Booting with Yaboot on PowerPC</title>
+
+</head>
+
+<body>
+
+<a name="index"></a>
+<hr>
+
+[ <a href="ch11.en.html">previous</a> ]
+[ <a href="index.en.html#contents">Contents</a> ]
+[ <a href="ch1.en.html">1</a> ]
+[ <a href="ch2.en.html">2</a> ]
+[ <a href="ch3.en.html">3</a> ]
+[ <a href="ch4.en.html">4</a> ]
+[ <a href="ch5.en.html">5</a> ]
+[ <a href="ch6.en.html">6</a> ]
+[ <a href="ch7.en.html">7</a> ]
+[ <a href="ch8.en.html">8</a> ]
+[ <a href="ch9.en.html">9</a> ]
+[ <a href="ch10.en.html">10</a> ]
+[ <a href="ch11.en.html">11</a> ]
+[ <a href="ch1.en.html">next</a> ]
+
+<hr>
+
+<h1>
+HOWTO-Booting with Yaboot on PowerPC
+</h1>
+
+
+<hr>
+
+<a name="abstract"></a>
+<h2>Abstract</h2>
+
+<p>
+This document contains installation and usage instructions for
+<code>yaboot</code>, the GNU/Linux PowerPC bootloader.
+
+<hr>
+
+<a name="copyright"></a>
+<h2>Copyright Notice</h2>
+
+<p>
+This document may be distributed and modified under the terms of the GNU General Public License. &copy; 1998&ndash;2002 Chris Tillman
+
+<p>
+This document is maintained in the upstream yaboot source.  Patches and
+translations should be sent to erbenson (at) alaska.net.  The most recent sgml
+version of this document is available via the yaboot rsync tree:
+rsync://penguinppc.org/yaboot.
+
+<p>
+The master location of this document is <code><a
+href="http://penguinppc.org/projects/yaboot/doc/yaboot-howto.shtml">http://penguinppc.org/projects/yaboot/doc/yaboot-howto.shtml</a></code>.
+
+<p>
+This document is free software; you may redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2, or (at your option) any later version.
+
+<p>
+This document is distributed in the hope that it will be useful, but
+<em>without any warranty</em>; without even the implied warranty of
+merchantability or fitness for a particular purpose.  See the GNU General
+Public License for more details.
+
+<p>
+A copy of the GNU General Public License is available as
+<code>/usr/share/common-licenses/GPL</code> in the Debian GNU/Linux
+distribution or on the World Wide Web at the <code><a
+href="http://www.gnu.org/copyleft/gpl.html">GNU website</a></code>.  You can
+also obtain it by writing to the Free Software Foundation, Inc., 59 Temple
+Place - Suite 330, Boston, MA 02111-1307, USA.
+
+<hr>
+
+<a name="contents"></a>
+<h2>Contents</h2>
+
+<ul>
+<li><a href="ch1.en.html">1 Yaboot's Purpose</a></li>
+<li><a href="ch2.en.html">2 System Requirements</a></li>
+<li><a href="ch3.en.html">3 Obtaining Yaboot</a></li>
+<li><a href="ch4.en.html">4 Creating the Bootstrap Partition</a></li>
+<li><a href="ch5.en.html">5 Yabootconfig: Make It Easy</a></li>
+<li><a href="ch6.en.html">6 Customizing Your Boot Configuration</a></li>
+<ul>
+<li><a href="ch6.en.html#s6.1">6.1 Linux Style Device Paths</a></li>
+<li><a href="ch6.en.html#s6.2">6.2 OpenFirmware Device Paths</a></li>
+<li><a href="ch6.en.html#s6.3">6.3 Required Settings</a></li>
+<li><a href="ch6.en.html#s6.4">6.4 Boot Menu Options</a></li>
+<li><a href="ch6.en.html#s6.5">6.5 Kernel Image Settings</a></li>
+<li><a href="ch6.en.html#s6.6">6.6 Optional and Cool Settings</a></li>
+</ul>
+<li><a href="ch7.en.html">7 Saving Boot Configuration Changes</a></li>
+<li><a href="ch8.en.html">8 Common Mistakes</a></li>
+<li><a href="ch9.en.html">9 Recovering From Misconfiguration</a></li>
+<ul>
+<li><a href="ch9.en.html#s9.1">9.1 Resetting the NVRAM</a></li>
+<li><a href="ch9.en.html#s9.2">9.2 Loading Yaboot</a></li>
+<li><a href="ch9.en.html#s9.3">9.3 Manually Loading a Kernel Image</a></li>
+</ul>
+<li><a href="ch10.en.html">10 Yaboot as a Temporary Bootloader</a></li>
+<li><a href="ch11.en.html">11 For More Information</a></li>
+</ul>
+
+<hr>
+
+[ <a href="ch11.en.html">previous</a> ]
+[ <a href="index.en.html#contents">Contents</a> ]
+[ <a href="ch1.en.html">1</a> ]
+[ <a href="ch2.en.html">2</a> ]
+[ <a href="ch3.en.html">3</a> ]
+[ <a href="ch4.en.html">4</a> ]
+[ <a href="ch5.en.html">5</a> ]
+[ <a href="ch6.en.html">6</a> ]
+[ <a href="ch7.en.html">7</a> ]
+[ <a href="ch8.en.html">8</a> ]
+[ <a href="ch9.en.html">9</a> ]
+[ <a href="ch10.en.html">10</a> ]
+[ <a href="ch11.en.html">11</a> ]
+[ <a href="ch1.en.html">next</a> ]
+
+<hr>
+
+<p>
+HOWTO-Booting with Yaboot on PowerPC
+
+<address>
+Version 1.04, Feb 22 2004<br>
+Chris Tillman
+</address>
+
+<hr>
+
+</body>
+
+</html>
+

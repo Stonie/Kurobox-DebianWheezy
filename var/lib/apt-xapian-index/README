@@ -1,0 +1,111 @@
+===============
+Database layout
+===============
+
+This Xapian database indexes Debian package information.  To query the
+database, open it as ``/var/lib/apt-xapian-index/index``.
+
+Data are indexed either as terms or as values.  Words found in package
+descriptions are indexed lowercase, and all other kinds of terms have an
+uppercase prefix as documented below.
+
+Numbers are indexed as Xapian numeric values.  A list of the meaning of the
+numeric values is found in ``/var/lib/apt-xapian-index/values``.
+
+The data sources used for indexing are:
+
+ * Package aliases: aliases for well known programs
+ * Apt tags: Debtags tag information from the Packages file
+ * Cataloged time: store the timestamp when the package was first cataloged
+ * Package descriptions: terms extracted from the package descriptions using Xapian's TermGenerator
+ * Package sections: Debian package sections
+ * Sizes: package sizes indexed as values
+
+This Xapian index follows the conventions for term prefixes described in
+``/usr/share/doc/xapian-omega/termprefixes.txt.gz``.
+
+Extra Debian data sources can define more extended prefixes (starting with
+``X``): their meaning is documented below together with the rest of the data
+source documentation.
+
+At the very least, at least the package name (with the ``XP`` prefix) will
+be present in every document in the database.  This allows to quickly
+lookup a Xapian document by package name.
+
+The user data associated to a Xapian document is the package name.
+
+
+-------------------
+Active data sources
+-------------------
+
+
+Package aliases
+===============
+
+The Aliases data source does not change documents in the index, but
+adds synonims to the database. Synonims allow to obtain good
+results while looking for well-know software names, even if such
+software does not exist in Debian.
+
+
+Apt tags
+========
+
+The Apt tags data source indexes Debtags tags as found in the
+Packages file as terms with the ``XT`` prefix; for example:
+'XTrole::program'.
+
+Using the ``XT`` terms, queries can be enhanced with semantic
+information.  Xapian's support for complex expressions in queries
+can be used to great effect: for example::
+
+    XTrole::program AND XTuse::gameplaying AND (XTinterface::x11 OR XTinterface::3d)
+
+``XT`` terms can also be used to improve the quality of search
+results.  For example, the ``gimp`` package would not usually show
+up when searching the terms ``image editor``.  This can be solved
+using the following technique:
+
+ 1. Perform a normal query
+ 2. Put the first 5 or so results in an Rset
+ 3. Call Enquire::get_eset using the Rset and an expand filter that
+    only accepts ``XT`` terms.  This gives you the tags that are
+    most relevant to the query.
+ 4. Add the resulting terms to the initial query, and search again.
+
+The Apt tags data source will not work when Debtags is installed,
+as Debtags is able to provide a better set of tags.
+
+
+Cataloged time
+==============
+
+This datasource simply stores a value with the timestamp
+when the package was first cataloged. This is useful to e.g.
+implement a 'Whats new' feature.
+
+
+Package descriptions
+====================
+
+The Descriptions data source simply uses Xapian's TermGenerator to
+tokenise and index the package descriptions.
+
+Currently this creates normal terms as well as stemmed terms
+prefixed with ``Z``.
+
+
+Package sections
+================
+
+The section is indexed literally, with the prefix XS.
+
+
+Sizes
+=====
+
+The Sizes data source indexes the package size and the installed
+size as the ``packagesize`` and ``installedsize`` Xapian values.
+
+

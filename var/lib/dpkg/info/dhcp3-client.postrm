@@ -1,0 +1,28 @@
+#!/bin/sh -e
+#
+# $Id: dhcp3-client.postrm,v 1.1.1.1 2002/05/21 00:07:44 peloy Exp $
+#
+
+if [ "$1" = "purge" ]; then
+	# Remove lease database
+	rm -f /var/lib/dhcp3/dhclient.leases*
+
+	# Try to remove directory
+	if [ -d /var/lib/dhcp3 ]; then
+		rmdir --ignore-fail-on-non-empty /var/lib/dhcp3/
+	fi
+
+	if [ -e /etc/dhcp3/dhclient-script ]; then
+		rm /etc/dhcp3/dhclient-script
+		rmdir --ignore-fail-on-non-empty /etc/dhcp3
+	fi
+
+fi
+
+# Automatically added by dh_installdebconf
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
+

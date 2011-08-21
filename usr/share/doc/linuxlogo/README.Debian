@@ -1,0 +1,41 @@
+linuxlogo for Debian
+--------------------
+
+Old versions of linuxlogo have modified /etc/issue file so that the selected
+logo would display at the login prompt. Since this was a policy violation
+(/etc/issue belongs to another Debian package) the Debconf selection was
+dropped.
+
+Users that want to show the logo in the login files have to manually edit
+configuration files for this. You have several options:
+
+  * (Recommended) Manually /etc/inittab:
+
+    Add '-f /etc/issue.linuxlogo' to the getty lines in /etc/inittab for each
+    terminal that will display Linuxlogo at the login prompt. For an ASCII logo
+    use /etc/issue.linuxlogo.ascii. The line:
+
+	1:2345:respawn:/sbin/getty 38400 tty1
+
+    becomes:
+
+	1:2345:respawn:/sbin/getty -f /etc/issue.linuxlogo 38400 tty1
+
+  * Edit /etc/pam.d/login
+
+    Change the (commented) issue definition:
+
+	# auth	required	pam_issue.so issue=/etc/issue
+
+    to:
+
+	auth	required	pam_issue.so issue=/etc/issue.linuxlog
+
+    Note: In old Debian releases you can also adjust the ISSUE_FILE definition
+    in /etc/login.defs
+
+You *can not* make a symlink (or a diversion) from /etc/issue to the
+/etc/issue.linuxlogo files, if you do so the /etc/init.d/linuxlogo script will
+fail as it uses /etc/issue to update the linuxlogo files.
+
+ -- Khalid El Fathi <invent@edena-fr.org>  Thu, 25 Nov 2004 22:07:39 +0100

@@ -1,0 +1,118 @@
+
+Template: portmap/loopback
+Type: boolean
+Default: false
+Description: Should portmap be bound to the loopback address?
+ By default, portmap listens to all IP addresses. However, if this
+ machine does not provide network RPC services (such as NIS or NFS) to
+ remote clients, you can safely bind it to the loopback IP address
+ (127.0.0.1).
+ .
+ This will allow RPC local services (like FAM) to work properly, while
+ preventing remote systems from accessing the RPC services.
+ .
+ This configuration can be changed by editing the OPTIONS line in the
+ /etc/default/portmap file and adapting the use of the -i option to
+ your needs.
+Description-bg.UTF-8: Да слуша ли portmap на локалния IP адрес?
+ По подразбиране portmap приема връзки от на всички мрежови адреси. Ако обаше машината не предлага RPC услуги (например NIS или NFS) на отдалечени мрежови клиенти, то тогава може да се използва локалният IP адрес (127.0.0.1).
+ .
+ Това ще позволи на локалните RPC услуги (като FAM) да работят нормално, отказвайки достъп до тях на отдалечените машини.
+ .
+ Тази настройка може да бъде променена чрез опцията -i в променливата OPTIONS във файла /etc/default/portmap.
+Description-cs.UTF-8: Navázat portmap na adresu lokální smyčky?
+ Portmap implicitně naslouchá na všech IP adresách. Pokud ale tento počítač neposkytuje RPC služby vzdáleným klientům (třeba v podobě NFS a NIS serveru), můžete portmap navázat na IP adresu lokální smyčky (127.0.0.1).
+ .
+ Tímto umožníte správné fungování lokálních RPC služeb (např. FAM), aniž byste museli povolit přístup ke svým RPC službám z ostatních počítačů.
+ .
+ Toto nastavení můžete změnit úpravou řádky OPTIONS v souboru /etc/default/portmap, kde si můžete přizpůsobit parametr -i dle potřeby.
+Description-de.UTF-8: Soll Portmap auf die Loopback-Adresse beschränkt werden?
+ Standardmäßig wartet Portmap auf allen IP-Adressen auf Anfragen. Falls diese Maschine allerdings keine RPC-Dienste für entfernte Clients anbietet (wie NIS oder NFS), können Sie ihn unbesorgt auf die Loopback-Adresse 127.0.0.1 beschränken.
+ .
+ Dies erlaubt lokalen RPC-Diensten (wie FAM) normal zu arbeiten, während es entfernten Systemen verwehrt wird, auf die RPC-Dienste zuzugreifen.
+ .
+ Diese Einstellung kann auch geändert werden, indem die Zeile OPTIONS in der Datei /etc/default/portmap bearbeitet wird. Passen Sie hierbei die Verwendung der Option »-i« Ihren Bedürfnissen an.
+Description-es.UTF-8: ¿Debería enlazarse «portmap» a la dirección de la interfaz de red local?
+ La configuración por omisión de «portmap» hace que este escuche en todas las direcciones IP disponibles. Sin embargo, si el equipo no proporciona servicios RPC (como NIS o NFS) a clientes remotos puede enlazar éste sin problemas a la dirección de IP local (127.0.0.1).
+ .
+ Esto permitirá que los servicios RPC locales (como FAM) funcionen correctamente mientras que impedirá que otros sistemas remotos accedan a los servicios RPC.
+ .
+ Puede cambiar esta configuración editando la línea OPTIONS en «/etc/default/portmap» y adaptando el uso de la opción -i a sus necesidades.
+Description-eu.UTF-8: Portmap loopback helbidera lotu behar al da?
+ Lehenespen bezala , Portmap-ek IP helbide guztietan entzungo ditu konexioak. Hala ere, ez bazaude urruneko makinetara sare RPC zerbitzuez hornitzen (NFS edo NIS bezalakoak) segurtasunez lotu dezakezu loopback IP helbidera (127.0.0.1)
+ .
+ Honek RPC zerbitzu lokalak (FAM bezalakoak) behar bezala funtzionatzea urruneko sistemek zure RPC zerbitzuak erabiltzea ezinduaz egingo du, 
+ .
+ Konfigurazio hau /etc/default/portmap fitxategiko OPTIONS lerroa editatuz aldatu dezakezu. Ez baduzu -i aukera ezartzen interfaze guztietara lotuko da.
+Description-fi.UTF-8: Tuleeko portmapin kuunnella vain takaisinkytkentäosoitetta?
+ Oletuksena portmap kuuntelee kaikkia IP-osoitteita. Se voidaan kuitenkin asettaa kuuntelemaan vain takaisinkytkentäosoitetta (127.0.0.1), jos tämä kone ei tarjoa RPC-verkkopalveluita (kuten NIS tai NFS) etäasiakkaille.
+ .
+ Tällöin paikalliset RPC-palvelut (kuten FAM) toimivat oikein, mutta etäjärjestelmät eivät saa käytettyä RPC-palveluita.
+ .
+ Tätä asetusta voidaan muuttaa muokkaamalla tiedostossa /etc/default/portmap olevan OPTIONS-rivin valitsimen -i parametriä.
+Description-fr.UTF-8: Portmap doit-il se limiter à l'adresse de bouclage 127.0.0.1 ?
+ Par défaut, portmap est à l'écoute sur toutes les adresses IP. Cependant, si cette machine ne fournit pas de services RPC à des clients distants (ce qui est le cas pour un serveur NFS ou NIS), vous pouvez le restreindre en toute sécurité à l'adresse de bouclage 127.0.0.1.
+ .
+ Cela permettra aux services RPC locaux (comme FAM) de fonctionner correctement, tout en empêchant les systèmes distants d'accéder aux services RPC.
+ .
+ Cette configuration peut également être changée en modifiant la ligne OPTIONS dans le fichier /etc/default/portmap. Si vous ne précisez pas -i comme option, portmap sera lié à toutes les interfaces.
+Description-gl.UTF-8: ¿Debería vincularse portmap ao enderezo "loopback"?
+ Por defecto, portmap escoita en tódolos enderezos IP. Nembargantes, se esta máquina non fornece servizos de rede RPC (tales coma NIS ou NFS) a clientes remotos, pode vinculalo sen problemas ao enderezo IP "loopback" (127.0.0.1).
+ .
+ Isto ha permitir que os servizos RPC locais (coma FAM) funcionen correctamente, ao mesmo tempo que se impide que os sistemas remotos accedan aos servizos RPC.
+ .
+ Pódese cambiar esta configuración editando a liña OPTIONS do ficheiro /etc/default/portmap , e adaptando o emprego da opción -i ás súas necesidades.
+Description-it.UTF-8: Limitare portmap al solo indirizzo di loopback?
+ Normalmente portmap si mette in ascolto su tutti gli indirizzi IP. Tuttavia, se questa macchina non deve fornire servizi RPC in rete (come NFS o NIS) a client remoti, è possibile mettere portmap in ascolto solo sull'indirizzo IP di loopback (127.0.0.1).
+ .
+ Questo consente il corretto funzionamento dei servizi RPC locali (come FAM) e contemporaneamente impedisce l'accesso da parte di sistemi remoti ai servizi RPC.
+ .
+ È possibile cambiare questa configurazione modificando la riga OPTIONS nel file /etc/default/portmap e adattando l'uso dell'opzione -i alle proprie necessità.
+Description-ja.UTF-8: portmap でループバックアドレスだけをバインドするようにしますか?
+ デフォルトで portmap はすべての IP アドレスをリスンします。ただ、このマシンがリモートのクライアントにネットワーク RPC サービス (NIS や NFS など) を提供しないのであれば、ループバックの IP アドレス (127.0.0.1) だけを安全にバインドするようにできます。
+ .
+ これにより、リモートのシステムが RPC サービスにアクセスするのを防ぎつつ、 RPC のローカルサービス (FAM など) が正しく動作するようになります。
+ .
+ この設定は、/etc/ldefault/portmap ファイルの OPTIONS 行を編集し、必要であれば -i オプションを使うようにすることで変更できます。
+Description-nl.UTF-8: Moet portmap op het loopback-interface luisteren?
+ Standaard luistert portmap op alle interfaces. Als deze computer echter geen RPC-diensten aanbiedt (zoals NIS- of NFS) aan andere computers, dan kunt u portmap zonder problemen beperken tot het loopback-interface op adres 127.0.0.1.
+ .
+ Hierdoor kunnen lokale RPC-diensten, zoals FAM, goed werken, terwijl wordt voorkomen dat andere systemen verbinding maken met de RPC-diensten.
+ .
+ Deze instelling kan worden gewijzigd met de OPTIONS regel in bestand /etc/default/portmap, door het gebruik van de -i optie aan uw behoefte aan te passen.
+Description-pt.UTF-8: Deve o portmap ser ligado ao endereço loopback?
+ Por pré-definição, o portmap, escuta todos os endereços IP. No entanto, se esta máquina não disponibilizar serviços RPC (tais como NIS ou NFS) de rede a clientes remotos, pode liga-lo, em segurança, ao endereço IP de 'loopback' (127.0.0.1)
+ .
+ Isto irá permitir que os serviços locais de RPC (como o FAM) funcionem correctamente, ao mesmo tempo que previne que sistemas remotos acedam aos seus serviços de RPC.
+ .
+ Esta configuração pode ser modificada ao editar a linha OPTIONS no ficheiro /etc/default/portmap e adaptar a opção -i às suas necessidades.
+Description-pt_BR.UTF-8: O portmap deveria escutar somente no endereço de loopback?
+ Por padrão, o portmap escuta em todos os endereços IP. Entretanto, se esta máquina não provê serviços de rede RPC (como NIS ou NFS) para clientes remotos, você pode, com segurança, restringí-lo somente ao endereço IP de loopback (127.0.0.1).
+ .
+ Isto permitirá que serviços RPC locais (como o FAM) funcionem corretamente, enquanto previne que sistemas remotos acessem os serviços RPC.
+ .
+ Esta configuração pode ser alterada editando a linha OPTIONS no arquivo /etc/default/portmap e adaptando o uso da opção -i para as suas necessidades.
+Description-ru.UTF-8: Ограничить portmap работой только на интерфейсе обратной связи?
+ По умолчанию portmap ожидает соединений со всех IP-адресов машины. Однако, если эта машина не предоставляет сетевых RPC сервисов (например, NFS и NIS) для других компьютеров, то допустимо ограничить работу portmap адресом обратной связи (127.0.0.1).
+ .
+ Это позволит локальным RPC сервисам (например FAM) работать корректно, в то же время не позволяя другим компьютерам иметь доступ к вашим RPC сервисам.
+ .
+ Вы можете поменять эту настройку, отыскав строку OPTIONS в файле /etc/default/portmap и изменив параметр -i согласно вашим требованиям.
+Description-sv.UTF-8: Ska portmap bindas till "loopback"-adressen?
+ Portmap lyssnar som standard på alla IP-adresser. Om den här maskinen inte tillhandahåller RPC-tjänster (till exempel NFS eller NIS) till fjärrklienter, kan du med säkerhet binda den till IP-adressen för "loopback" (127.0.0.1).
+ .
+ Detta kommer att tillåta lokala RPC-tjänster (såsom FAM) att fungera korrekt medans fjärrsystem hindras att komma åt dina RPC-tjänster.
+ .
+ Denna konfiguration kan ändras genom att redigera OPTIONS-raden i filen /etc/default/portmap och justera flaggan -i till att passa dina behov.
+Description-ta.UTF-8: போர்ட்மாப்  துறைப்படம் பின்மடக்கை முகவரியை பயன்படுத்த வேண்டுமா?
+ முன்னிருப்பாக போர்ட்மாப் எல்லா ஐபி முகவரிகளிலும் செவி சாய்கும். இருப்பினும் இந்த கணினி வலை அமைப்பு ஆர்பிசி சேவைகள் (என்.ஐ.எஸ் (NIS) அல்லது என்.எஃப்.எஸ் NFS போன்ற) ஐ தொலைநிலை சார்ந்தோன்களுக்கு வழங்காவிட்டால் நீங்கள் பாதுகாப்பாக உட்சுழல் ஐபி முகவரிக்கு (127.0.0.1) அதை பிணைக்கலாம்.
+ .
+ இது உள்ளமை ஃபாம் போன்ற ஆர்பிசி உள் சேவைகளை சரியாக் இயங்க அனுமதிக்கும். அதே சமயம் தொலை கணினிகள் ஆர்பிசி சேவைகளை அணுக இயலாது.
+ .
+ /etc/default/portmap கோப்பில் OPTIONS வரிகளை திருத்தி உங்கள் தேவைக்கு தக்கபடி  -i option தேர்வை அமைத்து இந்த வடிவமைப்பை மாற்றலாம்.
+Description-vi.UTF-8: Có nên đóng kết trình portmap đến địa chỉ mạch nội bộ không?
+ Mặc định là trình portmap lắng nghe trên mọi địa chỉ IP. Tuy nhiên, nếu máy này không cung cấp dịch vụ RPC mạng (v.d. NIS hay NFS) cho các ứng dụng khách từ xa, bạn có thể đóng kết an toàn nó đến địa chỉ IP mạch nội bộ (127.0.0.1).
+ .
+ Tùy chọn này sẽ cho dịch vụ RPC cục bộ (v.d. FAM) hoạt động cho đúng, còn ngăn cản hệ thống từ xa truy cập đến các dịch vụ RPC.
+ .
+ Cũng có thể thay đổi cấu hình này bằng cách hiệu chỉnh dòng OPTIONS (tùy chọn) trong tập tin « /etc/default/portmap » và chỉnh lại cách sử dụng tùy chọn « -i » để thích hợp với trường hợp của bạn.

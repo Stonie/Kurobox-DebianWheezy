@@ -1,0 +1,70 @@
+#! /bin/sh
+
+set -e
+
+if [ "$1" = "configure" ]
+then
+    case $2 in
+    1.4.1-18|1.4.1-19|1.4.1-20|1.4.1-21|1.5-1)
+        chmod 644 /etc/default/syslogd
+        ;;
+    esac
+
+    # Prepare for takeover of the host
+    if [ -z "$2" ]
+    then
+	if [ ! -e /var/log/news ] \
+	    && grep -q '^[^#].*/var/log/news/' /etc/syslog.conf \
+	    && grep -q ^news: /etc/passwd \
+	    && grep -q ^news: /etc/group 
+	then
+	    mkdir /var/log/news
+	    chmod 2755 /var/log/news
+	    chown news:news /var/log/news
+	fi
+
+	# Create logfiles with correct file modes
+	if [ -z "$2" ]
+	then
+	    for LOG in `syslogd-listfiles --all`
+	    do
+	      if [ ! -f $LOG ]
+	      then
+		  touch $LOG
+	      fi
+	      chown root:adm $LOG
+	      chmod 640 $LOG
+	    done
+	fi
+    fi
+
+    if [ -f /etc/init.d/sysklogd -a -n "$2" ]
+    then
+	set +e
+	if [ -x /usr/sbin/invoke-rc.d ]
+	then
+	    invoke-rc.d sysklogd stop
+	else
+	    sh /etc/init.d/sysklogd stop
+	fi
+	set -e
+    fi
+
+    update-rc.d sysklogd defaults 10 90 >/dev/null
+
+    # restarting daemon
+    #
+    if [ -f /etc/init.d/sysklogd ]
+    then
+	set +e
+	if [ -x /usr/sbin/invoke-rc.d ]
+	then
+	    invoke-rc.d sysklogd start
+	else
+	    sh /etc/init.d/sysklogd start
+	fi
+	set -e
+    fi
+fi
+
+exit 0

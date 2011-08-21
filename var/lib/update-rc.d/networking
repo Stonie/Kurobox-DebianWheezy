@@ -1,0 +1,1 @@
+update-rc.d networking start 35 0 6 . start 40 S . 

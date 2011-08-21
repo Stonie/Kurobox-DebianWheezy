@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Wie man mit Yaboot auf PowerPC bootet - Die Bootstrap-Partition erstellen</title>
+
+</head>
+
+<body>
+
+<a name="ch4"></a>
+<hr>
+
+[ <a href="ch3.de.html">zurück</a> ]
+[ <a href="index.de.html#contents">Inhalt</a> ]
+[ <a href="ch1.de.html">1</a> ]
+[ <a href="ch2.de.html">2</a> ]
+[ <a href="ch3.de.html">3</a> ]
+[ 4 ]
+[ <a href="ch5.de.html">5</a> ]
+[ <a href="ch6.de.html">6</a> ]
+[ <a href="ch7.de.html">7</a> ]
+[ <a href="ch8.de.html">8</a> ]
+[ <a href="ch9.de.html">9</a> ]
+[ <a href="ch10.de.html">10</a> ]
+[ <a href="ch11.de.html">11</a> ]
+[ <a href="ch5.de.html">weiter</a> ]
+
+<hr>
+
+<h1>
+Wie man mit Yaboot auf PowerPC bootet
+<br>Kapitel 4 - Die Bootstrap-Partition erstellen
+</h1>
+
+
+<hr>
+
+
+<p>
+Überprüfen Sie bitte die <code>mac-fdisk</code> Grundlagen-Seite auf <code><a
+href="http://penguinppc.org/projects/yaboot/doc/mac-fdisk-basics.shtml">http://penguinppc.org/projects/yaboot/doc/mac-fdisk-basics.shtml</a></code>.
+Wenn Sie eine neue Linux-Installation erstellen, sollte die ersten Partition,
+die mit <code>mac-fdisk</code> Sie erstellen, die bootstrap-Partition sein.
+Verwenden Sie lediglich den <code>mac-fdisk</code> <samp>b</samp> Befehl, um
+automatisch eine bootstrap-Partition in der richtigen Grösse und dem richtigen
+Typ zu erstellen.  Wenn Ihre Version von <code>mac-fdisk</code> nicht den
+<samp>b</samp> Befehl unterstützt, verwenden Sie:
+
+<pre>
+          Command (? for help): C xxxx 800k bootstrap Apple_Bootstrap
+</pre>
+
+<p>
+(Ersetzten Sie xxxx mit der Nummer des Start-Blocks.) Eine funkionierende
+tar-Datei einer bootstrap-fähigen Version von mac-fdisk (Debian-Benutzer haben
+bereits diese Version) ist ebenfalls unter <code><a
+href="http://penguinppc.org/~eb/files/">http://penguinppc.org/~eb/files/</a></code>
+verfügbar.  Um diese zu installieren, verwenden Sie
+
+<pre>
+          su -
+          cd /
+          gzip -dc mac-fdisk.tar.gz | tar -xvp
+</pre>
+
+<p>
+Die bootstrap-Partition benötigt nur 800k Platz.  Wenn Sie eine boot-Partition
+zu Ihrem existierenden Setup hinzufügen, dürften Sie genügend freien Platz auf
+Ihrer vorhandenen Platte haben, ohne andere Partitionen zu ändern.  Falls
+nicht, können Sie es vermeiden, Ihre komplette Platte neu zu partitionieren,
+indem Sie der swap-Partition etwas Platz stehlen.  Oder <code>parted</code>
+erlaubt es Ihnen, die Partitionsgrössen zu ändern.
+
+<p>
+Die bootstrap-Partition sollte Partition #2 sein, nach der Partitions-Map
+selbst aber vor allen anderen Partitionen auf der Festplatte.  Sie können die
+Reihenfolge der Partitionen ganz einfach ändern, indem Sie den <samp>r</samp>
+Befehl verwenden (vergleichen Sie auch die <code>mac-fdisk</code> Übung).  In
+anderen Worten ist es nicht der physikalische Platz der bootstrap-Partition der
+zählt, es ist die logische Reihenfolge in der Partitions-Map.  Beachten Sie
+jedoch, wenn Sie ein existierendes System haben und sie die Partitionsnummern
+herumschieben, müssen Sie entsprechende Änderungen in <code>/etc/fstab</code>
+vornehmen.
+
+<p>
+Der Grund, warum Sie die bootstrap-Partition als Partition #2 benötigen ist,
+damit sie allen anderen Partitionen in der Boot-Sequenz vorausgeht.  Das hilft
+ungeheuerlich, das ganze System stabiler zu machen, da einige Betriebssystee
+sehr aufdringlich in ihrer Verwendung der Partitionen sind.
+
+<p>
+Wenn Sie mit dem partitionieren fertig sind, benutzen Sie den <samp>p</samp>
+Befehl und machen sich Notizen über die endgültigen Partitionsnummern.  Sie
+benötigen die Partitionsnummer der bootstrap-Partition, die Position Ihres
+Kernels, und wenn Sie <code>yaboot</code> dazu verwenden wollen, mehrere
+Betriebssysteme zu booten, auch die Partitionsnummern für Ihre anderen
+Betriebssysteme.
+
+<p>
+Obwohl es möglich ist, <code>yaboot</code> auf einer mountbaren HFS
+<code>/boot</code> Partition zu installieren, wird diese Konfiguration
+abgelehnt, entmutigt und absolut nicht unterstützt.
+
+<hr>
+
+[ <a href="ch3.de.html">zurück</a> ]
+[ <a href="index.de.html#contents">Inhalt</a> ]
+[ <a href="ch1.de.html">1</a> ]
+[ <a href="ch2.de.html">2</a> ]
+[ <a href="ch3.de.html">3</a> ]
+[ 4 ]
+[ <a href="ch5.de.html">5</a> ]
+[ <a href="ch6.de.html">6</a> ]
+[ <a href="ch7.de.html">7</a> ]
+[ <a href="ch8.de.html">8</a> ]
+[ <a href="ch9.de.html">9</a> ]
+[ <a href="ch10.de.html">10</a> ]
+[ <a href="ch11.de.html">11</a> ]
+[ <a href="ch5.de.html">weiter</a> ]
+
+<hr>
+
+<p>
+Wie man mit Yaboot auf PowerPC bootet
+
+<address>
+Version 1.04, 22. February 2004<br>
+Chris Tillman
+</address>
+
+<hr>
+
+</body>
+
+</html>
+

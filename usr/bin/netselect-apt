@@ -1,0 +1,202 @@
+#!/bin/bash
+#
+# A script to create an apt sources.list file automatically by downloading
+# the list of Debian mirrors and choosing the fastest using netselect.
+#
+# Author: Avery Pennarun <apenwarr@debian.org>
+# Enhancements: Filippo Giunchedi <filippo@esaurito.net>
+#
+# License: public domain.  Please feel free to improve this script.  It
+# doesn't really belong in the netselect package, particularly since the
+# netselect package doesn't depend on wget and this script does.  If you
+# feel like merging this into another package, or creating a new package,
+# please do.  Then tell me, so I can remove it from the netselect package.
+#
+# TO DO:
+#   - have some way to pass options (especially -t) to netselect.
+#   - test the generated files automatically.  Some mirrors in the list
+#       are broken.  We should at least verify that the Packages and Sources
+#       files exist and aren't ancient.
+#   - maybe generate redundant entries, in case one server is missing files?
+
+# our defaults
+# RATIONALE for WANT_SOURCES and WANT_NONFREE environmental variables:
+# both variables can be system wide and can be useful to not always specify
+# them on the commandline
+
+want_sources=${WANT_SOURCES:-0}
+want_nonfree=${WANT_NONFREE:-0}
+want_security=1
+infile=""
+tmpinfile="1"
+outfile="sources.list"
+distro="stable"
+protocol="HTTP"
+url="http://www.debian.org/mirror/mirrors_full"
+arch=$(/usr/bin/dpkg-architecture -qDEB_HOST_ARCH)
+
+options="-o a:si:o:nfhu -l arch:,sources,infile:,outfile:,nonfree,ftp,help"
+
+trap '[ "$tmpinfile" = "1" ] && rm -f "$infile"' TERM INT EXIT
+
+# misc functions
+log()
+{
+	echo "$@" >&2
+}
+
+run_netselect()
+{
+	SEARCH="$1"
+	PROTO="$2"
+	out=$(netselect -v -s 1 $(cat "$infile" \
+		| perl -n -e '
+			$/="<br><br>";
+			while(<>){
+				next if $_ !~ /Site:/;
+				if( ( /Includes architectures:.+'"$arch"'.+/i ||
+						$_ !~ /Includes architectures:/ ) &&
+						m@<br>'"$SEARCH"':.*<a href="('"$PROTO"'://.*?)">@i
+					){
+					print("$1\n");
+				}
+			}'))
+	rv=$?
+	echo $out | awk '{print $2}'
+	return $rv
+}
+
+netselect_generic_error()
+{
+	log "netselect was unable to find a mirror, this probably means that"
+	log "you are behind a firewall and it is blocking traceroute."
+}
+
+netselect_permission_error()
+{
+	log "netselect was unable to operate successfully, please check the errors,"
+	log "most likely you don't have enough permission."
+}
+
+usage()
+{
+	log "Usage: netselect-apt [OPTIONS] [ debian_release ]"
+	log "       debian_release is one of stable, testing, unstable, experimental"
+	log "       or a codename etch, lenny, squeeze, sid"
+	log "Options:"
+	log "   -a, --arch ARCH        Use mirrors containing arch ($arch)"
+	log "   -s, --sources          Include deb-src lines in generated file (no)"
+	log "   -i, --infile INFILE    Use INFILE as the input file (temp file)"
+	log "   -o, --outfile OUTFILE  Use OUTFILE as the output file (sources.list)"
+	log "   -n, --nonfree          Use also non-free packages in OUTFILE (no)"
+	log "   -f, --ftp              Use FTP as the protocol for OUTFILE (HTTP)"
+}
+
+
+# commandline parsing
+temp=$(getopt $options -n 'netselect-apt' -- "$@")
+if [ $? != 0 ]; then echo "Terminating..." >&2; exit 2; fi
+eval set -- "$temp"
+while true; do
+	case "$1" in
+		-a|--arch) arch=$2; shift 2 ;;
+		-s|--sources) want_sources=1; shift ;;
+		-i|--infile) infile="$2"; tmpinfile="0"; shift 2 ;;
+		-o|--outfile) outfile="$2"; shift 2 ;;
+		-n|--nonfree) want_nonfree=1; shift ;;
+		-f|--ftp) protocol="FTP"; shift ;;
+		-h|--help) usage; exit 0;;
+		--) shift; break;;
+		*) echo "Internal Error!"; echo "args: $@"; exit 1;;
+	esac
+done
+
+# distro is a non-option for backward compatibility
+case "$1" in
+	# don't forget to update the usage with new codenames
+	stable|testing|unstable|experimental|etch|lenny|squeeze|sid) distro="$1" ;;
+	'') ;;
+	*) log "Invalid distribution: $1"; exit 1 ;;
+esac
+
+if [ "$distro" != "stable" ]; then
+	want_security=0
+fi
+
+# netselect starting
+log "Using distribution $distro."
+
+if [ "$tmpinfile" = "0" -a ! -f "$infile" -a ! -x /usr/bin/wget ]; then
+	log "Sorry, this script requires the 'wget' package in order to run."
+	log "You can also download the mirrors list yourself and pass it"
+	log "with -i option, consult the manpage for further details:"
+	log "        $url"
+	exit 2
+fi
+
+if [ ! -f "$infile" ]; then
+	if [ "$tmpinfile" = "1" ]; then
+		infile=$(mktemp -t netselect-apt.XXXXXX) ||
+			{ log "unable to create tempfile"; exit 2; }
+	fi
+
+	log "Retrieving the list of mirrors from www.debian.org..."
+	log
+
+	if ! /usr/bin/wget -O "$infile" "$url"; then
+		log "$0: wget failed.  Please try to correct the problem"
+		log "by reading the wget messages printed above."
+		exit 2
+	fi
+else
+	log "$infile has been found."
+	log "I'll use that, rather than downloading it again."
+	log
+fi
+
+log "Choosing a main Debian mirror using netselect."
+main=$(run_netselect "Packages over $protocol" $protocol)
+netselect_rv=$?
+if [ $netselect_rv -eq 0 ]; then
+	log "The fastest server seems to be:"
+	log "        $main"
+	log
+elif [ $netselect_rv -eq 6 ]; then
+	netselect_permission_error
+	exit 2
+else
+	netselect_generic_error
+	exit 2
+fi
+
+log "Writing $outfile."
+
+if [ -f "$outfile" ]; then
+	destfile="$outfile.$(date +%s)"
+	log "$outfile exists, moving to $destfile"
+	mv $outfile $destfile
+fi
+
+sections="main contrib"
+if [ "$want_nonfree" -eq 1 ]; then sections="$sections non-free"; fi
+
+(
+	echo "# Debian packages for $distro"
+	echo "deb $main $distro $sections"
+	echo "# Uncomment the deb-src line if you want 'apt-get source'"
+	echo "# to work with most packages."
+	if [ "$want_sources" -eq 0 ]; then
+		echo -n "# "
+	fi
+	echo "deb-src $main $distro $sections"
+
+	echo
+	echo "# Security updates for stable"
+	if [ "$want_security" -eq 0 ]; then
+		echo -n "# "
+	fi
+	echo "deb http://security.debian.org/ stable/updates $sections"
+
+) > $outfile
+
+echo "Done."

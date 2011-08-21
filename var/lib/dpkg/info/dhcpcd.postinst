@@ -1,0 +1,16 @@
+#!/bin/sh -e
+
+# /etc/dhcpc/resolv.conf is now a link to /var/lib/dhcpcd/resolv.conf
+rm -f /etc/dhcpc/resolv.conf  
+ln -s /var/lib/dhcpcd/resolv.conf /etc/dhcpc/resolv.conf 
+
+# remove older-version state dir.
+rm -rf /var/lib/dhcpc
+
+
+
+
+
+
+
+

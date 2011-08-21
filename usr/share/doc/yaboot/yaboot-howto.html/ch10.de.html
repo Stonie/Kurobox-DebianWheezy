@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Wie man mit Yaboot auf PowerPC bootet - Yaboot als temporärer Bootloader</title>
+
+</head>
+
+<body>
+
+<a name="ch10"></a>
+<hr>
+
+[ <a href="ch9.de.html">zurück</a> ]
+[ <a href="index.de.html#contents">Inhalt</a> ]
+[ <a href="ch1.de.html">1</a> ]
+[ <a href="ch2.de.html">2</a> ]
+[ <a href="ch3.de.html">3</a> ]
+[ <a href="ch4.de.html">4</a> ]
+[ <a href="ch5.de.html">5</a> ]
+[ <a href="ch6.de.html">6</a> ]
+[ <a href="ch7.de.html">7</a> ]
+[ <a href="ch8.de.html">8</a> ]
+[ <a href="ch9.de.html">9</a> ]
+[ 10 ]
+[ <a href="ch11.de.html">11</a> ]
+[ <a href="ch11.de.html">weiter</a> ]
+
+<hr>
+
+<h1>
+Wie man mit Yaboot auf PowerPC bootet
+<br>Kapitel 10 - Yaboot als temporärer Bootloader
+</h1>
+
+
+<hr>
+
+
+<p>
+Es ist für bestimmte Aufgaben (wie zum Beispiel das Installieren eines neuen
+Systems ohne einer CD oder das Retten eines existierenden Systems) sehr
+angenehm, ein Ramdisk-System zu booten, wie zum Beispiel einen Installer direkt
+von Dateien, die sich auf einer existierenden Partition befinden.
+
+<p>
+Ein Beispiel ist der Debian-Installer.  Er befindet sich in einer
+Disketten-Image root.bin Datei, die <code>yaboot</code> direkt booten kann.
+Eine einfache <code>yaboot.conf</code>, die die Ramdisk initialisiert, yaboot,
+root.bin und ein Kernel-Image (linux in diesem Beispiel genannt) ist alles, was
+benötigt wird.  Alle Dateien werden im root-Verzeichnis einer existierenden
+Partition abgelegt.
+
+<p>
+Die <code>yaboot.conf</code> Datei für diesen Zweck beinhaltet nur vier Zeilen:
+
+<pre>
+         image=linux
+         label=install
+         initrd=root.bin
+         initrd-size=8192
+</pre>
+
+<p>
+Wenn Sie <code>yaboot.conf</code> im MacOS erstellen, müssen Sie es auf
+Unix-Zeilenumbrüche (nur Zeilenvorschübe) umkonvertieren.  Wenn Sie
+MacOS-Zeilenumbrücke (nur Wagenrückläufe) verwenden, kann <code>yaboot</code>
+die Datei nicht lesen.
+
+<p>
+Sie müssen eine Partition auswählen, welche entweder als HFS oder als HFS+
+formatiert ist.  Wenn Sie Mac OS X auf einer UFS Partition installiert haben
+(dies können sie mit dem OS X &quot;Disk Utility&quot; überprüfen), werden sie
+eine andere Partition verwenden müssen.  Falls sie Mac OS X auf einer UFS
+Partition installiert haben, haben Sie wahrscheinlich eine oder zwei
+Partitionen des Typs &quot;Apple_Boot&quot;.  Diese Partitionen sind HFS
+formatiert.  Wählen Sie eine, mounten Sie diese unter Mac OS X und speichern
+sie die Dateien dort.
+
+<p>
+Booten Sie OpenFirmware und geben Sie am Prompt ein:
+
+<pre>
+         0 &gt; boot hd:xx,yaboot
+</pre>
+
+<p>
+Ersetzen Sie dabei xx mit der Partitionsnummer der Partition, auf der Sie den
+Kernel und <code>yaboot</code> abgelegt haben, gefolgt von Enter.  Am boot:
+Prompt geben Sie <em>install</em> gefolgt von Enter ein.
+
+<hr>
+
+[ <a href="ch9.de.html">zurück</a> ]
+[ <a href="index.de.html#contents">Inhalt</a> ]
+[ <a href="ch1.de.html">1</a> ]
+[ <a href="ch2.de.html">2</a> ]
+[ <a href="ch3.de.html">3</a> ]
+[ <a href="ch4.de.html">4</a> ]
+[ <a href="ch5.de.html">5</a> ]
+[ <a href="ch6.de.html">6</a> ]
+[ <a href="ch7.de.html">7</a> ]
+[ <a href="ch8.de.html">8</a> ]
+[ <a href="ch9.de.html">9</a> ]
+[ 10 ]
+[ <a href="ch11.de.html">11</a> ]
+[ <a href="ch11.de.html">weiter</a> ]
+
+<hr>
+
+<p>
+Wie man mit Yaboot auf PowerPC bootet
+
+<address>
+Version 1.04, 22. February 2004<br>
+Chris Tillman
+</address>
+
+<hr>
+
+</body>
+
+</html>
+

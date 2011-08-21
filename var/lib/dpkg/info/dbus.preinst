@@ -1,0 +1,29 @@
+#!/bin/sh
+
+set -e
+
+rm_conffile() {
+  CONFFILE="$1"
+  OLD_MD5SUM="$2"
+  if [ -e "$CONFFILE" ]; then
+   md5sum="$(md5sum "$CONFFILE" | sed -e 's/ .*//')"
+   if [ "$md5sum" != "$OLD_MD5SUM" ]; then
+     echo "Obsolete conffile $CONFFILE has been modified by you."
+     echo "Saving as $CONFFILE.dpkg-bak ..."
+     mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
+   else
+     echo "Removing obsolete conffile $CONFFILE ..."
+     rm -f "$CONFFILE"
+   fi
+ fi
+}
+
+case "$1" in
+install|upgrade)
+  if dpkg --compare-versions "$2" lt "0.50-2"; then
+    rm_conffile "/etc/X11/Xsession.d/75dbus-1-utils_dbus-launch" f16c15c4b018d37ca3ea2b6aba224439
+  fi
+esac
+
+
+

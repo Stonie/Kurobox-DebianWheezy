@@ -1,0 +1,1 @@
+update-rc.d klogd start 11 2 3 4 5 . stop 89 0 1 6 . 

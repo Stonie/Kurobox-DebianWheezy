@@ -1,0 +1,21 @@
+
+- Init.d script:
+  If the RPC services are stopped after the portmapper is stopped it
+  will not be aware of this (will keep the registration file)
+
+- If the following sequence occurs:
+	- FAM stopped
+	- Portmapper stopped
+	- FAM started
+	- Portmapper started
+  Then the services will not be registered with the portmapper properly
+
+  The only plausible fix for this is doing init.d dependencies: if
+  portmap is stopped stop all RPC services?
+
+- Postinst could restart RPC services if the configuration has changed
+  just like libc6's does for some upgrades.
+
+- Handle the file as a conffile? (done in 5-10) there are presumably
+  not many changes to it in the future since portmap is a rather fixed
+  program.

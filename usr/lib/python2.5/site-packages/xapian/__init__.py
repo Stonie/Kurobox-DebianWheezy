@@ -1,0 +1,1 @@
+../../../../share/pyshared/xapian/__init__.py

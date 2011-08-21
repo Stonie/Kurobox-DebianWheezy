@@ -1,0 +1,4 @@
+/etc/logrotate.d/dpkg
+/etc/alternatives/README
+/etc/dpkg/dpkg.cfg
+/etc/cron.daily/dpkg

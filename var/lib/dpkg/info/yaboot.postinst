@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -e
+
+# Backwards compatibility for old upgrades - ofboot.b is obsolete now.
+if [ -f /etc/ofboot.b -a ! -f /boot/ofboot.b ] && \
+	grep '^[[:space:]]*magicboot[[:space:]]*=[[:space:]]*/boot/ofboot.b' \
+		/etc/yaboot.conf >/dev/null 2>/dev/null; then
+	ln -s /etc/ofboot.b /boot/ofboot.b
+elif [ -L /boot/ofboot.b -a ! -f /boot/ofboot.b ]; then
+	rm -f /boot/ofboot.b
+fi
+
+if [ -f /usr/lib/yaboot/yaboot -a ! -f /boot/yaboot ] && \
+	grep '^[[:space:]]*install[[:space:]]*=[[:space:]]*/boot/yaboot' \
+		/etc/yaboot.conf >/dev/null 2>/dev/null; then
+	ln -s /usr/lib/yaboot/yaboot /boot/yaboot
+elif [ -L /boot/yaboot ]; then
+	rm -f /boot/yaboot
+fi
+
+if [ "$DEBIAN_FRONTEND" != "noninteractive" ]; then
+    echo "The bootblock is not automatically updated by installation of this package;"
+    echo "run 'ybin' to update it."
+fi
+
+

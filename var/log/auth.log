@@ -1,0 +1,395 @@
+Aug 14 06:47:09 LSPPC-Squeeze CRON[4480]: pam_unix(cron:session): session closed for user root
+Aug 14 07:17:01 LSPPC-Squeeze CRON[4611]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 07:17:01 LSPPC-Squeeze CRON[4611]: pam_unix(cron:session): session closed for user root
+Aug 14 08:17:01 LSPPC-Squeeze CRON[4644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 08:17:01 LSPPC-Squeeze CRON[4644]: pam_unix(cron:session): session closed for user root
+Aug 14 09:17:01 LSPPC-Squeeze CRON[4671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 09:17:01 LSPPC-Squeeze CRON[4671]: pam_unix(cron:session): session closed for user root
+Aug 14 10:17:01 LSPPC-Squeeze CRON[4704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 10:17:01 LSPPC-Squeeze CRON[4704]: pam_unix(cron:session): session closed for user root
+Aug 14 11:17:01 LSPPC-Squeeze CRON[4737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 11:17:02 LSPPC-Squeeze CRON[4737]: pam_unix(cron:session): session closed for user root
+Aug 14 12:17:01 LSPPC-Squeeze CRON[4764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 12:17:01 LSPPC-Squeeze CRON[4764]: pam_unix(cron:session): session closed for user root
+Aug 14 13:17:01 LSPPC-Squeeze CRON[4797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 13:17:02 LSPPC-Squeeze CRON[4797]: pam_unix(cron:session): session closed for user root
+Aug 14 14:17:01 LSPPC-Squeeze CRON[4831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 14:17:01 LSPPC-Squeeze CRON[4831]: pam_unix(cron:session): session closed for user root
+Aug 14 15:17:01 LSPPC-Squeeze CRON[4859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 15:17:01 LSPPC-Squeeze CRON[4859]: pam_unix(cron:session): session closed for user root
+Aug 14 16:17:01 LSPPC-Squeeze CRON[4892]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 16:17:01 LSPPC-Squeeze CRON[4892]: pam_unix(cron:session): session closed for user root
+Aug 14 17:17:01 LSPPC-Squeeze CRON[4922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 17:17:01 LSPPC-Squeeze CRON[4922]: pam_unix(cron:session): session closed for user root
+Aug 14 18:17:01 LSPPC-Squeeze CRON[4955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 18:17:01 LSPPC-Squeeze CRON[4955]: pam_unix(cron:session): session closed for user root
+Aug 14 19:17:01 LSPPC-Squeeze CRON[4989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 19:17:01 LSPPC-Squeeze CRON[4989]: pam_unix(cron:session): session closed for user root
+Aug 14 20:17:01 LSPPC-Squeeze CRON[5018]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 20:17:01 LSPPC-Squeeze CRON[5018]: pam_unix(cron:session): session closed for user root
+Aug 14 21:17:01 LSPPC-Squeeze CRON[5051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 21:17:01 LSPPC-Squeeze CRON[5051]: pam_unix(cron:session): session closed for user root
+Aug 14 22:17:01 LSPPC-Squeeze CRON[5078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 22:17:01 LSPPC-Squeeze CRON[5078]: pam_unix(cron:session): session closed for user root
+Aug 14 23:17:01 LSPPC-Squeeze CRON[5111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 14 23:17:01 LSPPC-Squeeze CRON[5111]: pam_unix(cron:session): session closed for user root
+Aug 15 00:17:01 LSPPC-Squeeze CRON[5144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 00:17:01 LSPPC-Squeeze CRON[5144]: pam_unix(cron:session): session closed for user root
+Aug 15 01:17:01 LSPPC-Squeeze CRON[5172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 01:17:01 LSPPC-Squeeze CRON[5172]: pam_unix(cron:session): session closed for user root
+Aug 15 02:17:01 LSPPC-Squeeze CRON[5206]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 02:17:01 LSPPC-Squeeze CRON[5206]: pam_unix(cron:session): session closed for user root
+Aug 15 03:17:01 LSPPC-Squeeze CRON[5233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 03:17:01 LSPPC-Squeeze CRON[5233]: pam_unix(cron:session): session closed for user root
+Aug 15 04:17:01 LSPPC-Squeeze CRON[5267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 04:17:02 LSPPC-Squeeze CRON[5267]: pam_unix(cron:session): session closed for user root
+Aug 15 05:17:01 LSPPC-Squeeze CRON[5300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 05:17:01 LSPPC-Squeeze CRON[5300]: pam_unix(cron:session): session closed for user root
+Aug 15 06:17:01 LSPPC-Squeeze CRON[5327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 06:17:01 LSPPC-Squeeze CRON[5327]: pam_unix(cron:session): session closed for user root
+Aug 15 06:25:01 LSPPC-Squeeze CRON[5336]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 06:25:15 LSPPC-Squeeze CRON[5336]: pam_unix(cron:session): session closed for user root
+Aug 15 07:17:02 LSPPC-Squeeze CRON[5469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 07:17:02 LSPPC-Squeeze CRON[5469]: pam_unix(cron:session): session closed for user root
+Aug 15 08:17:01 LSPPC-Squeeze CRON[5502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 08:17:01 LSPPC-Squeeze CRON[5502]: pam_unix(cron:session): session closed for user root
+Aug 15 09:17:01 LSPPC-Squeeze CRON[5529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 09:17:01 LSPPC-Squeeze CRON[5529]: pam_unix(cron:session): session closed for user root
+Aug 15 10:17:01 LSPPC-Squeeze CRON[5562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 10:17:01 LSPPC-Squeeze CRON[5562]: pam_unix(cron:session): session closed for user root
+Aug 15 11:17:01 LSPPC-Squeeze CRON[5589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 11:17:01 LSPPC-Squeeze CRON[5589]: pam_unix(cron:session): session closed for user root
+Aug 15 12:17:01 LSPPC-Squeeze CRON[5622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 12:17:01 LSPPC-Squeeze CRON[5622]: pam_unix(cron:session): session closed for user root
+Aug 15 13:17:01 LSPPC-Squeeze CRON[5655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 13:17:01 LSPPC-Squeeze CRON[5655]: pam_unix(cron:session): session closed for user root
+Aug 15 14:17:01 LSPPC-Squeeze CRON[5682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 14:17:01 LSPPC-Squeeze CRON[5682]: pam_unix(cron:session): session closed for user root
+Aug 15 15:17:01 LSPPC-Squeeze CRON[5715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 15:17:01 LSPPC-Squeeze CRON[5715]: pam_unix(cron:session): session closed for user root
+Aug 15 16:17:01 LSPPC-Squeeze CRON[5742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 16:17:01 LSPPC-Squeeze CRON[5742]: pam_unix(cron:session): session closed for user root
+Aug 15 17:17:01 LSPPC-Squeeze CRON[5775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 17:17:01 LSPPC-Squeeze CRON[5775]: pam_unix(cron:session): session closed for user root
+Aug 15 18:17:01 LSPPC-Squeeze CRON[5808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 18:17:01 LSPPC-Squeeze CRON[5808]: pam_unix(cron:session): session closed for user root
+Aug 15 19:17:01 LSPPC-Squeeze CRON[5835]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 19:17:01 LSPPC-Squeeze CRON[5835]: pam_unix(cron:session): session closed for user root
+Aug 15 20:17:01 LSPPC-Squeeze CRON[5868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 20:17:01 LSPPC-Squeeze CRON[5868]: pam_unix(cron:session): session closed for user root
+Aug 15 21:17:01 LSPPC-Squeeze CRON[5895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 21:17:01 LSPPC-Squeeze CRON[5895]: pam_unix(cron:session): session closed for user root
+Aug 15 22:17:01 LSPPC-Squeeze CRON[5928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 22:17:01 LSPPC-Squeeze CRON[5928]: pam_unix(cron:session): session closed for user root
+Aug 15 23:17:01 LSPPC-Squeeze CRON[5961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 23:17:01 LSPPC-Squeeze CRON[5961]: pam_unix(cron:session): session closed for user root
+Aug 16 00:17:01 LSPPC-Squeeze CRON[5988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 00:17:01 LSPPC-Squeeze CRON[5988]: pam_unix(cron:session): session closed for user root
+Aug 16 01:17:01 LSPPC-Squeeze CRON[6021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 01:17:01 LSPPC-Squeeze CRON[6021]: pam_unix(cron:session): session closed for user root
+Aug 16 02:17:01 LSPPC-Squeeze CRON[6054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 02:17:01 LSPPC-Squeeze CRON[6054]: pam_unix(cron:session): session closed for user root
+Aug 16 03:17:01 LSPPC-Squeeze CRON[6081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 03:17:01 LSPPC-Squeeze CRON[6081]: pam_unix(cron:session): session closed for user root
+Aug 16 04:17:01 LSPPC-Squeeze CRON[6114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 04:17:01 LSPPC-Squeeze CRON[6114]: pam_unix(cron:session): session closed for user root
+Aug 16 05:17:01 LSPPC-Squeeze CRON[6141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 05:17:01 LSPPC-Squeeze CRON[6141]: pam_unix(cron:session): session closed for user root
+Aug 16 06:17:01 LSPPC-Squeeze CRON[6174]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 06:17:01 LSPPC-Squeeze CRON[6174]: pam_unix(cron:session): session closed for user root
+Aug 16 06:25:01 LSPPC-Squeeze CRON[6183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 06:25:07 LSPPC-Squeeze CRON[6183]: pam_unix(cron:session): session closed for user root
+Aug 16 07:17:01 LSPPC-Squeeze CRON[6317]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 07:17:01 LSPPC-Squeeze CRON[6317]: pam_unix(cron:session): session closed for user root
+Aug 16 08:17:01 LSPPC-Squeeze CRON[6346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 08:17:01 LSPPC-Squeeze CRON[6346]: pam_unix(cron:session): session closed for user root
+Aug 16 09:17:01 LSPPC-Squeeze CRON[6379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 09:17:01 LSPPC-Squeeze CRON[6379]: pam_unix(cron:session): session closed for user root
+Aug 16 10:17:01 LSPPC-Squeeze CRON[6407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 10:17:02 LSPPC-Squeeze CRON[6407]: pam_unix(cron:session): session closed for user root
+Aug 16 11:17:01 LSPPC-Squeeze CRON[6441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 11:17:01 LSPPC-Squeeze CRON[6441]: pam_unix(cron:session): session closed for user root
+Aug 16 12:17:01 LSPPC-Squeeze CRON[6474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 12:17:01 LSPPC-Squeeze CRON[6474]: pam_unix(cron:session): session closed for user root
+Aug 16 13:17:01 LSPPC-Squeeze CRON[6503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 13:17:01 LSPPC-Squeeze CRON[6503]: pam_unix(cron:session): session closed for user root
+Aug 16 14:17:01 LSPPC-Squeeze CRON[6537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 14:17:01 LSPPC-Squeeze CRON[6537]: pam_unix(cron:session): session closed for user root
+Aug 16 15:17:01 LSPPC-Squeeze CRON[6564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 15:17:01 LSPPC-Squeeze CRON[6564]: pam_unix(cron:session): session closed for user root
+Aug 16 16:17:01 LSPPC-Squeeze CRON[6598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 16:17:01 LSPPC-Squeeze CRON[6598]: pam_unix(cron:session): session closed for user root
+Aug 16 17:17:01 LSPPC-Squeeze CRON[6631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 17:17:01 LSPPC-Squeeze CRON[6631]: pam_unix(cron:session): session closed for user root
+Aug 16 18:17:01 LSPPC-Squeeze CRON[6658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 18:17:01 LSPPC-Squeeze CRON[6658]: pam_unix(cron:session): session closed for user root
+Aug 16 19:17:01 LSPPC-Squeeze CRON[6693]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 19:17:01 LSPPC-Squeeze CRON[6693]: pam_unix(cron:session): session closed for user root
+Aug 16 20:17:01 LSPPC-Squeeze CRON[6727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 20:17:01 LSPPC-Squeeze CRON[6727]: pam_unix(cron:session): session closed for user root
+Aug 16 21:17:01 LSPPC-Squeeze CRON[6756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 21:17:01 LSPPC-Squeeze CRON[6756]: pam_unix(cron:session): session closed for user root
+Aug 16 22:17:01 LSPPC-Squeeze CRON[6792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 22:17:01 LSPPC-Squeeze CRON[6792]: pam_unix(cron:session): session closed for user root
+Aug 16 23:17:01 LSPPC-Squeeze CRON[6820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 16 23:17:01 LSPPC-Squeeze CRON[6820]: pam_unix(cron:session): session closed for user root
+Aug 17 00:17:02 LSPPC-Squeeze CRON[6855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 00:17:02 LSPPC-Squeeze CRON[6855]: pam_unix(cron:session): session closed for user root
+Aug 17 01:17:01 LSPPC-Squeeze CRON[6891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 01:17:01 LSPPC-Squeeze CRON[6891]: pam_unix(cron:session): session closed for user root
+Aug 17 02:17:01 LSPPC-Squeeze CRON[6918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 02:17:01 LSPPC-Squeeze CRON[6918]: pam_unix(cron:session): session closed for user root
+Aug 17 03:17:01 LSPPC-Squeeze CRON[6954]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 03:17:01 LSPPC-Squeeze CRON[6954]: pam_unix(cron:session): session closed for user root
+Aug 17 04:17:01 LSPPC-Squeeze CRON[6983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 04:17:01 LSPPC-Squeeze CRON[6983]: pam_unix(cron:session): session closed for user root
+Aug 17 05:17:01 LSPPC-Squeeze CRON[7016]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 05:17:01 LSPPC-Squeeze CRON[7016]: pam_unix(cron:session): session closed for user root
+Aug 17 06:17:01 LSPPC-Squeeze CRON[7051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 06:17:01 LSPPC-Squeeze CRON[7051]: pam_unix(cron:session): session closed for user root
+Aug 17 06:25:01 LSPPC-Squeeze CRON[7054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 06:25:07 LSPPC-Squeeze CRON[7054]: pam_unix(cron:session): session closed for user root
+Aug 17 07:17:01 LSPPC-Squeeze CRON[7189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 07:17:01 LSPPC-Squeeze CRON[7189]: pam_unix(cron:session): session closed for user root
+Aug 17 08:17:01 LSPPC-Squeeze CRON[7225]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 08:17:01 LSPPC-Squeeze CRON[7225]: pam_unix(cron:session): session closed for user root
+Aug 17 09:17:01 LSPPC-Squeeze CRON[7254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 09:17:01 LSPPC-Squeeze CRON[7254]: pam_unix(cron:session): session closed for user root
+Aug 17 10:17:01 LSPPC-Squeeze CRON[7288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 10:17:01 LSPPC-Squeeze CRON[7288]: pam_unix(cron:session): session closed for user root
+Aug 17 11:17:01 LSPPC-Squeeze CRON[7323]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 11:17:01 LSPPC-Squeeze CRON[7323]: pam_unix(cron:session): session closed for user root
+Aug 17 12:17:01 LSPPC-Squeeze CRON[7353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 12:17:01 LSPPC-Squeeze CRON[7353]: pam_unix(cron:session): session closed for user root
+Aug 17 13:17:01 LSPPC-Squeeze CRON[7388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 13:17:01 LSPPC-Squeeze CRON[7388]: pam_unix(cron:session): session closed for user root
+Aug 17 14:17:01 LSPPC-Squeeze CRON[7423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 14:17:01 LSPPC-Squeeze CRON[7423]: pam_unix(cron:session): session closed for user root
+Aug 17 15:17:01 LSPPC-Squeeze CRON[7451]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 15:17:01 LSPPC-Squeeze CRON[7451]: pam_unix(cron:session): session closed for user root
+Aug 17 16:17:01 LSPPC-Squeeze CRON[7486]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 16:17:02 LSPPC-Squeeze CRON[7486]: pam_unix(cron:session): session closed for user root
+Aug 17 17:17:01 LSPPC-Squeeze CRON[7516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 17:17:01 LSPPC-Squeeze CRON[7516]: pam_unix(cron:session): session closed for user root
+Aug 17 18:17:01 LSPPC-Squeeze CRON[7550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 18:17:01 LSPPC-Squeeze CRON[7550]: pam_unix(cron:session): session closed for user root
+Aug 17 19:17:01 LSPPC-Squeeze CRON[7586]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 19:17:01 LSPPC-Squeeze CRON[7586]: pam_unix(cron:session): session closed for user root
+Aug 17 20:17:01 LSPPC-Squeeze CRON[7616]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 20:17:01 LSPPC-Squeeze CRON[7616]: pam_unix(cron:session): session closed for user root
+Aug 17 21:17:01 LSPPC-Squeeze CRON[7650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 21:17:01 LSPPC-Squeeze CRON[7650]: pam_unix(cron:session): session closed for user root
+Aug 17 22:17:01 LSPPC-Squeeze CRON[7680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 22:17:01 LSPPC-Squeeze CRON[7680]: pam_unix(cron:session): session closed for user root
+Aug 17 23:17:01 LSPPC-Squeeze CRON[7714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 17 23:17:01 LSPPC-Squeeze CRON[7714]: pam_unix(cron:session): session closed for user root
+Aug 18 00:17:01 LSPPC-Squeeze CRON[7749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 00:17:01 LSPPC-Squeeze CRON[7749]: pam_unix(cron:session): session closed for user root
+Aug 18 01:17:01 LSPPC-Squeeze CRON[7779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 01:17:01 LSPPC-Squeeze CRON[7779]: pam_unix(cron:session): session closed for user root
+Aug 18 02:17:01 LSPPC-Squeeze CRON[7813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 02:17:01 LSPPC-Squeeze CRON[7813]: pam_unix(cron:session): session closed for user root
+Aug 18 03:17:01 LSPPC-Squeeze CRON[7843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 03:17:01 LSPPC-Squeeze CRON[7843]: pam_unix(cron:session): session closed for user root
+Aug 18 04:17:01 LSPPC-Squeeze CRON[7879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 04:17:01 LSPPC-Squeeze CRON[7879]: pam_unix(cron:session): session closed for user root
+Aug 18 05:17:01 LSPPC-Squeeze CRON[7913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 05:17:01 LSPPC-Squeeze CRON[7913]: pam_unix(cron:session): session closed for user root
+Aug 18 06:17:01 LSPPC-Squeeze CRON[7944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 06:17:01 LSPPC-Squeeze CRON[7944]: pam_unix(cron:session): session closed for user root
+Aug 18 06:25:01 LSPPC-Squeeze CRON[7953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 06:25:06 LSPPC-Squeeze CRON[7953]: pam_unix(cron:session): session closed for user root
+Aug 18 07:17:01 LSPPC-Squeeze CRON[8087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 07:17:01 LSPPC-Squeeze CRON[8087]: pam_unix(cron:session): session closed for user root
+Aug 18 08:17:01 LSPPC-Squeeze CRON[8122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 08:17:01 LSPPC-Squeeze CRON[8122]: pam_unix(cron:session): session closed for user root
+Aug 18 09:17:01 LSPPC-Squeeze CRON[8152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 09:17:01 LSPPC-Squeeze CRON[8152]: pam_unix(cron:session): session closed for user root
+Aug 18 10:17:01 LSPPC-Squeeze CRON[8185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 10:17:02 LSPPC-Squeeze CRON[8185]: pam_unix(cron:session): session closed for user root
+Aug 18 11:00:39 LSPPC-Squeeze sshd[8201]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.106  user=root
+Aug 18 11:00:41 LSPPC-Squeeze sshd[8201]: Failed password for root from 192.168.1.106 port 2929 ssh2
+Aug 18 11:01:15 LSPPC-Squeeze sshd[8201]: Failed password for root from 192.168.1.106 port 2929 ssh2
+Aug 18 11:01:48 LSPPC-Squeeze last message repeated 2 times
+Aug 18 11:06:32 LSPPC-Squeeze sshd[8205]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.106  user=root
+Aug 18 11:06:33 LSPPC-Squeeze sshd[8205]: Failed password for root from 192.168.1.106 port 3175 ssh2
+Aug 18 11:06:46 LSPPC-Squeeze sshd[8205]: Failed password for root from 192.168.1.106 port 3175 ssh2
+Aug 18 11:06:54 LSPPC-Squeeze sshd[8205]: Accepted password for root from 192.168.1.106 port 3175 ssh2
+Aug 18 11:06:54 LSPPC-Squeeze sshd[8205]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 18 11:17:01 LSPPC-Squeeze CRON[8226]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 11:17:01 LSPPC-Squeeze CRON[8226]: pam_unix(cron:session): session closed for user root
+Aug 18 12:17:02 LSPPC-Squeeze CRON[8252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 12:17:02 LSPPC-Squeeze CRON[8252]: pam_unix(cron:session): session closed for user root
+Aug 18 13:17:01 LSPPC-Squeeze CRON[8909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 13:17:01 LSPPC-Squeeze CRON[8909]: pam_unix(cron:session): session closed for user root
+Aug 18 14:17:01 LSPPC-Squeeze CRON[8956]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 14:17:01 LSPPC-Squeeze CRON[8956]: pam_unix(cron:session): session closed for user root
+Aug 18 15:03:28 LSPPC-Squeeze userdel[9038]: delete user 'ftp' 
+Aug 18 15:03:28 LSPPC-Squeeze userdel[9038]: removed group 'ftp' owned by 'ftp' 
+Aug 18 15:17:01 LSPPC-Squeeze CRON[9088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 15:17:01 LSPPC-Squeeze CRON[9088]: pam_unix(cron:session): session closed for user root
+Aug 18 16:17:01 LSPPC-Squeeze CRON[9127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 16:17:01 LSPPC-Squeeze CRON[9127]: pam_unix(cron:session): session closed for user root
+Aug 18 17:17:01 LSPPC-Squeeze CRON[9160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 17:17:02 LSPPC-Squeeze CRON[9160]: pam_unix(cron:session): session closed for user root
+Aug 18 18:17:01 LSPPC-Squeeze CRON[9187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 18:17:01 LSPPC-Squeeze CRON[9187]: pam_unix(cron:session): session closed for user root
+Aug 18 19:17:02 LSPPC-Squeeze CRON[9220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 19:17:02 LSPPC-Squeeze CRON[9220]: pam_unix(cron:session): session closed for user root
+Aug 18 20:17:02 LSPPC-Squeeze CRON[9253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 20:17:02 LSPPC-Squeeze CRON[9253]: pam_unix(cron:session): session closed for user root
+Aug 18 21:17:01 LSPPC-Squeeze CRON[9280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 21:17:01 LSPPC-Squeeze CRON[9280]: pam_unix(cron:session): session closed for user root
+Aug 18 22:17:01 LSPPC-Squeeze CRON[9313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 22:17:01 LSPPC-Squeeze CRON[9313]: pam_unix(cron:session): session closed for user root
+Aug 18 23:17:01 LSPPC-Squeeze CRON[9346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 18 23:17:01 LSPPC-Squeeze CRON[9346]: pam_unix(cron:session): session closed for user root
+Aug 19 00:17:01 LSPPC-Squeeze CRON[9373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 00:17:01 LSPPC-Squeeze CRON[9373]: pam_unix(cron:session): session closed for user root
+Aug 19 01:17:02 LSPPC-Squeeze CRON[9406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 01:17:02 LSPPC-Squeeze CRON[9406]: pam_unix(cron:session): session closed for user root
+Aug 19 02:17:01 LSPPC-Squeeze CRON[9433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 02:17:01 LSPPC-Squeeze CRON[9433]: pam_unix(cron:session): session closed for user root
+Aug 19 03:17:01 LSPPC-Squeeze CRON[9466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 03:17:01 LSPPC-Squeeze CRON[9466]: pam_unix(cron:session): session closed for user root
+Aug 19 04:17:02 LSPPC-Squeeze CRON[9499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 04:17:02 LSPPC-Squeeze CRON[9499]: pam_unix(cron:session): session closed for user root
+Aug 19 05:17:01 LSPPC-Squeeze CRON[9526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 05:17:01 LSPPC-Squeeze CRON[9526]: pam_unix(cron:session): session closed for user root
+Aug 19 06:17:01 LSPPC-Squeeze CRON[9559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 06:17:01 LSPPC-Squeeze CRON[9559]: pam_unix(cron:session): session closed for user root
+Aug 19 06:25:01 LSPPC-Squeeze CRON[9562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 06:25:17 LSPPC-Squeeze CRON[9562]: pam_unix(cron:session): session closed for user root
+Aug 19 07:17:01 LSPPC-Squeeze CRON[9740]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 07:17:01 LSPPC-Squeeze CRON[9740]: pam_unix(cron:session): session closed for user root
+Aug 19 08:17:01 LSPPC-Squeeze CRON[9773]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 08:17:01 LSPPC-Squeeze CRON[9773]: pam_unix(cron:session): session closed for user root
+Aug 19 09:17:01 LSPPC-Squeeze CRON[9806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 09:17:01 LSPPC-Squeeze CRON[9806]: pam_unix(cron:session): session closed for user root
+Aug 19 10:17:01 LSPPC-Squeeze CRON[9833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 10:17:01 LSPPC-Squeeze CRON[9833]: pam_unix(cron:session): session closed for user root
+Aug 19 11:17:02 LSPPC-Squeeze CRON[9866]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 11:17:02 LSPPC-Squeeze CRON[9866]: pam_unix(cron:session): session closed for user root
+Aug 19 12:17:02 LSPPC-Squeeze CRON[9893]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 12:17:02 LSPPC-Squeeze CRON[9893]: pam_unix(cron:session): session closed for user root
+Aug 19 13:17:01 LSPPC-Squeeze CRON[9916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 13:17:01 LSPPC-Squeeze CRON[9916]: pam_unix(cron:session): session closed for user root
+Aug 19 14:17:02 LSPPC-Squeeze CRON[9949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 14:17:02 LSPPC-Squeeze CRON[9949]: pam_unix(cron:session): session closed for user root
+Aug 19 15:17:02 LSPPC-Squeeze CRON[9982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 15:17:02 LSPPC-Squeeze CRON[9982]: pam_unix(cron:session): session closed for user root
+Aug 19 16:17:02 LSPPC-Squeeze CRON[10009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 16:17:02 LSPPC-Squeeze CRON[10009]: pam_unix(cron:session): session closed for user root
+Aug 19 17:17:01 LSPPC-Squeeze CRON[10042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 17:17:01 LSPPC-Squeeze CRON[10042]: pam_unix(cron:session): session closed for user root
+Aug 19 18:17:01 LSPPC-Squeeze CRON[10075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 18:17:01 LSPPC-Squeeze CRON[10075]: pam_unix(cron:session): session closed for user root
+Aug 19 19:17:01 LSPPC-Squeeze CRON[10102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 19:17:01 LSPPC-Squeeze CRON[10102]: pam_unix(cron:session): session closed for user root
+Aug 19 20:17:01 LSPPC-Squeeze CRON[10135]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 20:17:01 LSPPC-Squeeze CRON[10135]: pam_unix(cron:session): session closed for user root
+Aug 19 21:17:01 LSPPC-Squeeze CRON[10162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 21:17:01 LSPPC-Squeeze CRON[10162]: pam_unix(cron:session): session closed for user root
+Aug 19 22:17:01 LSPPC-Squeeze CRON[10195]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 22:17:01 LSPPC-Squeeze CRON[10195]: pam_unix(cron:session): session closed for user root
+Aug 19 23:17:01 LSPPC-Squeeze CRON[10228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 23:17:01 LSPPC-Squeeze CRON[10228]: pam_unix(cron:session): session closed for user root
+Aug 20 00:17:01 LSPPC-Squeeze CRON[10255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 00:17:01 LSPPC-Squeeze CRON[10255]: pam_unix(cron:session): session closed for user root
+Aug 20 01:17:01 LSPPC-Squeeze CRON[10288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 01:17:01 LSPPC-Squeeze CRON[10288]: pam_unix(cron:session): session closed for user root
+Aug 20 02:17:01 LSPPC-Squeeze CRON[10315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 02:17:01 LSPPC-Squeeze CRON[10315]: pam_unix(cron:session): session closed for user root
+Aug 20 03:17:01 LSPPC-Squeeze CRON[10348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 03:17:01 LSPPC-Squeeze CRON[10348]: pam_unix(cron:session): session closed for user root
+Aug 20 04:17:01 LSPPC-Squeeze CRON[10381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 04:17:01 LSPPC-Squeeze CRON[10381]: pam_unix(cron:session): session closed for user root
+Aug 20 05:17:01 LSPPC-Squeeze CRON[10408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 05:17:01 LSPPC-Squeeze CRON[10408]: pam_unix(cron:session): session closed for user root
+Aug 20 06:17:02 LSPPC-Squeeze CRON[10441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 06:17:02 LSPPC-Squeeze CRON[10441]: pam_unix(cron:session): session closed for user root
+Aug 20 06:25:01 LSPPC-Squeeze CRON[10444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 06:25:37 LSPPC-Squeeze CRON[10444]: pam_unix(cron:session): session closed for user root
+Aug 20 07:17:01 LSPPC-Squeeze CRON[10565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 07:17:02 LSPPC-Squeeze CRON[10565]: pam_unix(cron:session): session closed for user root
+Aug 20 08:17:01 LSPPC-Squeeze CRON[10568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 08:17:01 LSPPC-Squeeze CRON[10568]: pam_unix(cron:session): session closed for user root
+Aug 20 09:17:01 LSPPC-Squeeze CRON[10571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 09:17:01 LSPPC-Squeeze CRON[10571]: pam_unix(cron:session): session closed for user root
+Aug 20 10:17:01 LSPPC-Squeeze CRON[10985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 10:17:01 LSPPC-Squeeze CRON[10985]: pam_unix(cron:session): session closed for user root
+Aug 20 11:17:01 LSPPC-Squeeze CRON[11001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 11:17:01 LSPPC-Squeeze CRON[11001]: pam_unix(cron:session): session closed for user root
+Aug 20 11:36:14 LSPPC-Squeeze sshd[11005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.106  user=root
+Aug 20 11:36:16 LSPPC-Squeeze sshd[11005]: Failed password for root from 192.168.1.106 port 27138 ssh2
+Aug 20 11:36:55 LSPPC-Squeeze sshd[11009]: Accepted password for root from 192.168.1.106 port 27141 ssh2
+Aug 20 11:36:55 LSPPC-Squeeze sshd[11009]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 11:36:55 LSPPC-Squeeze sshd[11009]: subsystem request for sftp
+Aug 20 11:38:08 LSPPC-Squeeze sshd[11017]: Accepted password for root from 192.168.1.106 port 27143 ssh2
+Aug 20 11:38:08 LSPPC-Squeeze sshd[11017]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 11:38:08 LSPPC-Squeeze sshd[11017]: subsystem request for sftp
+Aug 20 11:38:15 LSPPC-Squeeze sshd[11016]: Accepted password for root from 192.168.1.106 port 27142 ssh2
+Aug 20 11:38:15 LSPPC-Squeeze sshd[11016]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 11:38:15 LSPPC-Squeeze sshd[11016]: subsystem request for sftp
+Aug 20 11:39:10 LSPPC-Squeeze sshd[11017]: pam_unix(sshd:session): session closed for user root
+Aug 20 11:39:20 LSPPC-Squeeze sshd[11016]: pam_unix(sshd:session): session closed for user root
+Aug 20 12:17:01 LSPPC-Squeeze CRON[11272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 12:17:01 LSPPC-Squeeze CRON[11272]: pam_unix(cron:session): session closed for user root
+Aug 20 13:17:01 LSPPC-Squeeze CRON[14049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 13:17:02 LSPPC-Squeeze CRON[14049]: pam_unix(cron:session): session closed for user root
+Aug 20 13:37:09 LSPPC-Squeeze sshd[11009]: pam_unix(sshd:session): session closed for user root
+Aug 20 13:42:23 LSPPC-Squeeze sshd[1483]: Server listening on 0.0.0.0 port 22.
+Aug 20 13:42:23 LSPPC-Squeeze sshd[1483]: Server listening on :: port 22.
+Aug 20 13:42:40 LSPPC-Squeeze sshd[1516]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.106  user=root
+Aug 20 13:42:42 LSPPC-Squeeze sshd[1516]: Failed password for root from 192.168.1.106 port 27824 ssh2
+Aug 20 13:43:21 LSPPC-Squeeze sshd[1516]: Failed password for root from 192.168.1.106 port 27824 ssh2
+Aug 20 13:43:41 LSPPC-Squeeze sshd[1516]: Accepted password for root from 192.168.1.106 port 27824 ssh2
+Aug 20 13:43:41 LSPPC-Squeeze sshd[1516]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 13:52:38 LSPPC-Squeeze sshd[1548]: Accepted password for root from 192.168.1.106 port 28010 ssh2
+Aug 20 13:52:38 LSPPC-Squeeze sshd[1548]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 13:52:38 LSPPC-Squeeze sshd[1548]: subsystem request for sftp
+Aug 20 13:54:34 LSPPC-Squeeze sshd[1553]: Accepted password for root from 192.168.1.106 port 28011 ssh2
+Aug 20 13:54:34 LSPPC-Squeeze sshd[1553]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 13:54:34 LSPPC-Squeeze sshd[1553]: subsystem request for sftp
+Aug 20 13:55:39 LSPPC-Squeeze sshd[1553]: pam_unix(sshd:session): session closed for user root
+Aug 20 13:55:50 LSPPC-Squeeze sshd[1560]: Accepted password for root from 192.168.1.106 port 28014 ssh2
+Aug 20 13:55:50 LSPPC-Squeeze sshd[1560]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 13:55:50 LSPPC-Squeeze sshd[1560]: subsystem request for sftp
+Aug 20 13:55:55 LSPPC-Squeeze sshd[1561]: Accepted password for root from 192.168.1.106 port 28015 ssh2
+Aug 20 13:55:55 LSPPC-Squeeze sshd[1561]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 13:55:55 LSPPC-Squeeze sshd[1561]: subsystem request for sftp
+Aug 20 14:17:01 LSPPC-Squeeze CRON[1571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 20 14:17:01 LSPPC-Squeeze CRON[1571]: pam_unix(cron:session): session closed for user root
+Aug 20 14:21:11 LSPPC-Squeeze sshd[1560]: pam_unix(sshd:session): session closed for user root
+Aug 20 14:21:11 LSPPC-Squeeze sshd[1561]: pam_unix(sshd:session): session closed for user root
+Aug 20 14:21:11 LSPPC-Squeeze sshd[1548]: pam_unix(sshd:session): session closed for user root
+Aug 20 14:21:16 LSPPC-Squeeze sshd[1516]: pam_unix(sshd:session): session closed for user root
+Aug 20 14:26:30 LSPPC-Squeeze sshd[1574]: Accepted password for root from 192.168.1.106 port 1100 ssh2
+Aug 20 14:26:30 LSPPC-Squeeze sshd[1574]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 14:26:30 LSPPC-Squeeze sshd[1574]: subsystem request for sftp
+Aug 20 14:27:06 LSPPC-Squeeze sshd[1579]: Accepted password for root from 192.168.1.106 port 1101 ssh2
+Aug 20 14:27:06 LSPPC-Squeeze sshd[1579]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 14:27:06 LSPPC-Squeeze sshd[1579]: subsystem request for sftp
+Aug 20 14:28:06 LSPPC-Squeeze sshd[1579]: pam_unix(sshd:session): session closed for user root
+Aug 20 14:28:17 LSPPC-Squeeze sshd[1584]: Accepted password for root from 192.168.1.106 port 1102 ssh2
+Aug 20 14:28:17 LSPPC-Squeeze sshd[1584]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 14:28:17 LSPPC-Squeeze sshd[1584]: subsystem request for sftp
+Aug 20 14:29:23 LSPPC-Squeeze sshd[1584]: pam_unix(sshd:session): session closed for user root
+Aug 20 14:29:23 LSPPC-Squeeze sshd[1574]: pam_unix(sshd:session): session closed for user root
+Aug 20 14:29:54 LSPPC-Squeeze sshd[1589]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.106  user=root
+Aug 20 14:29:56 LSPPC-Squeeze sshd[1589]: Failed password for root from 192.168.1.106 port 1104 ssh2
+Aug 20 14:30:15 LSPPC-Squeeze sshd[1589]: Accepted password for root from 192.168.1.106 port 1104 ssh2
+Aug 20 14:30:15 LSPPC-Squeeze sshd[1589]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 14:32:18 LSPPC-Squeeze sshd[1475]: Server listening on 0.0.0.0 port 22.
+Aug 20 14:32:18 LSPPC-Squeeze sshd[1475]: Server listening on :: port 22.
+Aug 20 14:32:50 LSPPC-Squeeze sshd[1508]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.106  user=root
+Aug 20 14:32:52 LSPPC-Squeeze sshd[1508]: Failed password for root from 192.168.1.106 port 1106 ssh2
+Aug 20 14:33:19 LSPPC-Squeeze last message repeated 2 times
+Aug 20 14:33:35 LSPPC-Squeeze sshd[1508]: Accepted password for root from 192.168.1.106 port 1106 ssh2
+Aug 20 14:33:35 LSPPC-Squeeze sshd[1508]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 21 00:37:41 LSPPC-Squeeze sshd[1480]: Server listening on 0.0.0.0 port 22.
+Aug 21 00:37:41 LSPPC-Squeeze sshd[1480]: Server listening on :: port 22.
+Aug 21 01:17:01 LSPPC-Squeeze CRON[1514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 21 01:17:01 LSPPC-Squeeze CRON[1514]: pam_unix(cron:session): session closed for user root
+Aug 21 02:35:42 LSPPC-Squeeze sshd[1483]: Server listening on 0.0.0.0 port 22.
+Aug 21 02:35:42 LSPPC-Squeeze sshd[1483]: Server listening on :: port 22.

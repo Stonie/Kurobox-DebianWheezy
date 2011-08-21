@@ -1,0 +1,4 @@
+# nfs-common can start daemons installed on /usr if it is already mounted,
+# but will still work if /usr is not mounted.
+nfs-common binary: init.d-script-missing-dependency-on-remote_fs /etc/init.d/nfs-common: required-start
+nfs-common binary: init.d-script-missing-dependency-on-remote_fs /etc/init.d/nfs-common: required-stop

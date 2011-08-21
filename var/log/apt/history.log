@@ -1,0 +1,5 @@
+
+Start-Date: 2011-08-20  09:43:22
+Commandline: apt-get dist-upgrade
+Upgrade: samba-common-bin:powerpc (3.5.6~dfsg-3squeeze4, 3.5.6~dfsg-3squeeze5), isc-dhcp-common:powerpc (4.1.1-P1-15+squeeze2, 4.1.1-P1-15+squeeze3), samba:powerpc (3.5.6~dfsg-3squeeze4, 3.5.6~dfsg-3squeeze5), libwbclient0:powerpc (3.5.6~dfsg-3squeeze4, 3.5.6~dfsg-3squeeze5), samba-common:powerpc (3.5.6~dfsg-3squeeze4, 3.5.6~dfsg-3squeeze5)
+End-Date: 2011-08-20  09:44:10

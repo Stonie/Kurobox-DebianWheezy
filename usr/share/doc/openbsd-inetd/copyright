@@ -1,0 +1,13 @@
+This is a port of the original OpenBSD inetd daemon downloaded from CVS.
+Some features have been merged from the NetBSD source tree.
+
+ * Copyright (c) 1983,1991 The Regents of the University of California.
+ * Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+
+It has a standard 3-clauses BSD license (/usr/share/common-licenses/BSD).
+
+setproctitle.c and discard_stupid_environment() come from netkit 0.17,
+patched by the USAGI project.
+
+strlcpy.c comes from the openbsd source tree, slightly edited.
+
