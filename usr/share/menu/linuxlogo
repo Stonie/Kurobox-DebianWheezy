@@ -1,4 +1,0 @@
-?package(linuxlogo):needs="text" section="Games/Toys"\
-  title="Linux Logo" longtitle="Color ANSI System Logo"\
-  description="A Color ANSI Logo with some system information that can be displayed at system boot time or, with some local configuration, at the login prompt."\
-  command="/etc/init.d/linuxlogo display" icon="/usr/share/pixmaps/linuxlogo.xpm"

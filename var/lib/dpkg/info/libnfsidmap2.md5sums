@@ -1,7 +1,0 @@
-3505ed4fffe534b930a121aaf438ad80  usr/lib/libnfsidmap/nsswitch.so
-ba107af37874d5a12199f691c8f6e006  usr/lib/libnfsidmap/static.so
-d8758d0d0a14098a539a0c1263d95bc3  usr/lib/libnfsidmap/umich_ldap.so
-c760ed834391be8a7092632440fdeabc  usr/lib/libnfsidmap.so.0.3.0
-f558d3690a7b02779f3b6c6acbbcbc24  usr/share/doc/libnfsidmap2/changelog.gz
-f634f3f537eedec0163640a9277255b6  usr/share/doc/libnfsidmap2/copyright
-c53da6e9227a6d77932e4c2d6025c0dc  usr/share/doc/libnfsidmap2/changelog.Debian.gz

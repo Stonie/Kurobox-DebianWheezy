@@ -1,6 +1,0 @@
-Thu Aug 18 13:33:40 2011 [pid 2] CONNECT: Client "192.168.1.106"
-Thu Aug 18 13:33:40 2011 [pid 1] [ftp] OK LOGIN: Client "192.168.1.106", anon password "anon@localhost"
-Thu Aug 18 14:55:55 2011 [pid 2] CONNECT: Client "192.168.1.106"
-Thu Aug 18 14:55:55 2011 [pid 1] [ftp] OK LOGIN: Client "192.168.1.106", anon password "anon@localhost"
-Thu Aug 18 15:00:01 2011 [pid 2] CONNECT: Client "192.168.1.106"
-Thu Aug 18 15:00:01 2011 [pid 1] [ftp] OK LOGIN: Client "192.168.1.106", anon password "anon@localhost"

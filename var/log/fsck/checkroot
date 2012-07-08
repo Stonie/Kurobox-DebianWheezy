@@ -1,8 +1,0 @@
-Log of fsck -C -a -t ext3 /dev/sda1 
-Sun Aug 21 02:35:32 2011
-
-fsck from util-linux-ng 2.17.2
-/dev/sda1: clean, 64662/91521024 files, 3202426/183016496 blocks
-
-Sun Aug 21 02:35:32 2011
-----------------

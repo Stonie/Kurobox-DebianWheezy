@@ -1,2 +1,0 @@
-# Linkstation RTC patch
-KERNEL=="rtc0", SYMLINK+="rtc"

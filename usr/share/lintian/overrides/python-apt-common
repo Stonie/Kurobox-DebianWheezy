@@ -1,2 +1,0 @@
-# package depends on python | python3
-python-script-but-no-python-dep ./usr/share/python-apt/migrate-0.8.py

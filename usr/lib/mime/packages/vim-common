@@ -1,2 +1,0 @@
-text/plain; view %s; edit=vim %s; compose=vim %s; needsterminal; priority=4
-text/*; view %s; edit=vim %s; compose=vim %s; needsterminal; priority=2

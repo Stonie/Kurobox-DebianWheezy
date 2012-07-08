@@ -1,1 +1,0 @@
-/usr/share/pyshared/chardet/utf8prober.py

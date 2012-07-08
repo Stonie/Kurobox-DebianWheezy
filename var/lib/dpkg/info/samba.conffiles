@@ -1,4 +1,0 @@
-/etc/cron.daily/samba
-/etc/network/if-up.d/samba
-/etc/init.d/samba
-/etc/logrotate.d/samba

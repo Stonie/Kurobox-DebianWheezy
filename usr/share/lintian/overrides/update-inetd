@@ -1,2 +1,0 @@
-update-inetd: no-debconf-config
-update-inetd: unused-debconf-template

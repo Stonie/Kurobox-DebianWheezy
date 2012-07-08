@@ -1,3 +1,0 @@
-/etc/cron.daily/apt
-/etc/apt/apt.conf.d/01autoremove
-/etc/logrotate.d/apt

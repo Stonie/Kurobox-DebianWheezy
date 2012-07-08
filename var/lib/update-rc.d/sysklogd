@@ -1,1 +1,0 @@
-update-rc.d sysklogd start 10 2 3 4 5 . stop 90 0 1 6 . 

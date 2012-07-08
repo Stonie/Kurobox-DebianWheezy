@@ -1,8 +1,0 @@
-f7379faf7e42856fb13975bc791591d5  usr/share/man/man8/dhcpcd.8.gz
-a25cc439d36520e6d3cbfb12c7392001  usr/share/man/man8/dhcpcd-bin.8.gz
-6ac20c05bfba08552b5e4aa8c91f524c  usr/share/doc/dhcpcd/README
-9d9960a3e882073cef5b096901ee53ac  usr/share/doc/dhcpcd/copyright
-d1e2d8a546f312c60c7bec3f1a14a504  usr/share/doc/dhcpcd/README.Debian
-5178d560cf0c1fc27c12bda04aeef7c5  usr/share/doc/dhcpcd/changelog.Debian.gz
-51339b88f0d6b709d8baa815d8d60fd4  sbin/dhcpcd-bin
-fc23139df960841ae10ad7a72a7d4e2d  sbin/dhcpcd
