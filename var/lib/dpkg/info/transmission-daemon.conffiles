@@ -1,0 +1,4 @@
+/etc/transmission-daemon/settings.json
+/etc/transmission-daemon/README.json
+/etc/init.d/transmission-daemon
+/etc/default/transmission-daemon

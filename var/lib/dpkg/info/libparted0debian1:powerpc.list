@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libparted0debian1
+/usr/share/doc
+/usr/share/doc/libparted0debian1
+/usr/share/doc/libparted0debian1/changelog.gz
+/usr/share/doc/libparted0debian1/copyright
+/usr/share/doc/libparted0debian1/changelog.Debian.gz
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libparted.so.0.0.1
+/lib/powerpc-linux-gnu/libparted.so.0

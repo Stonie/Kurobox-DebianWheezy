@@ -1,0 +1,17 @@
+TARGETS = sysklogd samba transmission-daemon killprocs bootlogs linuxlogo cron openbsd-inetd klogd avr-evtd single vsftpd ssh dbus rsync ntp rpcbind nfs-common nfs-kernel-server rc.local rmnologin stop-bootlogd minissdpd
+INTERACTIVE =
+cron: sysklogd
+openbsd-inetd: sysklogd
+klogd: sysklogd
+avr-evtd: sysklogd
+single: killprocs bootlogs
+vsftpd: sysklogd
+ssh: sysklogd
+dbus: sysklogd
+rsync: sysklogd
+ntp: sysklogd
+nfs-kernel-server: nfs-common rpcbind
+rc.local: cron sysklogd rpcbind nfs-common openbsd-inetd klogd samba avr-evtd nfs-kernel-server transmission-daemon vsftpd bootlogs ssh linuxlogo dbus rsync ntp
+rmnologin: cron sysklogd rpcbind nfs-common openbsd-inetd klogd samba avr-evtd nfs-kernel-server transmission-daemon vsftpd bootlogs ssh linuxlogo dbus rsync ntp
+stop-bootlogd: cron sysklogd rpcbind nfs-common openbsd-inetd klogd samba avr-evtd nfs-kernel-server transmission-daemon vsftpd bootlogs ssh linuxlogo dbus rsync ntp
+minissdpd: cron sysklogd rpcbind nfs-common openbsd-inetd klogd samba avr-evtd nfs-kernel-server transmission-daemon vsftpd bootlogs ssh linuxlogo dbus rsync ntp

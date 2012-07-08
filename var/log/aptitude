@@ -1,0 +1,49 @@
+Aptitude 0.6.8: log report
+Sat, Jul  7 2012 07:38:02 +0000
+
+IMPORTANT: this log only lists intended actions; actions which fail due to
+dpkg problems may not be completed.
+
+Will install 0 packages, and remove 21 packages.
+===============================================================================
+[REMOVE] dhcp3-client:powerpc
+[REMOVE] libboost-iostreams1.42.0:powerpc
+[REMOVE] libboost-iostreams1.46.1:powerpc
+[REMOVE] libboost-iostreams1.48.0:powerpc
+[REMOVE] libc6-ppc64:powerpc
+[REMOVE] libconsole:powerpc
+[REMOVE] libdevmapper1.02:powerpc
+[REMOVE] libept0:powerpc
+[REMOVE] libept1:powerpc
+[REMOVE] libevent-1.4-2:powerpc
+[REMOVE] libgmp3c2:powerpc
+[REMOVE] libldap2:powerpc
+[REMOVE] libmpfr1ldbl:powerpc
+[REMOVE] libntfs-3g75:powerpc
+[REMOVE] libparted1.8-10:powerpc
+[REMOVE] libreadline5:powerpc
+[REMOVE] librpcsecgss3:powerpc
+[REMOVE] libtalloc1:powerpc
+[REMOVE] libxapian15:powerpc
+[REMOVE] portmap:powerpc
+[REMOVE] python-central:powerpc
+===============================================================================
+
+Log complete.
+Aptitude 0.6.8: log report
+Sat, Jul  7 2012 07:41:30 +0000
+
+IMPORTANT: this log only lists intended actions; actions which fail due to
+dpkg problems may not be completed.
+
+Will install 0 packages, and remove 5 packages.
+4,657 kB of disk space will be freed
+===============================================================================
+[REMOVE] gcc-4.3-base:powerpc
+[REMOVE] libcap1:powerpc
+[REMOVE] libdb4.8:powerpc
+[REMOVE] liblzma2:powerpc
+[REMOVE] libssl0.9.8:powerpc
+===============================================================================
+
+Log complete.

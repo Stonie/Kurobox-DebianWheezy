@@ -1,0 +1,1544 @@
+[2012/07/04 06:25:06.654601,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/04 06:25:06.826252,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 06:25:06.837272,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 06:36:32.731456,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 06:36:32.738334,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 06:49:33.490585,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 06:49:33.497462,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 07:02:34.274419,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 07:02:34.281313,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 07:15:35.032865,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 07:15:35.039471,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 07:28:35.791450,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 07:28:35.798311,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 07:41:36.550593,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 07:41:36.557447,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 07:54:37.309729,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 07:54:37.316536,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 08:07:38.092016,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 08:07:38.098914,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 08:20:38.791716,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 08:20:38.799376,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 08:33:39.550630,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 08:33:39.557535,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 08:46:40.309848,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 08:46:40.316682,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 08:59:41.092815,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 08:59:41.101222,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 09:12:41.851731,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 09:12:41.858698,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 09:25:42.610712,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 09:25:42.618280,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 09:38:43.370051,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 09:38:43.376826,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 09:40:22,  0] smbd/server.c:1051(main)
+  smbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/04 09:40:22.974810,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/04 09:40:23.576136,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 09:40:23.577999,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 09:53:24.314945,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 09:53:24.322681,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 10:06:25.074092,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 10:06:25.080951,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 10:19:25.833058,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 10:19:25.839947,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 10:32:26.617185,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 10:32:26.624103,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 10:45:27.374948,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 10:45:27.381847,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 10:58:28.108322,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 10:58:28.115248,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 11:11:28.773185,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 11:11:28.780054,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 11:24:29.556763,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 11:24:29.563709,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 11:37:30.314855,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 11:37:30.321764,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 11:50:31.073896,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 11:50:31.080787,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 12:03:31.773601,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 12:03:31.780469,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 12:16:32.556648,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 12:16:32.564613,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 12:29:33.314927,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 12:29:33.321846,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 12:42:34.074086,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 12:42:34.080943,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 12:55:34.832787,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 12:55:34.840715,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 13:08:35.611527,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 13:08:35.618404,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 13:21:36.375157,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 13:21:36.382081,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 13:34:37.134249,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 13:34:37.141898,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 13:47:37.893481,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 13:47:37.900333,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 14:00:38.676585,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 14:00:38.683444,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 14:13:39.435357,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 14:13:39.443244,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 14:26:40.194351,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 14:26:40.201199,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 14:39:40.953562,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 14:39:40.960457,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 14:52:41.736535,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 14:52:41.743477,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 15:05:42.495547,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 15:05:42.502516,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 15:18:43.254405,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 15:18:43.261546,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 15:31:43.998411,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 15:31:44.005351,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 15:44:44.772813,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 15:44:44.779657,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 15:57:45.556130,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 15:57:45.563064,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 16:10:46.315143,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 16:10:46.323050,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 16:23:46.986571,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 16:23:46.993498,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 16:36:47.770137,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 16:36:47.777056,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 16:49:48.495477,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 16:49:48.503923,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 17:02:49.194859,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 17:02:49.201784,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 17:15:49.953374,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 17:15:49.960945,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 17:28:50.678158,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 17:28:50.685101,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 17:41:51.435295,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 17:41:51.442205,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 17:54:52.194415,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 17:54:52.201297,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 18:07:52.953501,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 18:07:52.961494,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 18:20:53.737004,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 18:20:53.743861,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 18:33:54.495540,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 18:33:54.502513,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 18:46:55.252374,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 18:46:55.259264,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 18:59:56.013776,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 18:59:56.020645,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 19:12:56.772876,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 19:12:56.780783,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 19:25:57.556734,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 19:25:57.563640,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 19:38:58.315005,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 19:38:58.321894,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 19:51:59.074248,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 19:51:59.081170,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 20:04:59.833260,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 20:04:59.840140,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 20:18:00.616026,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 20:18:00.622987,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 20:31:01.328808,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 20:31:01.335656,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 20:44:02.073818,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 20:44:02.080712,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 20:57:02.832993,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 20:57:02.839858,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 21:10:03.616488,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 21:10:03.623347,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 21:23:04.375137,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 21:23:04.383328,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 21:36:05.134475,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 21:36:05.141637,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 21:49:05.893234,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 21:49:05.900139,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 22:02:06.676425,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 22:02:06.683368,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 22:15:07.383799,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 22:15:07.390682,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 22:28:08.105279,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 22:28:08.112158,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 22:41:08.890023,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 22:41:08.896925,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 22:54:09.674125,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 22:54:09.682033,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 23:07:10.455740,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 23:07:10.462628,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 23:20:11.194520,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 23:20:11.201496,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 23:33:11.953273,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 23:33:11.960166,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 23:46:12.736523,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 23:46:12.743483,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/04 23:59:13.495486,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/04 23:59:13.502444,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 00:12:14.194570,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 00:12:14.201524,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 00:25:14.953516,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 00:25:14.960317,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 00:38:15.736796,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 00:38:15.743709,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 00:51:16.495777,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 00:51:16.504159,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 01:04:17.254611,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 01:04:17.261591,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 01:17:18.013604,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 01:17:18.020461,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 01:30:18.772989,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 01:30:18.779882,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 01:43:19.556030,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 01:43:19.563020,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 01:56:20.315069,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 01:56:20.322010,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 02:09:21.073974,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 02:09:21.080858,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 02:22:21.773234,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 02:22:21.780110,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 02:35:22.555931,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 02:35:22.564758,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 02:48:23.315693,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 02:48:23.322631,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 03:01:24.073892,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 03:01:24.080780,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 03:14:24.832851,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 03:14:24.841342,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 03:27:25.424841,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 03:27:25.431782,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 03:40:26.194515,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 03:40:26.201601,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 03:53:26.950069,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 03:53:26.956952,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 04:06:27.735290,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 04:06:27.742969,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 04:19:28.495957,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 04:19:28.502610,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 04:32:29.254577,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 04:32:29.261149,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 04:45:30.013655,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 04:45:30.020227,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 04:58:30.772918,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 04:58:30.779493,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 05:11:31.556123,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 05:11:31.562719,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 05:24:32.314971,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 05:24:32.321580,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 05:37:33.074044,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 05:37:33.080591,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 05:50:33.832924,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 05:50:33.839453,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 06:03:34.614462,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 06:03:34.617720,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 06:16:35.375063,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 06:16:35.383216,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 06:29:36.134041,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 06:29:36.141494,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 06:42:36.893590,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 06:42:36.901025,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 06:55:37.676384,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 06:55:37.683832,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 07:08:38.393387,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 07:08:38.401579,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 07:21:39.134350,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 07:21:39.141780,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 07:34:39.893363,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 07:34:39.900726,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 07:47:40.677305,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 07:47:40.684688,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 08:00:41.434951,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 08:00:41.443261,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 08:13:42.194493,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 08:13:42.202013,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 08:26:42.953568,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 08:26:42.960973,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 08:39:43.736524,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 08:39:43.743983,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 08:52:44.479818,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 08:52:44.487286,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 09:05:45.254605,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 09:05:45.262005,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 09:18:46.013620,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 09:18:46.020987,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 09:31:46.773197,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 09:31:46.780528,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 09:44:47.556750,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 09:44:47.564163,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 09:57:48.315079,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 09:57:48.323550,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 10:10:49.074156,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 10:10:49.082336,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 10:23:49.773219,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 10:23:49.780613,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 10:36:50.555519,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 10:36:50.563004,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 10:49:51.194800,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 10:49:51.202290,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 11:02:51.953849,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 11:02:51.961318,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 11:15:52.736602,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 11:15:52.744028,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 11:28:53.495600,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 11:28:53.504046,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 11:41:54.254818,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 11:41:54.262304,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 11:54:55.013763,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 11:54:55.021202,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 12:07:55.772830,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 12:07:55.780230,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 12:20:56.556653,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 12:20:56.564077,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 12:33:57.314777,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 12:33:57.322150,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 12:46:58.073754,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 12:46:58.081154,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 12:59:58.833055,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 12:59:58.840434,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 13:12:59.616293,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 13:12:59.623780,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 13:26:00.375323,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 13:26:00.383027,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 13:39:01.134453,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 13:39:01.141962,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 13:52:01.893215,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 13:52:01.901437,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 14:05:02.676307,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 14:05:02.683798,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 14:18:03.435421,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 14:18:03.442867,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 14:31:04.194583,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 14:31:04.202035,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 14:44:04.953480,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 14:44:04.960881,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 14:57:05.737281,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 14:57:05.745725,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 15:10:06.495706,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 15:10:06.503233,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 15:23:07.254967,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 15:23:07.262444,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 15:36:08.013700,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 15:36:08.021128,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 15:49:08.772890,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 15:49:08.780324,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 16:02:09.555657,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 16:02:09.563187,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 16:15:10.314886,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 16:15:10.322350,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 16:28:11.073827,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 16:28:11.081296,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 16:41:11.833179,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 16:41:11.840616,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 16:54:12.616032,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 16:54:12.623534,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 17:07:13.375445,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 17:07:13.382949,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 17:20:14.134578,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 17:20:14.142026,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 17:33:14.893340,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 17:33:14.901536,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 17:46:15.647163,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 17:46:15.654626,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 17:59:16.374927,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 17:59:16.382394,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 18:12:17.134282,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 18:12:17.141724,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 18:25:17.893194,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 18:25:17.900575,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 18:38:18.677033,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 18:38:18.684529,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 18:51:19.435085,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 18:51:19.442527,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 19:04:20.194410,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 19:04:20.201846,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 19:17:20.953344,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 19:17:20.960669,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 19:30:21.736162,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 19:30:21.743615,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 19:43:22.495608,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 19:43:22.503326,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 19:56:23.254589,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 19:56:23.263043,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 20:09:24.013593,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 20:09:24.021811,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 20:22:24.773054,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 20:22:24.780400,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 20:35:25.533801,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 20:35:25.541197,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 20:48:26.314912,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 20:48:26.322365,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 21:01:27.073916,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 21:01:27.081372,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 21:14:27.833030,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 21:14:27.840422,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 21:27:28.615491,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 21:27:28.622967,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 21:40:29.375267,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 21:40:29.382848,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 21:53:30.134038,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 21:53:30.142539,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 22:06:30.893217,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 22:06:30.900577,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 22:19:31.676972,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 22:19:31.684424,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 22:32:32.435086,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 22:32:32.442540,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 22:45:33.194372,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 22:45:33.201789,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 22:58:33.953427,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 22:58:33.961881,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 23:11:34.736993,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 23:11:34.745295,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 23:24:35.495666,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 23:24:35.504189,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 23:37:36.254587,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 23:37:36.262073,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/05 23:50:37.013694,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/05 23:50:37.022113,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 00:03:37.772961,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 00:03:37.780373,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 00:16:38.556001,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 00:16:38.563472,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 00:29:39.315197,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 00:29:39.322631,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 00:42:40.074213,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 00:42:40.081661,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 00:55:40.833055,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 00:55:40.840418,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 01:08:41.616198,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 01:08:41.623585,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 01:21:42.374961,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 01:21:42.382479,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 01:34:43.134054,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 01:34:43.141557,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 01:47:43.893196,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 01:47:43.901600,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 02:00:44.676212,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 02:00:44.683597,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 02:13:45.435556,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 02:13:45.443049,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 02:26:46.194366,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 02:26:46.201790,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 02:39:46.953569,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 02:39:46.960903,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 02:52:47.678020,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 02:52:47.686931,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 03:05:48.400400,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 03:05:48.407879,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 03:18:49.134198,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 03:18:49.141707,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 03:31:49.893106,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 03:31:49.900495,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 03:44:50.675935,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 03:44:50.684380,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 03:57:51.435746,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 03:57:51.443228,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 04:10:52.194552,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 04:10:52.201988,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 04:23:52.953486,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 04:23:52.960816,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 04:36:53.737183,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 04:36:53.746068,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 04:49:54.495316,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 04:49:54.502749,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 05:02:55.254647,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 05:02:55.262362,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 05:15:55.953503,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 05:15:55.961951,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 05:28:56.736963,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 05:28:56.744455,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 05:41:57.495922,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 05:41:57.498878,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 05:54:58.255246,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 05:54:58.262654,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 06:07:59.013683,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 06:07:59.021031,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 06:20:59.772768,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 06:20:59.780121,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 06:34:00.556464,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 06:34:00.563532,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 06:47:01.313560,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 06:47:01.320423,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 07:00:02.073912,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 07:00:02.080715,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 07:13:02.832959,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 07:13:02.839832,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 07:26:03.616204,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 07:26:03.624597,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 07:39:04.374984,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 07:39:04.381910,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 07:52:05.134829,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 07:52:05.141701,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 08:05:05.893081,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 08:05:05.899896,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 08:18:06.676529,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 08:18:06.684194,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 08:31:07.435303,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 08:31:07.442181,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 08:44:08.194459,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 08:44:08.201465,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 08:57:08.953595,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 08:57:08.960443,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 09:10:09.736998,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 09:10:09.743925,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 09:23:10.495117,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 09:23:10.502057,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 09:36:11.254575,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 09:36:11.261508,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 09:49:12.013600,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 09:49:12.020455,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 10:02:12.772779,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 10:02:12.779667,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 10:15:13.556105,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 10:15:13.563778,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 10:28:14.314923,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 10:28:14.321883,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 10:41:15.074125,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 10:41:15.080973,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 10:54:15.833085,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 10:54:15.839985,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 11:07:16.559459,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 11:07:16.566372,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 11:20:17.314947,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 11:20:17.321862,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 11:33:18.073686,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 11:33:18.081870,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 11:46:18.832918,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 11:46:18.839811,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 11:59:19.615712,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 11:59:19.622656,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 12:12:20.375378,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 12:12:20.382256,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 12:25:21.132241,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 12:25:21.139129,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 12:38:21.897688,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 12:38:21.904619,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 12:51:22.681017,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 12:51:22.687929,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 13:04:23.435496,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 13:04:23.442407,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 13:17:24.194512,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 13:17:24.202106,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 13:30:24.953763,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 13:30:24.960645,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 13:43:25.690279,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 13:43:25.698213,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 13:56:26.408276,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 13:56:26.415967,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 14:09:27.134139,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 14:09:27.141019,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 14:22:27.893423,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 14:22:27.900241,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 14:35:28.676099,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 14:35:28.683022,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 14:48:29.435519,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 14:48:29.442448,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 15:01:30.194673,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 15:01:30.202591,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 15:14:30.953371,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 15:14:30.960288,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 15:27:31.725427,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 15:27:31.732378,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 15:40:32.495575,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 15:40:32.503467,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 15:53:33.254374,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 15:53:33.261317,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 16:06:34.013693,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 16:06:34.020566,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 16:19:34.773095,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 16:19:34.780005,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 16:32:35.555761,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 16:32:35.562656,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 16:45:36.314590,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 16:45:36.322538,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 16:58:37.073979,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 16:58:37.080871,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 17:11:37.833081,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 17:11:37.839998,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 17:24:38.616604,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 17:24:38.623533,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 17:37:39.375153,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 17:37:39.383208,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 17:50:40.134728,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 17:50:40.143233,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 18:03:40.893444,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 18:03:40.900319,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 18:16:41.676965,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 18:16:41.683863,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 18:29:42.435022,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 18:29:42.441994,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 18:42:43.194588,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 18:42:43.199913,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 18:55:43.953504,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 18:55:43.960380,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 19:08:44.736711,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 19:08:44.743666,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 19:21:45.495612,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 19:21:45.502525,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 19:34:46.254240,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 19:34:46.262116,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 19:47:47.014114,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 19:47:47.020954,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 20:00:47.773116,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 20:00:47.779940,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 20:13:48.556743,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 20:13:48.564501,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 20:26:49.314710,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 20:26:49.321620,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 20:39:50.073915,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 20:39:50.080814,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 20:52:50.833078,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 20:52:50.841505,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 21:05:51.616416,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 21:05:51.624340,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 21:18:52.375752,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 21:18:52.382629,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 21:31:53.074269,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 21:31:53.081115,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 21:44:53.833242,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 21:44:53.840104,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 21:57:54.616303,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 21:57:54.623271,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 22:10:55.375302,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 22:10:55.382201,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 22:23:56.089068,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 22:23:56.096010,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 22:36:56.832925,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 22:36:56.839801,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 22:49:57.617033,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 22:49:57.623918,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 23:02:58.375229,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 23:02:58.382096,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 23:15:59.134242,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 23:15:59.141920,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 23:28:59.893165,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 23:28:59.901055,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 23:42:00.676153,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 23:42:00.683107,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/06 23:55:01.436208,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/06 23:55:01.443234,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 00:08:02.134260,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 00:08:02.141114,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 00:21:02.893402,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 00:21:02.900213,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 00:34:03.714293,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 00:34:03.716332,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 00:47:04.430389,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 00:47:04.437315,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 01:00:05.194414,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 01:00:05.201341,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 01:13:06.008775,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 01:13:06.010794,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 01:26:06.753312,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 01:26:06.760214,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 01:39:07.435496,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 01:39:07.442464,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 01:52:08.194758,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 01:52:08.201699,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 02:05:09.391985,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 02:05:09.453534,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 02:18:10.086596,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 02:18:10.100226,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 02:31:10.496482,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 02:31:10.503475,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 02:44:11.247388,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 02:44:11.254373,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 02:57:12.030419,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 02:57:12.038076,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 03:10:12.841922,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 03:10:12.850529,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 03:23:13.601977,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 03:23:13.631666,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 03:36:14.341986,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 03:36:14.348883,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 03:49:15.105875,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 03:49:15.125373,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 04:02:15.891612,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 04:02:15.900222,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 04:15:16.691603,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 04:15:16.703025,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 04:28:17.445847,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 04:28:17.465391,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 04:41:18.231984,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 04:41:18.238863,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 04:54:19.011979,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 04:54:19.020601,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 05:07:19.791618,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 05:07:19.798543,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 05:20:20.571983,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 05:20:20.580606,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 05:33:21.351610,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 05:33:21.353989,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 05:46:22.131607,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 05:46:22.139806,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 05:59:22.911611,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 05:59:22.920253,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 06:12:24.132040,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 06:12:24.185205,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 06:25:24.927144,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 06:25:24.957939,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 06:38:25.210533,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 06:38:25.217975,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 06:47:39,  0] smbd/server.c:1051(main)
+  smbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/07 06:47:39.892791,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/07 06:47:40.434579,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 06:47:40.436415,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 07:00:41.112412,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 07:00:41.115983,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 07:13:42.316714,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 07:13:42.386069,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 07:26:42.654559,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 07:26:42.658125,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 07:39:44.159861,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 07:39:44.200201,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 07:52:44.753319,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 07:52:44.825175,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 08:15:03,  0] smbd/server.c:1051(main)
+  smbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/07 08:15:03.900973,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/07 08:15:04.457762,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 08:15:04.459581,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 08:28:05.338052,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 08:28:05.341626,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 08:41:06.091734,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 08:41:06.095264,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 08:54:06.819731,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 08:54:06.823564,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 09:07:07.578650,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 09:07:07.582184,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 09:20:08.337901,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 09:20:08.341601,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 09:33:09.121614,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 09:33:09.125092,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 09:46:09.880340,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 09:46:09.883836,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/07 09:59:10.630598,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/07 09:59:10.634013,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 06:41:24,  0] smbd/server.c:1051(main)
+  smbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/08 06:41:24.251230,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 06:41:24.858185,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 06:41:24.860084,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 06:42:25.464563,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 06:42:25.468681,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 06:55:27.963952,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 06:55:28.094716,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 07:08:27.576433,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 07:08:27.704860,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 07:21:27.945182,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 07:21:27.948684,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 07:34:28.700068,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 07:34:28.703585,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 07:47:29.865550,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 07:47:29.951223,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 07:48:49.900518,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 07:48:49.905915,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 07:49:30.652488,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 07:49:30.657811,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 08:00:30.055701,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 08:00:30.059174,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 08:13:30.355810,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 08:13:30.359544,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 08:26:30.542101,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 08:26:30.545572,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 08:39:31.238502,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 08:39:31.242041,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 08:52:31.664410,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 08:52:31.667890,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 09:05:32.278411,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 09:05:32.281999,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 09:18:32.870968,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 09:18:32.874524,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 09:31:33.097645,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 09:31:33.101117,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 09:44:33.806975,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 09:44:33.810458,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 09:57:34.184891,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 09:57:34.188401,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 10:10:34.382671,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 10:10:34.386162,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 10:23:35.034347,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 10:23:35.037829,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 10:35:22,  0] smbd/server.c:1051(main)
+  smbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/08 10:35:22.734027,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 10:35:22.737344,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 10:35:23.243534,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 10:35:23.257530,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 10:48:23.948382,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 10:48:23.951925,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 11:01:24.683650,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 11:01:24.687431,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 11:14:25.430316,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 11:14:25.433751,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 11:17:35,  0] smbd/server.c:1051(main)
+  smbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/08 11:17:35.850231,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 11:17:35.853493,  0] param/loadparm.c:8004(lp_do_parameter)
+  Global parameter guest account found in service section!
+[2012/07/08 11:17:36.431770,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 11:17:36.433589,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL
+[2012/07/08 11:30:36.863883,  0] printing/print_cups.c:110(cups_connect)
+  Unable to connect to CUPS server localhost:631 - Connection refused
+[2012/07/08 11:30:36.966258,  0] printing/print_cups.c:487(cups_async_callback)
+  failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL

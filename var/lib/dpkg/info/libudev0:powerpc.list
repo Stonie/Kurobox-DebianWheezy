@@ -1,0 +1,12 @@
+/.
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libudev.so.0.13.0
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libudev0
+/usr/share/doc/libudev0/changelog.Debian.gz
+/usr/share/doc/libudev0/copyright
+/usr/share/doc/libudev0/changelog.gz
+/lib/powerpc-linux-gnu/libudev.so.0

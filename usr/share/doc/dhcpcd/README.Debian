@@ -1,0 +1,51 @@
+dhcpcd for Debian
+-----------------
+
+Startup
+-------
+If you would like an interface to be configured using dhcpcd at
+boot time then add lines like
+
+auto eth1
+iface eth1 inet dhcp
+
+to /etc/network/interfaces.  This will cause ifup to bring up 
+interface eth1 at boot time.
+
+Ifup will use dhcpcd to configure a particular interface if it
+is set up to configure that interface according to an "iface"
+description in /etc/network/interfaces of type "inet dhcp".
+See the ifup(8) and interfaces(5) manual pages for more
+information on how to write the /etc/network/interfaces file.
+
+Resolv.conf
+-----------
+Dhcpcd will no longer update /etc/resolv.conf and /etc/ntp.conf
+directly unless this is enabled in /etc/dhcpc/config by setting
+the SET_DNS environment variable to "yes".  If the resolvconf
+package is installed then the resolv.conf information will be
+sent to resolvconf; otherwise the information will be written
+to /etc/dhcpc/resolv.conf .  Note that if you are using
+resolvconf then you must _not_ set SET_DNS to "yes" since this
+will interfere with resolvconf's operation.
+
+DUID-based client-ids
+---------------------
+Dhcpcd version 3 constructs client-ids using the a DUID, as specified
+by RFC 4361. previous versions used a client-id based on the interface
+MAC address, as specified in RFC 2131. If a host which already has a
+DHCP lease changes its client-id, it is probable that it will be
+allocated a new IP address by the DHCP server, which may cause
+problems. To avoid this, if the Debian package of dhcpcd is upgraded,
+the file /etc/dhcpc/inhibit-duid will be created, which forces dhcpcd
+to use the old client-id. New installations use DUID-based client-ids
+from scratch and existing ones can be upgraded in a controlled manner
+by deleting /etc/dhcpc/inhibit-duid and taking interfaces down and
+then back up.
+
+
+
+ -- Simon Kelley <simon@thekelleys.org.uk>, Tues, 12 Feb 2008 12:22:01 +0000
+
+
+

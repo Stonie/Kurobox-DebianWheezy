@@ -1,0 +1,12 @@
+14fa11a394a09cc6a835e2d6a0770479  sbin/cfdisk
+db8aa1e6613b321d1db3861911fc1f0f  sbin/fdisk
+b443df4780cf69563d8dd1a4059cd7b8  usr/share/doc/gnu-fdisk/NEWS.gz
+41f228ad68720a5da8fbf2481c258d86  usr/share/doc/gnu-fdisk/README
+c8d6f5b2c07b19ac29b64299a52bfece  usr/share/doc/gnu-fdisk/TODO
+8655fe1fdda6289092622ff15d093474  usr/share/doc/gnu-fdisk/changelog.Debian.gz
+0c9af7cacde362b5bbf6fb7c99630847  usr/share/doc/gnu-fdisk/changelog.gz
+51196bfb4c235ee01cbb8accd955f396  usr/share/doc/gnu-fdisk/copyright
+4925797ffb41bb58a5bb6974bc2beecb  usr/share/info/cfdisk.info.gz
+ca8107a4da287c93528efc41ee1c3649  usr/share/info/fdisk.info.gz
+7d0a7ab985f136d7c5456d88566ea2de  usr/share/man/man8/cfdisk.8.gz
+0658617ac5207165fa0fb4dc01bed8b9  usr/share/man/man8/fdisk.8.gz

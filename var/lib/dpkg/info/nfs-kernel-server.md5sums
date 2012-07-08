@@ -1,0 +1,17 @@
+6e31c767196beb7cb88f614f3d7e008c  usr/sbin/exportfs
+d0858e046388f5d4471c3db62c801284  usr/sbin/rpc.mountd
+70a4d25aec02e37884e4f1822dd7ed8c  usr/sbin/rpc.nfsd
+e3d53398c6b16a9de861be5dc6d8f7dd  usr/share/bug/nfs-kernel-server/script
+57539169f9ca14bacb6cdfef2c3709d7  usr/share/doc/nfs-kernel-server/NEWS.Debian.gz
+367b00b1581c4564f46ab1d8c331fc2d  usr/share/doc/nfs-kernel-server/changelog.Debian.gz
+5db35a8d05a3f6e981673132c6a1ad8f  usr/share/doc/nfs-kernel-server/changelog.gz
+b442ee1d627c800591d90dd9feddde4f  usr/share/doc/nfs-kernel-server/copyright
+47b7c125f3e68022d405761a6b57035e  usr/share/lintian/overrides/nfs-kernel-server
+4d3ee41e84b3e6acf99e8dace7585297  usr/share/man/man5/exports.5.gz
+c087935b037a53dfba086a7250742b0e  usr/share/man/man7/nfsd.7.gz
+8f9087a05e27d797ce6677fcd70da624  usr/share/man/man8/exportfs.8.gz
+5d02b2c28b965965b2bc350ccba4442f  usr/share/man/man8/mountd.8.gz
+22ccee51adfdb4a45acb12573e067bb7  usr/share/man/man8/nfsd.8.gz
+8f60f920285b10b5e7293d54d055af17  usr/share/man/man8/svcgssd.8.gz
+c4b5a82046e49d2e6a590e49d165f095  usr/share/nfs-kernel-server/conffiles/etc.exports
+91abbc06a09f73bee4a5c4fb63c0efe8  usr/share/nfs-kernel-server/conffiles/nfs-kernel-server.default

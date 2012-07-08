@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.debian.AptXapianIndex
+Exec=/usr/share/apt-xapian-index/update-apt-xapian-index-dbus
+User=root

@@ -1,0 +1,16 @@
+/.
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libexpat.so.1.6.0
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libexpat1
+/usr/share/doc/libexpat1/changelog.Debian.gz
+/usr/share/doc/libexpat1/copyright
+/usr/share/doc/libexpat1/changelog.gz
+/usr/lib
+/usr/lib/powerpc-linux-gnu
+/usr/lib/powerpc-linux-gnu/libexpatw.so.1.6.0
+/lib/powerpc-linux-gnu/libexpat.so.1
+/usr/lib/powerpc-linux-gnu/libexpatw.so.1

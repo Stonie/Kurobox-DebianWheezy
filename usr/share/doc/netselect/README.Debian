@@ -1,0 +1,38 @@
+netselect for Debian
+====================
+
+running netselect without setuid root
+-------------------------------------
+
+Netselect needs to run as root since it currently uses RAW sockets for
+it network tests. In UDP probe mode (traceroute) Netselect will 
+send an UDP probe and then waits for an ICMP reply. In ICMP probe mode (-I),
+Netselect will send an ICMP probe and waits for its reply.
+
+If you want to to run netselect without setuid root and make the tool
+available to regular uses, you can enable this through the use of file
+capabilities on Linux.
+
+Starting with linux >= 2.6.24 and using a filesystem supporting POSIX extended
+attributes you can set the 'cap_net_raw' capability on netselect thanks to
+setcap shipped inside libcap2-bin:
+
+setcap cap_net_raw=ep /usr/bin/netselect
+
+at this point you can remove setuid on netselect by doing:
+
+chmod u-s /usr/bin/netselect
+
+This is a known limitation, so please do not report it as a bug. Actually, this
+has been reported already in
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=297439
+
+To prevent this need netselect would need a rewrite to use full TCP
+connections, and do traceroutes just like the 'tcptraceroute' program. If you
+are able to develop such a patch, please forward it to the above bug report.
+
+---- 
+Javier Fernandez-Sanguino
+Wed, 01 Dec 2010 00:30:17 +0100
+
+

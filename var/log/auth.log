@@ -1,0 +1,49 @@
+Jul  8 06:56:10 LSPPC-Wheezy CRON[2376]: pam_unix(cron:session): session closed for user root
+Jul  8 07:16:44 LSPPC-Wheezy sshd[2604]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.105  user=root
+Jul  8 07:16:46 LSPPC-Wheezy sshd[2604]: Failed password for root from 192.168.1.105 port 46743 ssh2
+Jul  8 07:16:50 LSPPC-Wheezy sshd[2604]: Accepted password for root from 192.168.1.105 port 46743 ssh2
+Jul  8 07:16:50 LSPPC-Wheezy sshd[2604]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  8 07:17:01 LSPPC-Wheezy CRON[2614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 07:17:01 LSPPC-Wheezy CRON[2614]: pam_unix(cron:session): session closed for user root
+Jul  8 07:43:04 LSPPC-Wheezy groupadd[2921]: group added to /etc/group: name=debian-transmission, GID=112
+Jul  8 07:43:04 LSPPC-Wheezy groupadd[2921]: group added to /etc/gshadow: name=debian-transmission
+Jul  8 07:43:04 LSPPC-Wheezy groupadd[2921]: new group: name=debian-transmission, GID=112
+Jul  8 07:43:05 LSPPC-Wheezy useradd[2925]: new user: name=debian-transmission, UID=108, GID=112, home=/home/debian-transmission, shell=/bin/false
+Jul  8 07:43:05 LSPPC-Wheezy usermod[2930]: change user 'debian-transmission' password
+Jul  8 07:43:05 LSPPC-Wheezy chage[2935]: changed password expiry for debian-transmission
+Jul  8 08:17:02 LSPPC-Wheezy CRON[3042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 08:17:02 LSPPC-Wheezy CRON[3042]: pam_unix(cron:session): session closed for user root
+Jul  8 09:17:01 LSPPC-Wheezy CRON[3051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 09:17:01 LSPPC-Wheezy CRON[3051]: pam_unix(cron:session): session closed for user root
+Jul  8 10:16:18 LSPPC-Wheezy sshd[3064]: Accepted password for root from 192.168.1.105 port 47269 ssh2
+Jul  8 10:16:18 LSPPC-Wheezy sshd[3064]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  8 10:17:01 LSPPC-Wheezy CRON[3072]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 10:17:01 LSPPC-Wheezy CRON[3072]: pam_unix(cron:session): session closed for user root
+Jul  8 10:23:31 LSPPC-Wheezy sshd[3236]: Accepted password for root from 192.168.1.105 port 35524 ssh2
+Jul  8 10:23:31 LSPPC-Wheezy sshd[3236]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  8 10:23:32 LSPPC-Wheezy sshd[3236]: subsystem request for sftp by user root
+Jul  8 10:25:48 LSPPC-Wheezy sshd[3242]: Accepted password for root from 192.168.1.105 port 33401 ssh2
+Jul  8 10:25:48 LSPPC-Wheezy sshd[3242]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  8 10:25:48 LSPPC-Wheezy sshd[3242]: subsystem request for sftp by user root
+Jul  8 10:26:55 LSPPC-Wheezy sshd[3242]: pam_unix(sshd:session): session closed for user root
+Jul  8 10:27:23 LSPPC-Wheezy sshd[3247]: Accepted password for root from 192.168.1.105 port 41126 ssh2
+Jul  8 10:27:23 LSPPC-Wheezy sshd[3247]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  8 10:27:24 LSPPC-Wheezy sshd[3247]: subsystem request for sftp by user root
+Jul  8 10:28:24 LSPPC-Wheezy sshd[3247]: pam_unix(sshd:session): session closed for user root
+Jul  8 10:29:08 LSPPC-Wheezy sshd[3252]: Accepted password for root from 192.168.1.105 port 34907 ssh2
+Jul  8 10:29:08 LSPPC-Wheezy sshd[3252]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  8 10:29:08 LSPPC-Wheezy sshd[3252]: subsystem request for sftp by user root
+Jul  8 10:30:08 LSPPC-Wheezy sshd[3252]: pam_unix(sshd:session): session closed for user root
+Jul  8 10:35:35 LSPPC-Wheezy sshd[2317]: Server listening on 0.0.0.0 port 22.
+Jul  8 10:35:35 LSPPC-Wheezy sshd[2317]: Server listening on :: port 22.
+Jul  8 10:36:19 LSPPC-Wheezy sshd[2401]: Accepted password for root from 192.168.1.105 port 47281 ssh2
+Jul  8 10:36:19 LSPPC-Wheezy sshd[2401]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  8 11:14:52 LSPPC-Wheezy userdel[2826]: delete user 'debian-transmission' 
+Jul  8 11:14:52 LSPPC-Wheezy userdel[2826]: removed group 'debian-transmission' owned by 'debian-transmission' 
+Jul  8 11:14:52 LSPPC-Wheezy userdel[2826]: removed shadow group 'debian-transmission' owned by 'debian-transmission' 
+Jul  8 11:17:48 LSPPC-Wheezy sshd[2319]: Server listening on 0.0.0.0 port 22.
+Jul  8 11:17:48 LSPPC-Wheezy sshd[2319]: Server listening on :: port 22.
+Jul  8 11:18:37 LSPPC-Wheezy sshd[2406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.105  user=root
+Jul  8 11:18:39 LSPPC-Wheezy sshd[2406]: Failed password for root from 192.168.1.105 port 47461 ssh2
+Jul  8 11:18:44 LSPPC-Wheezy sshd[2406]: Accepted password for root from 192.168.1.105 port 47461 ssh2
+Jul  8 11:18:44 LSPPC-Wheezy sshd[2406]: pam_unix(sshd:session): session opened for user root by (uid=0)

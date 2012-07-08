@@ -1,0 +1,74 @@
+This is the Debian GNU/Linux prepackaged version of Linux' system and
+kernel logging daemons.
+
+This package was put together by Martin Schulze <joey@debian.org>,
+from sources obtained from:
+
+  http://www.infodrom.org/projects/sysklogd/download/sysklogd-1.4.1.tar.gz
+
+Recent versions are Debian versions that may be also be found at
+
+  http://www.infodrom.org/projects/sysklogd/
+
+syslogd is under Berkeley copyright, klogd is under GPL.
+
+   Copyright (C) 1994-96 Greg Wettstein <greg@wind.enjellic.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; version 2 dated June, 1991.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program;  if not, write to the Free Software
+   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111, USA.
+
+On Debian GNU/Linux systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+There is a mailing list covering this package and syslog in general.
+The lists address is infodrom-sysklogd@lists.infodrom.org .  
+
+To subscribe to this list,
+
+ . send a mail to infodrom-sysklogd-request@lists.infodrom.org with
+   the word "subscribe" as subject, or
+
+ . send a mail to majordomo@lists.infodrom.org with the body of
+   "subscribe infodrom-sysklogd".
+
+The list will be archived publically at
+<http://www.infodrom.org/Mail-Archive/infodrom-sysklogd>.
+
+The source of the Debian package is managed through CVS.  It is publically
+available at <http://cvs.infodrom.org/sysklogd/?cvsroot=debian> or as
+<:pserver:anonymous@cvs.infodrom.org/var/cvs/debian/sysklogd/>.
+
+Syslogd stays under the following copyright:
+
+/*
+ * Copyright (c) 1983, 1988 Regents of the University of California.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms are permitted
+ * provided that the above copyright notice and this paragraph are
+ * duplicated in all such forms and that any documentation,
+ * advertising materials, and other materials related to such
+ * distribution and use acknowledge that the software was developed
+ * by the University of California, Berkeley.  The name of the
+ * University may not be used to endorse or promote products derived
+ * from this software without specific prior written permission.
+ * THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ * WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+Klogd has the following copyright notice:
+
+/*
+    klogd.c - main program for Linux kernel log daemon.
+    Copyright (c) 1995  Dr. G.W. Wettstein <greg@wind.rmcc.com>

@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+if [ "$1" = purge ]; then
+   rm -f /etc/dhcpc/resolv.conf
+   rm -rf /var/lib/dhcpcd
+fi
+ 
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+#!/bin/sh
+
+set -e
+
+case "${1}" in
+	remove)
+		_USERNAME="ftp"
+		_GROUPNAME="${_USERNAME}"
+		_DIRECTORY="/srv/ftp"
+
+		if [ -x /usr/sbin/deluser ]
+		then
+			deluser --quiet --system ${_USERNAME}
+		fi
+
+		if [ -x /usr/sbin/delgroup ]
+		then
+			delgroup --quiet --system --only-if-empty ${_GROUPNAME} || true
+		fi
+
+		if [ -d "${_DIRECTORY}" ]
+		then
+			rmdir --ignore-fail-on-non-empty "${_DIRECTORY}" || true
+		fi
+
+		# A user might have manually added vsftp in inetd.conf.
+		if [ -x "$(which update-inetd 2>/dev/null)" ]
+		then
+			update-inetd --disable --pattern vsftpd ftp
+		fi
+		;;
+
+	purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+
+		;;
+
+	*)
+		echo "postrm called with unknown argument \`${1}'" >&2
+		exit 1
+		;;
+esac
+
+# Automatically added by dh_installinit
+if [ "$1" = "purge" ] ; then
+	update-rc.d vsftpd remove >/dev/null
+fi
+# End automatically added section
+# Automatically added by dh_installdebconf
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
+
+
+exit 0

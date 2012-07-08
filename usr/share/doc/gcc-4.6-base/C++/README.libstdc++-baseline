@@ -1,0 +1,24 @@
+The libstdc++ baseline file is a list of symbols exported by the
+libstdc++ library.
+A baseline file for powerpc-linux-gnu was found.
+Running the check-abi script ...
+
+make[2]: Entering directory `/build/buildd-gcc-4.6_4.6.3-8-powerpc-m0bQjb/gcc-4.6-4.6.3/build/powerpc-linux-gnu/libstdc++-v3/testsuite'
+Test Run By buildd on Mon Jun 25 06:37:11 2012
+Native configuration is powerpc-unknown-linux-gnu
+
+		=== libstdc++ tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../../../src/libstdc++-v3/testsuite/config/default.exp as tool-and-target-specific interface file.
+Running ../../../../src/libstdc++-v3/testsuite/libstdc++-abi/abi.exp ...
+
+		=== libstdc++ Summary ===
+
+# of expected passes		1
+make[2]: Leaving directory `/build/buildd-gcc-4.6_4.6.3-8-powerpc-m0bQjb/gcc-4.6-4.6.3/build/powerpc-linux-gnu/libstdc++-v3/testsuite'

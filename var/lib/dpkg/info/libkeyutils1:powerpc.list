@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkeyutils1
+/usr/share/doc/libkeyutils1/changelog.Debian.gz
+/usr/share/doc/libkeyutils1/copyright
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libkeyutils.so.1.4
+/lib/powerpc-linux-gnu/libkeyutils.so.1

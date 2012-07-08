@@ -1,0 +1,4 @@
+Do not remove this file or your log files won't be rotated anymore.
+This is a control file to ensure that the sysklogd package is
+installed so that the cronjobs don't have to parse the dpkg database
+for each run.

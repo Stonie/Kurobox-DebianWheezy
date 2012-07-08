@@ -1,0 +1,12 @@
+Feel free to send me more examples, or to send me ports of these examples to
+other languages.
+
+This is a list of currently available Xapian ports:
+
+ - C++: libxapian-dev
+ - Perl: libsearch-xapian-perl
+ - Ruby: libxapian-ruby1.8
+ - Python: python-xapian
+ - Tcl: tclxapian
+ - PHP: php5-xapian
+

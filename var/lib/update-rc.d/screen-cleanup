@@ -1,0 +1,1 @@
+update-rc.d screen-cleanup start 70 S .

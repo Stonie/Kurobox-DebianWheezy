@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libbsd0
+/usr/share/doc/libbsd0/changelog.gz
+/usr/share/doc/libbsd0/copyright
+/usr/share/doc/libbsd0/changelog.Debian.gz
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libbsd.so.0.4.0
+/lib/powerpc-linux-gnu/libbsd.so.0

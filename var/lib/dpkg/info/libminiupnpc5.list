@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libminiupnpc5
+/usr/share/doc/libminiupnpc5/changelog.gz
+/usr/share/doc/libminiupnpc5/copyright
+/usr/share/doc/libminiupnpc5/changelog.Debian.gz
+/usr/lib
+/usr/lib/libminiupnpc.so.5
+/usr/lib/libminiupnpc.a

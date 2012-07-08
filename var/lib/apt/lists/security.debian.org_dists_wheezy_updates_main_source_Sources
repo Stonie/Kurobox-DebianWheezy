@@ -1,0 +1,31 @@
+Package: inspircd
+Binary: inspircd, inspircd-dbg
+Version: 1.1.22+dfsg-4+wheezy1
+Maintainer: Debian IRC Team <pkg-irc-maintainers@lists.alioth.debian.org>
+Uploaders: Darren Blaber <dmbtech@gmail.com>, Mario Iseli <mario@debian.org>, Matt Arnold <mattarnold5@gmail.com>, Giacomo Catenazzi <cate@debian.org>, Bradley Smith <bradsmith@debian.org>
+Build-Depends: debhelper (>= 7), perl-modules, libgnutls-dev, dpatch, pkg-config
+Architecture: any
+Standards-Version: 3.8.2
+Format: 1.0
+Files:
+ 41def765961a7f9108001f7beebe8445 2188 inspircd_1.1.22+dfsg-4+wheezy1.dsc
+ 8f3e0132e63990e5602d5a436f866af6 577680 inspircd_1.1.22+dfsg.orig.tar.gz
+ 6c8de39f6ccf8ab623bf3401df7225de 14905 inspircd_1.1.22+dfsg-4+wheezy1.diff.gz
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-irc/packages/inspircd/trunk/
+Checksums-Sha1:
+ 943b1dc8102773ea2b38206ab06539cf69bfa94f 2188 inspircd_1.1.22+dfsg-4+wheezy1.dsc
+ 351760fde712b22a1eae96ba603e23efa93a20ff 577680 inspircd_1.1.22+dfsg.orig.tar.gz
+ 0732282963bb27cf4c03cb547e06bbcc5c44686a 14905 inspircd_1.1.22+dfsg-4+wheezy1.diff.gz
+Checksums-Sha256:
+ 3f70e3171823d3fb3f4b8e028f0306a76c48ab9c4ce0087392b356b7ed184922 2188 inspircd_1.1.22+dfsg-4+wheezy1.dsc
+ a59c20c367abefc6edffb15ab2082b66e1514c1cab34d77a593ecb8459aeb83b 577680 inspircd_1.1.22+dfsg.orig.tar.gz
+ ce9600fbcf74d2aabc562f09e5aed564c792fa76f724c9f8b7f87b6f76f3d53b 14905 inspircd_1.1.22+dfsg-4+wheezy1.diff.gz
+Homepage: http://www.inspircd.org/
+Package-List: 
+ inspircd deb net optional
+ inspircd-dbg deb debug extra
+Vcs-Svn: svn://svn.debian.org/pkg-irc/packages/inspircd/trunk/
+Directory: pool/updates/main/i/inspircd
+Priority: source
+Section: net
+

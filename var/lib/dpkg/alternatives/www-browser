@@ -1,0 +1,9 @@
+auto
+/usr/bin/www-browser
+www-browser.1.gz
+/usr/share/man/man1/www-browser.1.gz
+
+/usr/bin/lynx
+40
+/usr/share/man/man1/lynx.1.gz
+

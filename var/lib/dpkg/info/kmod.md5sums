@@ -1,0 +1,16 @@
+9159db58b16c192c19865769ed32aeb0  bin/kmod
+c7de8acb75e811ad8e579460463127b0  lib/modprobe.d/aliases.conf
+3f8b07894c79ee4b63fe4c826551f13e  usr/share/doc/libkmod2/README
+a665499dee409223e6759bc9789e80aa  usr/share/doc/libkmod2/TODO
+d89009a5e3209a9184468b87ff9c5fa9  usr/share/initramfs-tools/hooks/kmod
+0ebebcd2e659e9075ad07dcdfc3292ca  usr/share/man/fr/man5/modules.5.gz
+a72ad94cd9b1c7f0807bf5beb1a163e9  usr/share/man/man5/depmod.d.5.gz
+c22f0cb445ee761cd4987050949ca1fa  usr/share/man/man5/modprobe.d.5.gz
+1b95cb3f5aa4b0a24d31ea1ccecfe2ce  usr/share/man/man5/modules.5.gz
+0ece02993111ab8b69239b0ef582d371  usr/share/man/man5/modules.dep.5.gz
+ad407a1e9cd60dac7c13d9c0c7e9cc7c  usr/share/man/man8/depmod.8.gz
+76a5e4318fa208f4035452f9a6bc3646  usr/share/man/man8/insmod.8.gz
+da223963b698ca551d478bad09297b69  usr/share/man/man8/lsmod.8.gz
+46e99f58eb2972c48c3469acd43b84aa  usr/share/man/man8/modinfo.8.gz
+35718111119ff7670e2aa2a0f1acc287  usr/share/man/man8/modprobe.8.gz
+07fa1f55fba2f5be3b070aabd7635218  usr/share/man/man8/rmmod.8.gz

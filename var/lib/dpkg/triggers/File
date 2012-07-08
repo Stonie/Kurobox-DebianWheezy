@@ -1,0 +1,13 @@
+/usr/lib/mime/packages mime-support
+/usr/share/info install-info
+/usr/lib/powerpc-linux-gnu/gio/modules libglib2.0-0:powerpc
+/usr/lib/gio/modules libglib2.0-0:powerpc
+/usr/share/glib-2.0/schemas libglib2.0-0:powerpc
+/etc/sgml sgml-base
+/usr/man man-db
+/usr/share/man man-db
+/usr/local/man man-db
+/usr/local/share/man man-db
+/usr/X11R6/man man-db
+/opt/man man-db
+/usr/share/mime/packages shared-mime-info

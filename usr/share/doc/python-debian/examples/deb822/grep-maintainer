@@ -1,0 +1,29 @@
+#!/usr/bin/python
+
+# grep-maintainer
+# Copyright (C) 2007 Stefano Zacchiroli <zack@debian.org>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+"""Dumb maintainer-based grep for the dpkg status file."""
+
+import re
+import sys
+from debian import deb822
+
+try:
+    maint_RE = re.compile(sys.argv[1])
+except IndexError:
+    print >>sys.stderr, "Usage: grep-maintainer REGEXP"
+    sys.exit(1)
+except re.error, e:
+    print >>sys.stderr, "Error in the regexp: %s" % (e,)
+    sys.exit(1)
+
+for pkg in deb822.Packages.iter_paragraphs(file('/var/lib/dpkg/status')):
+    if pkg.has_key('Maintainer') and maint_RE.search(pkg['maintainer']):
+        print pkg['package']
+

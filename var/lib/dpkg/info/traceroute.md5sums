@@ -1,0 +1,14 @@
+e451e1149883e5a0f0066667ab062bc7  usr/bin/lft.db
+832f993e4ecf1dae88ded1d6f19dc750  usr/bin/traceproto.db
+13e3b7f9825dd0efcf73695f8e14240e  usr/bin/traceroute-nanog
+f15e982d3c59c624034fa7aa19f71a9b  usr/bin/traceroute.db
+532a4ffcfd0af03186ad72212733d9ce  usr/include/clif.h
+0ca4d727c5023eb7b467f8009fb42485  usr/lib/libsupp.a
+fecbb64912041412dc2bfd5578fcd29d  usr/sbin/tcptraceroute.db
+36166334547fe0a89a500318f51eae2f  usr/share/doc/traceroute/CREDITS
+c092529bc286e1faec3d614db30325f6  usr/share/doc/traceroute/README
+97133e0c7edf90ba67829e3c3ba02e4b  usr/share/doc/traceroute/TODO
+2a24f9b3df95575bd6c5e7eb953d3bd9  usr/share/doc/traceroute/changelog.Debian.gz
+abed581ce4f042226c11794cb99c888d  usr/share/doc/traceroute/changelog.gz
+afc2ce28c56e59ee97c28eeb39a2362b  usr/share/doc/traceroute/copyright
+7d14097ea10e5d08a70e8777f246cd3f  usr/share/man/man1/traceroute.db.1.gz

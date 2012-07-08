@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libffi5
+/usr/share/doc/libffi5/copyright
+/usr/share/doc/libffi5/changelog.Debian.gz
+/usr/lib
+/usr/lib/powerpc-linux-gnu
+/usr/lib/powerpc-linux-gnu/libffi.so.5.0.10
+/usr/lib/powerpc-linux-gnu/libffi.so.5

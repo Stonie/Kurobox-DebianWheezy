@@ -1,0 +1,50 @@
+Cris van Pelt
+- for writing deborphan
+
+Ferry Boender
+- Various suggestions.
+
+Richard Braakman
+- For sending in the --show-size patch.
+
+Goswin Brederlow
+- For writing the initial orphaner.
+
+Wessel Dankers
+- For general mentoring, being a nuissance and a zealot, and 
+  (probably uninitentionally) tossing in a little competion.
+  Deborphan is cooler than debfoster!
+
+Joachim Kohlham
+- Bug fix, implemented in 0.1.2
+
+Paul Martin
+- For sending in a patch, for speeding up and quite a large
+  reduction in memory usage ;) - Implemented in 0.1.12
+
+Peter Palfrader
+- For maintaining the Debian package. And being patient.
+
+Sean 'Shaleh' Perry
+- Fixed some of my stupid mistakes. Did some cleaning up, and
+  POSIXizing, implemented in 0.1.6.
+
+Joerg Sommer
+- for a lot of work on orphaner, including simulation, the help button, and
+  much more.
+
+Translations:
+ - [ca] Jordi Mallach <jordi@debian.org>
+ - [cs] Miroslav Kure <kurem@debian.cz>
+ - [da] Morten Brix Pedersen <morten@wtf.dk>
+ - [de] Florian Ernst <florian_ernst@gmx.net>
+ - [de] Gerfried Fuchs <alfie@ist.org>
+ - [es] Javier Fernandez-Sanguino Peña <jfs@debian.org>
+ - [fr] Jean-Luc Coulon (f5ibh) <jean-luc.coulon@wanadoo.fr>
+ - [ja] Yasuo Eto <yasuo@etou.org>
+ - [nl] Cris van Pelt <tribbel@tribe.eu.org>
+ - [pl] Marcin Owsiany <porridge@debian.org>
+
+And of course everyone who sent comments, suggestions or bug-reports.
+
+$Id: THANKS 486 2004-07-13 21:51:29Z weasel $

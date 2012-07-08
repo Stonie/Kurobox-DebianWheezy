@@ -1,0 +1,33 @@
+
+Start-Date: 2012-07-07  03:14:03
+Commandline: apt-get install smbclient
+Install: smbclient:powerpc (3.6.5-7)
+End-Date: 2012-07-07  03:14:39
+
+Start-Date: 2012-07-07  07:08:52
+Commandline: apt-get dist-upgrade
+Upgrade: vim-common:powerpc (7.3.547-1, 7.3.547-3), g++-4.6:powerpc (4.6.3-1, 4.6.3-8), groff-base:powerpc (1.21-7, 1.21-9), g++:powerpc (4.6.3-6, 4.6.3-7), gcc-4.6:powerpc (4.6.3-1, 4.6.3-8), vim-tiny:powerpc (7.3.547-1, 7.3.547-3), cpp:powerpc (4.6.3-6, 4.6.3-7), gcc:powerpc (4.6.3-6, 4.6.3-7), gcc-4.6-base:powerpc (4.6.3-1, 4.6.3-8), cpp-4.6:powerpc (4.6.3-1, 4.6.3-8), libstdc++6-4.6-dev:powerpc (4.6.3-1, 4.6.3-8)
+End-Date: 2012-07-07  07:09:38
+
+Start-Date: 2012-07-07  07:38:08
+Purge: libtalloc1:powerpc (), libevent-1.4-2:powerpc (), dhcp3-client:powerpc (), libconsole:powerpc (), libc6-ppc64:powerpc (), libdevmapper1.02:powerpc (), libparted1.8-10:powerpc (), librpcsecgss3:powerpc (), libgmp3c2:powerpc (), libept0:powerpc (), libept1:powerpc (), python-central:powerpc (), libxapian15:powerpc (), libboost-iostreams1.42.0:powerpc (), libboost-iostreams1.46.1:powerpc (), libboost-iostreams1.48.0:powerpc (), libmpfr1ldbl:powerpc (), portmap:powerpc (), libreadline5:powerpc (), libldap2:powerpc (), libntfs-3g75:powerpc ()
+End-Date: 2012-07-07  07:38:35
+
+Start-Date: 2012-07-07  07:41:35
+Purge: gcc-4.3-base:powerpc (4.3.5-4), libcap1:powerpc (1.10-14), liblzma2:powerpc (5.0.0-2), libssl0.9.8:powerpc (0.9.8o-7), libdb4.8:powerpc (4.8.30-11)
+End-Date: 2012-07-07  07:41:46
+
+Start-Date: 2012-07-07  07:42:54
+Commandline: apt-get install debsums
+Install: libfile-fnmatch-perl:powerpc (0.02-1+b3, automatic), debsums:powerpc (2.0.52)
+End-Date: 2012-07-07  07:43:16
+
+Start-Date: 2012-07-08  07:40:18
+Commandline: apt-get install transmission-common
+Install: transmission-common:powerpc (2.52-1)
+End-Date: 2012-07-08  07:40:22
+
+Start-Date: 2012-07-08  07:42:47
+Commandline: apt-get install transmission-daemon
+Install: libminiupnpc5:powerpc (1.5-2, automatic), transmission-daemon:powerpc (2.52-1), transmission-cli:powerpc (2.52-1, automatic), minissdpd:powerpc (1.1.20120121-1, automatic), libnatpmp1:powerpc (20110808-3, automatic)
+End-Date: 2012-07-08  07:43:11

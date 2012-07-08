@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsystemd-login0
+/usr/share/doc/libsystemd-login0/changelog.Debian.gz
+/usr/share/doc/libsystemd-login0/copyright
+/lib
+/lib/libsystemd-login.so.0.2.1
+/lib/libsystemd-login.so.0

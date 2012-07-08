@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblua5.1-0
+/usr/share/doc/liblua5.1-0/changelog.gz
+/usr/share/doc/liblua5.1-0/copyright
+/usr/share/doc/liblua5.1-0/changelog.Debian.gz
+/usr/share/doc/liblua5.1-0/README.Debian.gz
+/usr/lib
+/usr/lib/powerpc-linux-gnu
+/usr/lib/powerpc-linux-gnu/liblua5.1-c++.so.0.0.0
+/usr/lib/powerpc-linux-gnu/liblua5.1.so.0.0.0
+/usr/lib/powerpc-linux-gnu/liblua5.1-c++.so.0
+/usr/lib/powerpc-linux-gnu/liblua5.1.so.0

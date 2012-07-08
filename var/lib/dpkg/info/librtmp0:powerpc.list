@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/librtmp0
+/usr/share/doc/librtmp0/changelog.gz
+/usr/share/doc/librtmp0/copyright
+/usr/share/doc/librtmp0/changelog.Debian.gz
+/usr/lib
+/usr/lib/powerpc-linux-gnu
+/usr/lib/powerpc-linux-gnu/librtmp.so.0

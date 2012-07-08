@@ -1,0 +1,62 @@
+# axi-cache(1) completion
+#
+# © 2010, David Paleino <dapal@debian.org>
+#
+# This file is released under GPL-2, or later.
+
+# This is for development only. It's normally defined inside bash-completion.
+#have() { return 0; }
+
+have axi-cache &&
+_axi_cache() {
+    local cur prev cmd
+    COMPREPLY=()
+    COMP_WORDBREAKS=${COMP_WORDBREAKS//:}
+
+    type _get_comp_words_by_ref &>/dev/null && {
+        _get_comp_words_by_ref -n: cur prev
+    } || {
+        cur=$(_get_cword ":")
+        prev=${COMP_WORDS[$COMP_CWORD-1]}
+    }
+    cmd=${COMP_WORDS[1]}
+
+    case "$prev" in
+        *axi-cache*)
+            COMPREPLY=( $(compgen -W "help more search show again showpkg showsrc depends rdepends policy madison" -- "$cur") )
+            return 0
+            ;;
+        --sort)
+            COMPREPLY=( $(compgen -W "$(egrep ^[a-z] /var/lib/apt-xapian-index/values | awk -F"\t" '{print $1}')" -- "$cur") )
+            return 0
+            ;;
+    esac
+
+    case "$cmd" in
+        search|again)
+            if [[ "$cur" == -* ]]; then
+                COMPREPLY=( $(compgen -W "--sort --tags" -- "$cur") )
+                return 0
+            fi
+            ;;
+        show|showpkg|showsrc|depends|rdepends|policy|madison)
+            if [[ "$cur" == -* ]]; then
+                COMPREPLY=( $(compgen -W "--last" -- "$cur") )
+                return 0
+            fi
+            ;;
+        *)
+            return 0
+            ;;
+    esac
+
+    if [ -n "$cur" ]; then
+        #unset COMP_WORDS[$COMP_CWORD]
+        COMPREPLY=( $(compgen -W "$(${COMP_WORDS[@]} --tabcomplete=partial)" -- "$cur") )
+    else
+        COMPREPLY=( $(compgen -W "$(${COMP_WORDS[@]} --tabcomplete=plain)" -- "$cur") )
+    fi
+
+    return 0
+} &&
+complete -F _axi_cache axi-cache

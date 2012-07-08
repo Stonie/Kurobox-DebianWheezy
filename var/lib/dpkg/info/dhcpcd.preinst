@@ -1,0 +1,25 @@
+#!/bin/sh -e
+
+# The name of the lease-change script changed.
+# Move it here, but leave a link from the old name.
+
+if [ -f /etc/dhcpc/dhcpcd.exe ] && [ ! -f /etc/dhcpcd.sh ]; then
+   mv /etc/dhcpc/dhcpcd.exe /etc/dhcpcd.sh
+   ln -s /etc/dhcpcd.sh /etc/dhcpc/dhcpcd.exe
+fi
+
+if [ -f /etc/dhcpc/config ] && [ ! -f /etc/default/dhcpcd ]; then
+   mv /etc/dhcpc/config /etc/default/dhcpcd
+   ln -s /etc/default/dhcpcd /etc/dhcpc/config
+fi
+
+# If upgrading from a version prior to 3.2.1, we create the
+# file /etc/dhcpc/inhibit-duid so that hosts don't suddenly change
+# their client-id and move IP addresses. New installations can use DUID 
+# from the start with no problems.
+
+if [ $1 = upgrade ]; then
+   if [ -n $2 ]  && dpkg --compare-versions $2 lt 3.2.1-1; then
+    echo "Remove this file to make dhcpcd use DUID-based client-ids" >/etc/dhcpc/inhibit-duid
+   fi
+fi

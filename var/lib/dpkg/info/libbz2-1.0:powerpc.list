@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libbz2-1.0
+/usr/share/doc/libbz2-1.0/changelog.gz
+/usr/share/doc/libbz2-1.0/copyright
+/usr/share/doc/libbz2-1.0/changelog.Debian.gz
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libbz2.so.1.0.4
+/lib/powerpc-linux-gnu/libbz2.so.1
+/lib/powerpc-linux-gnu/libbz2.so.1.0

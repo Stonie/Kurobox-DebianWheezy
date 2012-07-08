@@ -1,0 +1,13 @@
+# EM static IP (adjust to your network settings)
+#
+iface eth0 inet static
+     address 192.168.11.150
+     network 192.168.11.0
+     netmask 255.255.255.0
+     broadcast 192.168.11.255
+     gateway 192.168.11.254
+
+iface eth0:AUTO inet dhcp
+      hostname `hostname`
+
+auto eth0 eth0:AUTO

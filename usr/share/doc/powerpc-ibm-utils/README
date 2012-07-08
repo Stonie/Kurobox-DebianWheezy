@@ -1,0 +1,33 @@
+powerpc-utils package
+===================
+
+This package contains utilities intended for maintenance of powerpc platforms.
+All of these utilities must be run as root.
+
+Further documentation for each of these utilities is available in their
+corresponding man pages.
+
+snap:  system configuration snapshot
+----
+A script to gather significant system configuration information.  The
+script creates snap.tar.gz in the working directory; the contents of
+this file can be used for problem determination by servicers of the
+system.
+
+nvram:  NVRAM access utility
+-----
+A utility to view and format the contents of the system's non-volatile
+RAM, which contains configuration variables for Open Firmware and the
+system's Service Processor (if any), as well as error records and Vital
+Product Data (VPD).
+
+bootlist:  boot configuration utility
+--------
+A script to view and set the list of devices with which the system will
+attempt to boot.  Both the "normal" and "service" mode lists can be
+manipulated.
+
+ofpathname:  translate logical device names to OF names
+----------
+Used by bootlist to convert between Linux logical device names and Open
+Firmware names.

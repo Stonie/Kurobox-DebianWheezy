@@ -1,0 +1,12 @@
+a3d9a0694e0cc24abd72ac94a672f94e  usr/lib/python2.6/dist-packages/xapian/_xapian.so
+3da0a2905bbaa18c57edd1c3ddd5fd42  usr/lib/python2.7/dist-packages/xapian/_xapian.so
+397d8634e301d5192dd2c2ff9a30048a  usr/share/doc-base/xapian-python-docs
+33306181cdadd62cf84cb4bfd5d7fd2c  usr/share/doc/python-xapian/changelog.Debian.gz
+1e8d9dd49e6fc87bdf8850a3be492d15  usr/share/doc/python-xapian/changelog.gz
+123aba23bcd80f80da377cdc2605d519  usr/share/doc/python-xapian/copyright
+71a27ce2d9b28b3aae2f352c702f7bbf  usr/share/doc/python-xapian/examples/simpleexpand.py
+f3a928cb4f586afaeff418b22889a76c  usr/share/doc/python-xapian/examples/simpleindex.py
+9e55b5d48c69c7afc23dd6d4f8dbb4b4  usr/share/doc/python-xapian/examples/simplematchdecider.py
+dee19b253a4c32387aaf6f58c59657b2  usr/share/doc/python-xapian/examples/simplesearch.py
+946c2cbd7f0d3aac619ccdbd649d05e0  usr/share/doc/python-xapian/index.html
+4d1836f3d40e51ee1f8676bef42187c0  usr/share/pyshared/xapian/__init__.py

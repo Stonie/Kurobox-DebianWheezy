@@ -1,0 +1,50 @@
+# Size defaults for tmpfs filesystems mounted in early boot, before
+# filesystems from /etc/fstab are mounted.
+#
+# NOTE: This file is deprecated.  Please see rcS(5) for details on how
+# to configure tmpfs size limits.
+#
+# _SIZE variables are the maximum size (in bytes) that tmpfs
+# filesystems can use.  The size will be rounded down to a multiple of
+# the page size, 4096 bytes.  If no size is set, TMPFS_SIZE will be
+# used as the default.
+#
+# Note that more complex mount options may be used by the creation of a
+# suitable entry in /etc/fstab.  For example:
+# 	tmpfs	/run	tmpfs	size=10%	0	0
+# is equivalent to RUN_SIZE=10%, and will override the RUN_SIZE
+# setting.  This will allow additional options such as nr_blocks and
+# nr_inodes to be used, and also adjustment of the mode, nodev,
+# nosuid, noexec options should any change from the defaults be
+# necessary.
+
+# TMPFS_SIZE: maximum size for all tmpfs filesystems if no specific
+# size is provided.  If no value is provided here, the kernel default
+# will be used.
+TMPFS_SIZE=20%
+
+# RUN_SIZE: maximum size of /run (was previously /var/run)
+#
+# Defaults to 10% core memory; the size required varies widely
+# depending upon the demands of the software being run; this heuristic
+# scales /run usage on system size.  Samba in particular has been seen
+# to use at least 50MiB in a large heavily used server.  Typical usage
+# is hundreds of KiB, maximum is tens of MiB.
+RUN_SIZE=10%
+
+# LOCK_SIZE: maximum size of /run/lock (was previously /var/lock)
+#
+# Typical usage: tens of KiB; maximum hundreds of KiB.  Default of
+# 5MiB should ensure the limit is never reached.
+LOCK_SIZE=5242880 # 5MiB
+
+# SHM_SIZE: maximum size of /run/shm (was previously /dev/shm)
+#
+# No default size; the size required varies widely depending upon the
+# demands of the software being run.
+SHM_SIZE=
+
+# TMP_SIZE: maximum size of /tmp
+#
+# No default size.
+TMP_SIZE=

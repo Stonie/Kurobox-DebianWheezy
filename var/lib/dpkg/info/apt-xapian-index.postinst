@@ -1,0 +1,42 @@
+#!/bin/sh -e
+
+# Automatically added by dh_pysupport
+if which update-python-modules >/dev/null 2>&1; then
+	update-python-modules  apt-xapian-index.public apt-xapian-index.private
+fi
+# End automatically added section
+
+
+# ionice should not be called in a virtual environment
+# (similar to man-db cronjobs)
+if [ -x /usr/bin/ionice ] && ! egrep -q '(envID|VxID):.*[1-9]' /proc/self/status
+then
+	IONICE="/usr/bin/ionice -c3"
+else
+	IONICE=""
+fi
+
+case "$1" in
+    configure)
+        # Just checking the main directory with -d should prevent the indexing
+        # to be started while an indexing is already going on, as the first
+        # thing that update-apt-xapian-index does is to create the directory if
+        # it is missing
+        #
+        # we also full-regenerate the index on upgrades from older versions
+        # because the weekly --update cron job will not use new plugins for
+        # already indexed packages
+        if [ ! -d /var/lib/apt-xapian-index ] || dpkg --compare-versions "$2" lt-nl "0.39"
+        then
+                if [ ! -x /usr/sbin/policy-rc.d ] || /usr/sbin/policy-rc.d apt-xapian-index start
+                then
+                        echo "apt-xapian-index: Building new index in background..."
+                        # Ensure that we can use our module. See #537376
+                        update-python-modules -p
+                        $IONICE nice /usr/sbin/update-apt-xapian-index --force --quiet &
+                fi
+        fi
+        ;;
+esac
+
+exit 0

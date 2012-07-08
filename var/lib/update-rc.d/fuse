@@ -1,0 +1,1 @@
+update-rc.d fuse start 9 S .

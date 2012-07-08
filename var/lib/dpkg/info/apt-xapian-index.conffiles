@@ -1,0 +1,3 @@
+/etc/dbus-1/system.d/org.debian.AptXapianIndex.conf
+/etc/bash_completion.d/axi-cache
+/etc/cron.weekly/apt-xapian-index

@@ -1,0 +1,5 @@
+/etc/dhcp/dhclient-exit-hooks.d/ntp
+/etc/ntp.conf
+/etc/default/ntp
+/etc/cron.daily/ntp
+/etc/init.d/ntp

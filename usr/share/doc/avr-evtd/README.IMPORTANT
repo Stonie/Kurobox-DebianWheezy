@@ -1,0 +1,11 @@
+Following major changes with the daemon and the support scripts, some of
+the functions of the reset and power buttons have been changed.  These
+mostly affect the reset button.  The reset feature has been removed (as
+power button can perform this feature) and instead this can be used to
+selected EM-Mode (HDD diaster recovery feature of the LS/Kuro). If the
+reset button is held for at least 20 seconds then a message is written
+to the flash memory and a reboot is issued.  At this point, the box is
+now in EM-Mode as it has booted from ram flash and not HDD image.
+
+PLEASE NOTE, THIS IS FOR USE ONLY BY THOSE WHO ARE AWARE OF THE ISSUES
+OF ENTERING EM-MODE.  DO NOT USE OTHERWISE YOUR HDD DATA IS AT RISK.

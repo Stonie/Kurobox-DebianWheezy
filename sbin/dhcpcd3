@@ -1,0 +1,105 @@
+#!/bin/bash
+
+# dhcpcd doesn't support a config file, just command line options.
+# ifup can set some  options (-h -i -I -l) but no others.
+# This wrapper adds any other options set in /etc/default/dhcpcd
+# (and the hostname if not set by ifup or /etc/default/dhcpcd)
+# and then calls the dhcpcd binary, named dhcpcd-bin.
+#
+# Note that this wrapper _requires_ the interface name: it doesn't support
+# the eth0 default that dhcpcd proper does.
+
+if [ "$1" =  "--version" ]; then echo "3.2.3"; exit 0; fi
+
+# get interface
+eval INTERFACE=\${$#}
+if [ $# = 0 ] || 
+   [ ${INTERFACE:0:1} = '-' ]
+then
+   echo "Usage: dhcpcd [options] <interface>"
+   exit 1
+fi
+
+
+# determine if we will add the option to send the current hostname
+sendhost=yes
+sethost=no
+setclid=yes
+
+for o 
+do
+   if [ x"$o" = x"-h" ]; then
+      sendhost=no
+   fi
+   if [ x"$o" = x"-H" ]; then
+      sethost=yes
+   fi
+   if [ x"$o" = x"-I" ]; then
+      setclid=no
+   fi
+done
+
+# load configuration file
+if [ -f /etc/default/dhcpcd ] ; then
+    . /etc/default/dhcpcd
+fi
+
+for o in ${OPTIONS[@]}
+do
+  if [ "$o" = "-h" ]; then
+      sendhost=no
+   fi
+   if [ "$o" = "-H" ]; then
+      sethost=yes
+   fi 
+   if [ x"$o" = x"-I" ]; then
+      setclid=no
+   fi
+done
+
+# Note that in the absence of /etc/default/dhcpcd we play safe and disallow
+# changes to /etc/resolv.conf and friends.
+
+if [ "$SET_DNS" != "yes" ]; then
+  OPTIONS=("-R" "${OPTIONS[@]}")
+fi
+
+#if [ "$SET_DOMAIN" = "yes" ]; then
+#  OPTIONS="-D $OPTIONS"
+#fi
+
+if [ "$SET_HOSTNAME" = "yes" ]; then
+  OPTIONS=("-H" "${OPTIONS[@]}")
+  sethost=yes
+fi
+
+if [ "$SET_NTP" != "yes" ]; then
+  OPTIONS=("-N" "${OPTIONS[@]}")
+fi
+
+if [ "$SET_YP" != "yes" ]; then
+  OPTIONS=("-Y" "${OPTIONS[@]}")
+fi
+
+# We tell dhcpcd to send the hostname iff the option is not 
+# already set by our caller, and the hostname will not be changed 
+# by dhcpcd
+
+if [ $sendhost = yes ] &&
+   [ $sethost = no ] &&
+   [ -x /bin/hostname ]
+then
+   name=`/bin/hostname`
+   if [ ${#name} != 0 ]; then
+      OPTIONS=("-h" "$name" "${OPTIONS[@]}")
+   fi
+fi
+
+# if we have been upgraded, /etc/dhcpc/inhibit-duid will exist,
+# so for the client-id to be backwards compatible unless explicitly set
+if [ $setclid = yes ] &&
+   [ -f /etc/dhcpc/inhibit-duid ]; then
+      exec /sbin/dhcpcd-bin -I '' "${OPTIONS[@]}" "$@"
+else
+      exec /sbin/dhcpcd-bin "${OPTIONS[@]}" "$@"
+fi

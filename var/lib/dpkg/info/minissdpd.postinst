@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/minissdpd" ]; then
+	update-rc.d minissdpd defaults >/dev/null
+	invoke-rc.d minissdpd start || exit $?
+fi
+# End automatically added section

@@ -1,0 +1,67 @@
+#! /bin/sh
+# /etc/init.d/klogd: start the kernel log daemon.
+
+### BEGIN INIT INFO
+# Provides:             klogd
+# Required-Start:       $syslog
+# Required-Stop:        $syslog
+# Default-Start:        2 3 4 5
+# Default-Stop:         0 1 6
+# Short-Description:    Kernel logger
+### END INIT INFO
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin
+
+pidfile=/var/run/klogd/klogd.pid
+kmsgpipe=/var/run/klogd/kmsg
+kmsgpidfile=/var/run/klogd/kmsgpipe.pid
+binpath=/sbin/klogd
+
+test -f $binpath || exit 0
+
+. /lib/lsb/init-functions
+
+#  Use KLOGD="-k /boot/System.map-$(uname -r)" to specify System.map
+#
+KLOGD="-P $kmsgpipe"
+
+test ! -r /etc/default/klogd || . /etc/default/klogd
+
+case "$1" in
+  start)
+    log_begin_msg "Starting kernel log daemon..."
+    # create klog-writeable pid and fifo directory
+    mkdir -p /var/run/klogd
+    chown klog:klog /var/run/klogd
+    mkfifo -m 700 $kmsgpipe
+    chown klog:klog $kmsgpipe
+ 
+    # shovel /proc/kmsg to pipe readable by klogd user
+    start-stop-daemon --start --pidfile $kmsgpidfile --exec /bin/dd -b -m -- bs=1 if=/proc/kmsg of=$kmsgpipe
+ 
+    # start klogd as non-root with reading from kmsgpipe
+    start-stop-daemon --start --quiet --chuid klog --exec $binpath -- $KLOGD
+    log_end_msg $?
+    ;;
+  stop)
+    log_begin_msg "Stopping kernel log daemon..."
+    start-stop-daemon --stop --quiet --retry 3 --oknodo --exec $binpath --pidfile $pidfile
+    # stop kmsgpipe
+    start-stop-daemon --stop --quiet --oknodo --pidfile $kmsgpidfile
+    rm -f $kmsgpidfile $kmsgpipe
+    log_end_msg $?
+    ;;
+  restart|force-reload)
+    $0 stop
+    sleep 1
+    $0 start
+    ;;
+  status)
+    status_of_proc -p $pidfile $binpath klogd && exit 0 || exit $?
+    ;;
+  *)
+    log_success_msg "Usage: /etc/init.d/klogd {start|stop|restart|force-reload|status}"
+    exit 1
+esac
+
+exit 0

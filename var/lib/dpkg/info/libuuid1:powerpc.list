@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libuuid1
+/usr/share/doc/libuuid1/changelog.Debian.gz
+/usr/share/doc/libuuid1/copyright
+/usr/share/doc/libuuid1/changelog.gz
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libuuid.so.1.3.0
+/lib/powerpc-linux-gnu/libuuid.so.1

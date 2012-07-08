@@ -1,0 +1,16 @@
+/.
+/lib
+/lib/powerpc64-linux-gnu
+/usr
+/usr/bin
+/usr/bin/cpp-4.4
+/usr/share
+/usr/share/doc
+/usr/lib
+/usr/lib/gcc
+/usr/lib/gcc/powerpc-linux-gnu
+/usr/lib/gcc/powerpc-linux-gnu/4.4
+/usr/lib/gcc/powerpc-linux-gnu/4.4/cc1
+/usr/lib/powerpc64-linux-gnu
+/usr/bin/powerpc-linux-gnu-cpp-4.4
+/usr/share/doc/cpp-4.4

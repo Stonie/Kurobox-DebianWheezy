@@ -1,0 +1,4 @@
+* use debconf for suid bit (and user group?)
+* rewrite mount.fuse manpage
+* rewrite README.Debian
+* rewrite fuse.conf example config

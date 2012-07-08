@@ -1,0 +1,15 @@
+ed41d4fa31b8303f43e03925bf88e65f  usr/sbin/nvram
+831188836d9a1fe0a874f791e9be1863  usr/sbin/snap
+88b9fffafe14e02a94946bb4aba5d9fc  usr/sbin/bootlist
+b5a7278ed6b9b2c78d3a5eb80402a446  usr/sbin/ofpathname
+3ee369b9a74d17367ba77f76644a6209  usr/sbin/ppc64_cpu
+e8011a39779d312a7839078009740fa8  usr/share/doc/powerpc-ibm-utils/changelog.gz
+fd394396ac4a87de7defa36d7a3164cf  usr/share/doc/powerpc-ibm-utils/README
+a96fcec999f73afd9b861223bb7e174a  usr/share/doc/powerpc-ibm-utils/README.Debian
+1c7014ac973967b9c33dc9f07c87223f  usr/share/doc/powerpc-ibm-utils/copyright
+7c101b4361a33dd50daf9873dacb989a  usr/share/doc/powerpc-ibm-utils/changelog.Debian.gz
+11375b5ae2694956695430e9284e8003  usr/share/man/man8/ofpathname.8.gz
+72eaf880b8da4b159d8c388448f1bbd2  usr/share/man/man8/nvram.8.gz
+28590049266aecd22b3839027149939d  usr/share/man/man8/ppc64_cpu.8.gz
+29d7f6185617549cb3a2f302e7410839  usr/share/man/man8/snap.8.gz
+e1c70d8c87f903312afa522da82c9edf  usr/share/man/man8/bootlist.8.gz

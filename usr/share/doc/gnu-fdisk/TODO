@@ -1,0 +1,23 @@
+Suggestion:
+Rename cfdisk to gcfdisk and make cfdisk a symlink to it. Add a
+configure option to remove legacy symlinks, so GNU fdisk and
+util-linux counterparts can coexist on one system. This will make it
+possible for GNU/Linux distributions and Live CDs to include GNU
+fdisk, while leaving util-linux tools included.
+
+- resolve multiple invocations of AC_CANONICAL_HOST in configure
+- weed out discrepancies between Linux fdisk and this program
+- "--help" command dumps core (may only occur without readline support)
+- print error message when a disk label that Linux fdisk doesn't support
+  is encountered (?)
+- See the source code for others little things
+- Adjust change partition system id, typing l or L should work [ DONE ]
+
+-----------------------------------------------------------------------------
+
+This file is part of GNU fdisk
+Copyright (C) 2006 Free Software Foundation Inc.
+
+This file may be modified and/or distributed without restriction.  This is
+not an invitation to misrepresent the history of GNU fdisk.
+

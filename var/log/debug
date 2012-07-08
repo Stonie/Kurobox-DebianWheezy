@@ -1,0 +1,100 @@
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Jul  8 10:35:27 LSPPC-Wheezy kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Jul  8 10:35:27 LSPPC-Wheezy kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Memory hole size: 0MB
+Jul  8 10:35:28 LSPPC-Wheezy kernel: On node 0 totalpages: 32768
+Jul  8 10:35:28 LSPPC-Wheezy kernel: free_area_init_node: node 0, pgdat c06286a8, node_mem_map c0654000
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   DMA zone: 256 pages used for memmap
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   DMA zone: 0 pages reserved
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   DMA zone: 32512 pages, LIFO batch:7
+Jul  8 10:35:28 LSPPC-Wheezy kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul  8 10:35:28 LSPPC-Wheezy kernel: pcpu-alloc: [0] 0 
+Jul  8 10:35:28 LSPPC-Wheezy kernel: mpic: Resetting
+Jul  8 10:35:29 LSPPC-Wheezy kernel: time_init: decrementer frequency = 32.522240 MHz
+Jul  8 10:35:29 LSPPC-Wheezy kernel: time_init: processor frequency   = 262.144000 MHz
+Jul  8 10:35:29 LSPPC-Wheezy kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:00.0: [1057:0006] type 00 class 0x060000
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0b.0: [10ec:8169] type 00 class 0x020000
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: [1095:0680] type 00 class 0x010185
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: supports D1 D2
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.0: [1033:0035] type 00 class 0x0c0310
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.0: supports D1 D2
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.1: [1033:0035] type 00 class 0x0c0310
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.1: supports D1 D2
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.2: [1033:00e0] type 00 class 0x0c0320
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.2: supports D1 D2
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xbfffff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 5 [mem 0x80000000-0xefffffff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: libata version 3.00 loaded.
+Jul  8 10:35:31 LSPPC-Wheezy kernel: PCI: CLS 32 bytes, default 32
+Jul  8 10:35:32 LSPPC-Wheezy kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Jul  8 10:35:37 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul  8 10:35:38 LSPPC-Wheezy kernel: eth0: no IPv6 routers present
+Jul  8 11:17:40 LSPPC-Wheezy kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Jul  8 11:17:40 LSPPC-Wheezy kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Jul  8 11:17:40 LSPPC-Wheezy kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Jul  8 11:17:40 LSPPC-Wheezy kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Memory hole size: 0MB
+Jul  8 11:17:41 LSPPC-Wheezy kernel: On node 0 totalpages: 32768
+Jul  8 11:17:41 LSPPC-Wheezy kernel: free_area_init_node: node 0, pgdat c06286a8, node_mem_map c0654000
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   DMA zone: 256 pages used for memmap
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   DMA zone: 0 pages reserved
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   DMA zone: 32512 pages, LIFO batch:7
+Jul  8 11:17:41 LSPPC-Wheezy kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul  8 11:17:41 LSPPC-Wheezy kernel: pcpu-alloc: [0] 0 
+Jul  8 11:17:42 LSPPC-Wheezy kernel: mpic: Resetting
+Jul  8 11:17:42 LSPPC-Wheezy kernel: time_init: decrementer frequency = 32.522240 MHz
+Jul  8 11:17:42 LSPPC-Wheezy kernel: time_init: processor frequency   = 262.144000 MHz
+Jul  8 11:17:42 LSPPC-Wheezy kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:00.0: [1057:0006] type 00 class 0x060000
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:0b.0: [10ec:8169] type 00 class 0x020000
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:0c.0: [1095:0680] type 00 class 0x010185
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: supports D1 D2
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.0: [1033:0035] type 00 class 0x0c0310
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.0: supports D1 D2
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.1: [1033:0035] type 00 class 0x0c0310
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.1: supports D1 D2
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.2: [1033:00e0] type 00 class 0x0c0320
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.2: supports D1 D2
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xbfffff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 5 [mem 0x80000000-0xefffffff]
+Jul  8 11:17:44 LSPPC-Wheezy kernel: libata version 3.00 loaded.
+Jul  8 11:17:45 LSPPC-Wheezy kernel: PCI: CLS 32 bytes, default 32
+Jul  8 11:17:45 LSPPC-Wheezy kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Jul  8 11:17:50 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul  8 11:17:51 LSPPC-Wheezy kernel: eth0: no IPv6 routers present

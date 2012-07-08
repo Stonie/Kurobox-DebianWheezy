@@ -1,0 +1,1 @@
+update-rc.d sysklogd defaults 10 90

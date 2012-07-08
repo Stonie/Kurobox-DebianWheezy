@@ -1,0 +1,8 @@
+6fa2e5f089687bdba7d0f2af25eddbe3  lib/powerpc-linux-gnu/libnfsidmap.so.0.3.0
+96314714205da5567bd94f977027375f  lib/powerpc-linux-gnu/libnfsidmap/nsswitch.so
+8f9d0abeab9455393333c79b92915141  lib/powerpc-linux-gnu/libnfsidmap/static.so
+e3b810028ff9ae973f32a9e46d5a54ec  lib/powerpc-linux-gnu/libnfsidmap/umich_ldap.so
+a5359263c31f263e76e712aa62b0243a  usr/share/doc/libnfsidmap2/changelog.Debian.gz
+81cfc9c655885c41f37f4db2d3e4ae2a  usr/share/doc/libnfsidmap2/changelog.gz
+f634f3f537eedec0163640a9277255b6  usr/share/doc/libnfsidmap2/copyright
+4bc3298e0f7a126d36ea96f77e068dee  usr/share/man/man5/idmapd.conf.5.gz

@@ -1,0 +1,82 @@
+deborphan includes several options intended to be used by its frontends.
+Because they are only considered to be useful for deborphan's frontends,
+these options are not documented in its man page and do not occur in its
+--help output.
+
+
+The frontend-specific option available since deborphan 1.7.28, i.e.,
+Debian Squeeze (6.0) or later and Ubuntu Lucid (10.04 LTS) or later, is:
+
+  --show-deps-pristine
+
+      This option is currently an alias for -d or --show-deps.
+
+      Frontends should use --show-deps-pristine instead of --show-deps
+      since the output format of --show-deps might change in future.
+
+      If --show-deps or instead --show-deps-pristine is used does not
+      influence printing of architecture suffixes, see --show-arch and
+      --no-show-arch in this file if you wish to do so.
+
+
+The frontend-specific options available since deborphan 1.7.28.2, i.e.,
+Debian Squeeze (6.0) or later and Ubuntu Natty (11.04) or later, are:
+
+  --all-packages-pristine
+
+      This option is currently an alias for -a or --all-packages.
+
+      Using --all-packages implies --show-section, but this implication
+      might be removed in future.  The option --all-packages-pristine
+      will always imply --show-section.
+
+      An alternative to using --all-packages-pristine is to explicitly
+      specify --show-section or --no-show-section after --all-packages;
+      if you don't see an advantage regarding software testing in using
+      --all-packages-pristine, then the above described alternative will
+      work as good for you.
+
+  --check-options
+
+      Check if an other given option is implemented by deborphan and
+      exit with status 0 if it is implemented.
+
+      The exit code returned by deborphan if the tested option is not
+      implemented is not 0, but not further specified yet.  The option
+      --check-options might cause any output to stdout or to stderr,
+      this output should be ignored.  Currently only testing one option
+      at a time is officially supported and --check-options must be
+      deborphan's first argument.
+
+      To test if the option --foo-bar is implemented run the command
+      below and check its exit status:
+
+        deborphan --check-options --foo-bar >/dev/null 2>&1
+
+  --print-guess-list
+
+      Print all available --guess-* options, except of 'all' and 'only'.
+      The leading '--guess-' is removed from the output.
+
+      The output is _not_ guaranteed to be sorted alphabetically.
+
+
+The frontend-specific options available since deborphan 1.7.28.7, i.e.,
+Debian Wheezy (7.0) or later and Ubuntu Quantal (12.10) or later, are:
+
+  --show-arch
+
+      Always print packages with architecture suffix, e.g., print
+      'apt:amd64' and not 'apt'
+
+      The output of --list-keep is not influenced by this option.
+
+  --no-show-arch
+
+      Never print packages with architecture suffix, e.g., print 'apt'
+      and not 'apt:amd64'.
+
+      The output of --list-keep is not influenced by this option.
+
+
+# vim: set joinspaces spell tw=72

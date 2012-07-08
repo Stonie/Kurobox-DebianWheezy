@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <!-- 
+    Policy definitions for SystemService system actions.
+    (C) 2010 Canonical Ltd.
+    Author: Michael Vogt <mvo@ubuntu.com>
+  -->
+  <vendor>AptXapianIndex</vendor>
+  <vendor_url>http://www.enricozini.org/sw/apt-xapian-index/</vendor_url>
+
+  <action id="org.debian.aptxapianindex.update">
+    <_description>Update the xapian index</_description>
+    <_message>System policy prevents updating xapian index</_message>
+    <defaults>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+  </action>
+
+</policyconfig> 
+

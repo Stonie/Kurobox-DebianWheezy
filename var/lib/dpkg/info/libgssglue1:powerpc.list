@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgssglue1
+/usr/share/doc/libgssglue1/changelog.Debian.gz
+/usr/share/doc/libgssglue1/copyright
+/usr/share/doc/libgssglue1/changelog.gz
+/etc
+/etc/gssapi_mech.conf
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libgssglue.so.1.0.0
+/lib/powerpc-linux-gnu/libgssglue.so.1

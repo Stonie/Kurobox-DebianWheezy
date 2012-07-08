@@ -1,0 +1,5 @@
+44c33f24f50e9ed6bb52c2b2d37d9ce2  usr/bin/netselect-apt
+23397ca6b9d6344f0e4f0eb44d77e0ea  usr/share/doc/netselect-apt/NEWS.Debian.gz
+957496f806b0ecdc124da55ffcc606ae  usr/share/doc/netselect-apt/changelog.Debian.gz
+fe34722fc8e44ca78b00617c71dd18b0  usr/share/doc/netselect-apt/copyright
+7e032661f800f14ceca04b11cdc0ad03  usr/share/man/man1/netselect-apt.1.gz

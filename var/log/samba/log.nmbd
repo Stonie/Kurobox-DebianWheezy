@@ -1,0 +1,32 @@
+[2012/07/04 09:38:48.533245,  0] nmbd/nmbd.c:66(terminate)
+  Got SIGTERM: going down...
+[2012/07/04 09:40:22,  0] nmbd/nmbd.c:860(main)
+  nmbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/07 06:45:53,  0] nmbd/nmbd.c:66(terminate)
+  Got SIGTERM: going down...
+[2012/07/07 06:47:39,  0] nmbd/nmbd.c:860(main)
+  nmbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/07 08:01:45,  0] nmbd/nmbd.c:66(terminate)
+  Got SIGTERM: going down...
+[2012/07/07 08:15:03,  0] nmbd/nmbd.c:860(main)
+  nmbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/07 10:00:02,  0] nmbd/nmbd.c:66(terminate)
+  Got SIGTERM: going down...
+[2012/07/08 06:41:23,  0] nmbd/nmbd.c:860(main)
+  nmbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/08 10:34:21,  0] nmbd/nmbd.c:66(terminate)
+  Got SIGTERM: going down...
+[2012/07/08 10:35:22,  0] nmbd/nmbd.c:860(main)
+  nmbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/08 11:16:34,  0] nmbd/nmbd.c:66(terminate)
+  Got SIGTERM: going down...
+[2012/07/08 11:17:35,  0] nmbd/nmbd.c:860(main)
+  nmbd version 3.6.5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2011
+[2012/07/08 11:36:36,  0] nmbd/nmbd.c:66(terminate)
+  Got SIGTERM: going down...

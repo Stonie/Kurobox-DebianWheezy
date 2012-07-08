@@ -1,0 +1,5 @@
+/etc/avr-evtd/EventScript
+/etc/avr-evtd/recovery.tar
+/etc/avr-evtd/emergency-eth0
+/etc/init.d/avr-evtd
+/etc/default/avr-evtd

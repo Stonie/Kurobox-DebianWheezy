@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libatm1
+/usr/share/doc/libatm1/changelog.gz
+/usr/share/doc/libatm1/copyright
+/usr/share/doc/libatm1/changelog.Debian.gz
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libatm.so.1.0.0
+/lib/powerpc-linux-gnu/libatm.so.1

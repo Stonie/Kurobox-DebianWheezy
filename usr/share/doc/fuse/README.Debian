@@ -1,0 +1,27 @@
+fuse for Debian
+---------------
+
+Please note that to be able to mount any filesystems based on FUSE, you
+have to load fuse module first. If you're using 2.6.14 or newer kernels,
+fuse should be already included and you don't need to build it yourself.
+
+Simply try `modprobe fuse`.
+
+To use fusermount, you must be able to execute this command as a root,
+so you have to be a member of the group which has proper permissions.
+fusermount binary comes with 4750 permission and root:fuse owners, so
+to able to use fusermount, you should give access to user fenio like so:
+
+  adduser fenio fuse
+
+Now fenio would need to log off and on again for the group membership to come
+into effect. Then, he can use the fusermount as expected.
+
+Please avoid working as root just to be able to use fusermount. The above
+procedure is not complicated and Just Works (tm), and it's a lot safer!
+
+If you still want to use it as a root you can remove suid bit from
+/bin/fusermount binary. Use dpkg-statoverride for that. Otherwise your
+changes will be overwritten every time during upgrade of fuse.
+
+ -- Bartosz Fenski <fenio@debian.org>, Fri, 25 Dec 2004 16:56:10 +0200

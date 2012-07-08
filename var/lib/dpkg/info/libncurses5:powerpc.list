@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/lib
+/usr/lib/powerpc-linux-gnu
+/usr/lib/powerpc-linux-gnu/libform.so.5.9
+/usr/lib/powerpc-linux-gnu/libpanel.so.5.9
+/usr/lib/powerpc-linux-gnu/libmenu.so.5.9
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libncurses.so.5.9
+/usr/share/doc/libncurses5
+/usr/lib/powerpc-linux-gnu/libform.so.5
+/usr/lib/powerpc-linux-gnu/libmenu.so.5
+/usr/lib/powerpc-linux-gnu/libpanel.so.5
+/lib/powerpc-linux-gnu/libncurses.so.5

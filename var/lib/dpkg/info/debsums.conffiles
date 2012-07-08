@@ -1,0 +1,5 @@
+/etc/cron.daily/debsums
+/etc/cron.monthly/debsums
+/etc/default/debsums
+/etc/debsums-ignore
+/etc/cron.weekly/debsums

@@ -1,0 +1,32 @@
+This is GNU fdisk, a GNU package attempting to replace partitioning programs
+not based on libparted.
+
+Currently implemented are:
+
+    * util-linux cfdisk
+    * util-linux fdisk (compatible clone 'lfdisk', extended clone 'gfdisk')
+
+Implementations targeted (please contribute!):
+
+    * util-linux sfdisk
+    * mac-fdisk
+    * FreeBSD fdisk
+
+You need libparted from GNU Parted >= 1.7.0 to compile and run the programs.
+
+The GNU fdisk home page can be found at
+
+  http://www.gnu.org/software/fdisk
+
+
+  Leslie P. Polzer <polzer@gnu.org>
+  GNU fdisk Maintainer
+
+-----------------------------------------------------------------------------
+
+This file is part of GNU fdisk 
+Copyright (C) 2006 Free Software Foundation Inc.
+
+This file may be modified and/or distributed without restriction.  This is
+not an invitation to misrepresent the history of GNU fdisk.
+

@@ -1,0 +1,3 @@
+* possibly use ntfs-3g group for trusted users, see
+  http://www.tuxera.com/community/ntfs-3g-faq/#useroption
+* split out fuse parts from ntfs-3g package to ntfs-3g-fuse.

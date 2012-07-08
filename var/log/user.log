@@ -1,0 +1,22 @@
+Jul  8 10:20:02 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:20:34 LSPPC-Wheezy last message repeated 2 times
+Jul  8 10:21:12 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:34:17 LSPPC-Wheezy shutdown[3262]: shutting down for system reboot
+Jul  8 10:34:17 LSPPC-Wheezy linkstation[3301]: Stopped daemon avr-evtd
+Jul  8 10:35:24 LSPPC-Wheezy avr-daemon[2141]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Jul  8 10:35:25 LSPPC-Wheezy linkstation[2159]: Started daemon avr-evtd
+Jul  8 10:35:36 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:40:32 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:46:29 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:50:53 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:53:42 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:55:19 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:57:58 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 11:04:42 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 11:09:59 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 11:16:30 LSPPC-Wheezy shutdown[2832]: shutting down for system reboot
+Jul  8 11:16:30 LSPPC-Wheezy linkstation[2871]: Stopped daemon avr-evtd
+Jul  8 11:17:37 LSPPC-Wheezy avr-daemon[2143]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Jul  8 11:17:38 LSPPC-Wheezy linkstation[2161]: Started daemon avr-evtd
+Jul  8 11:36:32 LSPPC-Wheezy shutdown[2419]: shutting down for system halt
+Jul  8 11:36:32 LSPPC-Wheezy linkstation[2458]: Stopped daemon avr-evtd

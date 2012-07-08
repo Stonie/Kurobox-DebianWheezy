@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtinfo5
+/usr/share/doc/libtinfo5/changelog.gz
+/usr/share/doc/libtinfo5/copyright
+/usr/share/doc/libtinfo5/TODO.Debian
+/usr/share/doc/libtinfo5/changelog.Debian.gz
+/usr/lib
+/usr/lib/powerpc-linux-gnu
+/usr/lib/powerpc-linux-gnu/libtic.so.5.9
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libtinfo.so.5.9
+/usr/lib/powerpc-linux-gnu/libtic.so.5
+/lib/powerpc-linux-gnu/libtinfo.so.5

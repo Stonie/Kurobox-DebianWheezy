@@ -1,0 +1,46 @@
+
+debsums: Check the integrity of the packages files
+	Suspecting a package has been compromised by another application
+	or a virus or so? Run this tool to find out if anything happened
+	to the files.
+
+== For the system administrator ==
+
+In order to have md5sums for all installed packages from the downloaded
+binary packages via APT:
+ 1. Install this debsums package while enabling auto-gen (default).
+ 2. Run debsums_init from root while having consistent /etc/apt/sources.list
+
+Osamu Aoki <osamu@debian.org>
+
+Filtering output of the cron job
+---------------------------------
+
+debsums now filters the output of the daily cron job by excluding
+the contents of /etc/debsums-ignore
+
+You can add lines to this file using the following format (similar to
+logcheck):
+ 
+E.g.
+  ^/usr/bin/module-assistant$
+  ^/usr/share/misc/pci.ids$
+
+ -- Mike Forbes <mike@nothing.net.nz>  Wed, 09 Jul 2008 14:42:08 +1200
+
+== For the package developer ==
+
+To generate md5sums in debian/rules from any package:
+
+1. chdir to debian/<binary-package-name> (or whatever it is called)
+
+2. Run the following commands (excerpt from debstd)
+
+        md5sum `find * -type f ! -regex "DEBIAN/.*"` >DEBIAN/md5sums </dev/null
+        chmod 644 DEBIAN/md5sums
+
+Christoph Lameter <clameter@debian.org>
+
+3. The same can be accomplished by running dh_md5sums
+
+Petr Cech <cech@debian.org>

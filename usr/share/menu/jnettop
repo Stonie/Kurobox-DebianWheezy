@@ -1,0 +1,5 @@
+?package(jnettop):needs="text" section="Applications/Network/Monitoring" \
+	title="jnettop" \
+	hints="Monitoring" \
+	longtitle="View hosts/ports taking up the most network traffic" \
+	command="/usr/bin/su-to-root -c /usr/sbin/jnettop"

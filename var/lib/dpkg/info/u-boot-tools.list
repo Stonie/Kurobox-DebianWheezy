@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/fw_printenv.8.gz
+/usr/share/man/man8/fw_setenv.8.gz
+/usr/share/man/man1
+/usr/share/man/man1/mkimage.1.gz
+/usr/share/doc
+/usr/share/doc/u-boot-tools
+/usr/share/doc/u-boot-tools/copyright
+/usr/share/doc/u-boot-tools/changelog.Debian.gz
+/usr/bin
+/usr/bin/mkimage
+/usr/bin/fw_printenv
+/usr/bin/fw_setenv

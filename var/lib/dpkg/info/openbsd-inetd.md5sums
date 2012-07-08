@@ -1,0 +1,5 @@
+9e1f8042726446d8b4d3462918b1bb03  usr/sbin/inetd
+d8f5a4477a6395473c9311546c0fbca8  usr/share/doc/openbsd-inetd/changelog.Debian.gz
+af24801d2b46628acbee4c849858d57d  usr/share/doc/openbsd-inetd/changelog.gz
+7f46b91511198567dd93583ccd840f4f  usr/share/doc/openbsd-inetd/copyright
+b93e898b32ee9228328ebe00e63daf60  usr/share/man/man8/inetd.8.gz

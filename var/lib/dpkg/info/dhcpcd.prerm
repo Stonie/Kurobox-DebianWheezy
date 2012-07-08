@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+rm -f /etc/dhcpc/duid-inhibit  
+
+if [ "$1" != "upgrade" ]; then
+        update-alternatives --remove dhcpcd /sbin/dhcpcd3
+fi
+
+
+
+
+
+
+
+

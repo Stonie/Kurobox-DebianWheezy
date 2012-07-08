@@ -1,0 +1,765 @@
+#!/usr/bin/perl -w
+
+# $Id: debsums.in,v 1.23 2007-11-29 01:15:48 bod Exp $
+
+#
+#  Check installed files against package md5sums or debs.
+#
+
+use strict;
+use File::Find 'find';
+use File::Temp 'tempdir';
+use File::Path 'rmtree';
+use File::Copy 'copy';
+use Fcntl qw/O_RDONLY O_NONBLOCK O_NOATIME/;
+use Getopt::Long qw/:config bundling/;
+use Digest::MD5;
+use constant ELF_MAGIC => "\177ELF";
+use Errno;
+use POSIX;
+use File::Basename;
+use File::Spec;
+use Dpkg::Conf;
+use File::FnMatch qw(:fnmatch);
+
+sub version {
+    my $changelog = File::Spec->catfile(dirname($0), "debian", "changelog");
+    my $cmd;
+    if(-f $changelog) {
+        $cmd = "dpkg-parsechangelog '-l$changelog'";
+    } else {
+        $cmd = 'dpkg-query -s debsums';
+    }
+    $cmd .= ' | grep ^Version: | cut -d " " -f 2';
+    my $res = `$cmd`;
+    chomp($res);
+    if(!($res =~ /^[0-9.]+$/)) {
+        $res = "";
+    }
+    return $res;
+}
+
+(my $self = $0) =~ s!.*/!!;
+sub version_info {
+my $version_number = version();
+my $version = <<EOT;
+$self $version_number
+
+Copyright (c) 2002, 2004, 2005, 2006, 2007  Brendan O'Dea <bod\@debian.org>
+This is free software, licensed under the terms of the GNU General Public
+License.  There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+Written by Brendan O'Dea <bod\@debian.org>, based on a program by
+Christoph Lameter <clameter\@debian.org> and Petr Cech <cech\@debian.org>.
+EOT
+return $version;
+}
+
+my $help = <<EOT;
+$self checks the MD5 sums of installed debian packages.
+
+Usage: $self [OPTIONS] [PACKAGE|DEB] ...
+
+Options:
+ -a, --all                    check configuration files (normally excluded)
+ -e, --config                 check only configuration files
+ -c, --changed                report changed files (implies -s)
+ -l, --list-missing           list packages which don't have an md5sums file
+ -s, --silent                 only report errors
+ -m, --md5sums=FILE           read list of deb checksums from FILE
+ -r, --root=DIR               root directory to check (default /)
+ -d, --admindir=DIR           dpkg admin directory (default /var/lib/dpkg)
+ -p, --deb-path=DIR[:DIR...]  search path for debs
+ -g, --generate=[all][,keep[,nocheck]]
+ 			      generate md5sums from deb contents
+     --no-locale-purge        report missing locale files even if localepurge
+                              is configured
+     --no-prelink             report changed ELF files even if prelink is
+                              configured
+     --help                   print this help, then exit
+     --version                print version number, then exit
+EOT
+
+my $gen_opt;
+GetOptions (
+    'a|all'		=> \my $all,
+    'e|config'		=> \my $config,
+    'c|changed'		=> \my $changed,
+    'l|list-missing'    => \my $missing,
+    's|silent'		=> \my $silent,
+    'm|md5sums=s'	=> \my $md5sums,
+    'r|root=s'		=> \my $root,
+    'd|admindir=s'	=> \my $admindir,
+    'p|deb-path=s'	=> \my $debpath,
+    'generate=s'	=> \$gen_opt,
+    'locale-purge!'	=> \my $localepurge,
+    'prelink!'		=> \my $prelink,
+    'ignore-permissions' => \my $ignore_permissions,
+    g			=> sub { $gen_opt = 'missing' },
+    help		=> sub { print $help; exit },
+    version		=> sub { print version_info(); exit },
+) or die "Try '$self --help' for more information.\n";
+
+sub can_ignore {
+  return $!{EACCES} && $ignore_permissions && getuid();
+}
+
+my $my_noatime = 0;
+eval { $my_noatime = O_NOATIME };
+
+sub warn_or_die {
+  if(can_ignore()) {
+    unless($silent) {
+      warn $_[0];
+    }
+  } else {
+    die $_[0];
+  }
+}
+
+sub parse_dpkg {
+    my ($command_cb, $field_names) = @_;
+
+    local $/ = "\n\n";  # Separator that cannot appear in dpkg status format
+    my @command = &$command_cb('--showformat=' .
+			       (join '', map {"\${$_}$/"} @$field_names));
+    open DPKG, '-|', @command
+	or die "$self: can't run " . $command[0] . " ($!)\n";
+
+    my @ret;
+    while (!eof DPKG)
+    {
+	my %field = map {$_, scalar <DPKG>} @$field_names;
+	chomp @field{@$field_names};
+	push @ret, \%field;
+    }
+
+    close DPKG or die "$self: @command failed (",
+      $! ? $! : $? >> 8 ? "exit status " . ($? >> 8) : "signal " . ($? & 127),
+      ")\n";
+    return @ret;
+}
+
+$root ||= '';
+$admindir ||= '/var/lib/dpkg';
+my $DPKG = $root . $admindir;
+
+my $is_path_pattern_opt = sub {
+  return shift =~ /^--path-(?:exclude|include)=/;
+};
+
+my $dpkg_conf = Dpkg::Conf->new();
+
+foreach((glob($root . "/etc/dpkg/dpkg.cfg.d/[0-9a-zA-Z_-]*"), ($root . "/etc/dpkg/dpkg.cfg", $root . glob("~/.dpkg.cfg")))) {
+  if(-f $_) {
+    my $name = "$_";
+    $dpkg_conf->load($name);
+  }
+}
+$dpkg_conf->filter(keep => $is_path_pattern_opt);
+my @dpkg_opts = $dpkg_conf->get_options;
+my @dpkg_patterns = ();
+foreach my $opt(@dpkg_opts) {
+  my @res = ($opt =~ /^--path-(exclude|include)=(.+)/);
+  push @dpkg_patterns, \@res;
+}
+
+sub excluded_by_dpkg {
+  my $file = "/" . shift;
+  my $excluded = 0;
+  foreach my $rule(@dpkg_patterns) {
+    my ($type, $pattern) = @{$rule};
+    if(fnmatch($pattern, $file)) {
+      $excluded = $type eq 'exclude' ? 1 : 0;
+    }
+  }
+  return $excluded;
+}
+
+
+my %locales;
+my $nopurge = '/etc/locale.nopurge';
+
+# default is to ignore purged locale files if /etc/locale.nopurge exists
+$localepurge = -e $nopurge unless defined $localepurge;
+
+if ($localepurge and -e $nopurge)
+{
+    open L, $nopurge or die "$self: can't open $nopurge ($!)\n";
+    while (<L>)
+    {
+	$locales{$1}++ if /^(\w.+)/;
+    }
+
+    close L;
+}
+
+# default is to use prelink to fetch the original checksums if installed
+if (!defined $prelink or $prelink)
+{
+    # use the binary in preference to the wrapper which asks questions
+    # interactively
+    ($prelink) = grep -x, map +("$_.bin", $_), '/usr/sbin/prelink';
+}
+
+$silent++ if $changed;
+
+my @debpath = '.';
+@debpath = map +(length) ? $_ : '.', split /:/, $debpath, -1 if $debpath;
+
+my $arch;
+chomp ($arch = `/usr/bin/dpkg --print-architecture`);
+
+my %generate;
+if ($gen_opt)
+{
+    for (split /,/, $gen_opt)
+    {
+	if (/^(missing|all|keep|nocheck)$/)
+	{
+	    $generate{$1}++;
+	}
+	else
+	{
+	    die "$self: invalid --generate value '$_'\n";
+	}
+    }
+
+    die "$self: --generate values 'all' and 'missing' are mutually exclusive\n"
+	if $generate{all} and $generate{missing};
+
+    $generate{missing}++ unless $generate{all} or $generate{missing};
+
+    # ensure generated files are world readable
+    umask 022;
+}
+
+my %installed;
+my %package_name;
+my %replaced;
+{
+    for my $fields (parse_dpkg(sub {'dpkg-query', "--admindir=$DPKG", @_, '--show'},
+			       [qw(Package PackageSpec binary:Package Version Status Conffiles Replaces)])) {
+	my %field = %$fields;
+	$field{"binary:Package"} = $field{PackageSpec} if $field{"binary:Package"} eq '';
+	$field{"binary:Package"} = $field{Package} if $field{"binary:Package"} eq '';
+	next unless $field{"binary:Package"} ne ''
+		and $field{Version} ne ''
+		and $field{Status} =~ /\sinstalled$/;
+
+	$installed{$field{"binary:Package"}}{Version} = $field{Version};
+	if($field{"binary:Package"} ne $field{"Package"} && $field{"binary:Package"} eq ($field{"Package"} . ":" . $arch)) {
+	    $package_name{$field{"Package"}} = $field{"binary:Package"};
+	}
+	$installed{$field{"binary:Package"}}{Conffiles} = {
+	    map m!^\s*/(\S+)\s+([\da-f]+)!, split /\n/, $field{Conffiles}
+	} if $field{Conffiles};
+
+	for (split /,\s*/, $field{Replaces})
+	{
+	    my ($pack, $ver) = /^(\S+)(?:\s+\(([^)]+)\))?$/;
+	    unless ($pack)
+	    {
+		warn "$self: invalid Replaces for " . $field{"binary:Package"} . " '$_'\n";
+	    	next;
+	    }
+
+	    push @{$replaced{$pack}{$ver || 'all'}}, $field{"binary:Package"};
+	}
+    }
+}
+
+my %diversion;
+for (`LC_ALL=C /usr/sbin/dpkg-divert --list --admindir $DPKG`)
+{
+    my ($by) = /^(local) diversion/ ? $1 : / by (\S+)$/;
+    $diversion{$1} = [$2, $by]
+	if m!diversion of /(.*) to /(.*?)\s!;
+}
+
+my %debsum;
+if ($md5sums)
+{
+    open F, $md5sums or warn_or_die "$self: can't open sums file '$md5sums' ($!)\n";
+    if(fileno(F)) {
+    while (<F>)
+    {
+	my ($sum, $deb) = split;
+	$debsum{$deb} = $sum;
+    }
+    close F;
+    }
+}
+
+my $digest = Digest::MD5->new;
+my $tmp;
+my $status = 0;
+
+@ARGV = sort keys %installed unless @ARGV;
+
+sub dpkg_cmp
+{
+    my $ver = shift;
+    my ($op, $testver) = split ' ', shift;
+    $op .= '=' if $op =~ /^[<>]$/; # convert old <, >
+    return 0 unless grep $op eq $_, qw/<< <= = => >>/;
+
+    return $op =~ /=/ if $ver eq $testver; # short cut equivalence
+    !system '/usr/bin/dpkg', '--compare-versions', $ver, $op, $testver;
+}
+
+sub md5sums_path
+{
+    # Calling dpkg-query --control-path for every package is too slow,
+    # so we cheat a little bit.
+
+    my ($pack) = @_;
+    if (-e "$DPKG/info/$pack.list") {
+	return "$DPKG/info/$pack.md5sums";
+    } elsif ($pack !~ /:/ and -e "$DPKG/info/$pack:$arch.list") {
+	return "$DPKG/info/$pack:$arch.md5sums";
+    } elsif ($pack =~ /^(.*):/ and -e "$DPKG/info/$1.list") {
+	return "$DPKG/info/$1.md5sums";
+    } else {
+	die "Cannot find md5sums path for $pack\n";
+    }
+}
+
+sub is_replaced
+{
+    my ($pack, $path, $sum) = @_;
+
+    unless ($installed{$pack}{ReplacedBy})
+    {
+	(my $name = $pack) =~ s/:[^:]*$//;
+	return 0 unless $replaced{$name};
+
+	while (my ($ver, $p) = each %{$replaced{$name}})
+	{
+	    next unless $ver eq 'all'
+		or dpkg_cmp $installed{$pack}{Version}, $ver;
+
+	    push @{$installed{$pack}{ReplacedBy}}, @$p;
+	}
+    }
+
+    for my $p (@{$installed{$pack}{ReplacedBy} || []})
+    {
+	open S, md5sums_path($p) or next;
+	while (<S>)
+	{
+	    if ($_ eq "$sum  $path\n")
+	    {
+		close S;
+		return 1;
+	    }
+	}
+
+	close S;
+    }
+
+    0;
+}
+
+sub is_localepurge_file {
+    my $path = shift;
+    my $locale = "";
+    if($path =~ m!usr/share/(locale|man|gnome/help|omf|doc/kde/HTML)/!) {
+        my $type = $1;
+        if($type eq "man" || $type eq "locale" || $type eq "doc/kde/HTML") {
+          $path =~ m!^usr/share/(?:man|locale|doc/kde/HTML)/([^/]+)/!;
+          $locale = $1;
+        } elsif($type eq "gnome/help") {
+          $path =~ m!^usr/share/gnome/help/[^/]+/([^/]+)/!;
+          $locale = $1;
+        } elsif($type eq "omf") {
+          $path =~ m!^usr/share/omf/([^/]+)/\1-([^/]+).omf$!;
+          $locale = $2;
+        }
+    }
+    return length($locale) && !$locales{$locale};
+}
+
+{
+    my $width = ($ENV{COLUMNS} || 80) - 3;
+    $width = 6 if $width < 6;
+
+    sub check
+    {
+	my ($pack, $path, $sum) = @_;
+
+	$path = $diversion{$path}[0] if exists $diversion{$path}
+	    and $diversion{$path}[1] ne $pack;
+
+	if ((!sysopen F, "$root/$path", O_RDONLY|O_NONBLOCK|$my_noatime) &&
+           (!sysopen F, "$root/$path", O_RDONLY|O_NONBLOCK))
+	{
+	    return 0 if $localepurge
+                and is_localepurge_file($path);
+            return 0 if excluded_by_dpkg($path);
+
+	    my $err = "$self: can't open $pack file $root/$path ($!)\n";
+            if(can_ignore()) {
+              warn $err unless($silent);
+              return 0;
+            } else {
+              if($!{ENOENT}) {
+                warn "$self: missing file $root/$path (from $pack package)\n";
+              } else {
+                warn $err;
+              }
+              return 2;
+            }
+	}
+
+	unless (-f F)
+	{
+	    warn "$self: can't check $pack file $root/$path ",
+	    	"(not a regular file)\n";
+
+	    close F;
+	    return 2;
+	}
+
+	my $magic = '';
+	eval {
+	    defined read F, $magic, length ELF_MAGIC or die $!;
+	    $digest->add($magic);
+	    $digest->addfile(\*F);
+	};
+
+	close F;
+
+	if ($@)
+	{
+	    $@ =~ s/ at \S+ line.*\n//;
+	    warn "$self: can't check $pack file $root/$path ($@)\n";
+	    return 2;
+	}
+
+	my $s = $digest->hexdigest;
+
+	if ($s ne $sum and $prelink and $magic eq ELF_MAGIC)
+	{
+	    if (open P, '-|', $prelink, '--verify', '--md5', "$root/$path")
+	    {
+		my ($prelink_s) = map /^([\da-f]{32})\s/, <P>;
+		close P;
+		$s = $prelink_s if $prelink_s;
+	    }
+	}
+
+	if ($s eq $sum)
+	{
+	    printf "%-*s OK\n", $width, "$root/$path" unless $silent;
+	    return 0;
+	}
+
+	if (is_replaced $pack, $path, $s)
+	{
+	    printf "%-*s REPLACED\n", $width - 6, "$root/$path" unless $silent;
+	    return 0;
+	}
+
+	if ($changed)
+	{
+	    print $root, "/", $path, "\n";
+	    return 2;
+	}
+
+	if ($silent)
+	{
+            warn "$self: changed file $root/$path (from $pack package)\n";
+	}
+	else
+	{
+	    printf "%-*s FAILED\n", $width - 4, "$root/$path";
+	}
+
+	return 2;
+    }
+}
+
+for (@ARGV)
+{
+    my $sums;
+    my $pack;
+    my $conffiles;
+
+    # looks like a package name
+    unless (/[^a-z\d+.:-]/ or /\.deb$/)
+    {
+	$pack = $_;
+	unless (exists $installed{$pack})
+	{
+	    if(exists $package_name{$pack}) {
+		$pack = $package_name{$pack};
+	    }
+	    unless (exists $installed{$pack})
+	    {
+		warn "$self: package $pack is not installed\n";
+		$status |= 1;
+		next;
+	    }
+	}
+
+	my $deb;
+	if (%generate)
+	{
+	    my @v = $installed{$pack}{Version};
+	    if ($v[0] =~ s/(\d+):/$1%3a/)
+	    {
+		push @v, $installed{$pack}{Version};
+		$v[1] =~ s/\d+://;
+	    }
+
+	    for my $dir (@debpath)
+	    {
+		# look for <pack>_<ver>_<arch>.deb or <pack>_<ver>.deb
+		# where <ver> may or may not contain an epoch
+		my ($debname, $debarch);
+		($debname, $debarch) = ($pack =~ /^(.*):([^:]*)$/)
+		    or ($debname, $debarch) = ($pack, $arch);
+		if (($deb) = grep -f, map +(glob "$dir/${debname}_$_.deb"),
+		    map +("${_}_$debarch", "${_}_all", $_), @v)
+		{
+		    $deb =~ s!^\./+!!;
+		    last;
+		}
+	    }
+	}
+
+	if ($generate{all})
+	{
+	    unless ($deb)
+	    {
+		warn "$self: no deb available for $pack\n";
+		$status |= 1;
+		next;
+	    }
+
+	    $_ = $deb;
+	}
+	else
+	{
+	    $sums = md5sums_path($pack);
+	    unless (-f $sums or $config)
+	    {
+		if ($missing)
+		{
+		    print "$pack\n";
+		    next;
+		}
+
+		unless ($generate{missing})
+		{
+		    warn "$self: no md5sums for $pack\n";
+		    next;
+		}
+
+		unless ($deb)
+		{
+		    warn "$self: no md5sums for $pack and no deb available\n"
+			unless $generate{nocheck} and $silent;
+
+		    next;
+		}
+
+		undef $sums;
+		$_ = $deb;
+	    }
+	}
+
+	next if $missing;
+    }
+
+    unless ($sums)
+    {
+	unless (-f and /\.deb$/)
+	{
+	    warn "$self: invalid package name '$_'\n";
+	    $status |= 1;
+	    next;
+	}
+
+	my $deb = $_;
+	my ($fields) = parse_dpkg(sub {'dpkg-deb', @_, '--show', $deb},
+				  [qw(Package PackageSpec binary:Package Version Conffiles)])
+	  or do {
+	    warn "$self: $deb does not seem to be a valid debian archive\n";
+	    $status |= 1;
+	    next;
+	};
+	my %field = %$fields;
+	$field{"binary:Package"} = $field{PackageSpec} if $field{"binary:Package"} eq '';
+	$field{"binary:Package"} = $field{Package} if $field{"binary:Package"} eq '';
+
+	unless ($field{"binary:Package"} ne '' and $field{Version} ne '')
+	{
+	    warn "$self: $deb does not seem to be a valid debian archive\n";
+	    $status |= 1;
+	    next;
+	}
+
+	$pack = $field{"binary:Package"};
+	unless (exists $installed{$pack})
+	{
+	    if(exists $package_name{$pack}) {
+		$pack = $package_name{$pack};
+	    }
+	    unless (exists $installed{$pack})
+	    {
+		warn "$self: package $pack is not installed\n";
+		$status |= 1;
+		next;
+	    }
+	}
+
+	unless ($installed{$pack}{Version} eq $field{Version})
+	{
+	    warn "$self: package $pack version $field{Version} !=",
+		" installed version $installed{$pack}{Version}\n";
+
+	    $status |= 1;
+	    next;
+	}
+
+	if ($md5sums)
+	{
+	    if (exists $debsum{$deb})
+	    {
+		open F, $deb or warn_or_die "$self: can't open $deb ($!)\n";
+                if(fileno(F)) {
+		$digest->addfile(\*F);
+		close F;
+                }
+
+		unless ($digest->hexdigest eq $debsum{$deb})
+		{
+		    warn "$self: checksum mismatch for $deb; not checked\n";
+		    $status |= 2;
+		    next;
+		}
+	    }
+	    else
+	    {
+		warn "$self: no checksum available for $deb\n";
+	    }
+	}
+
+	unless ($tmp)
+	{
+	    my $catch = sub { exit 1 };
+	    $SIG{$_} = $catch for qw/HUP INT QUIT TERM/;
+
+	    $tmp = tempdir CLEANUP => 1
+		or die "$self: can't create temporary directory ($!)\n";
+	}
+
+	my $control = "$tmp/DEBIAN";
+	$sums = "$control/md5sums";
+	rmtree ($control, {safe => 1}) if -d $control;
+
+	system 'dpkg', '--control', $deb, $control
+	    and die "$self: can't extract control info from $deb\n";
+	
+	if ($missing)
+	{
+	    print "$deb\n" unless -s $sums;
+	    next;
+	}
+
+	my %conf;
+	if (open F, "$control/conffiles")
+	{
+	    while (<F>)
+	    {
+		chomp;
+		$conf{$1}++ if m!^/?(.+)!;
+	    }
+
+	    close F;
+	}
+
+	if (!-s $sums)
+	{
+	    my $unpacked = "$tmp/$pack";
+	    print "Generating missing md5sums for $deb..." unless $silent;
+	    system 'dpkg', '--extract', $deb, $unpacked
+		and die "$self: can't unpack $deb\n";
+	    
+	    $conffiles = {};
+	    open SUMS, ">$sums" or die "$self: can't create $sums ($!)\n";
+	    my $skip = (length $unpacked) + 1;
+
+	    find sub {
+		return if -l or ! -f;
+		open F, $_ or warn_or_die "$self: can't open $_ ($!)\n";
+                if(fileno(F)) {
+		$digest->addfile(\*F);
+		close F;
+                }
+		my $md5 = $digest->hexdigest;
+		my $path = substr $File::Find::name, $skip;
+		if (delete $conf{$path})
+		{
+		    $conffiles->{$path} = $md5;
+		}
+		else
+		{
+		    print SUMS "$md5  $path\n";
+		}
+	    }, $unpacked;
+
+	    close SUMS;
+	    rmtree ($unpacked, {safe => 1});
+
+	    print "done.\n" unless $silent;
+
+	    warn "$self: extra conffiles listed in $deb: (",
+		(join ', ', keys %conf), ")\n" if %conf;
+	}
+
+	if ($generate{keep})
+	{
+            warn "$self: the --generate=keep option has been removed and does nothing."
+	}
+    }
+
+    next if $generate{nocheck};
+
+    $conffiles = $installed{$pack}{Conffiles} || {}
+	unless $conffiles;
+
+    unless ($config)
+    {
+	open SUMS, $sums or warn_or_die "$self: can't open $sums ($!)\n";
+        if(fileno(SUMS)) {
+	while (<SUMS>)
+	{
+	    chomp;
+	    my ($sum, $path) = split ' ', $_, 2;
+	    unless ($path and $sum =~ /^[0-9a-f]{32}$/)
+	    {
+		warn "$self: invalid line ($.) in md5sums for $pack: $_\n";
+		next;
+	    }
+
+	    $path =~ s!^\./!!;
+	    next if exists $conffiles->{$path};
+	    $status |= check $pack, $path, $sum;
+	}
+
+	close SUMS;
+      }
+    }
+
+    next unless ($all or $config) and %$conffiles;
+    while (my ($path, $sum) = each %$conffiles)
+    {
+	$status |= check $pack, $path, $sum;
+    }
+}
+
+exit $status;

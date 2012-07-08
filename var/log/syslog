@@ -1,0 +1,1496 @@
+Jul  7 06:25:37 LSPPC-Wheezy syslogd 1.5.0#6.2: restart.
+Jul  7 06:38:25 LSPPC-Wheezy smbd[20299]: [2012/07/07 06:38:25.210533,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 06:38:25 LSPPC-Wheezy smbd[20299]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 06:38:25 LSPPC-Wheezy smbd[2030]: [2012/07/07 06:38:25.217975,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 06:38:25 LSPPC-Wheezy smbd[2030]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 06:45:49 LSPPC-Wheezy shutdown[20311]: shutting down for system reboot
+Jul  7 06:45:49 LSPPC-Wheezy init: Switching to runlevel: 6
+Jul  7 06:45:50 LSPPC-Wheezy linkstation[20350]: Stopped daemon avr-evtd
+Jul  7 06:45:50 LSPPC-Wheezy kernel: Kernel logging (proc) stopped.
+Jul  7 06:45:50 LSPPC-Wheezy kernel: Kernel log daemon terminating.
+Jul  7 06:45:52 LSPPC-Wheezy rpc.mountd[1998]: Caught signal 15, un-registering and exiting.
+Jul  7 06:45:55 LSPPC-Wheezy exiting on signal 15
+Jul  7 06:47:41 LSPPC-Wheezy syslogd 1.5.0#6.2: restart.
+Jul  7 06:47:42 LSPPC-Wheezy avr-daemon[2148]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Jul  7 06:47:42 LSPPC-Wheezy linkstation[2166]: Started daemon avr-evtd
+Jul  7 06:47:42 LSPPC-Wheezy /usr/sbin/cron[2189]: (CRON) INFO (pidfile fd = 3)
+Jul  7 06:47:42 LSPPC-Wheezy /usr/sbin/cron[2190]: (CRON) STARTUP (fork ok)
+Jul  7 06:47:42 LSPPC-Wheezy /usr/sbin/cron[2190]: (CRON) INFO (Running @reboot jobs)
+Jul  7 06:47:43 LSPPC-Wheezy kernel: Inspecting /usr/src/linux/System.map
+Jul  7 06:47:44 LSPPC-Wheezy kernel: Cannot find map file.
+Jul  7 06:47:44 LSPPC-Wheezy kernel: Loaded 19300 symbols from 1 module.
+Jul  7 06:47:44 LSPPC-Wheezy kernel: Using Buffalo Linkstation machine description
+Jul  7 06:47:44 LSPPC-Wheezy kernel: Linux version 3.4.0 (root@LSPPC-Wheezy) (gcc version 4.6.3 (Debian 4.6.3-1) ) #1 Sat Jul 7 06:08:11 UTC 2012
+Jul  7 06:47:44 LSPPC-Wheezy kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Jul  7 06:47:44 LSPPC-Wheezy kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Jul  7 06:47:44 LSPPC-Wheezy kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Jul  7 06:47:44 LSPPC-Wheezy kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Jul  7 06:47:44 LSPPC-Wheezy kernel: bootconsole [udbg0] enabled
+Jul  7 06:47:44 LSPPC-Wheezy kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Jul  7 06:47:44 LSPPC-Wheezy kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Jul  7 06:47:44 LSPPC-Wheezy kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Jul  7 06:47:44 LSPPC-Wheezy kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Jul  7 06:47:44 LSPPC-Wheezy kernel: BUFFALO Network Attached Storage Series
+Jul  7 06:47:44 LSPPC-Wheezy kernel: (C) 2002-2005 BUFFALO INC.
+Jul  7 06:47:44 LSPPC-Wheezy kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Memory hole size: 0MB
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Zone PFN ranges:
+Jul  7 06:47:45 LSPPC-Wheezy kernel:   DMA      0x00000000 -> 0x00008000
+Jul  7 06:47:45 LSPPC-Wheezy kernel:   Normal   empty
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Movable zone start PFN for each node
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Early memory PFN ranges
+Jul  7 06:47:45 LSPPC-Wheezy kernel:     0: 0x00000000 -> 0x00008000
+Jul  7 06:47:45 LSPPC-Wheezy kernel: On node 0 totalpages: 32768
+Jul  7 06:47:45 LSPPC-Wheezy kernel: free_area_init_node: node 0, pgdat c06286a8, node_mem_map c0654000
+Jul  7 06:47:45 LSPPC-Wheezy kernel:   DMA zone: 256 pages used for memmap
+Jul  7 06:47:45 LSPPC-Wheezy kernel:   DMA zone: 0 pages reserved
+Jul  7 06:47:45 LSPPC-Wheezy kernel:   DMA zone: 32512 pages, LIFO batch:7
+Jul  7 06:47:45 LSPPC-Wheezy kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul  7 06:47:45 LSPPC-Wheezy kernel: pcpu-alloc: [0] 0 
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Jul  7 06:47:45 LSPPC-Wheezy kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Memory: 123400k/131072k available (6168k kernel code, 7672k reserved, 200k data, 89k bss, 192k init)
+Jul  7 06:47:45 LSPPC-Wheezy kernel: Kernel virtual memory layout:
+Jul  7 06:47:45 LSPPC-Wheezy kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Jul  7 06:47:45 LSPPC-Wheezy kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Jul  7 06:47:45 LSPPC-Wheezy kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Jul  7 06:47:45 LSPPC-Wheezy kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  7 06:47:45 LSPPC-Wheezy kernel: NR_IRQS:512 nr_irqs:512 16
+Jul  7 06:47:46 LSPPC-Wheezy kernel: mpic: Resetting
+Jul  7 06:47:46 LSPPC-Wheezy kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Jul  7 06:47:46 LSPPC-Wheezy kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Jul  7 06:47:46 LSPPC-Wheezy kernel: mpic: Initializing for 12 sources
+Jul  7 06:47:46 LSPPC-Wheezy kernel: time_init: decrementer frequency = 32.522240 MHz
+Jul  7 06:47:46 LSPPC-Wheezy kernel: time_init: processor frequency   = 262.144000 MHz
+Jul  7 06:47:46 LSPPC-Wheezy kernel: clocksource: timebase mult[1ebf895a] shift[24] registered
+Jul  7 06:47:46 LSPPC-Wheezy kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: Console: colour dummy device 80x25
+Jul  7 06:47:46 LSPPC-Wheezy kernel: console [tty0] enabled, bootconsole disabled
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pid_max: default: 32768 minimum: 301
+Jul  7 06:47:46 LSPPC-Wheezy kernel: Mount-cache hash table entries: 512
+Jul  7 06:47:46 LSPPC-Wheezy kernel: NET: Registered protocol family 16
+Jul  7 06:47:46 LSPPC-Wheezy kernel: PCI: Probing PCI hardware
+Jul  7 06:47:46 LSPPC-Wheezy kernel: PCI host bridge to bus 0000:00
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xbfffff]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xefffffff]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:00.0: [1057:0006] type 00 class 0x060000
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:0b.0: [10ec:8169] type 00 class 0x020000
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:0c.0: [1095:0680] type 00 class 0x010185
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Jul  7 06:47:46 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0c.0: supports D1 D2
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.0: [1033:0035] type 00 class 0x0c0310
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.0: supports D1 D2
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.1: [1033:0035] type 00 class 0x0c0310
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.1: supports D1 D2
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.2: [1033:00e0] type 00 class 0x0c0320
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.2: supports D1 D2
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xbfffff]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 5 [mem 0x80000000-0xefffffff]
+Jul  7 06:47:47 LSPPC-Wheezy kernel: bio: create slab <bio-0> at 0
+Jul  7 06:47:47 LSPPC-Wheezy kernel: vgaarb: loaded
+Jul  7 06:47:47 LSPPC-Wheezy kernel: SCSI subsystem initialized
+Jul  7 06:47:47 LSPPC-Wheezy kernel: libata version 3.00 loaded.
+Jul  7 06:47:47 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbfs
+Jul  7 06:47:47 LSPPC-Wheezy kernel: usbcore: registered new interface driver hub
+Jul  7 06:47:47 LSPPC-Wheezy kernel: usbcore: registered new device driver usb
+Jul  7 06:47:48 LSPPC-Wheezy kernel: Bluetooth: Core ver 2.16
+Jul  7 06:47:48 LSPPC-Wheezy kernel: NET: Registered protocol family 31
+Jul  7 06:47:48 LSPPC-Wheezy kernel: Bluetooth: HCI device and connection manager initialized
+Jul  7 06:47:48 LSPPC-Wheezy kernel: Bluetooth: HCI socket layer initialized
+Jul  7 06:47:48 LSPPC-Wheezy kernel: Bluetooth: L2CAP socket layer initialized
+Jul  7 06:47:48 LSPPC-Wheezy kernel: Bluetooth: SCO socket layer initialized
+Jul  7 06:47:48 LSPPC-Wheezy kernel: Switching to clocksource timebase
+Jul  7 06:47:48 LSPPC-Wheezy ntpdate[1674]: adjust time server 69.50.219.51 offset 0.134728 sec
+Jul  7 06:47:48 LSPPC-Wheezy kernel: NET: Registered protocol family 2
+Jul  7 06:47:48 LSPPC-Wheezy kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  7 06:47:48 LSPPC-Wheezy kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jul  7 06:47:48 LSPPC-Wheezy kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Jul  7 06:47:48 LSPPC-Wheezy kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Jul  7 06:47:48 LSPPC-Wheezy kernel: TCP: reno registered
+Jul  7 06:47:48 LSPPC-Wheezy kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jul  7 06:47:48 LSPPC-Wheezy kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jul  7 06:47:48 LSPPC-Wheezy kernel: NET: Registered protocol family 1
+Jul  7 06:47:48 LSPPC-Wheezy kernel: RPC: Registered named UNIX socket transport module.
+Jul  7 06:47:48 LSPPC-Wheezy kernel: RPC: Registered udp transport module.
+Jul  7 06:47:48 LSPPC-Wheezy kernel: RPC: Registered tcp transport module.
+Jul  7 06:47:48 LSPPC-Wheezy kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  7 06:47:48 LSPPC-Wheezy kernel: PCI: CLS 32 bytes, default 32
+Jul  7 06:47:48 LSPPC-Wheezy kernel: NFS: Registering the id_resolver key type
+Jul  7 06:47:49 LSPPC-Wheezy kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jul  7 06:47:49 LSPPC-Wheezy kernel: NTFS driver 2.1.30 [Flags: R/W].
+Jul  7 06:47:49 LSPPC-Wheezy kernel: fuse init (API version 7.18)
+Jul  7 06:47:49 LSPPC-Wheezy kernel: JFS: nTxBlock = 964, nTxLock = 7712
+Jul  7 06:47:49 LSPPC-Wheezy kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Jul  7 06:47:49 LSPPC-Wheezy kernel: msgmni has been set to 241
+Jul  7 06:47:49 LSPPC-Wheezy kernel: io scheduler noop registered
+Jul  7 06:47:49 LSPPC-Wheezy kernel: io scheduler deadline registered
+Jul  7 06:47:49 LSPPC-Wheezy kernel: io scheduler cfq registered (default)
+Jul  7 06:47:49 LSPPC-Wheezy kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jul  7 06:47:49 LSPPC-Wheezy kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Jul  7 06:47:49 LSPPC-Wheezy kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Jul  7 06:47:49 LSPPC-Wheezy kernel: brd: module loaded
+Jul  7 06:47:49 LSPPC-Wheezy kernel: loop: module loaded
+Jul  7 06:47:49 LSPPC-Wheezy kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Jul  7 06:47:49 LSPPC-Wheezy kernel: sil680: 133MHz clock.
+Jul  7 06:47:49 LSPPC-Wheezy kernel: scsi0 : pata_sil680
+Jul  7 06:47:49 LSPPC-Wheezy kernel: scsi1 : pata_sil680
+Jul  7 06:47:49 LSPPC-Wheezy kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Jul  7 06:47:49 LSPPC-Wheezy kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Jul  7 06:47:49 LSPPC-Wheezy kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Jul  7 06:47:49 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: (unregistered net_device): not PCI Express
+Jul  7 06:47:49 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90a8c00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Jul  7 06:47:49 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: jumbo features [frames: 7152 bytes, tx checksumming: ok]
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Jul  7 06:47:50 LSPPC-Wheezy kernel: hub 1-0:1.0: USB hub found
+Jul  7 06:47:50 LSPPC-Wheezy kernel: hub 1-0:1.0: 5 ports detected
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Jul  7 06:47:50 LSPPC-Wheezy ntpd[2282]: ntpd 4.2.6p5@1.2349-o Sat May 12 09:59:44 UTC 2012 (1)
+Jul  7 06:47:50 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Jul  7 06:47:50 LSPPC-Wheezy kernel: hub 2-0:1.0: USB hub found
+Jul  7 06:47:51 LSPPC-Wheezy ntpd[2283]: proto: precision = 1.261 usec
+Jul  7 06:47:51 LSPPC-Wheezy kernel: hub 2-0:1.0: 3 ports detected
+Jul  7 06:47:51 LSPPC-Wheezy ntpd[2283]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jul  7 06:47:51 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Jul  7 06:47:51 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Jul  7 06:47:51 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Jul  7 06:47:51 LSPPC-Wheezy kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Jul  7 06:47:51 LSPPC-Wheezy kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Jul  7 06:47:51 LSPPC-Wheezy ntpd[2283]: Listen and drop on 1 v6wildcard :: UDP 123
+Jul  7 06:47:51 LSPPC-Wheezy kernel: hub 3-0:1.0: USB hub found
+Jul  7 06:47:51 LSPPC-Wheezy ntpd[2283]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jul  7 06:47:51 LSPPC-Wheezy kernel: hub 3-0:1.0: 2 ports detected
+Jul  7 06:47:51 LSPPC-Wheezy kernel: usbcore: registered new interface driver usblp
+Jul  7 06:47:52 LSPPC-Wheezy ntpd[2283]: Listen normally on 3 eth0 192.168.1.7 UDP 123
+Jul  7 06:47:52 LSPPC-Wheezy kernel: usbcore: registered new interface driver uas
+Jul  7 06:47:52 LSPPC-Wheezy ntpd[2283]: Listen normally on 4 lo ::1 UDP 123
+Jul  7 06:47:52 LSPPC-Wheezy kernel: Initializing USB Mass Storage driver...
+Jul  7 06:47:52 LSPPC-Wheezy ntpd[2283]: Listen normally on 5 eth0 fe80::20d:bff:fead:9486 UDP 123
+Jul  7 06:47:52 LSPPC-Wheezy kernel: usbcore: registered new interface driver usb-storage
+Jul  7 06:47:52 LSPPC-Wheezy ntpd[2283]: peers refreshed
+Jul  7 06:47:52 LSPPC-Wheezy kernel: USB Mass Storage support registered.
+Jul  7 06:47:52 LSPPC-Wheezy ntpd[2283]: Listening on routing socket on fd #22 for interface updates
+Jul  7 06:47:52 LSPPC-Wheezy kernel: usbcore: registered new interface driver libusual
+Jul  7 06:47:52 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-freecom
+Jul  7 06:47:52 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-isd200
+Jul  7 06:47:52 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbserial
+Jul  7 06:47:52 LSPPC-Wheezy kernel: usbserial: USB Serial Driver core
+Jul  7 06:47:53 LSPPC-Wheezy kernel: usbcore: registered new interface driver ftdi_sio
+Jul  7 06:47:53 LSPPC-Wheezy kernel: USB Serial support registered for FTDI USB Serial Device
+Jul  7 06:47:53 LSPPC-Wheezy kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Jul  7 06:47:53 LSPPC-Wheezy kernel: mousedev: PS/2 mouse device common for all mice
+Jul  7 06:47:53 LSPPC-Wheezy kernel: i2c /dev entries driver
+Jul  7 06:47:53 LSPPC-Wheezy kernel: mpc-i2c 80003000.i2c: timeout 1000000 us
+Jul  7 06:47:53 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Jul  7 06:47:53 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Jul  7 06:47:53 LSPPC-Wheezy kernel: TCP: cubic registered
+Jul  7 06:47:53 LSPPC-Wheezy kernel: NET: Registered protocol family 10
+Jul  7 06:47:53 LSPPC-Wheezy kernel: IPv6 over IPv4 tunneling driver
+Jul  7 06:47:53 LSPPC-Wheezy kernel: NET: Registered protocol family 17
+Jul  7 06:47:53 LSPPC-Wheezy kernel: NET: Registered protocol family 5
+Jul  7 06:47:53 LSPPC-Wheezy kernel: Registering the dns_resolver key type
+Jul  7 06:47:53 LSPPC-Wheezy kernel: netpoll: netconsole: local port 6666
+Jul  7 06:47:53 LSPPC-Wheezy kernel: netpoll: netconsole: local IP 192.168.11.150
+Jul  7 06:47:53 LSPPC-Wheezy kernel: netpoll: netconsole: interface 'eth0'
+Jul  7 06:47:53 LSPPC-Wheezy kernel: netpoll: netconsole: remote port 6666
+Jul  7 06:47:53 LSPPC-Wheezy kernel: netpoll: netconsole: remote IP 192.168.11.149
+Jul  7 06:47:53 LSPPC-Wheezy kernel: netpoll: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Jul  7 06:47:53 LSPPC-Wheezy kernel: netpoll: netconsole: device eth0 not up yet, forcing it
+Jul  7 06:47:53 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  7 06:47:53 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  7 06:47:53 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  7 06:47:53 LSPPC-Wheezy kernel: ata1.00: configured for UDMA/100
+Jul  7 06:47:54 LSPPC-Wheezy kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Jul  7 06:47:54 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Jul  7 06:47:54 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write Protect is off
+Jul  7 06:47:54 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul  7 06:47:54 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jul  7 06:47:54 LSPPC-Wheezy kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul  7 06:47:54 LSPPC-Wheezy kernel: linkstation: disarming the AVR watchdog: 
+Jul  7 06:47:54 LSPPC-Wheezy kernel:  sda: sda1 sda2
+Jul  7 06:47:54 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Jul  7 06:47:54 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link up
+Jul  7 06:47:54 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  7 06:47:54 LSPPC-Wheezy kernel: console [netcon0] enabled
+Jul  7 06:47:54 LSPPC-Wheezy kernel: netconsole: network logging started
+Jul  7 06:47:54 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: setting system clock to 2012-07-07 06:47:16 UTC (1341643636)
+Jul  7 06:47:54 LSPPC-Wheezy kernel: kjournald starting.  Commit interval 5 seconds
+Jul  7 06:47:54 LSPPC-Wheezy kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Jul  7 06:47:54 LSPPC-Wheezy kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Jul  7 06:47:54 LSPPC-Wheezy kernel: Freeing unused kernel memory: 192k freed
+Jul  7 06:47:54 LSPPC-Wheezy kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Jul  7 06:47:54 LSPPC-Wheezy kernel: EXT3-fs (sda1): using internal journal
+Jul  7 06:47:54 LSPPC-Wheezy kernel: eth0: no IPv6 routers present
+Jul  7 06:48:08 LSPPC-Wheezy ntpdate[2372]: the NTP socket is in use, exiting
+Jul  7 07:00:41 LSPPC-Wheezy smbd[2385]: [2012/07/07 07:00:41.112412,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 07:00:41 LSPPC-Wheezy smbd[2385]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 07:00:41 LSPPC-Wheezy smbd[2068]: [2012/07/07 07:00:41.115983,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 07:00:41 LSPPC-Wheezy smbd[2068]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 07:13:42 LSPPC-Wheezy smbd[2819]: [2012/07/07 07:13:42.316714,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 07:13:42 LSPPC-Wheezy smbd[2819]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 07:13:42 LSPPC-Wheezy smbd[2068]: [2012/07/07 07:13:42.386069,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 07:13:42 LSPPC-Wheezy smbd[2068]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 07:17:02 LSPPC-Wheezy /USR/SBIN/CRON[2834]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  7 07:26:42 LSPPC-Wheezy smbd[2849]: [2012/07/07 07:26:42.654559,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 07:26:42 LSPPC-Wheezy smbd[2849]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 07:26:42 LSPPC-Wheezy smbd[2068]: [2012/07/07 07:26:42.658125,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 07:26:42 LSPPC-Wheezy smbd[2068]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 07:39:44 LSPPC-Wheezy smbd[2941]: [2012/07/07 07:39:44.159861,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 07:39:44 LSPPC-Wheezy smbd[2941]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 07:39:44 LSPPC-Wheezy smbd[2068]: [2012/07/07 07:39:44.200201,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 07:39:44 LSPPC-Wheezy smbd[2068]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 07:52:44 LSPPC-Wheezy smbd[3493]: [2012/07/07 07:52:44.753319,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 07:52:44 LSPPC-Wheezy smbd[3493]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 07:52:44 LSPPC-Wheezy smbd[2068]: [2012/07/07 07:52:44.825175,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 07:52:45 LSPPC-Wheezy smbd[2068]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 08:01:40 LSPPC-Wheezy shutdown[3530]: shutting down for system reboot
+Jul  7 08:01:41 LSPPC-Wheezy init: Switching to runlevel: 6
+Jul  7 08:01:42 LSPPC-Wheezy linkstation[3569]: Stopped daemon avr-evtd
+Jul  7 08:01:42 LSPPC-Wheezy kernel: Kernel logging (proc) stopped.
+Jul  7 08:01:42 LSPPC-Wheezy kernel: Kernel log daemon terminating.
+Jul  7 08:01:44 LSPPC-Wheezy rpc.mountd[2036]: Caught signal 15, un-registering and exiting.
+Jul  7 08:01:47 LSPPC-Wheezy exiting on signal 15
+Jul  7 08:15:05 LSPPC-Wheezy syslogd 1.5.0#6.2: restart.
+Jul  7 08:15:06 LSPPC-Wheezy avr-daemon[2146]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Jul  7 08:15:06 LSPPC-Wheezy linkstation[2164]: Started daemon avr-evtd
+Jul  7 08:15:06 LSPPC-Wheezy /usr/sbin/cron[2187]: (CRON) INFO (pidfile fd = 3)
+Jul  7 08:15:06 LSPPC-Wheezy /usr/sbin/cron[2188]: (CRON) STARTUP (fork ok)
+Jul  7 08:15:06 LSPPC-Wheezy /usr/sbin/cron[2188]: (CRON) INFO (Running @reboot jobs)
+Jul  7 08:15:07 LSPPC-Wheezy kernel: Inspecting /usr/src/linux/System.map
+Jul  7 08:15:07 LSPPC-Wheezy kernel: Cannot find map file.
+Jul  7 08:15:08 LSPPC-Wheezy kernel: Loaded 19300 symbols from 1 module.
+Jul  7 08:15:08 LSPPC-Wheezy kernel: Using Buffalo Linkstation machine description
+Jul  7 08:15:08 LSPPC-Wheezy kernel: Linux version 3.4.0 (root@LSPPC-Wheezy) (gcc version 4.6.3 (Debian 4.6.3-1) ) #1 Sat Jul 7 06:08:11 UTC 2012
+Jul  7 08:15:08 LSPPC-Wheezy kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Jul  7 08:15:08 LSPPC-Wheezy kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Jul  7 08:15:08 LSPPC-Wheezy kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Jul  7 08:15:08 LSPPC-Wheezy kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Jul  7 08:15:08 LSPPC-Wheezy kernel: bootconsole [udbg0] enabled
+Jul  7 08:15:08 LSPPC-Wheezy kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Jul  7 08:15:08 LSPPC-Wheezy kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Jul  7 08:15:08 LSPPC-Wheezy kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Jul  7 08:15:08 LSPPC-Wheezy kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Jul  7 08:15:08 LSPPC-Wheezy kernel: BUFFALO Network Attached Storage Series
+Jul  7 08:15:09 LSPPC-Wheezy kernel: (C) 2002-2005 BUFFALO INC.
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Memory hole size: 0MB
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Zone PFN ranges:
+Jul  7 08:15:09 LSPPC-Wheezy kernel:   DMA      0x00000000 -> 0x00008000
+Jul  7 08:15:09 LSPPC-Wheezy kernel:   Normal   empty
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Movable zone start PFN for each node
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Early memory PFN ranges
+Jul  7 08:15:09 LSPPC-Wheezy kernel:     0: 0x00000000 -> 0x00008000
+Jul  7 08:15:09 LSPPC-Wheezy kernel: On node 0 totalpages: 32768
+Jul  7 08:15:09 LSPPC-Wheezy kernel: free_area_init_node: node 0, pgdat c06286a8, node_mem_map c0654000
+Jul  7 08:15:09 LSPPC-Wheezy kernel:   DMA zone: 256 pages used for memmap
+Jul  7 08:15:09 LSPPC-Wheezy kernel:   DMA zone: 0 pages reserved
+Jul  7 08:15:09 LSPPC-Wheezy kernel:   DMA zone: 32512 pages, LIFO batch:7
+Jul  7 08:15:09 LSPPC-Wheezy kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul  7 08:15:09 LSPPC-Wheezy kernel: pcpu-alloc: [0] 0 
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Jul  7 08:15:09 LSPPC-Wheezy kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Memory: 123400k/131072k available (6168k kernel code, 7672k reserved, 200k data, 89k bss, 192k init)
+Jul  7 08:15:09 LSPPC-Wheezy kernel: Kernel virtual memory layout:
+Jul  7 08:15:09 LSPPC-Wheezy kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Jul  7 08:15:09 LSPPC-Wheezy kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Jul  7 08:15:09 LSPPC-Wheezy kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Jul  7 08:15:09 LSPPC-Wheezy kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  7 08:15:10 LSPPC-Wheezy kernel: NR_IRQS:512 nr_irqs:512 16
+Jul  7 08:15:10 LSPPC-Wheezy kernel: mpic: Resetting
+Jul  7 08:15:10 LSPPC-Wheezy kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Jul  7 08:15:10 LSPPC-Wheezy kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Jul  7 08:15:10 LSPPC-Wheezy kernel: mpic: Initializing for 12 sources
+Jul  7 08:15:10 LSPPC-Wheezy kernel: time_init: decrementer frequency = 32.522240 MHz
+Jul  7 08:15:10 LSPPC-Wheezy kernel: time_init: processor frequency   = 262.144000 MHz
+Jul  7 08:15:10 LSPPC-Wheezy kernel: clocksource: timebase mult[1ebf895a] shift[24] registered
+Jul  7 08:15:10 LSPPC-Wheezy kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Jul  7 08:15:10 LSPPC-Wheezy kernel: Console: colour dummy device 80x25
+Jul  7 08:15:10 LSPPC-Wheezy kernel: console [tty0] enabled, bootconsole disabled
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pid_max: default: 32768 minimum: 301
+Jul  7 08:15:10 LSPPC-Wheezy kernel: Mount-cache hash table entries: 512
+Jul  7 08:15:10 LSPPC-Wheezy kernel: NET: Registered protocol family 16
+Jul  7 08:15:10 LSPPC-Wheezy kernel: PCI: Probing PCI hardware
+Jul  7 08:15:10 LSPPC-Wheezy kernel: PCI host bridge to bus 0000:00
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xbfffff]
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xefffffff]
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:00.0: [1057:0006] type 00 class 0x060000
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:0b.0: [10ec:8169] type 00 class 0x020000
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:0c.0: [1095:0680] type 00 class 0x010185
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Jul  7 08:15:10 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0c.0: supports D1 D2
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.0: [1033:0035] type 00 class 0x0c0310
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.0: supports D1 D2
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.1: [1033:0035] type 00 class 0x0c0310
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.1: supports D1 D2
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.2: [1033:00e0] type 00 class 0x0c0320
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.2: supports D1 D2
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xbfffff]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 5 [mem 0x80000000-0xefffffff]
+Jul  7 08:15:11 LSPPC-Wheezy kernel: bio: create slab <bio-0> at 0
+Jul  7 08:15:11 LSPPC-Wheezy kernel: vgaarb: loaded
+Jul  7 08:15:11 LSPPC-Wheezy kernel: SCSI subsystem initialized
+Jul  7 08:15:11 LSPPC-Wheezy kernel: libata version 3.00 loaded.
+Jul  7 08:15:11 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbfs
+Jul  7 08:15:11 LSPPC-Wheezy kernel: usbcore: registered new interface driver hub
+Jul  7 08:15:11 LSPPC-Wheezy kernel: usbcore: registered new device driver usb
+Jul  7 08:15:12 LSPPC-Wheezy kernel: Bluetooth: Core ver 2.16
+Jul  7 08:15:12 LSPPC-Wheezy kernel: NET: Registered protocol family 31
+Jul  7 08:15:12 LSPPC-Wheezy kernel: Bluetooth: HCI device and connection manager initialized
+Jul  7 08:15:12 LSPPC-Wheezy kernel: Bluetooth: HCI socket layer initialized
+Jul  7 08:15:12 LSPPC-Wheezy kernel: Bluetooth: L2CAP socket layer initialized
+Jul  7 08:15:12 LSPPC-Wheezy kernel: Bluetooth: SCO socket layer initialized
+Jul  7 08:15:12 LSPPC-Wheezy kernel: Switching to clocksource timebase
+Jul  7 08:15:12 LSPPC-Wheezy kernel: NET: Registered protocol family 2
+Jul  7 08:15:12 LSPPC-Wheezy kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  7 08:15:12 LSPPC-Wheezy kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jul  7 08:15:12 LSPPC-Wheezy kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Jul  7 08:15:12 LSPPC-Wheezy kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Jul  7 08:15:12 LSPPC-Wheezy kernel: TCP: reno registered
+Jul  7 08:15:12 LSPPC-Wheezy kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jul  7 08:15:12 LSPPC-Wheezy kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jul  7 08:15:12 LSPPC-Wheezy kernel: NET: Registered protocol family 1
+Jul  7 08:15:12 LSPPC-Wheezy kernel: RPC: Registered named UNIX socket transport module.
+Jul  7 08:15:12 LSPPC-Wheezy kernel: RPC: Registered udp transport module.
+Jul  7 08:15:12 LSPPC-Wheezy kernel: RPC: Registered tcp transport module.
+Jul  7 08:15:12 LSPPC-Wheezy kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  7 08:15:12 LSPPC-Wheezy kernel: PCI: CLS 32 bytes, default 32
+Jul  7 08:15:12 LSPPC-Wheezy kernel: NFS: Registering the id_resolver key type
+Jul  7 08:15:12 LSPPC-Wheezy kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jul  7 08:15:13 LSPPC-Wheezy kernel: NTFS driver 2.1.30 [Flags: R/W].
+Jul  7 08:15:13 LSPPC-Wheezy ntpdate[1674]: adjust time server 184.22.183.134 offset 0.206505 sec
+Jul  7 08:15:13 LSPPC-Wheezy kernel: fuse init (API version 7.18)
+Jul  7 08:15:13 LSPPC-Wheezy kernel: JFS: nTxBlock = 964, nTxLock = 7712
+Jul  7 08:15:13 LSPPC-Wheezy kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Jul  7 08:15:13 LSPPC-Wheezy kernel: msgmni has been set to 241
+Jul  7 08:15:13 LSPPC-Wheezy kernel: io scheduler noop registered
+Jul  7 08:15:13 LSPPC-Wheezy kernel: io scheduler deadline registered
+Jul  7 08:15:13 LSPPC-Wheezy kernel: io scheduler cfq registered (default)
+Jul  7 08:15:13 LSPPC-Wheezy kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jul  7 08:15:13 LSPPC-Wheezy kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Jul  7 08:15:13 LSPPC-Wheezy kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Jul  7 08:15:13 LSPPC-Wheezy kernel: brd: module loaded
+Jul  7 08:15:13 LSPPC-Wheezy kernel: loop: module loaded
+Jul  7 08:15:13 LSPPC-Wheezy kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Jul  7 08:15:13 LSPPC-Wheezy kernel: sil680: 133MHz clock.
+Jul  7 08:15:13 LSPPC-Wheezy kernel: scsi0 : pata_sil680
+Jul  7 08:15:13 LSPPC-Wheezy kernel: scsi1 : pata_sil680
+Jul  7 08:15:13 LSPPC-Wheezy kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Jul  7 08:15:13 LSPPC-Wheezy kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Jul  7 08:15:13 LSPPC-Wheezy kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Jul  7 08:15:13 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: (unregistered net_device): not PCI Express
+Jul  7 08:15:13 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90a8c00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Jul  7 08:15:13 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: jumbo features [frames: 7152 bytes, tx checksumming: ok]
+Jul  7 08:15:13 LSPPC-Wheezy kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  7 08:15:14 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Jul  7 08:15:14 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Jul  7 08:15:14 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Jul  7 08:15:14 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Jul  7 08:15:14 LSPPC-Wheezy kernel: hub 1-0:1.0: USB hub found
+Jul  7 08:15:14 LSPPC-Wheezy kernel: hub 1-0:1.0: 5 ports detected
+Jul  7 08:15:14 LSPPC-Wheezy kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul  7 08:15:14 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Jul  7 08:15:14 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Jul  7 08:15:14 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Jul  7 08:15:14 LSPPC-Wheezy kernel: hub 2-0:1.0: USB hub found
+Jul  7 08:15:14 LSPPC-Wheezy ntpd[2280]: ntpd 4.2.6p5@1.2349-o Sat May 12 09:59:44 UTC 2012 (1)
+Jul  7 08:15:15 LSPPC-Wheezy kernel: hub 2-0:1.0: 3 ports detected
+Jul  7 08:15:15 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Jul  7 08:15:15 LSPPC-Wheezy ntpd[2281]: proto: precision = 0.892 usec
+Jul  7 08:15:15 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Jul  7 08:15:15 LSPPC-Wheezy ntpd[2281]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jul  7 08:15:15 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Jul  7 08:15:15 LSPPC-Wheezy kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Jul  7 08:15:15 LSPPC-Wheezy kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Jul  7 08:15:15 LSPPC-Wheezy ntpd[2281]: Listen and drop on 1 v6wildcard :: UDP 123
+Jul  7 08:15:15 LSPPC-Wheezy kernel: hub 3-0:1.0: USB hub found
+Jul  7 08:15:15 LSPPC-Wheezy ntpd[2281]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jul  7 08:15:15 LSPPC-Wheezy kernel: hub 3-0:1.0: 2 ports detected
+Jul  7 08:15:15 LSPPC-Wheezy ntpd[2281]: Listen normally on 3 eth0 192.168.1.7 UDP 123
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbcore: registered new interface driver usblp
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbcore: registered new interface driver uas
+Jul  7 08:15:16 LSPPC-Wheezy ntpd[2281]: Listen normally on 4 lo ::1 UDP 123
+Jul  7 08:15:16 LSPPC-Wheezy kernel: Initializing USB Mass Storage driver...
+Jul  7 08:15:16 LSPPC-Wheezy ntpd[2281]: Listen normally on 5 eth0 fe80::20d:bff:fead:9486 UDP 123
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbcore: registered new interface driver usb-storage
+Jul  7 08:15:16 LSPPC-Wheezy ntpd[2281]: peers refreshed
+Jul  7 08:15:16 LSPPC-Wheezy kernel: USB Mass Storage support registered.
+Jul  7 08:15:16 LSPPC-Wheezy ntpd[2281]: Listening on routing socket on fd #22 for interface updates
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbcore: registered new interface driver libusual
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-freecom
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-isd200
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbserial
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbserial: USB Serial Driver core
+Jul  7 08:15:16 LSPPC-Wheezy kernel: usbcore: registered new interface driver ftdi_sio
+Jul  7 08:15:17 LSPPC-Wheezy kernel: USB Serial support registered for FTDI USB Serial Device
+Jul  7 08:15:17 LSPPC-Wheezy kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Jul  7 08:15:17 LSPPC-Wheezy kernel: mousedev: PS/2 mouse device common for all mice
+Jul  7 08:15:17 LSPPC-Wheezy kernel: i2c /dev entries driver
+Jul  7 08:15:17 LSPPC-Wheezy kernel: mpc-i2c 80003000.i2c: timeout 1000000 us
+Jul  7 08:15:17 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Jul  7 08:15:17 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Jul  7 08:15:17 LSPPC-Wheezy kernel: TCP: cubic registered
+Jul  7 08:15:17 LSPPC-Wheezy kernel: NET: Registered protocol family 10
+Jul  7 08:15:17 LSPPC-Wheezy kernel: IPv6 over IPv4 tunneling driver
+Jul  7 08:15:17 LSPPC-Wheezy kernel: NET: Registered protocol family 17
+Jul  7 08:15:17 LSPPC-Wheezy kernel: NET: Registered protocol family 5
+Jul  7 08:15:17 LSPPC-Wheezy kernel: Registering the dns_resolver key type
+Jul  7 08:15:17 LSPPC-Wheezy kernel: netpoll: netconsole: local port 6666
+Jul  7 08:15:17 LSPPC-Wheezy kernel: netpoll: netconsole: local IP 192.168.11.150
+Jul  7 08:15:17 LSPPC-Wheezy kernel: netpoll: netconsole: interface 'eth0'
+Jul  7 08:15:17 LSPPC-Wheezy kernel: netpoll: netconsole: remote port 6666
+Jul  7 08:15:17 LSPPC-Wheezy kernel: netpoll: netconsole: remote IP 192.168.11.149
+Jul  7 08:15:17 LSPPC-Wheezy kernel: netpoll: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Jul  7 08:15:17 LSPPC-Wheezy kernel: netpoll: netconsole: device eth0 not up yet, forcing it
+Jul  7 08:15:17 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  7 08:15:17 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  7 08:15:17 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  7 08:15:17 LSPPC-Wheezy kernel: ata1.00: configured for UDMA/100
+Jul  7 08:15:17 LSPPC-Wheezy kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Jul  7 08:15:18 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Jul  7 08:15:18 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write Protect is off
+Jul  7 08:15:18 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul  7 08:15:18 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jul  7 08:15:18 LSPPC-Wheezy kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul  7 08:15:18 LSPPC-Wheezy kernel: linkstation: disarming the AVR watchdog: 
+Jul  7 08:15:18 LSPPC-Wheezy kernel:  sda: sda1 sda2
+Jul  7 08:15:18 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Jul  7 08:15:18 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link up
+Jul  7 08:15:18 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  7 08:15:18 LSPPC-Wheezy kernel: console [netcon0] enabled
+Jul  7 08:15:18 LSPPC-Wheezy kernel: netconsole: network logging started
+Jul  7 08:15:18 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: setting system clock to 2012-07-07 08:14:40 UTC (1341648880)
+Jul  7 08:15:18 LSPPC-Wheezy kernel: kjournald starting.  Commit interval 5 seconds
+Jul  7 08:15:18 LSPPC-Wheezy kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Jul  7 08:15:18 LSPPC-Wheezy kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Jul  7 08:15:18 LSPPC-Wheezy kernel: Freeing unused kernel memory: 192k freed
+Jul  7 08:15:18 LSPPC-Wheezy kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Jul  7 08:15:18 LSPPC-Wheezy kernel: EXT3-fs (sda1): using internal journal
+Jul  7 08:15:18 LSPPC-Wheezy kernel: eth0: no IPv6 routers present
+Jul  7 08:15:32 LSPPC-Wheezy ntpdate[2370]: the NTP socket is in use, exiting
+Jul  7 08:17:02 LSPPC-Wheezy /USR/SBIN/CRON[2384]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  7 08:28:05 LSPPC-Wheezy smbd[2386]: [2012/07/07 08:28:05.338052,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 08:28:05 LSPPC-Wheezy smbd[2386]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 08:28:05 LSPPC-Wheezy smbd[2066]: [2012/07/07 08:28:05.341626,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 08:28:05 LSPPC-Wheezy smbd[2066]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 08:41:06 LSPPC-Wheezy smbd[2388]: [2012/07/07 08:41:06.091734,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 08:41:06 LSPPC-Wheezy smbd[2388]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 08:41:06 LSPPC-Wheezy smbd[2066]: [2012/07/07 08:41:06.095264,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 08:41:06 LSPPC-Wheezy smbd[2066]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 08:54:06 LSPPC-Wheezy smbd[2389]: [2012/07/07 08:54:06.819731,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 08:54:06 LSPPC-Wheezy smbd[2389]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 08:54:06 LSPPC-Wheezy smbd[2066]: [2012/07/07 08:54:06.823564,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 08:54:06 LSPPC-Wheezy smbd[2066]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 09:07:07 LSPPC-Wheezy smbd[2390]: [2012/07/07 09:07:07.578650,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 09:07:07 LSPPC-Wheezy smbd[2390]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 09:07:07 LSPPC-Wheezy smbd[2066]: [2012/07/07 09:07:07.582184,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 09:07:07 LSPPC-Wheezy smbd[2066]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 09:17:01 LSPPC-Wheezy /USR/SBIN/CRON[2392]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  7 09:20:08 LSPPC-Wheezy smbd[2394]: [2012/07/07 09:20:08.337901,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 09:20:08 LSPPC-Wheezy smbd[2394]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 09:20:08 LSPPC-Wheezy smbd[2066]: [2012/07/07 09:20:08.341601,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 09:20:08 LSPPC-Wheezy smbd[2066]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 09:33:09 LSPPC-Wheezy smbd[2396]: [2012/07/07 09:33:09.121614,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 09:33:09 LSPPC-Wheezy smbd[2396]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 09:33:09 LSPPC-Wheezy smbd[2066]: [2012/07/07 09:33:09.125092,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 09:33:09 LSPPC-Wheezy smbd[2066]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 09:46:09 LSPPC-Wheezy smbd[2397]: [2012/07/07 09:46:09.880340,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 09:46:09 LSPPC-Wheezy smbd[2397]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 09:46:09 LSPPC-Wheezy smbd[2066]: [2012/07/07 09:46:09.883836,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 09:46:09 LSPPC-Wheezy smbd[2066]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 09:58:56 LSPPC-Wheezy ntpd[2281]: Listen normally on 6 eth0:EM 192.168.11.149 UDP 123
+Jul  7 09:58:56 LSPPC-Wheezy ntpd[2281]: peers refreshed
+Jul  7 09:59:10 LSPPC-Wheezy smbd[2400]: [2012/07/07 09:59:10.630598,  0] printing/print_cups.c:110(cups_connect) 
+Jul  7 09:59:10 LSPPC-Wheezy smbd[2400]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  7 09:59:10 LSPPC-Wheezy smbd[2066]: [2012/07/07 09:59:10.634013,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  7 09:59:10 LSPPC-Wheezy smbd[2066]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  7 09:59:58 LSPPC-Wheezy shutdown[2401]: shutting down for system reboot
+Jul  7 09:59:58 LSPPC-Wheezy init: Switching to runlevel: 6
+Jul  7 09:59:59 LSPPC-Wheezy linkstation[2440]: Stopped daemon avr-evtd
+Jul  7 09:59:59 LSPPC-Wheezy kernel: Kernel logging (proc) stopped.
+Jul  7 09:59:59 LSPPC-Wheezy kernel: Kernel log daemon terminating.
+Jul  7 10:00:01 LSPPC-Wheezy rpc.mountd[2034]: Caught signal 15, un-registering and exiting.
+Jul  7 10:00:04 LSPPC-Wheezy exiting on signal 15
+Jul  8 06:41:25 LSPPC-Wheezy syslogd 1.5.0#6.2: restart.
+Jul  8 06:41:26 LSPPC-Wheezy avr-daemon[2147]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Jul  8 06:41:26 LSPPC-Wheezy linkstation[2165]: Started daemon avr-evtd
+Jul  8 06:41:26 LSPPC-Wheezy /usr/sbin/cron[2188]: (CRON) INFO (pidfile fd = 3)
+Jul  8 06:41:27 LSPPC-Wheezy /usr/sbin/cron[2189]: (CRON) STARTUP (fork ok)
+Jul  8 06:41:27 LSPPC-Wheezy /usr/sbin/cron[2189]: (CRON) INFO (Running @reboot jobs)
+Jul  8 06:41:27 LSPPC-Wheezy kernel: Inspecting /usr/src/linux/System.map
+Jul  8 06:41:28 LSPPC-Wheezy kernel: Cannot find map file.
+Jul  8 06:41:28 LSPPC-Wheezy kernel: Loaded 19300 symbols from 1 module.
+Jul  8 06:41:28 LSPPC-Wheezy kernel: Using Buffalo Linkstation machine description
+Jul  8 06:41:28 LSPPC-Wheezy kernel: Linux version 3.4.0 (root@LSPPC-Wheezy) (gcc version 4.6.3 (Debian 4.6.3-1) ) #1 Sat Jul 7 06:08:11 UTC 2012
+Jul  8 06:41:28 LSPPC-Wheezy kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Jul  8 06:41:28 LSPPC-Wheezy kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Jul  8 06:41:28 LSPPC-Wheezy kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Jul  8 06:41:28 LSPPC-Wheezy kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Jul  8 06:41:29 LSPPC-Wheezy kernel: bootconsole [udbg0] enabled
+Jul  8 06:41:29 LSPPC-Wheezy kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Jul  8 06:41:29 LSPPC-Wheezy kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Jul  8 06:41:29 LSPPC-Wheezy kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Jul  8 06:41:29 LSPPC-Wheezy kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Jul  8 06:41:29 LSPPC-Wheezy kernel: BUFFALO Network Attached Storage Series
+Jul  8 06:41:29 LSPPC-Wheezy kernel: (C) 2002-2005 BUFFALO INC.
+Jul  8 06:41:29 LSPPC-Wheezy kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Jul  8 06:41:29 LSPPC-Wheezy kernel: Memory hole size: 0MB
+Jul  8 06:41:29 LSPPC-Wheezy kernel: Zone PFN ranges:
+Jul  8 06:41:29 LSPPC-Wheezy kernel:   DMA      0x00000000 -> 0x00008000
+Jul  8 06:41:29 LSPPC-Wheezy kernel:   Normal   empty
+Jul  8 06:41:29 LSPPC-Wheezy kernel: Movable zone start PFN for each node
+Jul  8 06:41:29 LSPPC-Wheezy kernel: Early memory PFN ranges
+Jul  8 06:41:29 LSPPC-Wheezy kernel:     0: 0x00000000 -> 0x00008000
+Jul  8 06:41:29 LSPPC-Wheezy kernel: On node 0 totalpages: 32768
+Jul  8 06:41:29 LSPPC-Wheezy kernel: free_area_init_node: node 0, pgdat c06286a8, node_mem_map c0654000
+Jul  8 06:41:29 LSPPC-Wheezy kernel:   DMA zone: 256 pages used for memmap
+Jul  8 06:41:29 LSPPC-Wheezy kernel:   DMA zone: 0 pages reserved
+Jul  8 06:41:29 LSPPC-Wheezy kernel:   DMA zone: 32512 pages, LIFO batch:7
+Jul  8 06:41:29 LSPPC-Wheezy kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul  8 06:41:30 LSPPC-Wheezy kernel: pcpu-alloc: [0] 0 
+Jul  8 06:41:30 LSPPC-Wheezy kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Jul  8 06:41:30 LSPPC-Wheezy kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Jul  8 06:41:30 LSPPC-Wheezy kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Jul  8 06:41:30 LSPPC-Wheezy kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  8 06:41:30 LSPPC-Wheezy kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jul  8 06:41:30 LSPPC-Wheezy kernel: Memory: 123400k/131072k available (6168k kernel code, 7672k reserved, 200k data, 89k bss, 192k init)
+Jul  8 06:41:30 LSPPC-Wheezy kernel: Kernel virtual memory layout:
+Jul  8 06:41:30 LSPPC-Wheezy kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Jul  8 06:41:30 LSPPC-Wheezy kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Jul  8 06:41:30 LSPPC-Wheezy kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Jul  8 06:41:30 LSPPC-Wheezy kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  8 06:41:30 LSPPC-Wheezy kernel: NR_IRQS:512 nr_irqs:512 16
+Jul  8 06:41:30 LSPPC-Wheezy kernel: mpic: Resetting
+Jul  8 06:41:30 LSPPC-Wheezy kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Jul  8 06:41:30 LSPPC-Wheezy kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Jul  8 06:41:30 LSPPC-Wheezy kernel: mpic: Initializing for 12 sources
+Jul  8 06:41:30 LSPPC-Wheezy kernel: time_init: decrementer frequency = 32.522240 MHz
+Jul  8 06:41:30 LSPPC-Wheezy kernel: time_init: processor frequency   = 262.144000 MHz
+Jul  8 06:41:30 LSPPC-Wheezy kernel: clocksource: timebase mult[1ebf895a] shift[24] registered
+Jul  8 06:41:30 LSPPC-Wheezy kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Jul  8 06:41:30 LSPPC-Wheezy kernel: Console: colour dummy device 80x25
+Jul  8 06:41:30 LSPPC-Wheezy kernel: console [tty0] enabled, bootconsole disabled
+Jul  8 06:41:30 LSPPC-Wheezy kernel: pid_max: default: 32768 minimum: 301
+Jul  8 06:41:30 LSPPC-Wheezy kernel: Mount-cache hash table entries: 512
+Jul  8 06:41:30 LSPPC-Wheezy kernel: NET: Registered protocol family 16
+Jul  8 06:41:30 LSPPC-Wheezy kernel: PCI: Probing PCI hardware
+Jul  8 06:41:31 LSPPC-Wheezy kernel: PCI host bridge to bus 0000:00
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xbfffff]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xefffffff]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:00.0: [1057:0006] type 00 class 0x060000
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0b.0: [10ec:8169] type 00 class 0x020000
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0c.0: [1095:0680] type 00 class 0x010185
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Jul  8 06:41:31 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0c.0: supports D1 D2
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.0: [1033:0035] type 00 class 0x0c0310
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.0: supports D1 D2
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.1: [1033:0035] type 00 class 0x0c0310
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.1: supports D1 D2
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.2: [1033:00e0] type 00 class 0x0c0320
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.2: supports D1 D2
+Jul  8 06:41:32 LSPPC-Wheezy ntpdate[1673]: step time server 46.166.138.172 offset 0.602214 sec
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xbfffff]
+Jul  8 06:41:32 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 5 [mem 0x80000000-0xefffffff]
+Jul  8 06:41:32 LSPPC-Wheezy kernel: bio: create slab <bio-0> at 0
+Jul  8 06:41:32 LSPPC-Wheezy kernel: vgaarb: loaded
+Jul  8 06:41:33 LSPPC-Wheezy kernel: SCSI subsystem initialized
+Jul  8 06:41:33 LSPPC-Wheezy kernel: libata version 3.00 loaded.
+Jul  8 06:41:33 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbfs
+Jul  8 06:41:33 LSPPC-Wheezy kernel: usbcore: registered new interface driver hub
+Jul  8 06:41:33 LSPPC-Wheezy kernel: usbcore: registered new device driver usb
+Jul  8 06:41:33 LSPPC-Wheezy kernel: Bluetooth: Core ver 2.16
+Jul  8 06:41:33 LSPPC-Wheezy kernel: NET: Registered protocol family 31
+Jul  8 06:41:33 LSPPC-Wheezy kernel: Bluetooth: HCI device and connection manager initialized
+Jul  8 06:41:33 LSPPC-Wheezy kernel: Bluetooth: HCI socket layer initialized
+Jul  8 06:41:33 LSPPC-Wheezy kernel: Bluetooth: L2CAP socket layer initialized
+Jul  8 06:41:33 LSPPC-Wheezy kernel: Bluetooth: SCO socket layer initialized
+Jul  8 06:41:33 LSPPC-Wheezy kernel: Switching to clocksource timebase
+Jul  8 06:41:33 LSPPC-Wheezy kernel: NET: Registered protocol family 2
+Jul  8 06:41:33 LSPPC-Wheezy kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  8 06:41:33 LSPPC-Wheezy kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jul  8 06:41:33 LSPPC-Wheezy kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Jul  8 06:41:33 LSPPC-Wheezy kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Jul  8 06:41:33 LSPPC-Wheezy kernel: TCP: reno registered
+Jul  8 06:41:33 LSPPC-Wheezy kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jul  8 06:41:33 LSPPC-Wheezy kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jul  8 06:41:33 LSPPC-Wheezy kernel: NET: Registered protocol family 1
+Jul  8 06:41:33 LSPPC-Wheezy kernel: RPC: Registered named UNIX socket transport module.
+Jul  8 06:41:33 LSPPC-Wheezy kernel: RPC: Registered udp transport module.
+Jul  8 06:41:33 LSPPC-Wheezy kernel: RPC: Registered tcp transport module.
+Jul  8 06:41:34 LSPPC-Wheezy kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  8 06:41:34 LSPPC-Wheezy kernel: PCI: CLS 32 bytes, default 32
+Jul  8 06:41:34 LSPPC-Wheezy kernel: NFS: Registering the id_resolver key type
+Jul  8 06:41:34 LSPPC-Wheezy kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jul  8 06:41:34 LSPPC-Wheezy kernel: NTFS driver 2.1.30 [Flags: R/W].
+Jul  8 06:41:34 LSPPC-Wheezy kernel: fuse init (API version 7.18)
+Jul  8 06:41:34 LSPPC-Wheezy kernel: JFS: nTxBlock = 964, nTxLock = 7712
+Jul  8 06:41:34 LSPPC-Wheezy kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Jul  8 06:41:34 LSPPC-Wheezy kernel: msgmni has been set to 241
+Jul  8 06:41:34 LSPPC-Wheezy kernel: io scheduler noop registered
+Jul  8 06:41:34 LSPPC-Wheezy kernel: io scheduler deadline registered
+Jul  8 06:41:34 LSPPC-Wheezy kernel: io scheduler cfq registered (default)
+Jul  8 06:41:34 LSPPC-Wheezy kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jul  8 06:41:34 LSPPC-Wheezy kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Jul  8 06:41:34 LSPPC-Wheezy kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Jul  8 06:41:34 LSPPC-Wheezy kernel: brd: module loaded
+Jul  8 06:41:34 LSPPC-Wheezy kernel: loop: module loaded
+Jul  8 06:41:34 LSPPC-Wheezy kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Jul  8 06:41:34 LSPPC-Wheezy kernel: sil680: 133MHz clock.
+Jul  8 06:41:34 LSPPC-Wheezy kernel: scsi0 : pata_sil680
+Jul  8 06:41:34 LSPPC-Wheezy kernel: scsi1 : pata_sil680
+Jul  8 06:41:34 LSPPC-Wheezy kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Jul  8 06:41:34 LSPPC-Wheezy kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Jul  8 06:41:34 LSPPC-Wheezy kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Jul  8 06:41:35 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: (unregistered net_device): not PCI Express
+Jul  8 06:41:35 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90a8c00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Jul  8 06:41:35 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: jumbo features [frames: 7152 bytes, tx checksumming: ok]
+Jul  8 06:41:35 LSPPC-Wheezy kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  8 06:41:35 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Jul  8 06:41:35 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Jul  8 06:41:35 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Jul  8 06:41:35 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Jul  8 06:41:35 LSPPC-Wheezy kernel: hub 1-0:1.0: USB hub found
+Jul  8 06:41:35 LSPPC-Wheezy ntpd[2281]: ntpd 4.2.6p5@1.2349-o Sat May 12 09:59:44 UTC 2012 (1)
+Jul  8 06:41:35 LSPPC-Wheezy kernel: hub 1-0:1.0: 5 ports detected
+Jul  8 06:41:36 LSPPC-Wheezy kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul  8 06:41:36 LSPPC-Wheezy ntpd[2282]: proto: precision = 0.892 usec
+Jul  8 06:41:36 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Jul  8 06:41:36 LSPPC-Wheezy ntpd[2282]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jul  8 06:41:36 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Jul  8 06:41:36 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Jul  8 06:41:36 LSPPC-Wheezy kernel: hub 2-0:1.0: USB hub found
+Jul  8 06:41:36 LSPPC-Wheezy kernel: hub 2-0:1.0: 3 ports detected
+Jul  8 06:41:36 LSPPC-Wheezy ntpd[2282]: Listen and drop on 1 v6wildcard :: UDP 123
+Jul  8 06:41:36 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Jul  8 06:41:36 LSPPC-Wheezy ntpd[2282]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jul  8 06:41:36 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Jul  8 06:41:37 LSPPC-Wheezy ntpd[2282]: Listen normally on 3 eth0 192.168.1.7 UDP 123
+Jul  8 06:41:37 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Jul  8 06:41:37 LSPPC-Wheezy ntpd[2282]: Listen normally on 4 lo ::1 UDP 123
+Jul  8 06:41:37 LSPPC-Wheezy kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Jul  8 06:41:37 LSPPC-Wheezy ntpd[2282]: Listen normally on 5 eth0 fe80::20d:bff:fead:9486 UDP 123
+Jul  8 06:41:37 LSPPC-Wheezy kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Jul  8 06:41:37 LSPPC-Wheezy ntpd[2282]: peers refreshed
+Jul  8 06:41:37 LSPPC-Wheezy kernel: hub 3-0:1.0: USB hub found
+Jul  8 06:41:37 LSPPC-Wheezy ntpd[2282]: Listening on routing socket on fd #22 for interface updates
+Jul  8 06:41:37 LSPPC-Wheezy kernel: hub 3-0:1.0: 2 ports detected
+Jul  8 06:41:37 LSPPC-Wheezy kernel: usbcore: registered new interface driver usblp
+Jul  8 06:41:37 LSPPC-Wheezy kernel: usbcore: registered new interface driver uas
+Jul  8 06:41:37 LSPPC-Wheezy kernel: Initializing USB Mass Storage driver...
+Jul  8 06:41:37 LSPPC-Wheezy kernel: usbcore: registered new interface driver usb-storage
+Jul  8 06:41:37 LSPPC-Wheezy kernel: USB Mass Storage support registered.
+Jul  8 06:41:38 LSPPC-Wheezy kernel: usbcore: registered new interface driver libusual
+Jul  8 06:41:38 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-freecom
+Jul  8 06:41:38 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-isd200
+Jul  8 06:41:38 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbserial
+Jul  8 06:41:38 LSPPC-Wheezy kernel: usbserial: USB Serial Driver core
+Jul  8 06:41:38 LSPPC-Wheezy kernel: usbcore: registered new interface driver ftdi_sio
+Jul  8 06:41:38 LSPPC-Wheezy kernel: USB Serial support registered for FTDI USB Serial Device
+Jul  8 06:41:38 LSPPC-Wheezy kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Jul  8 06:41:38 LSPPC-Wheezy kernel: mousedev: PS/2 mouse device common for all mice
+Jul  8 06:41:38 LSPPC-Wheezy kernel: i2c /dev entries driver
+Jul  8 06:41:38 LSPPC-Wheezy kernel: mpc-i2c 80003000.i2c: timeout 1000000 us
+Jul  8 06:41:38 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Jul  8 06:41:38 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Jul  8 06:41:38 LSPPC-Wheezy kernel: TCP: cubic registered
+Jul  8 06:41:38 LSPPC-Wheezy kernel: NET: Registered protocol family 10
+Jul  8 06:41:38 LSPPC-Wheezy kernel: IPv6 over IPv4 tunneling driver
+Jul  8 06:41:38 LSPPC-Wheezy kernel: NET: Registered protocol family 17
+Jul  8 06:41:38 LSPPC-Wheezy kernel: NET: Registered protocol family 5
+Jul  8 06:41:38 LSPPC-Wheezy kernel: Registering the dns_resolver key type
+Jul  8 06:41:38 LSPPC-Wheezy kernel: netpoll: netconsole: local port 6666
+Jul  8 06:41:38 LSPPC-Wheezy kernel: netpoll: netconsole: local IP 192.168.11.150
+Jul  8 06:41:38 LSPPC-Wheezy kernel: netpoll: netconsole: interface 'eth0'
+Jul  8 06:41:38 LSPPC-Wheezy kernel: netpoll: netconsole: remote port 6666
+Jul  8 06:41:38 LSPPC-Wheezy kernel: netpoll: netconsole: remote IP 192.168.11.149
+Jul  8 06:41:38 LSPPC-Wheezy kernel: netpoll: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Jul  8 06:41:38 LSPPC-Wheezy kernel: netpoll: netconsole: device eth0 not up yet, forcing it
+Jul  8 06:41:39 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  8 06:41:39 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  8 06:41:39 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  8 06:41:39 LSPPC-Wheezy kernel: ata1.00: configured for UDMA/100
+Jul  8 06:41:39 LSPPC-Wheezy kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Jul  8 06:41:39 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Jul  8 06:41:39 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write Protect is off
+Jul  8 06:41:39 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul  8 06:41:39 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jul  8 06:41:39 LSPPC-Wheezy kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul  8 06:41:39 LSPPC-Wheezy kernel: linkstation: disarming the AVR watchdog: 
+Jul  8 06:41:39 LSPPC-Wheezy kernel:  sda: sda1 sda2
+Jul  8 06:41:39 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Jul  8 06:41:39 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link up
+Jul  8 06:41:39 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  8 06:41:39 LSPPC-Wheezy kernel: console [netcon0] enabled
+Jul  8 06:41:39 LSPPC-Wheezy kernel: netconsole: network logging started
+Jul  8 06:41:39 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: setting system clock to 2012-07-08 05:57:51 UTC (1341727071)
+Jul  8 06:41:39 LSPPC-Wheezy kernel: EXT3-fs (sda1): recovery required on readonly filesystem
+Jul  8 06:41:39 LSPPC-Wheezy kernel: EXT3-fs (sda1): write access will be enabled during recovery
+Jul  8 06:41:39 LSPPC-Wheezy kernel: kjournald starting.  Commit interval 5 seconds
+Jul  8 06:41:39 LSPPC-Wheezy kernel: EXT3-fs (sda1): recovery complete
+Jul  8 06:41:39 LSPPC-Wheezy kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Jul  8 06:41:39 LSPPC-Wheezy kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Jul  8 06:41:39 LSPPC-Wheezy kernel: Freeing unused kernel memory: 192k freed
+Jul  8 06:41:39 LSPPC-Wheezy kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Jul  8 06:41:39 LSPPC-Wheezy kernel: eth0: no IPv6 routers present
+Jul  8 06:41:40 LSPPC-Wheezy kernel: EXT3-fs (sda1): using internal journal
+Jul  8 06:41:52 LSPPC-Wheezy ntpdate[2371]: the NTP socket is in use, exiting
+Jul  8 06:42:25 LSPPC-Wheezy smbd[2375]: [2012/07/08 06:42:25.464563,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 06:42:25 LSPPC-Wheezy smbd[2375]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 06:42:25 LSPPC-Wheezy smbd[2067]: [2012/07/08 06:42:25.468681,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 06:42:25 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 06:47:01 LSPPC-Wheezy /USR/SBIN/CRON[2377]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly ))
+Jul  8 06:55:28 LSPPC-Wheezy smbd[2388]: [2012/07/08 06:55:27.963952,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 06:55:28 LSPPC-Wheezy smbd[2388]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 06:55:28 LSPPC-Wheezy smbd[2067]: [2012/07/08 06:55:28.094716,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 06:55:28 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 06:56:10 LSPPC-Wheezy syslogd 1.5.0#6.2: restart.
+Jul  8 07:08:27 LSPPC-Wheezy smbd[2603]: [2012/07/08 07:08:27.576433,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 07:08:27 LSPPC-Wheezy smbd[2603]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 07:08:27 LSPPC-Wheezy smbd[2067]: [2012/07/08 07:08:27.704860,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 07:08:27 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 07:17:01 LSPPC-Wheezy /USR/SBIN/CRON[2615]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  8 07:21:27 LSPPC-Wheezy smbd[2617]: [2012/07/08 07:21:27.945182,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 07:21:27 LSPPC-Wheezy smbd[2617]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 07:21:28 LSPPC-Wheezy smbd[2067]: [2012/07/08 07:21:27.948684,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 07:21:28 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 07:34:28 LSPPC-Wheezy smbd[2618]: [2012/07/08 07:34:28.700068,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 07:34:28 LSPPC-Wheezy smbd[2618]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 07:34:28 LSPPC-Wheezy smbd[2067]: [2012/07/08 07:34:28.703585,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 07:34:28 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 07:43:09 LSPPC-Wheezy transmission-daemon[2976]: Transmission 2.52 (13304) started (session.c:718)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: RPC Server Adding address to whitelist: 127.0.0.1 (rpc-server.c:803)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: RPC Server Serving RPC and Web requests on port 127.0.0.1:9091/transmission/ (rpc-server.c:997)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: RPC Server Whitelist enabled (rpc-server.c:1001)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: RPC Server Password required (rpc-server.c:1004)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: Port Forwarding Stopped (port-forwarding.c:181)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: UDP Failed to set receive buffer: requested 4194304, got 327680 (tr-udp.c:75)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: UDP Please add the line "net.core.rmem_max = 4194304" to /etc/sysctl.conf (tr-udp.c:80)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: UDP Failed to set send buffer: requested 1048576, got 327680 (tr-udp.c:86)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: UDP Please add the line "net.core.wmem_max = 1048576" to /etc/sysctl.conf (tr-udp.c:91)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: DHT Generating new id (tr-dht.c:309)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: Using settings from "/var/lib/transmission-daemon/info" (daemon.c:488)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: Saved "/etc/transmission-daemon/settings.json" (bencode.c:1731)
+Jul  8 07:43:10 LSPPC-Wheezy transmission-daemon[2976]: transmission-daemon requiring authentication (daemon.c:508)
+Jul  8 07:43:54 LSPPC-Wheezy transmission-daemon[2976]: DHT Attempting bootstrap from dht.transmissionbt.com (tr-dht.c:247)
+Jul  8 07:43:59 LSPPC-Wheezy minissdpd[3022]: 6 new devices added
+Jul  8 07:46:56 LSPPC-Wheezy minissdpd[3022]: 6 new devices added
+Jul  8 07:47:29 LSPPC-Wheezy smbd[3028]: [2012/07/08 07:47:29.865550,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 07:47:29 LSPPC-Wheezy smbd[3028]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 07:47:30 LSPPC-Wheezy smbd[2067]: [2012/07/08 07:47:29.951223,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 07:47:30 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 07:48:42 LSPPC-Wheezy minissdpd[3022]: 6 new devices added
+Jul  8 07:48:49 LSPPC-Wheezy smbd[3034]: [2012/07/08 07:48:49.900518,  0] param/loadparm.c:8004(lp_do_parameter) 
+Jul  8 07:48:49 LSPPC-Wheezy smbd[3034]:   Global parameter guest account found in service section! 
+Jul  8 07:48:50 LSPPC-Wheezy smbd[3034]: [2012/07/08 07:48:49.905915,  0] param/loadparm.c:8004(lp_do_parameter) 
+Jul  8 07:48:50 LSPPC-Wheezy smbd[3034]:   Global parameter guest account found in service section! 
+Jul  8 07:49:30 LSPPC-Wheezy smbd[3037]: [2012/07/08 07:49:30.652488,  0] param/loadparm.c:8004(lp_do_parameter) 
+Jul  8 07:49:30 LSPPC-Wheezy smbd[3037]:   Global parameter guest account found in service section! 
+Jul  8 07:49:30 LSPPC-Wheezy smbd[3037]: [2012/07/08 07:49:30.657811,  0] param/loadparm.c:8004(lp_do_parameter) 
+Jul  8 07:49:30 LSPPC-Wheezy smbd[3037]:   Global parameter guest account found in service section! 
+Jul  8 08:00:30 LSPPC-Wheezy smbd[3040]: [2012/07/08 08:00:30.055701,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 08:00:30 LSPPC-Wheezy smbd[3040]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 08:00:30 LSPPC-Wheezy smbd[2067]: [2012/07/08 08:00:30.059174,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 08:00:30 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 08:13:30 LSPPC-Wheezy smbd[3041]: [2012/07/08 08:13:30.355810,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 08:13:30 LSPPC-Wheezy smbd[3041]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 08:13:30 LSPPC-Wheezy smbd[2067]: [2012/07/08 08:13:30.359544,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 08:13:30 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 08:17:02 LSPPC-Wheezy /USR/SBIN/CRON[3043]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  8 08:26:30 LSPPC-Wheezy smbd[3045]: [2012/07/08 08:26:30.542101,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 08:26:30 LSPPC-Wheezy smbd[3045]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 08:26:30 LSPPC-Wheezy smbd[2067]: [2012/07/08 08:26:30.545572,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 08:26:30 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 08:39:31 LSPPC-Wheezy smbd[3046]: [2012/07/08 08:39:31.238502,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 08:39:31 LSPPC-Wheezy smbd[3046]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 08:39:31 LSPPC-Wheezy smbd[2067]: [2012/07/08 08:39:31.242041,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 08:39:31 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 08:52:31 LSPPC-Wheezy smbd[3048]: [2012/07/08 08:52:31.664410,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 08:52:31 LSPPC-Wheezy smbd[3048]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 08:52:31 LSPPC-Wheezy smbd[2067]: [2012/07/08 08:52:31.667890,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 08:52:31 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 09:05:32 LSPPC-Wheezy smbd[3050]: [2012/07/08 09:05:32.278411,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 09:05:32 LSPPC-Wheezy smbd[3050]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 09:05:32 LSPPC-Wheezy smbd[2067]: [2012/07/08 09:05:32.281999,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 09:05:32 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 09:17:01 LSPPC-Wheezy /USR/SBIN/CRON[3052]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  8 09:18:32 LSPPC-Wheezy smbd[3054]: [2012/07/08 09:18:32.870968,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 09:18:32 LSPPC-Wheezy smbd[3054]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 09:18:32 LSPPC-Wheezy smbd[2067]: [2012/07/08 09:18:32.874524,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 09:18:33 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 09:31:33 LSPPC-Wheezy smbd[3055]: [2012/07/08 09:31:33.097645,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 09:31:33 LSPPC-Wheezy smbd[3055]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 09:31:33 LSPPC-Wheezy smbd[2067]: [2012/07/08 09:31:33.101117,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 09:31:33 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 09:44:33 LSPPC-Wheezy smbd[3057]: [2012/07/08 09:44:33.806975,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 09:44:33 LSPPC-Wheezy smbd[3057]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 09:44:33 LSPPC-Wheezy smbd[2067]: [2012/07/08 09:44:33.810458,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 09:44:33 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 09:57:34 LSPPC-Wheezy smbd[3059]: [2012/07/08 09:57:34.184891,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 09:57:34 LSPPC-Wheezy smbd[3059]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 09:57:34 LSPPC-Wheezy smbd[2067]: [2012/07/08 09:57:34.188401,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 09:57:34 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 10:10:34 LSPPC-Wheezy smbd[3060]: [2012/07/08 10:10:34.382671,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 10:10:34 LSPPC-Wheezy smbd[3060]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 10:10:34 LSPPC-Wheezy smbd[2067]: [2012/07/08 10:10:34.386162,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 10:10:34 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 10:17:01 LSPPC-Wheezy /USR/SBIN/CRON[3073]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul  8 10:20:02 LSPPC-Wheezy transmission-daemon[2976]: Saved "/etc/transmission-daemon/settings.json" (bencode.c:1731)
+Jul  8 10:20:02 LSPPC-Wheezy transmission-daemon[2976]: DHT Saving 95 (95 + 0) nodes (tr-dht.c:366)
+Jul  8 10:20:02 LSPPC-Wheezy transmission-daemon[2976]: Saved "/var/lib/transmission-daemon/info/dht.dat" (bencode.c:1731)
+Jul  8 10:20:02 LSPPC-Wheezy transmission-daemon[2976]: Port Forwarding Stopped (port-forwarding.c:181)
+Jul  8 10:20:02 LSPPC-Wheezy transmission-daemon[2976]: Closing session
+Jul  8 10:20:02 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:20:34 LSPPC-Wheezy last message repeated 2 times
+Jul  8 10:21:12 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:23:35 LSPPC-Wheezy smbd[3241]: [2012/07/08 10:23:35.034347,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 10:23:35 LSPPC-Wheezy smbd[3241]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 10:23:35 LSPPC-Wheezy smbd[2067]: [2012/07/08 10:23:35.037829,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 10:23:35 LSPPC-Wheezy smbd[2067]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 10:34:17 LSPPC-Wheezy shutdown[3262]: shutting down for system reboot
+Jul  8 10:34:17 LSPPC-Wheezy init: Switching to runlevel: 6
+Jul  8 10:34:17 LSPPC-Wheezy linkstation[3301]: Stopped daemon avr-evtd
+Jul  8 10:34:18 LSPPC-Wheezy kernel: Kernel logging (proc) stopped.
+Jul  8 10:34:18 LSPPC-Wheezy kernel: Kernel log daemon terminating.
+Jul  8 10:34:19 LSPPC-Wheezy minissdpd[3022]: received signal 15, good-bye
+Jul  8 10:34:20 LSPPC-Wheezy rpc.mountd[2035]: Caught signal 15, un-registering and exiting.
+Jul  8 10:34:23 LSPPC-Wheezy exiting on signal 15
+Jul  8 10:35:24 LSPPC-Wheezy syslogd 1.5.0#6.2: restart.
+Jul  8 10:35:24 LSPPC-Wheezy avr-daemon[2141]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Jul  8 10:35:25 LSPPC-Wheezy linkstation[2159]: Started daemon avr-evtd
+Jul  8 10:35:25 LSPPC-Wheezy /usr/sbin/cron[2182]: (CRON) INFO (pidfile fd = 3)
+Jul  8 10:35:25 LSPPC-Wheezy /usr/sbin/cron[2183]: (CRON) STARTUP (fork ok)
+Jul  8 10:35:25 LSPPC-Wheezy /usr/sbin/cron[2183]: (CRON) INFO (Running @reboot jobs)
+Jul  8 10:35:26 LSPPC-Wheezy kernel: Inspecting /usr/src/linux/System.map
+Jul  8 10:35:26 LSPPC-Wheezy kernel: Cannot find map file.
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Loaded 19300 symbols from 1 module.
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Using Buffalo Linkstation machine description
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Linux version 3.4.0 (root@LSPPC-Wheezy) (gcc version 4.6.3 (Debian 4.6.3-1) ) #1 Sat Jul 7 06:08:11 UTC 2012
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Jul  8 10:35:27 LSPPC-Wheezy kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Jul  8 10:35:27 LSPPC-Wheezy kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Jul  8 10:35:27 LSPPC-Wheezy kernel: bootconsole [udbg0] enabled
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Jul  8 10:35:27 LSPPC-Wheezy kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Jul  8 10:35:27 LSPPC-Wheezy kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Jul  8 10:35:27 LSPPC-Wheezy kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Jul  8 10:35:27 LSPPC-Wheezy kernel: BUFFALO Network Attached Storage Series
+Jul  8 10:35:27 LSPPC-Wheezy kernel: (C) 2002-2005 BUFFALO INC.
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Memory hole size: 0MB
+Jul  8 10:35:27 LSPPC-Wheezy kernel: Zone PFN ranges:
+Jul  8 10:35:27 LSPPC-Wheezy kernel:   DMA      0x00000000 -> 0x00008000
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   Normal   empty
+Jul  8 10:35:28 LSPPC-Wheezy kernel: Movable zone start PFN for each node
+Jul  8 10:35:28 LSPPC-Wheezy kernel: Early memory PFN ranges
+Jul  8 10:35:28 LSPPC-Wheezy kernel:     0: 0x00000000 -> 0x00008000
+Jul  8 10:35:28 LSPPC-Wheezy kernel: On node 0 totalpages: 32768
+Jul  8 10:35:28 LSPPC-Wheezy kernel: free_area_init_node: node 0, pgdat c06286a8, node_mem_map c0654000
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   DMA zone: 256 pages used for memmap
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   DMA zone: 0 pages reserved
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   DMA zone: 32512 pages, LIFO batch:7
+Jul  8 10:35:28 LSPPC-Wheezy kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul  8 10:35:28 LSPPC-Wheezy kernel: pcpu-alloc: [0] 0 
+Jul  8 10:35:28 LSPPC-Wheezy kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Jul  8 10:35:28 LSPPC-Wheezy kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Jul  8 10:35:28 LSPPC-Wheezy kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Jul  8 10:35:28 LSPPC-Wheezy kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  8 10:35:28 LSPPC-Wheezy kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jul  8 10:35:28 LSPPC-Wheezy kernel: Memory: 123400k/131072k available (6168k kernel code, 7672k reserved, 200k data, 89k bss, 192k init)
+Jul  8 10:35:28 LSPPC-Wheezy kernel: Kernel virtual memory layout:
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Jul  8 10:35:28 LSPPC-Wheezy kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Jul  8 10:35:28 LSPPC-Wheezy kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  8 10:35:28 LSPPC-Wheezy kernel: NR_IRQS:512 nr_irqs:512 16
+Jul  8 10:35:28 LSPPC-Wheezy kernel: mpic: Resetting
+Jul  8 10:35:28 LSPPC-Wheezy kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Jul  8 10:35:28 LSPPC-Wheezy kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Jul  8 10:35:29 LSPPC-Wheezy kernel: mpic: Initializing for 12 sources
+Jul  8 10:35:29 LSPPC-Wheezy kernel: time_init: decrementer frequency = 32.522240 MHz
+Jul  8 10:35:29 LSPPC-Wheezy kernel: time_init: processor frequency   = 262.144000 MHz
+Jul  8 10:35:29 LSPPC-Wheezy kernel: clocksource: timebase mult[1ebf895a] shift[24] registered
+Jul  8 10:35:29 LSPPC-Wheezy kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: Console: colour dummy device 80x25
+Jul  8 10:35:29 LSPPC-Wheezy kernel: console [tty0] enabled, bootconsole disabled
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pid_max: default: 32768 minimum: 301
+Jul  8 10:35:29 LSPPC-Wheezy kernel: Mount-cache hash table entries: 512
+Jul  8 10:35:29 LSPPC-Wheezy kernel: NET: Registered protocol family 16
+Jul  8 10:35:29 LSPPC-Wheezy kernel: PCI: Probing PCI hardware
+Jul  8 10:35:29 LSPPC-Wheezy kernel: PCI host bridge to bus 0000:00
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xbfffff]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xefffffff]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:00.0: [1057:0006] type 00 class 0x060000
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0b.0: [10ec:8169] type 00 class 0x020000
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: [1095:0680] type 00 class 0x010185
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Jul  8 10:35:29 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: supports D1 D2
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.0: [1033:0035] type 00 class 0x0c0310
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.0: supports D1 D2
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.1: [1033:0035] type 00 class 0x0c0310
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.1: supports D1 D2
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.2: [1033:00e0] type 00 class 0x0c0320
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.2: supports D1 D2
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xbfffff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 5 [mem 0x80000000-0xefffffff]
+Jul  8 10:35:30 LSPPC-Wheezy kernel: bio: create slab <bio-0> at 0
+Jul  8 10:35:30 LSPPC-Wheezy kernel: vgaarb: loaded
+Jul  8 10:35:30 LSPPC-Wheezy kernel: SCSI subsystem initialized
+Jul  8 10:35:30 LSPPC-Wheezy kernel: libata version 3.00 loaded.
+Jul  8 10:35:30 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbfs
+Jul  8 10:35:31 LSPPC-Wheezy kernel: usbcore: registered new interface driver hub
+Jul  8 10:35:31 LSPPC-Wheezy kernel: usbcore: registered new device driver usb
+Jul  8 10:35:31 LSPPC-Wheezy kernel: Bluetooth: Core ver 2.16
+Jul  8 10:35:31 LSPPC-Wheezy ntpdate[1674]: adjust time server 4.53.160.74 offset -0.231241 sec
+Jul  8 10:35:31 LSPPC-Wheezy kernel: NET: Registered protocol family 31
+Jul  8 10:35:31 LSPPC-Wheezy kernel: Bluetooth: HCI device and connection manager initialized
+Jul  8 10:35:31 LSPPC-Wheezy kernel: Bluetooth: HCI socket layer initialized
+Jul  8 10:35:31 LSPPC-Wheezy kernel: Bluetooth: L2CAP socket layer initialized
+Jul  8 10:35:31 LSPPC-Wheezy kernel: Bluetooth: SCO socket layer initialized
+Jul  8 10:35:31 LSPPC-Wheezy kernel: Switching to clocksource timebase
+Jul  8 10:35:31 LSPPC-Wheezy kernel: NET: Registered protocol family 2
+Jul  8 10:35:31 LSPPC-Wheezy kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  8 10:35:31 LSPPC-Wheezy kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jul  8 10:35:31 LSPPC-Wheezy kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Jul  8 10:35:31 LSPPC-Wheezy kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Jul  8 10:35:31 LSPPC-Wheezy kernel: TCP: reno registered
+Jul  8 10:35:31 LSPPC-Wheezy kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jul  8 10:35:31 LSPPC-Wheezy kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jul  8 10:35:31 LSPPC-Wheezy kernel: NET: Registered protocol family 1
+Jul  8 10:35:31 LSPPC-Wheezy kernel: RPC: Registered named UNIX socket transport module.
+Jul  8 10:35:31 LSPPC-Wheezy kernel: RPC: Registered udp transport module.
+Jul  8 10:35:31 LSPPC-Wheezy kernel: RPC: Registered tcp transport module.
+Jul  8 10:35:31 LSPPC-Wheezy kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  8 10:35:31 LSPPC-Wheezy kernel: PCI: CLS 32 bytes, default 32
+Jul  8 10:35:31 LSPPC-Wheezy kernel: NFS: Registering the id_resolver key type
+Jul  8 10:35:31 LSPPC-Wheezy kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jul  8 10:35:31 LSPPC-Wheezy kernel: NTFS driver 2.1.30 [Flags: R/W].
+Jul  8 10:35:32 LSPPC-Wheezy kernel: fuse init (API version 7.18)
+Jul  8 10:35:32 LSPPC-Wheezy kernel: JFS: nTxBlock = 964, nTxLock = 7712
+Jul  8 10:35:32 LSPPC-Wheezy kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Jul  8 10:35:32 LSPPC-Wheezy kernel: msgmni has been set to 241
+Jul  8 10:35:32 LSPPC-Wheezy kernel: io scheduler noop registered
+Jul  8 10:35:32 LSPPC-Wheezy kernel: io scheduler deadline registered
+Jul  8 10:35:32 LSPPC-Wheezy kernel: io scheduler cfq registered (default)
+Jul  8 10:35:32 LSPPC-Wheezy kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jul  8 10:35:32 LSPPC-Wheezy kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Jul  8 10:35:32 LSPPC-Wheezy kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Jul  8 10:35:32 LSPPC-Wheezy kernel: brd: module loaded
+Jul  8 10:35:32 LSPPC-Wheezy kernel: loop: module loaded
+Jul  8 10:35:32 LSPPC-Wheezy kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Jul  8 10:35:32 LSPPC-Wheezy kernel: sil680: 133MHz clock.
+Jul  8 10:35:32 LSPPC-Wheezy kernel: scsi0 : pata_sil680
+Jul  8 10:35:32 LSPPC-Wheezy kernel: scsi1 : pata_sil680
+Jul  8 10:35:32 LSPPC-Wheezy kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Jul  8 10:35:32 LSPPC-Wheezy kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Jul  8 10:35:32 LSPPC-Wheezy kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Jul  8 10:35:32 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: (unregistered net_device): not PCI Express
+Jul  8 10:35:32 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90a8c00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Jul  8 10:35:32 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: jumbo features [frames: 7152 bytes, tx checksumming: ok]
+Jul  8 10:35:32 LSPPC-Wheezy kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  8 10:35:32 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Jul  8 10:35:33 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Jul  8 10:35:33 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Jul  8 10:35:33 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Jul  8 10:35:33 LSPPC-Wheezy kernel: hub 1-0:1.0: USB hub found
+Jul  8 10:35:33 LSPPC-Wheezy kernel: hub 1-0:1.0: 5 ports detected
+Jul  8 10:35:33 LSPPC-Wheezy kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul  8 10:35:33 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Jul  8 10:35:33 LSPPC-Wheezy ntpd[2275]: ntpd 4.2.6p5@1.2349-o Sat May 12 09:59:44 UTC 2012 (1)
+Jul  8 10:35:33 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Jul  8 10:35:33 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Jul  8 10:35:33 LSPPC-Wheezy ntpd[2276]: proto: precision = 0.952 usec
+Jul  8 10:35:34 LSPPC-Wheezy kernel: hub 2-0:1.0: USB hub found
+Jul  8 10:35:34 LSPPC-Wheezy ntpd[2276]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jul  8 10:35:34 LSPPC-Wheezy kernel: hub 2-0:1.0: 3 ports detected
+Jul  8 10:35:34 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Jul  8 10:35:34 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Jul  8 10:35:34 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Jul  8 10:35:34 LSPPC-Wheezy ntpd[2276]: Listen and drop on 1 v6wildcard :: UDP 123
+Jul  8 10:35:34 LSPPC-Wheezy kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Jul  8 10:35:34 LSPPC-Wheezy ntpd[2276]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jul  8 10:35:34 LSPPC-Wheezy kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Jul  8 10:35:34 LSPPC-Wheezy ntpd[2276]: Listen normally on 3 eth0 192.168.1.7 UDP 123
+Jul  8 10:35:34 LSPPC-Wheezy kernel: hub 3-0:1.0: USB hub found
+Jul  8 10:35:35 LSPPC-Wheezy ntpd[2276]: Listen normally on 4 lo ::1 UDP 123
+Jul  8 10:35:35 LSPPC-Wheezy kernel: hub 3-0:1.0: 2 ports detected
+Jul  8 10:35:35 LSPPC-Wheezy ntpd[2276]: Listen normally on 5 eth0 fe80::20d:bff:fead:9486 UDP 123
+Jul  8 10:35:35 LSPPC-Wheezy kernel: usbcore: registered new interface driver usblp
+Jul  8 10:35:35 LSPPC-Wheezy ntpd[2276]: peers refreshed
+Jul  8 10:35:35 LSPPC-Wheezy kernel: usbcore: registered new interface driver uas
+Jul  8 10:35:35 LSPPC-Wheezy ntpd[2276]: Listening on routing socket on fd #22 for interface updates
+Jul  8 10:35:35 LSPPC-Wheezy kernel: Initializing USB Mass Storage driver...
+Jul  8 10:35:35 LSPPC-Wheezy kernel: usbcore: registered new interface driver usb-storage
+Jul  8 10:35:35 LSPPC-Wheezy kernel: USB Mass Storage support registered.
+Jul  8 10:35:35 LSPPC-Wheezy kernel: usbcore: registered new interface driver libusual
+Jul  8 10:35:35 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-freecom
+Jul  8 10:35:35 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-isd200
+Jul  8 10:35:36 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbserial
+Jul  8 10:35:36 LSPPC-Wheezy kernel: usbserial: USB Serial Driver core
+Jul  8 10:35:36 LSPPC-Wheezy kernel: usbcore: registered new interface driver ftdi_sio
+Jul  8 10:35:36 LSPPC-Wheezy kernel: USB Serial support registered for FTDI USB Serial Device
+Jul  8 10:35:36 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:35:36 LSPPC-Wheezy kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Jul  8 10:35:36 LSPPC-Wheezy kernel: mousedev: PS/2 mouse device common for all mice
+Jul  8 10:35:36 LSPPC-Wheezy kernel: i2c /dev entries driver
+Jul  8 10:35:36 LSPPC-Wheezy kernel: mpc-i2c 80003000.i2c: timeout 1000000 us
+Jul  8 10:35:36 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Jul  8 10:35:36 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Jul  8 10:35:36 LSPPC-Wheezy kernel: TCP: cubic registered
+Jul  8 10:35:36 LSPPC-Wheezy kernel: NET: Registered protocol family 10
+Jul  8 10:35:36 LSPPC-Wheezy kernel: IPv6 over IPv4 tunneling driver
+Jul  8 10:35:36 LSPPC-Wheezy kernel: NET: Registered protocol family 17
+Jul  8 10:35:36 LSPPC-Wheezy kernel: NET: Registered protocol family 5
+Jul  8 10:35:36 LSPPC-Wheezy kernel: Registering the dns_resolver key type
+Jul  8 10:35:37 LSPPC-Wheezy kernel: netpoll: netconsole: local port 6666
+Jul  8 10:35:37 LSPPC-Wheezy kernel: netpoll: netconsole: local IP 192.168.11.150
+Jul  8 10:35:37 LSPPC-Wheezy kernel: netpoll: netconsole: interface 'eth0'
+Jul  8 10:35:37 LSPPC-Wheezy kernel: netpoll: netconsole: remote port 6666
+Jul  8 10:35:37 LSPPC-Wheezy kernel: netpoll: netconsole: remote IP 192.168.11.149
+Jul  8 10:35:37 LSPPC-Wheezy kernel: netpoll: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Jul  8 10:35:37 LSPPC-Wheezy kernel: netpoll: netconsole: device eth0 not up yet, forcing it
+Jul  8 10:35:37 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  8 10:35:37 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  8 10:35:37 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  8 10:35:37 LSPPC-Wheezy kernel: ata1.00: configured for UDMA/100
+Jul  8 10:35:37 LSPPC-Wheezy kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Jul  8 10:35:37 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Jul  8 10:35:37 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write Protect is off
+Jul  8 10:35:37 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul  8 10:35:37 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jul  8 10:35:37 LSPPC-Wheezy kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul  8 10:35:37 LSPPC-Wheezy kernel: linkstation: disarming the AVR watchdog: 
+Jul  8 10:35:37 LSPPC-Wheezy kernel:  sda: sda1 sda2
+Jul  8 10:35:37 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Jul  8 10:35:37 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link up
+Jul  8 10:35:37 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  8 10:35:37 LSPPC-Wheezy kernel: console [netcon0] enabled
+Jul  8 10:35:37 LSPPC-Wheezy kernel: netconsole: network logging started
+Jul  8 10:35:37 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: setting system clock to 2012-07-08 10:34:59 UTC (1341743699)
+Jul  8 10:35:37 LSPPC-Wheezy kernel: kjournald starting.  Commit interval 5 seconds
+Jul  8 10:35:37 LSPPC-Wheezy kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Jul  8 10:35:37 LSPPC-Wheezy kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Jul  8 10:35:38 LSPPC-Wheezy kernel: Freeing unused kernel memory: 192k freed
+Jul  8 10:35:38 LSPPC-Wheezy kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Jul  8 10:35:38 LSPPC-Wheezy kernel: EXT3-fs (sda1): using internal journal
+Jul  8 10:35:38 LSPPC-Wheezy kernel: eth0: no IPv6 routers present
+Jul  8 10:35:50 LSPPC-Wheezy ntpdate[2397]: the NTP socket is in use, exiting
+Jul  8 10:37:46 LSPPC-Wheezy minissdpd[2372]: 6 new devices added
+Jul  8 10:38:57 LSPPC-Wheezy minissdpd[2372]: 6 new devices added
+Jul  8 10:40:32 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:42:38 LSPPC-Wheezy minissdpd[2372]: 6 new devices added
+Jul  8 10:46:29 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:48:23 LSPPC-Wheezy smbd[2501]: [2012/07/08 10:48:23.948382,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 10:48:23 LSPPC-Wheezy smbd[2501]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 10:48:24 LSPPC-Wheezy smbd[2061]: [2012/07/08 10:48:23.951925,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 10:48:24 LSPPC-Wheezy smbd[2061]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 10:50:53 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:53:42 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:55:19 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: Transmission 2.52 (13304) started (session.c:718)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: RPC Server Adding address to whitelist: 127.0.0.1 (rpc-server.c:803)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: RPC Server Serving RPC and Web requests on port 127.0.0.1:9091/transmission/ (rpc-server.c:997)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: Port Forwarding Stopped (port-forwarding.c:181)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: UDP Failed to set receive buffer: requested 4194304, got 327680 (tr-udp.c:75)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: UDP Please add the line "net.core.rmem_max = 4194304" to /etc/sysctl.conf (tr-udp.c:80)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: UDP Failed to set send buffer: requested 1048576, got 327680 (tr-udp.c:86)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: UDP Please add the line "net.core.wmem_max = 1048576" to /etc/sysctl.conf (tr-udp.c:91)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: DHT Reusing old id (tr-dht.c:305)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: DHT Bootstrapping from 95 IPv4 nodes (tr-dht.c:153)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: Using settings from "/var/lib/transmission-daemon/info" (daemon.c:488)
+Jul  8 10:56:03 LSPPC-Wheezy transmission-daemon[2600]: Saved "/etc/transmission-daemon/settings.json" (bencode.c:1731)
+Jul  8 10:56:10 LSPPC-Wheezy transmission-daemon[2600]: Searching for web interface file "/root/.local/share/transmission/web/index.html" (platform.c:540)
+Jul  8 10:56:10 LSPPC-Wheezy transmission-daemon[2600]: Searching for web interface file "/usr/share/transmission/web/index.html" (platform.c:540)
+Jul  8 10:56:45 LSPPC-Wheezy transmission-daemon[2600]: Saved "/etc/transmission-daemon/settings.json" (bencode.c:1731)
+Jul  8 10:56:45 LSPPC-Wheezy transmission-daemon[2600]: DHT Not saving nodes, DHT not ready (tr-dht.c:356)
+Jul  8 10:56:45 LSPPC-Wheezy transmission-daemon[2600]: Port Forwarding Stopped (port-forwarding.c:181)
+Jul  8 10:56:45 LSPPC-Wheezy transmission-daemon[2600]: Closing session
+Jul  8 10:57:58 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 11:01:24 LSPPC-Wheezy smbd[2696]: [2012/07/08 11:01:24.683650,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 11:01:24 LSPPC-Wheezy smbd[2696]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 11:01:24 LSPPC-Wheezy smbd[2061]: [2012/07/08 11:01:24.687431,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 11:01:24 LSPPC-Wheezy smbd[2061]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 11:04:42 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 11:09:59 LSPPC-Wheezy transmission-daemon: transmission-daemon Error loading config file -- exiting. (daemon.c:462)
+Jul  8 11:13:49 LSPPC-Wheezy transmission-daemon[2803]: Transmission 2.52 (13304) started (session.c:718)
+Jul  8 11:13:49 LSPPC-Wheezy transmission-daemon[2803]: RPC Server Adding address to whitelist: 127.0.0.1 (rpc-server.c:803)
+Jul  8 11:13:49 LSPPC-Wheezy transmission-daemon[2803]: RPC Server Serving RPC and Web requests on port 127.0.0.1:9091/transmission/ (rpc-server.c:997)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: Port Forwarding Stopped (port-forwarding.c:181)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: UDP Failed to set receive buffer: requested 4194304, got 327680 (tr-udp.c:75)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: UDP Please add the line "net.core.rmem_max = 4194304" to /etc/sysctl.conf (tr-udp.c:80)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: UDP Failed to set send buffer: requested 1048576, got 327680 (tr-udp.c:86)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: UDP Please add the line "net.core.wmem_max = 1048576" to /etc/sysctl.conf (tr-udp.c:91)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: DHT Reusing old id (tr-dht.c:305)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: DHT Bootstrapping from 95 IPv4 nodes (tr-dht.c:153)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: Using settings from "/var/lib/transmission-daemon/info" (daemon.c:488)
+Jul  8 11:13:50 LSPPC-Wheezy transmission-daemon[2803]: Couldn't save temporary file "/etc/transmission-daemon/settings.json.tmp.FiyEC9": Permission denied (bencode.c:1744)
+Jul  8 11:14:25 LSPPC-Wheezy smbd[2824]: [2012/07/08 11:14:25.430316,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 11:14:25 LSPPC-Wheezy smbd[2824]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 11:14:25 LSPPC-Wheezy smbd[2061]: [2012/07/08 11:14:25.433751,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 11:14:25 LSPPC-Wheezy smbd[2061]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 11:16:30 LSPPC-Wheezy shutdown[2832]: shutting down for system reboot
+Jul  8 11:16:30 LSPPC-Wheezy init: Switching to runlevel: 6
+Jul  8 11:16:30 LSPPC-Wheezy linkstation[2871]: Stopped daemon avr-evtd
+Jul  8 11:16:31 LSPPC-Wheezy kernel: Kernel logging (proc) stopped.
+Jul  8 11:16:31 LSPPC-Wheezy kernel: Kernel log daemon terminating.
+Jul  8 11:16:32 LSPPC-Wheezy minissdpd[2372]: received signal 15, good-bye
+Jul  8 11:16:33 LSPPC-Wheezy rpc.mountd[2029]: Caught signal 15, un-registering and exiting.
+Jul  8 11:16:36 LSPPC-Wheezy exiting on signal 15
+Jul  8 11:17:37 LSPPC-Wheezy syslogd 1.5.0#6.2: restart.
+Jul  8 11:17:37 LSPPC-Wheezy avr-daemon[2143]: Linkstation/Kuro AVR daemon $Rev: 147 $ 
+Jul  8 11:17:38 LSPPC-Wheezy linkstation[2161]: Started daemon avr-evtd
+Jul  8 11:17:38 LSPPC-Wheezy /usr/sbin/cron[2184]: (CRON) INFO (pidfile fd = 3)
+Jul  8 11:17:38 LSPPC-Wheezy /usr/sbin/cron[2185]: (CRON) STARTUP (fork ok)
+Jul  8 11:17:38 LSPPC-Wheezy /usr/sbin/cron[2185]: (CRON) INFO (Running @reboot jobs)
+Jul  8 11:17:39 LSPPC-Wheezy kernel: Inspecting /usr/src/linux/System.map
+Jul  8 11:17:39 LSPPC-Wheezy kernel: Cannot find map file.
+Jul  8 11:17:40 LSPPC-Wheezy kernel: Loaded 19300 symbols from 1 module.
+Jul  8 11:17:40 LSPPC-Wheezy kernel: Using Buffalo Linkstation machine description
+Jul  8 11:17:40 LSPPC-Wheezy kernel: Linux version 3.4.0 (root@LSPPC-Wheezy) (gcc version 4.6.3 (Debian 4.6.3-1) ) #1 Sat Jul 7 06:08:11 UTC 2012
+Jul  8 11:17:40 LSPPC-Wheezy kernel: Found legacy serial port 0 for /soc10x/serial@80004500
+Jul  8 11:17:40 LSPPC-Wheezy kernel:   mem=80004500, taddr=80004500, irq=0, clk=130041000, speed=9600
+Jul  8 11:17:40 LSPPC-Wheezy kernel: Found legacy serial port 1 for /soc10x/serial@80004600
+Jul  8 11:17:40 LSPPC-Wheezy kernel:   mem=80004600, taddr=80004600, irq=0, clk=130041000, speed=57600
+Jul  8 11:17:40 LSPPC-Wheezy kernel: bootconsole [udbg0] enabled
+Jul  8 11:17:40 LSPPC-Wheezy kernel: Adding PCI host bridge /soc10x/pci@fec00000
+Jul  8 11:17:40 LSPPC-Wheezy kernel: PCI host bridge /soc10x/pci@fec00000 (primary) ranges:
+Jul  8 11:17:40 LSPPC-Wheezy kernel:   IO 0x00000000fe000000..0x00000000febfffff -> 0x0000000000000000
+Jul  8 11:17:40 LSPPC-Wheezy kernel:  MEM 0x0000000080000000..0x00000000efffffff -> 0x0000000080000000 
+Jul  8 11:17:40 LSPPC-Wheezy kernel: BUFFALO Network Attached Storage Series
+Jul  8 11:17:41 LSPPC-Wheezy kernel: (C) 2002-2005 BUFFALO INC.
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Top of RAM: 0x8000000, Total RAM: 0x8000000
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Memory hole size: 0MB
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Zone PFN ranges:
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   DMA      0x00000000 -> 0x00008000
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   Normal   empty
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Movable zone start PFN for each node
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Early memory PFN ranges
+Jul  8 11:17:41 LSPPC-Wheezy kernel:     0: 0x00000000 -> 0x00008000
+Jul  8 11:17:41 LSPPC-Wheezy kernel: On node 0 totalpages: 32768
+Jul  8 11:17:41 LSPPC-Wheezy kernel: free_area_init_node: node 0, pgdat c06286a8, node_mem_map c0654000
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   DMA zone: 256 pages used for memmap
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   DMA zone: 0 pages reserved
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   DMA zone: 32512 pages, LIFO batch:7
+Jul  8 11:17:41 LSPPC-Wheezy kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul  8 11:17:41 LSPPC-Wheezy kernel: pcpu-alloc: [0] 0 
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Kernel command line: root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/ rtc-rs5c372.probe=0,0x32
+Jul  8 11:17:41 LSPPC-Wheezy kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Memory: 123400k/131072k available (6168k kernel code, 7672k reserved, 200k data, 89k bss, 192k init)
+Jul  8 11:17:41 LSPPC-Wheezy kernel: Kernel virtual memory layout:
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   * 0xfffdf000..0xfffff000  : fixmap
+Jul  8 11:17:41 LSPPC-Wheezy kernel:   * 0xfd3fc000..0xfe000000  : early ioremap
+Jul  8 11:17:42 LSPPC-Wheezy kernel:   * 0xc9000000..0xfd3fc000  : vmalloc & ioremap
+Jul  8 11:17:42 LSPPC-Wheezy kernel: SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  8 11:17:42 LSPPC-Wheezy kernel: NR_IRQS:512 nr_irqs:512 16
+Jul  8 11:17:42 LSPPC-Wheezy kernel: mpic: Resetting
+Jul  8 11:17:42 LSPPC-Wheezy kernel: mpic: Setting up MPIC " EPIC     " version 1.2 at 80040000, max 1 CPUs
+Jul  8 11:17:42 LSPPC-Wheezy kernel: mpic: ISU size: 4, shift: 2, mask: 3
+Jul  8 11:17:42 LSPPC-Wheezy kernel: mpic: Initializing for 12 sources
+Jul  8 11:17:42 LSPPC-Wheezy kernel: time_init: decrementer frequency = 32.522240 MHz
+Jul  8 11:17:42 LSPPC-Wheezy kernel: time_init: processor frequency   = 262.144000 MHz
+Jul  8 11:17:42 LSPPC-Wheezy kernel: clocksource: timebase mult[1ebf895a] shift[24] registered
+Jul  8 11:17:42 LSPPC-Wheezy kernel: clockevent: decrementer mult[85360a5] shift[32] cpu[0]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: Console: colour dummy device 80x25
+Jul  8 11:17:42 LSPPC-Wheezy kernel: console [tty0] enabled, bootconsole disabled
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pid_max: default: 32768 minimum: 301
+Jul  8 11:17:42 LSPPC-Wheezy kernel: Mount-cache hash table entries: 512
+Jul  8 11:17:42 LSPPC-Wheezy kernel: NET: Registered protocol family 16
+Jul  8 11:17:42 LSPPC-Wheezy kernel: PCI: Probing PCI hardware
+Jul  8 11:17:42 LSPPC-Wheezy kernel: PCI host bridge to bus 0000:00
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xbfffff]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xefffffff]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:00.0: [1057:0006] type 00 class 0x060000
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:00.0: reg 14: [mem 0x00000000-0x00000fff]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:0b.0: [10ec:8169] type 00 class 0x020000
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 10: [io  0xbfff00-0xbfffff]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:0b.0: reg 14: [mem 0xbffffc00-0xbffffcff]
+Jul  8 11:17:42 LSPPC-Wheezy kernel: pci 0000:00:0c.0: [1095:0680] type 00 class 0x010185
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 10: [io  0xbffed0-0xbffed7]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 14: [io  0xbffed8-0xbffedb]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 18: [io  0xbffee0-0xbffee7]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 1c: [io  0xbffee8-0xbffeeb]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 20: [io  0xbffef0-0xbffeff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 24: [mem 0x00000000-0x000000ff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: reg 30: [mem 0x00000000-0x0007ffff pref]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: supports D1 D2
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.0: [1033:0035] type 00 class 0x0c0310
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.0: reg 10: [mem 0xbfffe000-0xbfffefff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.0: supports D1 D2
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.0: PME# supported from D0 D1 D2 D3hot
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.1: [1033:0035] type 00 class 0x0c0310
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.1: reg 10: [mem 0xbfffd000-0xbfffdfff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.1: supports D1 D2
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.1: PME# supported from D0 D1 D2 D3hot
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.2: [1033:00e0] type 00 class 0x0c0320
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.2: reg 10: [mem 0xbfffcf00-0xbfffcfff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.2: supports D1 D2
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0e.2: PME# supported from D0 D1 D2 D3hot
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 6: assigned [mem 0x80000000-0x8007ffff pref]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci 0000:00:0c.0: BAR 5: assigned [mem 0x80080000-0x800800ff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 4 [io  0x0000-0xbfffff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: pci_bus 0000:00: resource 5 [mem 0x80000000-0xefffffff]
+Jul  8 11:17:43 LSPPC-Wheezy kernel: bio: create slab <bio-0> at 0
+Jul  8 11:17:43 LSPPC-Wheezy kernel: vgaarb: loaded
+Jul  8 11:17:44 LSPPC-Wheezy kernel: SCSI subsystem initialized
+Jul  8 11:17:44 LSPPC-Wheezy kernel: libata version 3.00 loaded.
+Jul  8 11:17:44 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbfs
+Jul  8 11:17:44 LSPPC-Wheezy kernel: usbcore: registered new interface driver hub
+Jul  8 11:17:44 LSPPC-Wheezy kernel: usbcore: registered new device driver usb
+Jul  8 11:17:44 LSPPC-Wheezy ntpdate[1674]: adjust time server 128.10.254.7 offset -0.215046 sec
+Jul  8 11:17:44 LSPPC-Wheezy kernel: Bluetooth: Core ver 2.16
+Jul  8 11:17:44 LSPPC-Wheezy kernel: NET: Registered protocol family 31
+Jul  8 11:17:44 LSPPC-Wheezy kernel: Bluetooth: HCI device and connection manager initialized
+Jul  8 11:17:44 LSPPC-Wheezy kernel: Bluetooth: HCI socket layer initialized
+Jul  8 11:17:44 LSPPC-Wheezy kernel: Bluetooth: L2CAP socket layer initialized
+Jul  8 11:17:44 LSPPC-Wheezy kernel: Bluetooth: SCO socket layer initialized
+Jul  8 11:17:44 LSPPC-Wheezy kernel: Switching to clocksource timebase
+Jul  8 11:17:44 LSPPC-Wheezy kernel: NET: Registered protocol family 2
+Jul  8 11:17:44 LSPPC-Wheezy kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  8 11:17:44 LSPPC-Wheezy kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jul  8 11:17:44 LSPPC-Wheezy kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Jul  8 11:17:44 LSPPC-Wheezy kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Jul  8 11:17:44 LSPPC-Wheezy kernel: TCP: reno registered
+Jul  8 11:17:44 LSPPC-Wheezy kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Jul  8 11:17:44 LSPPC-Wheezy kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Jul  8 11:17:44 LSPPC-Wheezy kernel: NET: Registered protocol family 1
+Jul  8 11:17:44 LSPPC-Wheezy kernel: RPC: Registered named UNIX socket transport module.
+Jul  8 11:17:44 LSPPC-Wheezy kernel: RPC: Registered udp transport module.
+Jul  8 11:17:44 LSPPC-Wheezy kernel: RPC: Registered tcp transport module.
+Jul  8 11:17:44 LSPPC-Wheezy kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  8 11:17:45 LSPPC-Wheezy kernel: PCI: CLS 32 bytes, default 32
+Jul  8 11:17:45 LSPPC-Wheezy kernel: NFS: Registering the id_resolver key type
+Jul  8 11:17:45 LSPPC-Wheezy kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jul  8 11:17:45 LSPPC-Wheezy kernel: NTFS driver 2.1.30 [Flags: R/W].
+Jul  8 11:17:45 LSPPC-Wheezy kernel: fuse init (API version 7.18)
+Jul  8 11:17:45 LSPPC-Wheezy kernel: JFS: nTxBlock = 964, nTxLock = 7712
+Jul  8 11:17:45 LSPPC-Wheezy kernel: SGI XFS with security attributes, large block/inode numbers, no debug enabled
+Jul  8 11:17:45 LSPPC-Wheezy kernel: msgmni has been set to 241
+Jul  8 11:17:45 LSPPC-Wheezy kernel: io scheduler noop registered
+Jul  8 11:17:45 LSPPC-Wheezy kernel: io scheduler deadline registered
+Jul  8 11:17:45 LSPPC-Wheezy kernel: io scheduler cfq registered (default)
+Jul  8 11:17:45 LSPPC-Wheezy kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jul  8 11:17:45 LSPPC-Wheezy kernel: serial8250.0: ttyS0 at MMIO 0x80004500 (irq = 19) is a 16550A
+Jul  8 11:17:45 LSPPC-Wheezy kernel: serial8250.0: ttyS1 at MMIO 0x80004600 (irq = 20) is a 16550A
+Jul  8 11:17:45 LSPPC-Wheezy kernel: brd: module loaded
+Jul  8 11:17:45 LSPPC-Wheezy kernel: loop: module loaded
+Jul  8 11:17:45 LSPPC-Wheezy kernel: pata_sil680 0000:00:0c.0: version 0.4.9
+Jul  8 11:17:45 LSPPC-Wheezy kernel: sil680: 133MHz clock.
+Jul  8 11:17:45 LSPPC-Wheezy kernel: scsi0 : pata_sil680
+Jul  8 11:17:45 LSPPC-Wheezy kernel: scsi1 : pata_sil680
+Jul  8 11:17:45 LSPPC-Wheezy kernel: ata1: PATA max UDMA/133 cmd 0xbffed0 ctl 0xbffed8 bmdma 0xbffef0 irq 17
+Jul  8 11:17:45 LSPPC-Wheezy kernel: ata2: PATA max UDMA/133 cmd 0xbffee0 ctl 0xbffee8 bmdma 0xbffef8 irq 17
+Jul  8 11:17:45 LSPPC-Wheezy kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Jul  8 11:17:45 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: (unregistered net_device): not PCI Express
+Jul  8 11:17:45 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: RTL8110s at 0xc90a8c00, 00:0d:0b:ad:94:86, XID 04000000 IRQ 16
+Jul  8 11:17:46 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: jumbo features [frames: 7152 bytes, tx checksumming: ok]
+Jul  8 11:17:46 LSPPC-Wheezy kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  8 11:17:46 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: EHCI Host Controller
+Jul  8 11:17:46 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: new USB bus registered, assigned bus number 1
+Jul  8 11:17:46 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: irq 18, io mem 0xbfffcf00
+Jul  8 11:17:46 LSPPC-Wheezy kernel: ehci_hcd 0000:00:0e.2: USB 2.0 started, EHCI 1.00
+Jul  8 11:17:46 LSPPC-Wheezy kernel: hub 1-0:1.0: USB hub found
+Jul  8 11:17:46 LSPPC-Wheezy kernel: hub 1-0:1.0: 5 ports detected
+Jul  8 11:17:46 LSPPC-Wheezy kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul  8 11:17:46 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: OHCI Host Controller
+Jul  8 11:17:46 LSPPC-Wheezy ntpd[2277]: ntpd 4.2.6p5@1.2349-o Sat May 12 09:59:44 UTC 2012 (1)
+Jul  8 11:17:46 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: new USB bus registered, assigned bus number 2
+Jul  8 11:17:47 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.0: irq 18, io mem 0xbfffe000
+Jul  8 11:17:47 LSPPC-Wheezy ntpd[2278]: proto: precision = 0.891 usec
+Jul  8 11:17:47 LSPPC-Wheezy kernel: hub 2-0:1.0: USB hub found
+Jul  8 11:17:47 LSPPC-Wheezy ntpd[2278]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jul  8 11:17:47 LSPPC-Wheezy kernel: hub 2-0:1.0: 3 ports detected
+Jul  8 11:17:47 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: OHCI Host Controller
+Jul  8 11:17:47 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: new USB bus registered, assigned bus number 3
+Jul  8 11:17:47 LSPPC-Wheezy ntpd[2278]: Listen and drop on 1 v6wildcard :: UDP 123
+Jul  8 11:17:47 LSPPC-Wheezy kernel: ohci_hcd 0000:00:0e.1: irq 18, io mem 0xbfffd000
+Jul  8 11:17:47 LSPPC-Wheezy ntpd[2278]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jul  8 11:17:47 LSPPC-Wheezy kernel: ata1.00: ATA-7: ST3750640AV, 3.ACG, max UDMA/100
+Jul  8 11:17:47 LSPPC-Wheezy ntpd[2278]: Listen normally on 3 eth0 192.168.1.7 UDP 123
+Jul  8 11:17:48 LSPPC-Wheezy kernel: ata1.00: 1465149168 sectors, multi 0: LBA48 
+Jul  8 11:17:48 LSPPC-Wheezy ntpd[2278]: Listen normally on 4 lo ::1 UDP 123
+Jul  8 11:17:48 LSPPC-Wheezy kernel: hub 3-0:1.0: USB hub found
+Jul  8 11:17:48 LSPPC-Wheezy ntpd[2278]: Listen normally on 5 eth0 fe80::20d:bff:fead:9486 UDP 123
+Jul  8 11:17:48 LSPPC-Wheezy kernel: hub 3-0:1.0: 2 ports detected
+Jul  8 11:17:48 LSPPC-Wheezy ntpd[2278]: peers refreshed
+Jul  8 11:17:48 LSPPC-Wheezy kernel: usbcore: registered new interface driver usblp
+Jul  8 11:17:48 LSPPC-Wheezy ntpd[2278]: Listening on routing socket on fd #22 for interface updates
+Jul  8 11:17:48 LSPPC-Wheezy kernel: usbcore: registered new interface driver uas
+Jul  8 11:17:48 LSPPC-Wheezy kernel: Initializing USB Mass Storage driver...
+Jul  8 11:17:48 LSPPC-Wheezy kernel: usbcore: registered new interface driver usb-storage
+Jul  8 11:17:49 LSPPC-Wheezy kernel: USB Mass Storage support registered.
+Jul  8 11:17:49 LSPPC-Wheezy kernel: usbcore: registered new interface driver libusual
+Jul  8 11:17:49 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-freecom
+Jul  8 11:17:49 LSPPC-Wheezy kernel: usbcore: registered new interface driver ums-isd200
+Jul  8 11:17:49 LSPPC-Wheezy kernel: usbcore: registered new interface driver usbserial
+Jul  8 11:17:49 LSPPC-Wheezy kernel: usbserial: USB Serial Driver core
+Jul  8 11:17:49 LSPPC-Wheezy kernel: usbcore: registered new interface driver ftdi_sio
+Jul  8 11:17:49 LSPPC-Wheezy kernel: USB Serial support registered for FTDI USB Serial Device
+Jul  8 11:17:49 LSPPC-Wheezy kernel: ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+Jul  8 11:17:49 LSPPC-Wheezy kernel: mousedev: PS/2 mouse device common for all mice
+Jul  8 11:17:49 LSPPC-Wheezy kernel: i2c /dev entries driver
+Jul  8 11:17:49 LSPPC-Wheezy kernel: mpc-i2c 80003000.i2c: timeout 1000000 us
+Jul  8 11:17:49 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.6
+Jul  8 11:17:49 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+Jul  8 11:17:49 LSPPC-Wheezy kernel: TCP: cubic registered
+Jul  8 11:17:49 LSPPC-Wheezy kernel: NET: Registered protocol family 10
+Jul  8 11:17:50 LSPPC-Wheezy kernel: IPv6 over IPv4 tunneling driver
+Jul  8 11:17:50 LSPPC-Wheezy kernel: NET: Registered protocol family 17
+Jul  8 11:17:50 LSPPC-Wheezy kernel: NET: Registered protocol family 5
+Jul  8 11:17:50 LSPPC-Wheezy kernel: Registering the dns_resolver key type
+Jul  8 11:17:50 LSPPC-Wheezy kernel: netpoll: netconsole: local port 6666
+Jul  8 11:17:50 LSPPC-Wheezy kernel: netpoll: netconsole: local IP 192.168.11.150
+Jul  8 11:17:50 LSPPC-Wheezy kernel: netpoll: netconsole: interface 'eth0'
+Jul  8 11:17:50 LSPPC-Wheezy kernel: netpoll: netconsole: remote port 6666
+Jul  8 11:17:50 LSPPC-Wheezy kernel: netpoll: netconsole: remote IP 192.168.11.149
+Jul  8 11:17:50 LSPPC-Wheezy kernel: netpoll: netconsole: remote ethernet address ff:ff:ff:ff:ff:ff
+Jul  8 11:17:50 LSPPC-Wheezy kernel: netpoll: netconsole: device eth0 not up yet, forcing it
+Jul  8 11:17:50 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  8 11:17:50 LSPPC-Wheezy transmission-daemon[2344]: Transmission 2.52 (13304) started (session.c:718)
+Jul  8 11:17:50 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link down
+Jul  8 11:17:50 LSPPC-Wheezy transmission-daemon[2344]: RPC Server Adding address to whitelist: 127.0.0.1 (rpc-server.c:803)
+Jul  8 11:17:50 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  8 11:17:50 LSPPC-Wheezy transmission-daemon[2344]: RPC Server Serving RPC and Web requests on port 127.0.0.1:9091/transmission/ (rpc-server.c:997)
+Jul  8 11:17:50 LSPPC-Wheezy kernel: ata1.00: configured for UDMA/100
+Jul  8 11:17:50 LSPPC-Wheezy transmission-daemon[2344]: Port Forwarding Stopped (port-forwarding.c:181)
+Jul  8 11:17:50 LSPPC-Wheezy kernel: scsi 0:0:0:0: Direct-Access     ATA      ST3750640AV      3.AC PQ: 0 ANSI: 5
+Jul  8 11:17:50 LSPPC-Wheezy transmission-daemon[2344]: UDP Failed to set receive buffer: requested 4194304, got 327680 (tr-udp.c:75)
+Jul  8 11:17:50 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] 1465149168 512-byte logical blocks: (750 GB/698 GiB)
+Jul  8 11:17:50 LSPPC-Wheezy transmission-daemon[2344]: UDP Please add the line "net.core.rmem_max = 4194304" to /etc/sysctl.conf (tr-udp.c:80)
+Jul  8 11:17:50 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write Protect is off
+Jul  8 11:17:50 LSPPC-Wheezy transmission-daemon[2344]: UDP Failed to set send buffer: requested 1048576, got 327680 (tr-udp.c:86)
+Jul  8 11:17:50 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul  8 11:17:50 LSPPC-Wheezy transmission-daemon[2344]: UDP Please add the line "net.core.wmem_max = 1048576" to /etc/sysctl.conf (tr-udp.c:91)
+Jul  8 11:17:51 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jul  8 11:17:51 LSPPC-Wheezy transmission-daemon[2344]: DHT Reusing old id (tr-dht.c:305)
+Jul  8 11:17:51 LSPPC-Wheezy kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul  8 11:17:51 LSPPC-Wheezy transmission-daemon[2344]: DHT Bootstrapping from 95 IPv4 nodes (tr-dht.c:153)
+Jul  8 11:17:51 LSPPC-Wheezy kernel: linkstation: disarming the AVR watchdog: 
+Jul  8 11:17:51 LSPPC-Wheezy transmission-daemon[2344]: Using settings from "/var/lib/transmission-daemon/info" (daemon.c:488)
+Jul  8 11:17:51 LSPPC-Wheezy kernel:  sda: sda1 sda2
+Jul  8 11:17:51 LSPPC-Wheezy transmission-daemon[2344]: Couldn't save temporary file "/etc/transmission-daemon/settings.json.tmp.wJf6yb": Permission denied (bencode.c:1744)
+Jul  8 11:17:51 LSPPC-Wheezy kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Jul  8 11:17:51 LSPPC-Wheezy kernel: r8169 0000:00:0b.0: eth0: link up
+Jul  8 11:17:51 LSPPC-Wheezy kernel: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  8 11:17:51 LSPPC-Wheezy kernel: console [netcon0] enabled
+Jul  8 11:17:51 LSPPC-Wheezy kernel: netconsole: network logging started
+Jul  8 11:17:51 LSPPC-Wheezy kernel: rtc-rs5c372 0-0032: setting system clock to 2012-07-08 11:17:12 UTC (1341746232)
+Jul  8 11:17:51 LSPPC-Wheezy kernel: kjournald starting.  Commit interval 5 seconds
+Jul  8 11:17:51 LSPPC-Wheezy kernel: EXT3-fs (sda1): mounted filesystem with writeback data mode
+Jul  8 11:17:51 LSPPC-Wheezy kernel: VFS: Mounted root (ext3 filesystem) readonly on device 8:1.
+Jul  8 11:17:51 LSPPC-Wheezy kernel: Freeing unused kernel memory: 192k freed
+Jul  8 11:17:51 LSPPC-Wheezy kernel: Adding 506012k swap on /dev/sda2.  Priority:-1 extents:1 across:506012k 
+Jul  8 11:17:51 LSPPC-Wheezy kernel: EXT3-fs (sda1): using internal journal
+Jul  8 11:17:51 LSPPC-Wheezy kernel: eth0: no IPv6 routers present
+Jul  8 11:18:04 LSPPC-Wheezy ntpdate[2402]: the NTP socket is in use, exiting
+Jul  8 11:21:19 LSPPC-Wheezy transmission-daemon[2344]: Searching for web interface file "/home/nasuser/.local/share/transmission/web/index.html" (platform.c:540)
+Jul  8 11:21:19 LSPPC-Wheezy transmission-daemon[2344]: Searching for web interface file "/usr/share/transmission/web/index.html" (platform.c:540)
+Jul  8 11:21:28 LSPPC-Wheezy transmission-daemon[2344]: Saved "/var/lib/transmission-daemon/info/torrents/debian-6.0.5-powerpc-businesscard.iso.ce0f3e1babe5e7ec.torrent" (bencode.c:1731)
+Jul  8 11:21:28 LSPPC-Wheezy transmission-daemon[2344]: debian-6.0.5-powerpc-businesscard.iso Pausing (torrent.c:1763)
+Jul  8 11:21:28 LSPPC-Wheezy transmission-daemon[2344]: Saved "/var/lib/transmission-daemon/info/resume/debian-6.0.5-powerpc-businesscard.iso.ce0f3e1babe5e7ec.resume" (bencode.c:1731)
+Jul  8 11:21:28 LSPPC-Wheezy transmission-daemon[2344]: debian-6.0.5-powerpc-businesscard.iso Queued for verification (verify.c:260)
+Jul  8 11:21:28 LSPPC-Wheezy transmission-daemon[2344]: debian-6.0.5-powerpc-businesscard.iso Verifying torrent (verify.c:218)
+Jul  8 11:21:35 LSPPC-Wheezy transmission-daemon[2344]: debian-6.0.5-powerpc-businesscard.iso Starting IPv4 DHT announce (poor, 34 nodes) (tr-dht.c:574)
+Jul  8 11:22:19 LSPPC-Wheezy minissdpd[2377]: 6 new devices added
+Jul  8 11:22:44 LSPPC-Wheezy minissdpd[2377]: 6 new devices added
+Jul  8 11:23:21 LSPPC-Wheezy minissdpd[2377]: 6 new devices added
+Jul  8 11:23:48 LSPPC-Wheezy transmission-daemon[2344]: Saved "/var/lib/transmission-daemon/info/resume/debian-6.0.5-powerpc-businesscard.iso.ce0f3e1babe5e7ec.resume" (bencode.c:1731)
+Jul  8 11:23:48 LSPPC-Wheezy transmission-daemon[2344]: Saved "/var/lib/transmission-daemon/info/stats.json" (bencode.c:1731)
+Jul  8 11:26:03 LSPPC-Wheezy transmission-daemon[2344]: debian-6.0.5-powerpc-businesscard.iso IPv4 DHT announce done (tr-dht.c:542)
+Jul  8 11:27:51 LSPPC-Wheezy transmission-daemon[2344]: debian-6.0.5-powerpc-businesscard.iso State changed from "Incomplete" to "Complete" (torrent.c:2042)
+Jul  8 11:29:48 LSPPC-Wheezy transmission-daemon[2344]: Saved "/var/lib/transmission-daemon/info/resume/debian-6.0.5-powerpc-businesscard.iso.ce0f3e1babe5e7ec.resume" (bencode.c:1731)
+Jul  8 11:29:48 LSPPC-Wheezy transmission-daemon[2344]: Saved "/var/lib/transmission-daemon/info/stats.json" (bencode.c:1731)
+Jul  8 11:29:50 LSPPC-Wheezy transmission-daemon[2344]: debian-6.0.5-powerpc-businesscard.iso Removing torrent (torrent.c:1813)
+Jul  8 11:29:50 LSPPC-Wheezy transmission-daemon[2344]: debian-6.0.5-powerpc-businesscard.iso Pausing (torrent.c:1763)
+Jul  8 11:30:36 LSPPC-Wheezy smbd[2416]: [2012/07/08 11:30:36.863883,  0] printing/print_cups.c:110(cups_connect) 
+Jul  8 11:30:36 LSPPC-Wheezy smbd[2416]:   Unable to connect to CUPS server localhost:631 - Connection refused 
+Jul  8 11:30:37 LSPPC-Wheezy smbd[2063]: [2012/07/08 11:30:36.966258,  0] printing/print_cups.c:487(cups_async_callback) 
+Jul  8 11:30:37 LSPPC-Wheezy smbd[2063]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL 
+Jul  8 11:36:32 LSPPC-Wheezy shutdown[2419]: shutting down for system halt
+Jul  8 11:36:32 LSPPC-Wheezy init: Switching to runlevel: 0
+Jul  8 11:36:32 LSPPC-Wheezy linkstation[2458]: Stopped daemon avr-evtd
+Jul  8 11:36:33 LSPPC-Wheezy kernel: Kernel logging (proc) stopped.
+Jul  8 11:36:33 LSPPC-Wheezy kernel: Kernel log daemon terminating.
+Jul  8 11:36:34 LSPPC-Wheezy minissdpd[2377]: received signal 15, good-bye
+Jul  8 11:36:35 LSPPC-Wheezy rpc.mountd[2031]: Caught signal 15, un-registering and exiting.
+Jul  8 11:36:38 LSPPC-Wheezy exiting on signal 15

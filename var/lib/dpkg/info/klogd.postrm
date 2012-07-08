@@ -1,0 +1,12 @@
+#! /bin/sh
+
+set -e
+
+if [ "$1" = "purge" ]
+then
+  deluser --system --quiet klog || true
+  update-rc.d klogd remove >/dev/null
+
+  test ! -f /run/sendsigs.omit.d/klogd || \
+      rm -f /run/sendsigs.omit.d/klogd
+fi

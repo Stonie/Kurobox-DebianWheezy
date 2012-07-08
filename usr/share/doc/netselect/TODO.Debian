@@ -1,0 +1,44 @@
+
+netselect:
+----------
+
+* implement an alternate strategy for testing out hosts that uses both ICMP and
+  UDP and averages those results (and intelligent discards one of them if it
+  does not work). 
+
+  This way users do not have to manually select ICMP (-I) or UDP traceroute
+  (default). 
+
+  This change should also introduce the -U option (for UDP traceroute)
+
+* implement averaging strategy for hosts with many DNS names.
+  The averaging strategy could collect the results for all DNS
+  names and discard those with too widely differing ratings 
+  Then, report the best-run most reliable service with its full DNS
+  name, not its IP address.
+
+* fully implement IPv6 support. Currently, if there are IPv6 and IPv4 addresses
+  only the IPv4 addresses are used. (Bug #407767)
+
+netselect-apt:
+--------------
+
+* parse http://www.de.debian.org/dmc/today/ instead of mirrors_full as it might
+  give better informations?
+
+* when netselect provides an IP address the resulting sources.list is not valid
+  as many mirrors cannot be accessed through http with only the IP address
+  (and no hostname). This needs to be fixed by using the tag: feature
+  in netselect 
+
+* Support multiple hosts in the output and provide output for apt-cache
+  or other similar tools. See #286033
+
+* Extend it to be useful for other protocols (rsync, ftp..). See #135558
+
+* Make it possible to show a given number of hosts (not just one). See 117265
+
+package:
+-------
+
+* move to collab-qa (git)

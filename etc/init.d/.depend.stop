@@ -1,0 +1,12 @@
+TARGETS = samba transmission-daemon cron openbsd-inetd klogd avr-evtd vsftpd urandom nfs-kernel-server minissdpd sysklogd sendsigs umountnfs.sh rpcbind nfs-common hwclock.sh networking umountfs umountroot halt reboot
+sysklogd: cron openbsd-inetd klogd avr-evtd vsftpd
+sendsigs: cron openbsd-inetd sysklogd samba avr-evtd nfs-kernel-server transmission-daemon minissdpd
+umountnfs.sh: cron sendsigs openbsd-inetd sysklogd samba avr-evtd nfs-kernel-server transmission-daemon minissdpd
+rpcbind: umountnfs.sh nfs-kernel-server
+nfs-common: umountnfs.sh nfs-kernel-server
+hwclock.sh: cron sysklogd nfs-common nfs-kernel-server
+networking: cron umountnfs.sh sysklogd rpcbind samba transmission-daemon
+umountfs: cron networking urandom hwclock.sh umountnfs.sh openbsd-inetd sysklogd rpcbind samba avr-evtd nfs-kernel-server transmission-daemon minissdpd
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

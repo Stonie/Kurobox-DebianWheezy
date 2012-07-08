@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libprocps0
+/usr/share/doc/libprocps0/changelog.Debian.gz
+/usr/share/doc/libprocps0/NEWS.Debian.gz
+/usr/share/doc/libprocps0/copyright
+/usr/share/doc/libprocps0/changelog.gz
+/lib
+/lib/powerpc-linux-gnu
+/lib/powerpc-linux-gnu/libprocps.so.0.0.1
+/lib/powerpc-linux-gnu/libprocps.so.0

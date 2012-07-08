@@ -1,0 +1,15 @@
+#!/bin/sh -e
+# Copyright (C) 2007 Osamu Aoki <osamu@debian.org>, Public Domain
+# Find out missing *.md5sum and add it to the list
+cd /var/lib/dpkg/info
+for package in $(debsums --list-missing); do
+  echo "checking $package"
+  if [ ! -e $package.md5sums ]; then
+    echo "******* $package.md5sums missing *******"
+    apt-get --download-only --reinstall --yes install $package || true
+    debsums --generate=nocheck -p /var/cache/apt/archives $package || true
+  fi
+done
+echo "Finished generating md5sums!"
+echo "Checking still missing md5files..."
+debsums --list-missing

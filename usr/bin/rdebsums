@@ -1,0 +1,82 @@
+#! /usr/bin/perl
+
+# rdebsums: a wrapper around debsums to also check dependencies of a package
+# Copyright 2007 by Vincent Fourmond <fourmond@debian.org>
+# 
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+my $usage="rdebsums --help | --others [debsum options] package
+
+Runs debsums on package and all its dependencies. 
+\t--others\talso include Recommends and Suggests
+";
+
+
+
+if(grep(/^--others/, @ARGV)) {
+    print "Also running debsums on suggests and recommends\n";
+    $others = 1;
+    @ARGV = grep(!/^--others/, @ARGV)
+} else {
+    $others = 0;
+} 
+if(! (scalar @ARGV) || grep(/^--help/, @ARGV) ) {
+    print $usage;
+    exit 1;
+}
+
+my $pack = pop;
+my $options = join(" ", @ARGV);
+
+for my $p (dependencies($pack, $others)) {
+    print "\nRunning debsums $options $p:\n";
+    system "debsums $options $p";
+}
+
+# Gets all the installed dependencies of a package, including
+# recommends and suggests if the second argument is true.
+sub dependencies {
+    my $pack = shift;
+    my $also_not_depends = shift || 0;
+    my $ignore = shift || {};
+
+    # We first sanitize $pack:
+    if($pack =~ /([a-z0-9+.-]+)/) {
+        $pack = $1;
+    } else {
+        return ();
+    }
+    # We first get direct children:
+    my @direct_children;
+    my $dpkg_query_cmd = "dpkg-query -W -f '\${Depends}".
+        ($also_not_depends ? ' ${Recommends} ${Suggests}' : "").
+        "' $pack 2> /dev/null";
+    my $dpkg_query = `$dpkg_query_cmd`;
+    while($dpkg_query =~ /\([^)]+\)|([a-z0-9+.-]+)/g) {
+        if($1) {
+            push @direct_children, $1;
+        }
+    }
+        
+    $ignore->{$pack} = 1;
+    # Then, we add their dependencies
+    for my $subp (@direct_children) {
+        dependencies($subp, $also_not_depends, $ignore) unless 
+            $ignore->{$subp};
+        $ignore{$subp} = 1;
+    }
+    return (keys %{$ignore});
+}
+

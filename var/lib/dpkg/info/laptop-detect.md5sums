@@ -1,0 +1,5 @@
+443a1ec6eb2a836276a0a4dac8b7796f  usr/sbin/laptop-detect
+3429c50b482f258afa39df3eaaf38396  usr/share/doc/laptop-detect/README
+36ed0e2f331b43a439de980996651c50  usr/share/doc/laptop-detect/copyright
+faf4b308bfa9207061611bff995fee1b  usr/share/doc/laptop-detect/changelog.gz
+fa4fb4bc225200785eed3ced375de818  usr/share/man/man8/laptop-detect.8.gz

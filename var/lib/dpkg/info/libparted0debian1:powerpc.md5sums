@@ -1,0 +1,5 @@
+17cde81cb82f8b66733a0230d9ac6658  lib/powerpc-linux-gnu/libparted.so.0.0.1
+110e947939856f3c5edb88829bc342d4  usr/share/doc/libparted0debian1/changelog.Debian.gz
+40d4e208d16644d966d1e02ee59ff9ad  usr/share/doc/libparted0debian1/changelog.gz
+ae9fb49acaefac7f807aa2e0463f2733  usr/share/doc/libparted0debian1/copyright
+1fd8938cf15a93f38730418382365eb8  usr/share/lintian/overrides/libparted0debian1

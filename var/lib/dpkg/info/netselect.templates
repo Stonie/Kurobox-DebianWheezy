@@ -1,0 +1,100 @@
+
+Template: netselect/install-setuid
+Type: boolean
+Default: false
+Description: Should netselect be installed setuid root?
+ Netselect can be installed with the set-user-id bit set, so that it will
+ run with the permissions of the "root" user. Since netselect needs these
+ permissions to work properly, unprivileged users cannot run it unless it is
+ installed this way.
+ .
+ Enabling this feature may be a security risk. If in doubt, it is
+ suggested to leave it disabled.
+Description-bg.UTF-8: Инсталиране на netselect с администраторски права?
+ Netselect може да бъде инсталиран с администраторски права (чрез вдигане на бита „set-user-id“). Понеже Netselect има нужда от административни права за нормалната си работа, обикновените потребители не могат да го използват ако не е инсталиран по този начин.
+ .
+ Вдигането на бита „set-user-id“ може да създаде риск за сигурността на системата. Ако се колебаете е най-добре да не го разрешавате.
+Description-cs.UTF-8: Má být netselect nainstalován s nastaveným SUID bitem?
+ Netselect může být nainstalován s nastaveným set-user-id (SUID) bitem, takže poběží s právy uživatele "root". Jelikož netselect potřebuje tato práva pro správnou funkčnost, neprivilegovaní uživatelé jej nemohou, pokud není takto instalován, spouštět.
+ .
+ Povolení této možnosti může být bezpečnostní riziko. Pokud si nejste jisti, doporučuje se nechat ji zakázanou.
+Description-da.UTF-8: Skal netselect installeres som setuid-root?
+ Netselect kan installeres med bitsættet for set-user-id, så den vil blive kørt med rettighederne for »root-brugeren«. Da netselect skal bruge disse rettigheder for at virke korrekt, kan uprivilegerede brugere ikke køre den med mindre den installeres på denne måde.
+ .
+ Aktivering af denne funktion kan udgøre en sikkerhedsrisiko. Hvis du er i tvivl, anbefales det at efterlade den deaktiveret.
+Description-de.UTF-8: Soll Netselect setuid-root installiert werden?
+ Netselect kann so installiert werden, dass das Benutzer-ID-Bit gesetzt ist. Dadurch wird es mit den Rechten des Benutzers »root« laufen. Da Netselect diese Rechte benötigt, um richtig zu funktionieren, können nicht-privilegierte Benutzer Netselect nicht ausführen, falls es nicht auf diese Art installiert ist.
+ .
+ Die Aktivierung dieser Fähigkeit kann ein Sicherheitsrisiko darstellen. Falls Sie sich unsicher sind, wird empfohlen, sie deaktiviert zu lassen.
+Description-es.UTF-8: ¿Desea que netselect se instale «setuid root»?
+ Netselect puede instalarse con el bit «set-user-id» activo de forma que se ejecutará con los permisos del usuario «root». Los usuarios sin privilegios no podrán utilizarlo a no ser que se instale de esta forma, dado que netselect necesita estos permisos para funcionar correctamente.
+ .
+ La activación de esta opción puede introducir un problema de seguridad en el sistema y por ello está deshabilitada por omisión. Debe mantenerla deshabilitada si no está seguro de qué hacer.
+Description-eu.UTF-8: Nahi duzu netselect instalatzea setuid root gisa?
+ Netselect set-user bit-a ezarriarekin instala daiteke, horrela 'root' supererabiltzailearen baimenekin exekutatu ahalko da. Netselect-ek behar bezala funtzionatzeko baimen horiek behar dituenez erabiltzaile arruntek ezin izango dute erabili modu honetan instalatzen ez bada.
+ .
+ Ezaugarri hau gaitzean segurtasuneko arrisku bat izan daiteke, horregatik dago desgaituta lehenespenez. Zalantza kasuan gomendagarria da desgaituta uztea.
+Description-fi.UTF-8: Tulisiko netselect asennetaan asetuksella ”setuid root”?
+ Netselect voidaan asentaa ”set-user-id”-bitti asetettuna, jolloin se ajetaan pääkäyttäjän oikeuksilla. Koska netselect tarvitsee nämä oikeudet toimiakseen kunnolla, tavalliset käyttäjät eivät voi sitä ajaa, ellei sitä asenneta mainitulla tavalla.
+ .
+ Tämä ominaisuuden ottaminen käyttöön saattaa olla turvariski. Jos olet epävarma, tätä ei suositella valittavaksi.
+Description-fr.UTF-8: Faut-il exécuter netselect avec les privilèges du superutilisateur ?
+ Netselect peut être installé avec le bit « setuid » positionné et ainsi s'exécuter avec les privilèges du superutilisateur. Étant donné que ces privilèges sont nécessaires au fonctionnement correct de netselect, les utilisateurs non privilégiés ne peuvent pas l'utiliser si le bit « setuid » n'est pas positionné.
+ .
+ Activer cette fonctionnalité peut constituer un risque de sécurité. En cas de doute, il est conseillé de la laisser désactivée.
+Description-gl.UTF-8: Desexa instalar netselect con «setuid» root?
+ Pódese instalar netselect co bit de cambio de usuario (setuid) activado para que se execute cos permisos do usuario «root». Xa que netselect precisa deses permisos para funcionar correctamente, os usuarios normais non o poden empregar a menos que se instale deste xeito.
+ .
+ Esta característica pode ser un risco de seguridade. Se ten dúbidas, debería deixala desactivada.
+Description-it.UTF-8: Installare netselect con setuid root?
+ Netselect può essere installato con il bit setuid attivo, in modo da essere eseguito con i permessi dell'utente "root". Dal momento che netselect ha bisogno di questi permessi per funzionare correttamente, gli utenti non privilegiati non possono eseguirlo se non è stato installato in questo modo.
+ .
+ Abilitare questa funzionalità potrebbe presentare dei rischi di sicurezza. Nel dubbio, si suggerisce di lasciarla disabilitata.
+Description-ja.UTF-8: netselect を root に setuid してインストールしますか?
+ netselect は set-user-id を設定してインストールできるので、「root」ユーザの権限で動作できます。netselect は正しく動作するのにこの権限が必要なので、この設定をしない限り非特権ユーザでは動作させられません。
+ .
+ この機能を有効にするのはセキュリティ上のリスクになるかもしれません。よく判らない場合は、無効のままにしておくのをお勧めします。
+Description-nb.UTF-8: Skal netselect installeres som setuid root?
+ Netselect kan installeres med set-user-id-biten slått på. slik at det kjører med fullmaktene til root-brukeren. Siden netselect trenger roots rettigheter for å virke ordentlig, så kan ikke brukere uten privilegier kjøre det med mindre det er installert på denne måten.
+ .
+ Det kan være en sikkerhetsrisiko å slå på dette, så det er slått av som standard. Er du i tvil, så er det nok best å la det være avslått.
+Description-nl.UTF-8: Wilt u netselect 'setuid-root' installeren?
+ Netselect kan worden geïnstalleerd met de setuid-bit ingesteld, zodat het wordt uitgevoerd met beheerdersrechten. Aangezien netselect deze rechten nodig heeft om correct te kunnen werken, kunnen gewone gebruikers het alleen gebruiken als het op deze wijze is geïnstalleerd.
+ .
+ Deze functionaliteit kan een veiligheidsrisico zijn. Bij twijfel wordt u aangeraden hem uitgeschakeld te laten.
+Description-no.UTF-8: Skal netselect installeres som setuid root?
+ Netselect kan installeres med set-user-id-biten slått på. slik at det kjører med fullmaktene til root-brukeren. Siden netselect trenger roots rettigheter for å virke ordentlig, så kan ikke brukere uten privilegier kjøre det med mindre det er installert på denne måten.
+ .
+ Det kan være en sikkerhetsrisiko å slå på dette, så det er slått av som standard. Er du i tvil, så er det nok best å la det være avslått.
+Description-pl.UTF-8: Czy netselect powinien być zainstalowany z "setuid root"?
+ Netselect może być zainstalowany z ustawionym bitem set-user-id, dzięki któremu będzie działał z uprawnieniami użytkownika "root". Program wymaga tych uprawnień aby działać poprawnie, więc użytkownicy nieuprzywilejowani nie będą go mogli uruchomić, jeśli nie zostanie zainstalowany z tym ustawieniem.
+ .
+ Włączenie tej opcji może stanowić zagrożenie bezpieczeństwa. W przypadku wątpliwości, proszę wybrać "nie".
+Description-pt.UTF-8: Deverá o netselect ser instalado em modo setuid root?
+ O netselect pode ser instalado com o bit 'set-user-id' activo, de modo a correr com as permissões de utilizador 'root'. Como o netselect precisa destas permissões para funcionar correctamente, os utilizadores não privilegiados (comuns) não o podem usar a menos que seja instalado neste modo.
+ .
+ A activação desta funcionalidade pode constituir um risco de segurança. Em caso de dúvidas, é sugerido que a deixe desactivada.
+Description-pt_BR.UTF-8: O netselect deve ser instalado com setuid root?
+ O Netselect pode ser instalado com o bit set-user-id setado, dessa forma ele executará com as permissões do usuário "root". Como o netselect precisa destas permissões para funcionar corretamente, usuários não privilegiados não poderão executá-lo a menos que ele seja instalado desta maneira.
+ .
+ Habilitar este recurso pode ser um risco de segurança. Em caso de dúvida, é sugerido que deixe-o desabilitado.
+Description-ro.UTF-8: Se instalează netselect cu setuid root?
+ Netselect poate fi instalat cu bitul set-user-id, astfel încât la execuție să aibă permisiunile utilizatorului „root”. Deoarece netselect necesită aceste permisiuni pentru a funcționa corespunzător, utilizatorii neprivilegiați nu pot rula netselect decât dacă este instalat în acest mod.
+ .
+ Activarea acestei facilități poate constitui un risc de securitate. Dacă aveți îndoieli, este bine să o lăsați dezactivată.
+Description-ru.UTF-8: Установить на netselect бит смены идентификатора пользователя?
+ На исполняемый файл netselect может быть установлен бит смены идентификатора пользователя (set-user-id), и тогда программа будет выполняться с правами пользователя "root". Так как для работы эти права netselect нужны, обычные пользователи не могут запускать его, если этот бит не установлен.
+ .
+ Назначение этих прав может ослабить безопасность системы. Если сомневаетесь, оставьте его неустановленным.
+Description-sv.UTF-8: Vill du att netselect ska installeras setuid root?
+ Netselect kan installeras med biten set-user-id så att den kan köra med samma rättigheter som användaren "root". Eftersom netselect behöver dessa rättigheter för att fungera korrekt kan inte vanliga användare köra det om det inte är installerat på detta sätt.
+ .
+ Att aktivera denna funktion kan innebära en säkerhetsrisk, är du tveksam till detta ska du lämna den avstängd..
+Description-tr.UTF-8: netselect setuid root olarak kurulsun mu?
+ Netselect, kullanıcı kimliğine ayarlama biti ayarlanmış bir biçimde (set-user-id) kurularak "root" kullanıcısının izinleriyle çalışabilir. Netselect düzgün çalışmak için bu izinlere ihtiyaç duyar ve bu şekilde kurulmadığı sürece sıradan kullanıcılar tarafından çalıştırılamaz.
+ .
+ Bu özelliği etkinleştirmek olası güvenlik sorunlarına yol açabilir.  Karar veremediyseniz, özelliği kapalı halde bırakmanız önerilir.
+Description-vi.UTF-8: Netselect nên được cài đặt « setuid root » ?
+ Netselect cũng có thể được cài đặt với bit set-user-id được đặt, để chạy với quyền truy cập của người chủ (root). Vì netselect yêu cầu quyền này để hoạt động đúng, người dùng không có quyền đặc biệt không thể chạy nó nếu không cài đặt bằng cách này.
+ .
+ Việc bật tính năng này vẫn có thể rủi ro bảo mật. Chưa chắc thì khuyên bạn để lại nó bị tắt.

@@ -1,0 +1,19 @@
+powerpc-ibm-utils for Debian
+----------------------------
+
+This package has been originally named powerpc-utils by its upstream
+authors. However, there was already a powerpc-utils package present
+in the Debian archive namespace. With the accord of its maintainer,
+Michael Schmitz <schmitz@debian.org>, we decided to rename the new
+package to powerpc-ibm-utils as it has been written by IBM folks.
+
+The powerpc-ibm-utils package provides newer tools the powerpc-utils
+package does not. Some features overlap, but do not conflict at all,
+and some are only present in each package. Hence, both packages are
+complementary for the Debian PowerPC port.
+
+This package is also needed by the yaboot package to boot Debian on
+IBM Power5 hardware. Please see Bug#377097 for more information on
+the boot failure.
+
+ -- Aurélien GÉRÔME <ag@roxor.cx>, Sun, 24 Sep 2006 18:49:59 +0200

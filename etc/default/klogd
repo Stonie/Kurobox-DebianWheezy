@@ -1,0 +1,15 @@
+#
+# top configuration file for klogd
+#
+
+#
+# Full documentation of possible arguments are found in the manpage
+# klogd(8).
+#
+
+#
+# Use KLOGD="-k /boot/System.map-$(uname -r)" to specify System.map
+# -c 4 to alter the kernel console log level (deprecated)
+#   use sysctl instead
+#
+#KLOGD="-P /var/run/klogd/kmsg -x"

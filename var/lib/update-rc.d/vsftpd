@@ -1,0 +1,1 @@
+update-rc.d vsftpd start 20 2 3 4 5 . stop 80 1 .

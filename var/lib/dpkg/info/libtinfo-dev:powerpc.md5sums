@@ -1,0 +1,6 @@
+63e6eb4a11cc94e1f8f3f31ed84afcad  usr/lib/powerpc-linux-gnu/libtermcap.so
+f70f2a533fb35800e1e85f208dc55c1c  usr/lib/powerpc-linux-gnu/libtic.a
+4a9ba25218f4e3906cc5130bd20ea470  usr/lib/powerpc-linux-gnu/libtinfo.a
+35491c88f22cd5e28726bf095238c850  usr/lib/powerpc-linux-gnu/pkgconfig/tic.pc
+4c72a137913acf516ed0a25265affe31  usr/lib/powerpc-linux-gnu/pkgconfig/tinfo.pc
+956131e1b6a418e783a0953ea303d204  usr/lib/valgrind/ncurses.supp
